@@ -329,91 +329,91 @@
     "javob": "Tripitaka"
   },
    {
-    "id": 30,
+    "id": 31,
     "savol": "Buddaviylikning muqaddas kitobining nomi?",
     "variantlar": ["Tripitaka", "Maxayana", "Xinayana", "Karma"],
     "javob": "Tripitaka"
   },
   {
-    "id": 31,
+    "id": 32,
     "savol": "Buddaviylikning asosiy maqsadi?",
     "variantlar": ["donishmandlik", "nirvana holatiga yetish", "meditatsiya", "axloq normalari"],
     "javob": "nirvana holatiga yetish"
   },
   {
-    "id": 32,
+    "id": 33,
     "savol": "Buddizmning asoschisi kim?",
     "variantlar": ["Sidxartxa Gautama", "Lama", "Imperator", "Vishnu"],
     "javob": "Sidxartxa Gautama"
   },
   {
-    "id": 33,
+    "id": 34,
     "savol": "Buddaviylikning muqaddas kitobi “Tripitaka” so‘zini ma’nosi nima?",
     "variantlar": ["Uch savat donolik", "Uch dunyo", "Uch odam", "Uch daraxt"],
     "javob": "Uch savat donolik"
   },
   {
-    "id": 34,
+    "id": 35,
     "savol": "Budda so‘zining mashhur ma’nosi",
     "variantlar": ["Nurlangan", "Yarqiragan", "Sochilgan", "Tantana qiluvchi"],
     "javob": "Nurlangan"
   },
   {
-    "id": 35,
+    "id": 36,
     "savol": "Buddaviylik qaysi davlat hududida paydo bo‘lgan?",
     "variantlar": ["Hindiston", "Eron", "Turon", "Xitoy"],
     "javob": "Hindiston"
   },
   {
-    "id": 36,
+    "id": 37,
     "savol": "Buddaviylikda dinga ishongan kishining asosiy maqsadi nima?",
     "variantlar": ["Nirvanaga erishish", "«Muqaddas qadamjolar»ga sig‘inish", "Rohiblikni qabul qilish", "Qayta tug‘ilish zanjiridan o‘tish"],
     "javob": "Nirvanaga erishish"
   },
   {
-    "id": 37,
+    "id": 38,
     "savol": "Buddizmdagi asosiy yo‘nalishlar",
     "variantlar": ["Xinayana, maxayana, lamaizm", "Xinayana, maxayana, neoboddizm", "Tantrizm, sansara, karma, nimayana", "Moniyzm, baptizm, neobuddizm"],
     "javob": "Xinayana, maxayana, lamaizm"
   },
   {
-    "id": 38,
+    "id": 39,
     "savol": "Buddaviylik dini qachon paydo bo‘ldi?",
     "variantlar": ["Miloddan avvalgi 6-5 asrlarda.", "Milodning 2 asrida", "Milodning 7 asrida", "Milodgacha 5 asrida."],
     "javob": "Miloddan avvalgi 6-5 asrlarda."
   },
   {
-    "id": 39,
+    "id": 40,
     "savol": "XIII asrda bid’at (eres) bilan kurashish uchun tuzilgan Katolik cherkovi tribunali nima deb ataladi?",
     "variantlar": ["Inkvizitsiya", "Indulgensiya", "Inaguratsiya", "Konklav"],
     "javob": "Inkvizitsiya"
   },
   {
-    "id": 40,
+    "id": 42,
     "savol": "Xristianlikdagi asosiy yo‘nalishlar.",
     "variantlar": ["pravoslavie, baptizm, kalvinizm", "katolitsizm, anglikanlik, lyuteranlik", "protestantizm, metodizm, anabaptizm", "pravoslavie, katolitsizm, protestantizm"],
     "javob": "pravoslavie, katolitsizm, protestantizm"
   },
   {
-    "id": 41,
+    "id": 42,
     "savol": "Xristian dinining payg‘ambari kim?",
     "variantlar": ["Dovud", "Sulaymon", "Muso", "Iso"],
     "javob": "Iso"
   },
   {
-    "id": 42,
+    "id": 43,
     "savol": "Xristianlik Rim imperiyasining davlat dini deb qachon qabul qilindi?",
     "variantlar": ["324-yilda", "326-yilda", "328-yilda", "322-yilda"],
     "javob": "324-yilda"
   },
   {
-    "id": 43,
+    "id": 44,
     "savol": "Qur’on nechta suradan iborat",
     "variantlar": ["114 ta", "110 ta", "116 ta", "115 ta"],
     "javob": "114 ta"
   },
   {
-    "id": 44,
+    "id": 45,
     "savol": "Olti buyuk muhaddislar kimlar?",
     "variantlar": [
       "Ismoil al-Buxoriy, Imom Muslim ibn al-Hajjoj, Iso at-Termiziy, Imom Sulaymon – Sijistoniy, Imom Ahmad an-Nasoiy, Imom Ibn Mojja kabi siymolardir.",
@@ -424,7 +424,7 @@
     "javob": "Ismoil al-Buxoriy, Imom Muslim ibn al-Hajjoj, Iso at-Termiziy, Imom Sulaymon – Sijistoniy, Imom Ahmad an-Nasoiy, Imom Ibn Mojja kabi siymolardir."
   },
   {
-    "id": 45,
+    "id": 46,
     "savol": "Tasavvufda “tariqat” so‘zining ma’nosi nima?",
     "variantlar": [
       "«Tariqat» so‘zining ma’nosi «yo‘l» demak. Ya’ni ilohiy ma’rifatni egallashga bel bog‘lagan kishining ruhiy-axloqiy kamolot yo‘li",
@@ -435,13 +435,13 @@
     "javob": "«Tariqat» so‘zining ma’nosi «yo‘l» demak. Ya’ni ilohiy ma’rifatni egallashga bel bog‘lagan kishining ruhiy-axloqiy kamolot yo‘li"
   },
   {
-    "id": 46,
+    "id": 47,
     "savol": "Arablarda islomgacha bo‘lgan davr qanday nomlanadi?",
     "variantlar": ["Johiliya davri", "tushkunlik", "Ko‘p xudolik davri", "G‘ayriaxloqiylik davri"],
     "javob": "Johiliya davri"
   },
   {
-    "id": 47,
+    "id": 48,
     "savol": "Islom dini yo‘nalishlari qaysilar",
     "variantlar": [
       "Sunniylik, shialik, xorijiylik",
@@ -452,7 +452,7 @@
     "javob": "Sunniylik, shialik, xorijiylik"
   },
   {
-    "id": 48,
+    "id": 49,
     "savol": "Islom dini Sunniylik yo‘nalishining mazhablari qaysilar?",
     "variantlar": [
       "Hanafiya, Xanbaliya, Molikiya, Shofe’iya",
@@ -463,7 +463,7 @@
     "javob": "Hanafiya, Xanbaliya, Molikiya, Shofe’iya"
   },
   {
-    "id": 49,
+    "id": 50,
     "savol": "Islom dinining qaysi mazhabida, ya’ni kim asos solgan mazhabda diniy bag‘rikenglik va fiqhga (islom huquqiga) kengroq o‘rin berilgan?",
     "variantlar": [
       "Hanafiya mazhabida, asoschisi imom Abu Xanifa No‘mon ibn Sobit",
@@ -474,13 +474,13 @@
     "javob": "Hanafiya mazhabida, asoschisi imom Abu Xanifa No‘mon ibn Sobit"
   },
   {
-    "id": 50,
+    "id": 51,
     "savol": "Sunniylikda islom aqidalari nechta?",
     "variantlar": ["7 ta", "1 ta", "9 ta", "3 ta"],
     "javob": "7 ta"
   },
   {
-    "id": 51,
+    "id": 52,
     "savol": "“Qur’on” so‘zining lug‘aviy ma’no-mazmuni nima?",
     "variantlar": [
       "Qur’on (arab. – o‘qimoq, qiroat qilmoq) musulmonlarning asosiy muqaddas kitobi",
@@ -491,7 +491,7 @@
     "javob": "Qur’on (arab. – o‘qimoq, qiroat qilmoq) musulmonlarning asosiy muqaddas kitobi"
   },
   {
-    "id": 52,
+    "id": 53,
     "savol": "Hadis so‘zi qanday ma’nolarni anglatadi?",
     "variantlar": [
       "Hadis (arab. – “xabar”, yangilik – Muhammad payg‘ambar (sav)ning aytgan so‘zlari, qilgan ishlari",
@@ -502,7 +502,7 @@
     "javob": "Hadis (arab. – “xabar”, yangilik – Muhammad payg‘ambar (sav)ning aytgan so‘zlari, qilgan ishlari"
   },
   {
-    "id": 53,
+    "id": 54,
     "savol": "Islom so‘zining lug‘aviy ma’nosi nima?",
     "variantlar": [
       "Islom (arab. – bo‘ysunish, itoat etish, o‘zini Alloh irodasiga topshirish)",
@@ -513,7 +513,7 @@
     "javob": "Islom (arab. – bo‘ysunish, itoat etish, o‘zini Alloh irodasiga topshirish)"
   },
   {
-    "id": 54,
+    "id": 55,
     "savol": "Eng yosh jahon dini qaysi?",
     "variantlar": [
       "Islom",
@@ -524,7 +524,7 @@
     "javob": "Islom"
   },
   {
-    "id": 55,
+    "id": 56,
     "savol": "Ma’rifat so‘zining ma’nosi nima?",
     "variantlar": [
       "Ma’rifat (arab. – bilish, anglash, idrok etish)",
@@ -535,7 +535,7 @@
     "javob": "Ma’rifat (arab. – bilish, anglash, idrok etish)"
   },
   {
-    "id": 56,
+    "id": 57,
     "savol": "Islom dinida jihod tushunchasi nima?",
     "variantlar": [
       "Jihod, g‘azavot (arab. – g‘ayrat qilish, kuchni ishga solish) – din yo‘lida kurash",
@@ -546,7 +546,7 @@
     "javob": "Jihod, g‘azavot (arab. – g‘ayrat qilish, kuchni ishga solish) – din yo‘lida kurash"
   },
   {
-    "id": 57,
+    "id": 58,
     "savol": "Islom dinida Ka’ba nima?",
     "variantlar": [
       "Ka’ba (arab. – kub, to‘rt burchak) – islom dinining eng muqaddas ibodatxonasi",
@@ -557,7 +557,7 @@
     "javob": "Ka’ba (arab. – kub, to‘rt burchak) – islom dinining eng muqaddas ibodatxonasi"
   },
   {
-    "id": 58,
+    "id": 59,
     "savol": "Islom dinida sunnaning mazmuni nima?",
     "variantlar": [
       "Sunna (arab.odat, an’ana, xatti-harakat tarzi)",
@@ -568,7 +568,7 @@
     "javob": "Sunna (arab.odat, an’ana, xatti-harakat tarzi)"
   },
   {
-    "id": 59,
+    "id": 60,
     "savol": "Vahiy nima?",
     "variantlar": [
       "Allohning o‘z payg‘ambarlariga yuborgan ko‘rsatmalari",
@@ -579,7 +579,7 @@
     "javob": "Allohning o‘z payg‘ambarlariga yuborgan ko‘rsatmalari"
   },
   {
-    "id": 60,
+    "id": 61,
     "savol": "Qur’on qancha muddat davomida nozil bo‘lgan?",
     "variantlar": [
       "23 yil",
@@ -590,7 +590,7 @@
     "javob": "23 yil"
   },
   {
-    "id": 61,
+    "id": 62,
     "savol": "Islom dini qachon paydo bo‘ldi?",
     "variantlar": [
       "Milodning 1 asrida",
@@ -601,7 +601,7 @@
     "javob": "Milodning 7 asrida"
   },
   {
-    "id": 62,
+    "id": 63,
     "savol": "Islomda Allohning ismlari nechta?",
     "variantlar": [
       "1 ta",
@@ -612,7 +612,7 @@
     "javob": "99 ta"
   },
   {
-    "id": 63,
+    "id": 64,
     "savol": "Markaziy Osiyo musulmonlari qaysi mazhabga e’tiqod qiladilar, mazhab asoschisi kim?",
     "variantlar": [
       "Molikiya mazhabiga ‘tiqod qiladilar, asoschisi Molik ibn Anas.",
@@ -623,7 +623,7 @@
     "javob": "Hanafiya mazhabiga e’tiqod qiladilar, asoschisi Abu Hanifa Nu’mon ibn Sobit"
   },
   {
-    "id": 64,
+    "id": 65,
     "savol": "Komil inson g‘oyasi qaysi ta’limotda berilgan edi?",
     "variantlar": [
       "Islom dinida",
@@ -634,7 +634,7 @@
     "javob": "Tasavvuf ta’limotida"
   },
   {
-    "id": 65,
+    "id": 66,
     "savol": "Islom dinida kimlar “Sahobalar” deb ataladi?",
     "variantlar": [
       "Xalifalar",
@@ -645,7 +645,7 @@
     "javob": "Muhammad payg‘ambarning safdoshlari, u bilan muloqotda bo‘lgan kishilar"
   },
   {
-    "id": 66,
+    "id": 67,
     "savol": "Islom dinida musulmonlarning xulq-atvorini tartibga soluvchi asosiy huquqiy manbalar qaysilar?",
     "variantlar": [
       "Qur’on va Hadis",
@@ -656,7 +656,7 @@
     "javob": "Qur’on, Hadis, shariat (ijmo, qiyos, fatvo, odat) va boshqalar"
   },
   {
-    "id": 67,
+    "id": 68,
     "savol": "O‘zbekistonda Diniy tashkilotlarni ro‘yxatga olish kimlar tomonidan amalga oshiriladi?",
     "variantlar": [
       "Joylardagi mahalliy xokimiyat tomonidan",
@@ -667,7 +667,7 @@
     "javob": "O‘zbekiston Respublikasi Adliya vazirgi, Din ishlari bo‘yicha qo‘mita tomonidan ro‘yxatga olinadi."
   },
   {
-    "id": 68,
+    "id": 69,
     "savol": "Islom dinining qaysi yo‘nalishi eng ko‘p tarqalgan?",
     "variantlar": [
       "Shialik",
@@ -678,7 +678,7 @@
     "javob": "Sunniylik"
   },
   {
-    "id": 69,
+    "id": 70,
     "savol": "Islomning asosiy manbasi?",
     "variantlar": [
       "Hadis",
@@ -689,7 +689,7 @@
     "javob": "Qur’oni Karim"
   },
   {
-    "id": 70,
+    "id": 71,
     "savol": "Ishonchli (sahih) hadislar muallifi kim?",
     "variantlar": [
       "At-Termiziy",
@@ -700,7 +700,7 @@
     "javob": "Al-Buxoriy"
   },
   {
-    "id": 71,
+    "id": 72,
     "savol": "Islomda Qibla qayerda hisoblanadi?",
     "variantlar": [
       "Makkada",
@@ -711,7 +711,7 @@
     "javob": "Makkada"
   },
   {
-    "id": 72,
+    "id": 73,
     "savol": "Qur’on qaysi xalifa davrida jamlanib kitob holiga keltirilgan?",
     "variantlar": [
       "Xalifa Usmon",
@@ -722,7 +722,7 @@
     "javob": "Xalifa Usmon"
   },
   {
-    "id": 73,
+    "id": 74,
     "savol": "Usmon Qur’onining hozirda nechtasi ma’lum?",
     "variantlar": [
       "4 ta",
@@ -733,7 +733,7 @@
     "javob": "4 ta"
   },
   {
-    "id": 74,
+    "id": 75,
     "savol": "Shialar necha nafar imomni tan oladilar?",
     "variantlar": [
       "12 nafar",
@@ -744,7 +744,7 @@
     "javob": "12 nafar"
   },
   {
-    "id": 75,
+    "id": 76,
     "savol": "«Tasavvuf nima?»",
     "variantlar": [
       "«Tasavvuf – nafs lazzatlaridan voz kechishdir». Yoki «Tasavvuf – Xudo yo‘lida nafsdan kechmoqdir»",
@@ -755,7 +755,7 @@
     "javob": "«Tasavvuf – nafs lazzatlaridan voz kechishdir». Yoki «Tasavvuf – Xudo yo‘lida nafsdan kechmoqdir»"
   },
   {
-    "id": 76,
+    "id": 77,
     "savol": "«Muhaddis»lar deganda kimlar tushuniladi?",
     "variantlar": [
       "Hadis to‘plovchilar, hadis ilmi egalari",
@@ -766,7 +766,7 @@
     "javob": "Hadis to‘plovchilar, hadis ilmi egalari"
   },
   {
-    "id": 77,
+    "id": 78,
     "savol": "«Muhaddislar sultoni» deb kimga aytiladi?",
     "variantlar": [
       "Imom Buxoriy",
@@ -777,7 +777,7 @@
     "javob": "Imom Buxoriy"
   },
   {
-    "id": 78,
+    "id": 79,
     "savol": "Islomda kimlar to‘g‘ri xalifalar deb hisoblanadi?",
     "variantlar": [
       "Abu Bakr, Umar, Usmon, Ali",
@@ -788,7 +788,7 @@
     "javob": "Abu Bakr, Umar, Usmon, Ali"
   },
   {
-    "id": 79,
+    "id": 80,
     "savol": "Qur’on suralari qanday qismlarga bo‘linadi?",
     "variantlar": [
       "Makka va Madina suralari",
@@ -799,7 +799,7 @@
     "javob": "Makka va Madina suralari"
   },
   {
-    "id": 80,
+    "id": 81,
     "savol": "Islomning sunniylik va shialik bo‘linishi qachon ro‘y berdi?",
     "variantlar": [
       "7 asrning ikkinchi yarmida",
@@ -810,7 +810,7 @@
     "javob": "7 asrning ikkinchi yarmida"
   },
   {
-    "id": 81,
+    "id": 82,
     "savol": "O‘zbekiston Respublikasida fuqarolarning vijdon erkinligini ta’minlash va diniy sohadagi davlat siyosati Konsepsiyasi qachon qabul qilingan?",
     "variantlar": [
       "2024-yil 25-fevralda",
@@ -821,7 +821,7 @@
     "javob": "2025-yil 25-fevralda"
   },
   {
-    "id": 82,
+    "id": 83,
     "savol": "Markaziy Osiyodagi eng mashhur tasavvuf tariqatlari qaysilar?",
     "variantlar": [
       "Bektoshiya, Naqshbandiya, xanbaliya",
@@ -832,7 +832,7 @@
     "javob": "Yassaviya, Kubroviya, Naqshbandiya"
   },
   {
-    "id": 83,
+    "id": 84,
     "savol": "Islom dinining Sunniylik yo‘nalishidagi asosiy mazhablar?",
     "variantlar": [
       "Hanafiya, Jaxriya, Ismoiliya, Imomiya",
@@ -843,7 +843,7 @@
     "javob": "Hanafiya, Xanbaliya, Shofiya, Molikiya"
   },
   {
-    "id": 84,
+    "id": 85,
     "savol": "Muhammad payg‘ambarning hayoti, faoliyati, diniy va axloqiy ko‘rsatmalarini o‘zida mujassam etgan manba?",
     "variantlar": [
       "Quroni Karim",
@@ -854,7 +854,7 @@
     "javob": "Hadisi Sharif"
   },
   {
-    "id": 85,
+    "id": 86,
     "savol": "Islomning asosiy ruknlari qaysilar?",
     "variantlar": [
       "Qurbonlik, ro‘za, haj, zakot, mavlud",
@@ -865,7 +865,7 @@
     "javob": "Imon keltirish, namoz, ro‘za, zakot va Haj"
   },
   {
-    "id": 86,
+    "id": 87,
     "savol": "Islom dinining asosiy nazariy manbalari.",
     "variantlar": [
       "Quron, hadis, injil, haftiyak",
@@ -876,7 +876,7 @@
     "javob": "Quron, hadis, ijmo, qiyos"
   },
   {
-    "id": 87,
+    "id": 88,
     "savol": "Musulmonlarda kundalik namoz o‘qish tartibi…",
     "variantlar": [
       "kuniga 2 mahal",
@@ -887,7 +887,7 @@
     "javob": "kuniga 5 mahal"
   },
   {
-    "id": 88,
+    "id": 89,
     "savol": "Brahmanizm dinining vatani",
     "variantlar": [
       "Xitoy",
@@ -898,7 +898,7 @@
     "javob": "Hindisiston"
   },
   {
-    "id": 89,
+    "id": 90,
     "savol": "Tasavvufda inson ruhiy kamolotining asosiy yo‘llari.",
     "variantlar": [
       "ma’rifat, haqiqat, tariqat",
@@ -909,7 +909,7 @@
     "javob": "shariat, tariqat, ma’rifat, haqiqat"
   },
   {
-    "id": 90,
+    "id": 91,
     "savol": "\"Al-adab al-mufrad\" kimning asari?",
     "variantlar": [
       "Muso at Termiziy",
@@ -920,7 +920,7 @@
     "javob": "Imom al-Buxoriy"
   },
   {
-        "id": 91,
+        "id": 92,
         "savol": "Imomi A’zam yoki Abu Hanifa kim?",
         "variantlar": [
             "Imomiya mazhabi asoschisi",
@@ -931,7 +931,7 @@
         "javob": "Hanafiya mazhabi asoschisi"
     },
     {
-        "id": 92,
+        "id": 93,
         "savol": "Islomdagi asosiy amaliy va marosimiy talablar qaysilar?",
         "variantlar": [
             "sunnat, bibiseshanba, irim-sirimlar",
@@ -942,7 +942,7 @@
         "javob": "imon keltirish, namoz o‘qish, ro‘za tutish, zakot berish, imkoni borlarga Hajga borish."
     },
     {
-        "id": 93,
+        "id": 94,
         "savol": "Islom dinining nazariy va g‘oyaviy manbalari nima?",
         "variantlar": [
             "shariat qonun-qoidalari",
@@ -953,7 +953,7 @@
         "javob": "Qur’oni Karim, Hadisi sharif"
     },
     {
-        "id": 94,
+        "id": 95,
         "savol": "Ilohiyot nima?",
         "variantlar": [
             "Inson haqidagi ta’limot",
@@ -964,7 +964,7 @@
         "javob": "Xudo to‘g‘risidagi ta’limot"
     },
     {
-        "id": 95,
+        "id": 96,
         "savol": "Qur’oni Karimda qancha payg‘ambar nomi tilga olingan?",
         "variantlar": [
             "25 nafar",
@@ -975,7 +975,7 @@
         "javob": "25 nafar"
     },
     {
-        "id": 96,
+        "id": 97,
         "savol": "“Tolerant” so‘zi lotin tilidan tarjima qilinganda qanday ma’nolarni anglatadi?",
         "variantlar": [
             "“sabr-toqat”, “chidamoq”",
@@ -986,7 +986,7 @@
         "javob": "“sabr-toqat”, “chidamoq”"
     },
     {
-        "id": 97,
+        "id": 98,
         "savol": "Muhammad payg‘ambarga islom dinini yoyishda yordamlashgan, vahiy kelgan ilk davrlardan boshlab payg‘ambarning suhbatlari va yurishlarida ishtirok etgan musulmonlar qanday nom bilan yuritilgan?",
         "variantlar": [
             "tobeinlar",
@@ -997,7 +997,7 @@
         "javob": "sahobalar"
     },
     {
-        "id": 98,
+        "id": 99,
         "savol": "“Islom” so‘zining ma’nosi qaysi javobda to‘g‘ri berilgan?",
         "variantlar": [
             "Ishonish",
@@ -1008,7 +1008,7 @@
         "javob": "Bo‘ysunish, itoat etish, o‘zini Alloh irodasiga topshirish"
     },
     {
-        "id": 99,
+        "id": 100,
         "savol": "O‘zbekiston Respublikasining Konsitutsiyasining 35-moddasining mazmuni qaysi javobda to‘g‘ri keltirilgan?",
         "variantlar": [
             "Diniy tashkilotlar va birlashmalar davlatdan ajratilgan va qonun oldida tengdirlar. Davlat diniy tashkilotlar faoliyatiga aralashmaydi",
@@ -1019,7 +1019,7 @@
         "javob": "Hamma uchun vijdon erkinligi kafolatlanadi. Har bir inson xohlagan dinga e’tiqod qilish yoki hech qaysi dinga e’tiqod qilmaslik huquqiga ega. Diniy qarashlarni majburan singdirishga yo‘l qo‘yilmaydi."
     },
     {
-        "id": 100,
+        "id": 101,
         "savol": "Missionerlik nima?",
         "variantlar": [
             "(missiya-lotincha yuborish, topshiriq) – biror dinga e’tiqod qiluvchi xalqlar orasida boshqa bir dini targ‘ib qilish demakdir.",
@@ -1030,7 +1030,7 @@
         "javob": "(missiya-lotincha yuborish, topshiriq) – biror dinga e’tiqod qiluvchi xalqlar orasida boshqa bir dini targ‘ib qilish demakdir."
     },
   {
-    "id": 101,
+    "id": 102,
     "savol": "Ekstremizm nima?",
     "variantlar": [
       "Ekstremizm – (lotincha – o‘ta, so‘nggi) siyosatda ashaddiy, favqulotda tadbirlar va qarashlarga tarafdorlik ma’nolarini bildiradi.",
@@ -1041,7 +1041,7 @@
     "javob": "Ekstremizm – (lotincha – o‘ta, so‘nggi) siyosatda ashaddiy, favqulotda tadbirlar va qarashlarga tarafdorlik ma’nolarini bildiradi."
   },
   {
-    "id": 102,
+    "id": 103,
     "savol": "Terror so‘zi nimani anglatadi?",
     "variantlar": [
       "Lotincha so‘zdan “qo‘rquv”, “dahshat”",
@@ -1052,7 +1052,7 @@
     "javob": "Lotincha so‘zdan “qo‘rquv”, “dahshat”"
   },
   {
-    "id": 103,
+    "id": 104,
     "savol": "Diniy bag‘rikenglik nima?",
     "variantlar": [
       "Vijdon erkinligi, turli din vakillarining teng huquqligi",
@@ -1063,7 +1063,7 @@
     "javob": "Vijdon erkinligi, turli din vakillarining teng huquqligi"
   },
   {
-    "id": 104,
+    "id": 105,
     "savol": "Fuqarolarning dinga e’tiqod qilish yoki e’tiqod qilmaslikni mustaqil hal qilishlari qanday ataladi?",
     "variantlar": [
       "burch erkinligi",
@@ -1074,7 +1074,7 @@
     "javob": "vijdon erkinligi"
   },
   {
-    "id": 105,
+    "id": 106,
     "savol": "Vijdon erkinligi nima?",
     "variantlar": [
       "kishilarning o‘z milliy diniga e’tiqod qilish huquqi.",
@@ -1085,7 +1085,7 @@
     "javob": "fuqarolarning dinga e’tiqod qilish yoki e’tiqod qilmaslikni o‘zlari mustaqil hal qilish huquqi."
   },
   {
-    "id": 106,
+    "id": 107,
     "savol": "Muhammad payg‘ambarga nechi yoshlarida payg‘ambarlik xabari, vahiy kelgan?",
     "variantlar": [
       "40",
