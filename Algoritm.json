@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "type": "multiple_choice",
+        "savol": "Algoritmning asosiy xususiyatlaridan biri bo'lgan 'diskretlik' nimani anglatadi?",
+        "variantlar": [
+            "Algoritm chekli qadamlardan iborat bo'lishi kerak.",
+            "Algoritm har doim bir xil natija berishi kerak.",
+            "Algoritm turli xil ma'lumotlar bilan ishlashi kerak.",
+            "Algoritm tez ishlashi kerak."
+        ],
+        "javob": "Algoritm chekli qadamlardan iborat bo'lishi kerak."
+    },
+    {
+        "id": 2,
+        "type": "multiple_choice",
+        "savol": "Qaysi algoritm turi ma'lumotlarni tartiblash (sortlash) uchun eng ko'p qo'llaniladi?",
+        "variantlar": [
+            "Qidiruv algoritmi",
+            "Tartiblash algoritmi",
+            "Rekursiv algoritm",
+            "Graf algoritmi"
+        ],
+        "javob": "Tartiblash algoritmi"
+    },
+    {
+        "id": 3,
+        "type": "multiple_choice",
+        "savol": "Algoritmning 'natijaviylik' (rezultativlik) xususiyati nimani talab qiladi?",
+        "variantlar": [
+            "Algoritm cheksiz vaqt ichida tugashi kerak.",
+            "Algoritm ma'lumotlarni o'zgartirmasligi kerak.",
+            "Algoritm ma'lumotlarni qabul qilib, natija berishi kerak.",
+            "Algoritm faqat bitta turdagi ma'lumot bilan ishlashi kerak."
+        ],
+        "javob": "Algoritm ma'lumotlarni qabul qilib, natija berishi kerak."
+    },
+    {
+        "id": 4,
+        "type": "multiple_choice",
+        "savol": "Katta hajmdagi ma'lumotlar ichidan kerakli elementni tez topish uchun qaysi qidiruv algoritmi samaraliroq?",
+        "variantlar": [
+            "Chiziqli qidiruv (Linear Search)",
+            "Ikkilik qidiruv (Binary Search)",
+            "Graf bo'ylab qidiruv",
+            "Tasodifiy qidiruv"
+        ],
+        "javob": "Ikkilik qidiruv (Binary Search)"
+    },
+    {
+        "id": 5,
+        "type": "multiple_choice",
+        "savol": "Algoritmning murakkabligi (complexity) deganda nimani tushunasiz?",
+        "variantlar": [
+            "Algoritmning kod uzunligi.",
+            "Algoritmning ishlash vaqti va xotira talabi.",
+            "Algoritmning dasturlash tili.",
+            "Algoritmning muallifi."
+        ],
+        "javob": "Algoritmning ishlash vaqti va xotira talabi."
+    }
+]
