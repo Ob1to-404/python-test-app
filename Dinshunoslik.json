@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "type": "multiple_choice",
+        "savol": "Dinshunoslik fanining asosiy o'rganish obyekti nima?",
+        "variantlar": [
+            "Faqat islom dini tarixi.",
+            "Diniy ta'limotlar, urf-odatlar va ularning jamiyatga ta'siri.",
+            "Faqat qadimiy sivilizatsiyalar.",
+            "Falsafiy qarashlar."
+        ],
+        "javob": "Diniy ta'limotlar, urf-odatlar va ularning jamiyatga ta'siri."
+    },
+    {
+        "id": 2,
+        "type": "multiple_choice",
+        "savol": "Jahonda eng ko'p tarqalgan uchta yirik din qaysilar?",
+        "variantlar": [
+            "Islom, Buddizm, Iudaizm.",
+            "Xristianlik, Islom, Buddizm.",
+            "Xristianlik, Islom, Hinduizm.",
+            "Iudaizm, Hinduizm, Buddizm."
+        ],
+        "javob": "Xristianlik, Islom, Hinduizm."
+    },
+    {
+        "id": 3,
+        "type": "multiple_choice",
+        "savol": "Sekulyarizm tushunchasi nimani anglatadi?",
+        "variantlar": [
+            "Dinning davlat boshqaruvida ustunligi.",
+            "Dinning davlat ishlaridan ajratilishi.",
+            "Barcha dinlarning birlashishi.",
+            "Faqat bitta dinga e'tiqod qilish."
+        ],
+        "javob": "Dinning davlat ishlaridan ajratilishi."
+    },
+    {
+        "id": 4,
+        "type": "multiple_choice",
+        "savol": "Islom dinida 'aqida' tushunchasi nimani ifodalaydi?",
+        "variantlar": [
+            "Diniy marosimlar va amallar.",
+            "E'tiqod asoslari va ishonch masalalari.",
+            "Huquqiy qoidalar to'plami.",
+            "Axloqiy me'yorlar."
+        ],
+        "javob": "E'tiqod asoslari va ishonch masalalari."
+    },
+    {
+        "id": 5,
+        "type": "multiple_choice",
+        "savol": "O'zbekiston Respublikasi Konstitutsiyasiga ko'ra, din va e'tiqod erkinligi qanday kafolatlanadi?",
+        "variantlar": [
+            "Faqat bitta dinga e'tiqod qilishga ruxsat beriladi.",
+            "Har kim istalgan dinga e'tiqod qilish yoki hech qaysi dinga e'tiqod qilmaslik huquqiga ega.",
+            "Din masalalari davlat tomonidan to'liq nazorat qilinadi.",
+            "Diniy tashkilotlar siyosiy partiyalarga a'zo bo'lishi mumkin."
+        ],
+        "javob": "Har kim istalgan dinga e'tiqod qilish yoki hech qaysi dinga e'tiqod qilmaslik huquqiga ega."
+    }
+]

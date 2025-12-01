@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "type": "multiple_choice",
+        "savol": "Chiziqli algebraning asosiy o'rganish obyekti nima?",
+        "variantlar": [
+            "Faqat sonlar nazariyasi.",
+            "Vektorlar, matritsalar va chiziqli tenglamalar sistemasi.",
+            "Differensial tenglamalar.",
+            "Ehtimollar nazariyasi."
+        ],
+        "javob": "Vektorlar, matritsalar va chiziqli tenglamalar sistemasi."
+    },
+    {
+        "id": 2,
+        "type": "multiple_choice",
+        "savol": "Matritsaning 'determinanti' (aniqlovchisi) nimani ifodalaydi?",
+        "variantlar": [
+            "Matritsaning o'lchamini.",
+            "Matritsaning teskarisi mavjudligini aniqlashga yordam beradigan son.",
+            "Matritsadagi elementlar yig'indisini.",
+            "Matritsaning rangi."
+        ],
+        "javob": "Matritsaning teskarisi mavjudligini aniqlashga yordam beradigan son."
+    },
+    {
+        "id": 3,
+        "type": "multiple_choice",
+        "savol": "Ikki vektorning 'skalyar ko'paytmasi' (dot product) natijasi qanday bo'ladi?",
+        "variantlar": [
+            "Yangi vektor.",
+            "Matritsa.",
+            "Skalyar (son).",
+            "Nol."
+        ],
+        "javob": "Skalyar (son)."
+    },
+    {
+        "id": 4,
+        "type": "multiple_choice",
+        "savol": "Chiziqli tenglamalar sistemasini yechishda eng ko'p qo'llaniladigan usullardan biri qaysi?",
+        "variantlar": [
+            "Fibonachchi usuli.",
+            "Gaus usuli (yoki Gauss-Jordan usuli).",
+            "Eyler usuli.",
+            "Pifagor usuli."
+        ],
+        "javob": "Gaus usuli (yoki Gauss-Jordan usuli)."
+    },
+    {
+        "id": 5,
+        "type": "multiple_choice",
+        "savol": "Matritsaning 'teskarisi' (inverse) mavjud bo'lishi uchun uning determinanti qanday bo'lishi kerak?",
+        "variantlar": [
+            "Nolga teng bo'lishi kerak.",
+            "Noldan farqli bo'lishi kerak.",
+            "Har doim 1 ga teng bo'lishi kerak.",
+            "Musbat son bo'lishi kerak."
+        ],
+        "javob": "Noldan farqli bo'lishi kerak."
+    }
+]

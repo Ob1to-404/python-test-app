@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "type": "multiple_choice",
+        "savol": "Dasturlashda 'o'zgaruvchi' (variable) nima uchun ishlatiladi?",
+        "variantlar": [
+            "Faqat matnni saqlash uchun.",
+            "Ma'lumotlarni vaqtinchalik saqlash uchun nomlangan xotira maydoni.",
+            "Dastur kodini bajarish uchun.",
+            "Faqat butun sonlarni saqlash uchun."
+        ],
+        "javob": "Ma'lumotlarni vaqtinchalik saqlash uchun nomlangan xotira maydoni."
+    },
+    {
+        "id": 2,
+        "type": "multiple_choice",
+        "savol": "Python dasturlash tilida kodni bloklarga ajratish uchun nima ishlatiladi?",
+        "variantlar": [
+            "Qavslar ({})",
+            "Nuqtali vergul (;)",
+            "Bo'sh joy (Indentation)",
+            "Boshlash va tugatish kalit so'zlari"
+        ],
+        "javob": "Bo'sh joy (Indentation)"
+    },
+    {
+        "id": 3,
+        "type": "multiple_choice",
+        "savol": "Dasturlashda 'tsikl' (loop) nima maqsadda qo'llaniladi?",
+        "variantlar": [
+            "Faqat bir marta bajariladigan kod uchun.",
+            "Kodning bir qismini bir necha marta takrorlash uchun.",
+            "Dastur xatolarini topish uchun.",
+            "Yangi o'zgaruvchi yaratish uchun."
+        ],
+        "javob": "Kodning bir qismini bir necha marta takrorlash uchun."
+    },
+    {
+        "id": 4,
+        "type": "multiple_choice",
+        "savol": "Ob'ektga yo'naltirilgan dasturlash (OOP) ning asosiy tamoyillaridan biri qaysi?",
+        "variantlar": [
+            "Faqat funksiyalardan foydalanish.",
+            "Inkapsulyatsiya (Encapsulation).",
+            "Faqat global o'zgaruvchilardan foydalanish.",
+            "Ma'lumotlar bazasini ishlatish."
+        ],
+        "javob": "Inkapsulyatsiya (Encapsulation)."
+    },
+    {
+        "id": 5,
+        "type": "multiple_choice",
+        "savol": "Veb-dasturlashda 'Frontend' va 'Backend' orasidagi asosiy farq nima?",
+        "variantlar": [
+            "Frontend faqat ma'lumotlar bazasi, Backend esa faqat dizayn.",
+            "Frontend foydalanuvchi ko'radigan qism, Backend esa serverdagi mantiq.",
+            "Frontend faqat Python, Backend esa faqat JavaScript.",
+            "Ikkalasi ham bir xil vazifani bajaradi."
+        ],
+        "javob": "Frontend foydalanuvchi ko'radigan qism, Backend esa serverdagi mantiq."
+    }
+]

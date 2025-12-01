@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "type": "multiple_choice",
+        "savol": "Ma'lumotlar bazasini boshqarish tizimi (DBMS) nima vazifani bajaradi?",
+        "variantlar": [
+            "Faqat ma'lumotlarni saqlash.",
+            "Ma'lumotlarni yaratish, tahrirlash, boshqarish va himoyalash.",
+            "Faqat dasturlash kodini yozish.",
+            "Kompyuter tarmog'ini sozlash."
+        ],
+        "javob": "Ma'lumotlarni yaratish, tahrirlash, boshqarish va himoyalash."
+    },
+    {
+        "id": 2,
+        "type": "multiple_choice",
+        "savol": "Relyatsion ma'lumotlar bazasida ma'lumotlar qanday shaklda saqlanadi?",
+        "variantlar": [
+            "Ierarxik daraxt shaklida.",
+            "Jadval (table) shaklida.",
+            "Grafik shaklida.",
+            "Faqat matn fayllari shaklida."
+        ],
+        "javob": "Jadval (table) shaklida."
+    },
+    {
+        "id": 3,
+        "type": "multiple_choice",
+        "savol": "SQL (Structured Query Language) ning asosiy vazifasi nima?",
+        "variantlar": [
+            "Veb-sayt dizaynini yaratish.",
+            "Ma'lumotlar bazasidan ma'lumotlarni so'rash va boshqarish.",
+            "Operatsion tizimni boshqarish.",
+            "Dasturlash tilini kompilyatsiya qilish."
+        ],
+        "javob": "Ma'lumotlar bazasidan ma'lumotlarni so'rash va boshqarish."
+    },
+    {
+        "id": 4,
+        "type": "multiple_choice",
+        "savol": "Jadvaldagi har bir qatorni (yozuvni) noyob tarzda aniqlaydigan maydon (ustun) qanday nomlanadi?",
+        "variantlar": [
+            "Tashqi kalit (Foreign Key)",
+            "Birlamchi kalit (Primary Key)",
+            "Indeks (Index)",
+            "Normalizatsiya"
+        ],
+        "javob": "Birlamchi kalit (Primary Key)"
+    },
+    {
+        "id": 5,
+        "type": "multiple_choice",
+        "savol": "Ma'lumotlar bazasini normalizatsiya qilishdan asosiy maqsad nima?",
+        "variantlar": [
+            "Ma'lumotlar bazasini tezroq ishlashini ta'minlash.",
+            "Ma'lumotlar takrorlanishini kamaytirish va ma'lumotlar yaxlitligini oshirish.",
+            "Ma'lumotlar bazasini himoyalash.",
+            "Ma'lumotlar bazasiga yangi ma'lumot qo'shishni qiyinlashtirish."
+        ],
+        "javob": "Ma'lumotlar takrorlanishini kamaytirish va ma'lumotlar yaxlitligini oshirish."
+    }
+]
