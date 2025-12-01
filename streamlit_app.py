@@ -100,11 +100,11 @@ st.title("📚 Fanlar bo‘yicha test ilovasi")
 # Fanni tanlash
 file_map = {
     "Algoritm": "Algoritm.json",
-    "Falsafa": "Falsafa.json",
     "Dinshunoslik": "Dinshunoslik.json",
-    "Hisob": "Hisob.json", # Hisob-kitob savollari uchun yangi fayl
-    "English": "English.json",
-    "Dasturlash": "Dasturlash.json"
+    "Ma'lumotlar Bazasi": "Ma'lumotlarBazasi.json",
+    "Dasturlash": "Dasturlash.json",
+    "Chiziqli Algebra": "ChiziqliAlgebra.json",
+    "Hisob": "Hisob.json" # Hisob-kitob savollari uchun yangi fayl
 }
 
 with st.sidebar:
@@ -195,12 +195,17 @@ for idx, q in enumerate(questions, 1):
             correct_answer = q["to_g_ri_javob"]
             user_answer = st.session_state.answered[idx - 1]
             tolerance = q["tolerance"]
-            is_correct = abs(user_answer - correct_answer) <= tolerance
             
-            if is_correct:
-                st.success(f"✅ To‘g‘ri! Javob: {user_answer:.2f}. To‘g‘ri javob: {correct_answer:.2f}")
+            # Agar javob berilmagan bo'lsa, tekshirishni o'tkazib yuborish
+            if user_answer is not None:
+                is_correct = abs(user_answer - correct_answer) <= tolerance
+                
+                if is_correct:
+                    st.success(f"✅ To‘g‘ri! Javob: {user_answer:.2f}. To‘g‘ri javob: {correct_answer:.2f}")
+                else:
+                    st.error(f"❌ Noto‘g‘ri. Sizning javobingiz: {user_answer:.2f}. To‘g‘ri javob: {correct_answer:.2f}")
             else:
-                st.error(f"❌ Noto‘g‘ri. Sizning javobingiz: {user_answer:.2f}. To‘g‘ri javob: {correct_answer:.2f}")
+                st.info(f"Javob berilmagan. To‘g‘ri javob: {correct_answer:.2f}")
     
     st.markdown("---")
 
@@ -209,7 +214,7 @@ for idx, q in enumerate(questions, 1):
 if not st.session_state.test_finished:
     if st.button("Testni Yakunlash va Natijani Ko'rish", type="primary"):
         st.session_state.test_finished = True
-        st.experimental_rerun() # Natijalarni ko'rsatish uchun sahifani yangilash
+        st.rerun() # YANGI FUNKSIYA: st.experimental_rerun() o'rniga st.rerun()
 
 if st.session_state.test_finished:
     st.balloons()
@@ -223,4 +228,4 @@ if st.session_state.test_finished:
     if st.button("Yangi test boshlash"):
         # Sessiya holatini tozalash va yangi testni boshlash
         st.session_state.clear()
-        st.experimental_rerun()
+        st.rerun() # YANGI FUNKSIYA: st.experimental_rerun() o'rniga st.rerun()
