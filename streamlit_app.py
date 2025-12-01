@@ -4,12 +4,12 @@ import random
 import math
 import re
 from datetime import datetime, timedelta
-import time # time.sleep() uchun
+import time
 
 st.set_page_config(page_title="Fanlar bo‘yicha test", page_icon="🧠", layout="wide")
 
 # --- Konfiguratsiya ---
-DEFAULT_TEST_DURATION_MINUTES = 30 # Test uchun standart vaqt (daqiqa)
+DEFAULT_TEST_DURATION_MINUTES = 30
 
 # --- Yordamchi Funksiyalar ---
 
@@ -58,7 +58,7 @@ def generate_calculation_question(q_data):
         "tolerance": q_data.get("tolerance", 0.01)
     }
 
-def initialize_session_state(all_questions, subject, test_mode, duration_minutes): # YANGI: duration_minutes qo'shildi
+def initialize_session_state(all_questions, subject, test_mode, duration_minutes):
     """Sessiya holatini (session_state) yangi test uchun sozlaydi."""
     st.session_state.current_subject = subject
     st.session_state.test_mode = test_mode
@@ -66,7 +66,7 @@ def initialize_session_state(all_questions, subject, test_mode, duration_minutes
     
     # --- Taymerni sozlash ---
     st.session_state.start_time = datetime.now()
-    st.session_state.end_time = st.session_state.start_time + timedelta(minutes=duration_minutes) # duration_minutes ishlatildi
+    st.session_state.end_time = st.session_state.start_time + timedelta(minutes=duration_minutes)
 
     if test_mode == "100 ta to‘liq":
         selected_questions = all_questions[:]
@@ -158,7 +158,6 @@ with st.sidebar:
     # --- Vaqtni tanlash ---
     st.markdown("---")
     st.subheader("Vaqt Cheklovi")
-    # Vaqtni kiritish maydoni
     test_duration = st.number_input("Test vaqti (daqiqa):", min_value=5, max_value=180, value=DEFAULT_TEST_DURATION_MINUTES, step=5)
     
     st.markdown("---")
@@ -169,33 +168,13 @@ all_questions = load_questions(file_name)
 
 # Sessiya holatini tekshirish va sozlash
 if "questions" not in st.session_state or st.session_state.get("current_subject") != subject or st.session_state.get("test_mode") != test_mode:
-    # Vaqtni to'g'ridan-to'g'ri initialize_session_state funksiyasiga uzatamiz
-    initialize_session_state(all_questions, subject, test_mode, test_duration) # TO'G'RILANGAN QISM
+    initialize_session_state(all_questions, subject, test_mode, test_duration)
 
 questions = st.session_state.questions
 
 st.subheader(f"{subject} fanidan test")
 st.markdown(f"**Savollar soni:** {len(questions)}")
 st.markdown("---")
-
-# --- Taymerni Ko'rsatish ---
-if not st.session_state.test_finished:
-    
-    time_left = st.session_state.end_time - datetime.now()
-    
-    if time_left.total_seconds() <= 0:
-        st.session_state.test_finished = True
-        st.warning("⏳ Vaqt tugadi! Test avtomatik yakunlandi.")
-        st.rerun()
-    
-    total_seconds = int(time_left.total_seconds())
-    minutes = total_seconds // 60
-    seconds = total_seconds % 60
-    
-    st.sidebar.markdown(f"## ⏳ Qolgan vaqt: **{minutes:02d}:{seconds:02d}**")
-    
-    time.sleep(1)
-    st.rerun()
 
 # --- Test savollarini ko'rsatish ---
 for idx, q in enumerate(questions):
@@ -276,3 +255,24 @@ if st.session_state.test_finished:
     if st.button("Yangi test boshlash"):
         st.session_state.clear()
         st.rerun()
+
+# --- Taymerni Yangilash Qismi (Eng oxirida) ---
+if not st.session_state.test_finished:
+    
+    time_left = st.session_state.end_time - datetime.now()
+    
+    if time_left.total_seconds() <= 0:
+        st.session_state.test_finished = True
+        st.warning("⏳ Vaqt tugadi! Test avtomatik yakunlandi.")
+        st.rerun()
+    
+    total_seconds = int(time_left.total_seconds())
+    minutes = total_seconds // 60
+    seconds = total_seconds % 60
+    
+    # Yon panelda vaqtni ko'rsatish
+    st.sidebar.markdown(f"## ⏳ Qolgan vaqt: **{minutes:02d}:{seconds:02d}**")
+    
+    # Har soniyada yangilash
+    time.sleep(1)
+    st.rerun()
