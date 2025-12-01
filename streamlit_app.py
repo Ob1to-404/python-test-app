@@ -9,7 +9,7 @@ import time # time.sleep() uchun
 st.set_page_config(page_title="Fanlar bo‘yicha test", page_icon="🧠", layout="wide")
 
 # --- Konfiguratsiya ---
-TEST_DURATION_MINUTES = 30 # Test uchun standart vaqt (daqiqa)
+DEFAULT_TEST_DURATION_MINUTES = 30 # Test uchun standart vaqt (daqiqa)
 
 # --- Yordamchi Funksiyalar ---
 
@@ -58,15 +58,15 @@ def generate_calculation_question(q_data):
         "tolerance": q_data.get("tolerance", 0.01)
     }
 
-def initialize_session_state(all_questions, subject, test_mode):
+def initialize_session_state(all_questions, subject, test_mode, duration_minutes): # YANGI: duration_minutes qo'shildi
     """Sessiya holatini (session_state) yangi test uchun sozlaydi."""
     st.session_state.current_subject = subject
     st.session_state.test_mode = test_mode
     st.session_state.test_finished = False
     
-    # --- YANGI: Taymerni sozlash ---
+    # --- Taymerni sozlash ---
     st.session_state.start_time = datetime.now()
-    st.session_state.end_time = st.session_state.start_time + timedelta(minutes=TEST_DURATION_MINUTES)
+    st.session_state.end_time = st.session_state.start_time + timedelta(minutes=duration_minutes) # duration_minutes ishlatildi
 
     if test_mode == "100 ta to‘liq":
         selected_questions = all_questions[:]
@@ -104,11 +104,9 @@ def initialize_session_state(all_questions, subject, test_mode):
 def check_answer(q_index, q_data):
     """Foydalanuvchi javobini tekshiradi va natijani session_state ga saqlaydi."""
     
-    # Agar test tugagan bo'lsa, javobni qabul qilmaymiz
     if st.session_state.test_finished:
         return
 
-    # Agar javob allaqachon berilgan bo'lsa, qayta tekshirmaymiz
     if st.session_state.answered[q_index] is not None:
         return
 
@@ -136,7 +134,6 @@ def check_answer(q_index, q_data):
         
         st.session_state.answered[q_index] = user_input_float
         
-    # Natijani ko'rsatish uchun sahifani qayta ishga tushirish
     st.rerun() 
 
 # --- UI Qismi ---
@@ -158,10 +155,11 @@ with st.sidebar:
     subject = st.selectbox("Fan tanlang:", list(file_map.keys()))
     test_mode = st.radio("Test turi:", ["100 ta to‘liq", "25 ta random"], horizontal=False)
     
-    # --- YANGI: Vaqtni tanlash ---
+    # --- Vaqtni tanlash ---
     st.markdown("---")
     st.subheader("Vaqt Cheklovi")
-    test_duration = st.number_input("Test vaqti (daqiqa):", min_value=5, max_value=180, value=TEST_DURATION_MINUTES, step=5)
+    # Vaqtni kiritish maydoni
+    test_duration = st.number_input("Test vaqti (daqiqa):", min_value=5, max_value=180, value=DEFAULT_TEST_DURATION_MINUTES, step=5)
     
     st.markdown("---")
     st.info("Hisob fanida dinamik, formula asosidagi savollar namoyish etilgan.")
@@ -171,10 +169,8 @@ all_questions = load_questions(file_name)
 
 # Sessiya holatini tekshirish va sozlash
 if "questions" not in st.session_state or st.session_state.get("current_subject") != subject or st.session_state.get("test_mode") != test_mode:
-    # Vaqtni sozlamalardan olish
-    global TEST_DURATION_MINUTES
-    TEST_DURATION_MINUTES = test_duration
-    initialize_session_state(all_questions, subject, test_mode)
+    # Vaqtni to'g'ridan-to'g'ri initialize_session_state funksiyasiga uzatamiz
+    initialize_session_state(all_questions, subject, test_mode, test_duration) # TO'G'RILANGAN QISM
 
 questions = st.session_state.questions
 
@@ -182,10 +178,9 @@ st.subheader(f"{subject} fanidan test")
 st.markdown(f"**Savollar soni:** {len(questions)}")
 st.markdown("---")
 
-# --- YANGI: Taymerni Ko'rsatish ---
+# --- Taymerni Ko'rsatish ---
 if not st.session_state.test_finished:
     
-    # Qolgan vaqtni hisoblash
     time_left = st.session_state.end_time - datetime.now()
     
     if time_left.total_seconds() <= 0:
@@ -193,17 +188,14 @@ if not st.session_state.test_finished:
         st.warning("⏳ Vaqt tugadi! Test avtomatik yakunlandi.")
         st.rerun()
     
-    # Vaqtni formatlash
     total_seconds = int(time_left.total_seconds())
     minutes = total_seconds // 60
     seconds = total_seconds % 60
     
-    # Vaqtni yon panelda ko'rsatish
     st.sidebar.markdown(f"## ⏳ Qolgan vaqt: **{minutes:02d}:{seconds:02d}**")
     
-    # Vaqtni yangilash uchun 1 soniyalik pauza
     time.sleep(1)
-    st.rerun() # Har soniyada sahifani yangilash
+    st.rerun()
 
 # --- Test savollarini ko'rsatish ---
 for idx, q in enumerate(questions):
@@ -214,7 +206,6 @@ for idx, q in enumerate(questions):
 
     is_answered = st.session_state.answered[q_index] is not None
     
-    # Test tugagan bo'lsa, inputlarni o'chirish
     input_disabled = is_answered or st.session_state.test_finished
 
     # --- Ko'p tanlovli savollar ---
@@ -232,7 +223,6 @@ for idx, q in enumerate(questions):
             args=(q_index, q)
         )
         
-        # Natijani ko'rsatish
         if is_answered or st.session_state.test_finished:
             if st.session_state.answered[q_index] == q["javob"]:
                 st.success(f"✅ To‘g‘ri! Javob: {q['javob']}")
@@ -251,7 +241,6 @@ for idx, q in enumerate(questions):
             args=(q_index, q)
         )
         
-        # Natijani ko'rsatish
         if is_answered or st.session_state.test_finished:
             correct_answer = q["to_g_ri_javob"]
             user_answer = st.session_state.answered[q_index]
