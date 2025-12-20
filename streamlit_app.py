@@ -211,8 +211,8 @@ if not st.session_state.test_started and not st.session_state.test_finished:
     if st.button("Testni Boshlash", type="primary", on_click=start_test):
         pass # start_test() funksiyasi st.rerun() ni chaqiradi
 
-# --- Test Boshlangan Holat ---
-elif st.session_state.test_started and not st.session_state.test_finished:
+# --- Test Boshlangan va Yakunlangan Holat (Savollarni ko'rsatish) ---
+elif st.session_state.test_started:
     
     # --- Test savollarini ko'rsatish ---
     for idx, q in enumerate(questions):
@@ -224,6 +224,10 @@ elif st.session_state.test_started and not st.session_state.test_finished:
         # Foydalanuvchi kiritgan javobni olish (agar mavjud bo'lsa)
         user_input_key = f"q{q_index+1}"
         current_value = st.session_state.get(user_input_key)
+        
+        # Test tugagan bo'lsa, natijalarni olish
+        is_finished = st.session_state.test_finished
+        res = st.session_state.results[idx] if is_finished else None
 
         # --- Ko'p tanlovli savollar ---
         if q["type"] == "multiple_choice":
@@ -241,8 +245,18 @@ elif st.session_state.test_started and not st.session_state.test_finished:
                 key=user_input_key,
                 index=default_index,
                 label_visibility="collapsed",
-                # on_change va args olib tashlandi
+                disabled=is_finished # Test tugagan bo'lsa, o'chirish
             )
+            
+            # Natijani ko'rsatish
+            if is_finished:
+                if res["user_answer"] is None:
+                    st.info(f"Javob berilmagan. To‘g‘ri javob: **{res['correct_answer']}**")
+                elif res["correct"]:
+                    st.success(f"✅ To‘g‘ri! Sizning javobingiz: **{res['user_answer']}**")
+                else:
+                    st.error(f"❌ Noto‘g‘ri. Sizning javobingiz: **{res['user_answer']}**. To‘g‘ri javob: **{res['correct_answer']}**")
+
 
         # --- Hisob-kitob savollari ---
         elif q["type"] == "calculation":
@@ -254,14 +268,26 @@ elif st.session_state.test_started and not st.session_state.test_finished:
                 label="Javobingizni kiriting (son):",
                 key=user_input_key,
                 value=display_value,
-                # on_change va args olib tashlandi
+                disabled=is_finished # Test tugagan bo'lsa, o'chirish
             )
+            
+            # Natijani ko'rsatish
+            if is_finished:
+                if res["user_answer"] is None:
+                    st.info(f"Javob berilmagan. To‘g‘ri javob: **{res['correct_answer']:.2f}**")
+                elif res["correct"]:
+                    st.success(f"✅ To‘g‘ri! Sizning javobingiz: **{res['user_answer']:.2f}**. To‘g‘ri javob: **{res['correct_answer']:.2f}**")
+                else:
+                    # Agar kiritilgan qiymat float bo'lmasa, uni matn sifatida ko'rsatish
+                    user_ans_display = f"{res['user_answer']:.2f}" if isinstance(res['user_answer'], (int, float)) else res['user_answer']
+                    st.error(f"❌ Noto‘g‘ri. Sizning javobingiz: **{user_ans_display}**. To‘g‘ri javob: **{res['correct_answer']:.2f}**")
         
         st.markdown("---")
 
     # --- Testni Yakunlash Qismi ---
-    if st.button("Testni Yakunlash va Natijani Tekshirish", type="primary", on_click=evaluate_test_results):
-        pass # evaluate_test_results() funksiyasi st.rerun() ni chaqiradi
+    if not st.session_state.test_finished:
+        if st.button("Testni Yakunlash va Natijani Tekshirish", type="primary", on_click=evaluate_test_results):
+            pass # evaluate_test_results() funksiyasi st.rerun() ni chaqiradi
 
 # --- Test Yakunlangan Holat ---
 if st.session_state.test_finished:
@@ -278,30 +304,9 @@ if st.session_state.test_finished:
     st.markdown("---")
     st.subheader("Batafsil Natijalar")
 
-    # Batafsil natijalarni ko'rsatish
-    for idx, q in enumerate(questions):
-        res = results[idx]
-        
-        st.markdown(f"### {idx+1}-savol (ID: {q.get('id', '—')})")
-        st.markdown(f"**Savol:** {q['savol']}")
-
-        if res["user_answer"] is None:
-            st.info(f"Javob berilmagan. To‘g‘ri javob: **{res['correct_answer']}**")
-        elif res["correct"]:
-            if q["type"] == "multiple_choice":
-                st.success(f"✅ To‘g‘ri! Sizning javobingiz: **{res['user_answer']}**")
-            elif q["type"] == "calculation":
-                st.success(f"✅ To‘g‘ri! Sizning javobingiz: **{res['user_answer']:.2f}**. To‘g‘ri javob: **{res['correct_answer']:.2f}**")
-        else:
-            if q["type"] == "multiple_choice":
-                st.error(f"❌ Noto‘g‘ri. Sizning javobingiz: **{res['user_answer']}**. To‘g‘ri javob: **{res['correct_answer']}**")
-            elif q["type"] == "calculation":
-                # Agar kiritilgan qiymat float bo'lmasa, uni matn sifatida ko'rsatish
-                user_ans_display = f"{res['user_answer']:.2f}" if isinstance(res['user_answer'], (int, float)) else res['user_answer']
-                st.error(f"❌ Noto‘g‘ri. Sizning javobingiz: **{user_ans_display}**. To‘g‘ri javob: **{res['correct_answer']:.2f}**")
-        
-        st.markdown("---")
-
+    # Batafsil natijalarni savollar ostida ko'rsatish uchun bu qismni o'chirib tashlaymiz.
+    # Savollar endi yuqoridagi umumiy blokda ko'rsatiladi.
+    
     if st.button("Yangi test boshlash"):
         st.session_state.clear()
         st.rerun()
