@@ -35,6 +35,9 @@ def evaluate_formula(formula, variables):
         "e": math.e
     }
     try:
+        # eval() dan foydalanish xavfsizlik nuqtai nazaridan tavsiya etilmaydi,
+        # lekin bu holatda foydalanuvchi kiritgan ma'lumot emas, balki
+        # faqat savollar faylidagi formula hisoblanadi.
         result = eval(formula, {"__builtins__": None}, allowed_names)
         return result
     except Exception as e:
@@ -63,10 +66,8 @@ def initialize_session_state(all_questions, subject, test_mode, duration_minutes
     st.session_state.current_subject = subject
     st.session_state.test_mode = test_mode
     st.session_state.test_finished = False
-    
-    # --- Taymerni sozlash ---
-    st.session_state.start_time = datetime.now()
-    st.session_state.end_time = st.session_state.start_time + timedelta(minutes=duration_minutes)
+    st.session_state.test_started = False # YANGI: Test hali boshlanmadi
+    st.session_state.test_duration = duration_minutes # YANGI: Vaqtni saqlash
 
     if test_mode == "100 ta to‘liq":
         selected_questions = all_questions[:]
@@ -98,43 +99,66 @@ def initialize_session_state(all_questions, subject, test_mode, duration_minutes
 
     st.session_state.questions = processed_questions
     st.session_state.score = 0
-    st.session_state.answered = [None] * len(processed_questions)
+    # st.session_state.answered endi foydalanuvchi kiritgan qiymatlarni saqlamaydi.
+    # Qiymatlar to'g'ridan-to'g'ri st.session_state[f"q{q_index+1}"] da saqlanadi.
+    # st.session_state.answered endi faqat natijani (True/False) saqlaydi.
+    st.session_state.results = [None] * len(processed_questions)
     st.session_state.shuffled_options = shuffled_options
 
-def check_answer(q_index, q_data):
-    """Foydalanuvchi javobini tekshiradi va natijani session_state ga saqlaydi."""
-    
+def start_test():
+    """Testni boshlaydi va taymerni ishga tushiradi."""
+    st.session_state.test_started = True
+    st.session_state.start_time = datetime.now()
+    st.session_state.end_time = st.session_state.start_time + timedelta(minutes=st.session_state.test_duration)
+    st.rerun()
+
+def evaluate_test_results():
+    """Test yakunlanganda barcha javoblarni tekshiradi va natijani hisoblaydi."""
     if st.session_state.test_finished:
         return
 
-    if st.session_state.answered[q_index] is not None:
-        return
+    st.session_state.score = 0
+    st.session_state.test_finished = True
+    questions = st.session_state.questions
+    results = [None] * len(questions)
 
-    user_answer = st.session_state[f"q{q_index+1}"]
-    
-    if q_data["type"] == "multiple_choice":
-        if user_answer == q_data["javob"]:
-            st.session_state.score += 1
-        st.session_state.answered[q_index] = user_answer
-        
-    elif q_data["type"] == "calculation":
-        correct_answer = q_data["to_g_ri_javob"]
-        tolerance = q_data["tolerance"]
-        
-        try:
-            user_input_float = float(user_answer)
-        except (ValueError, TypeError):
-            st.session_state.answered[q_index] = None
-            return
+    for q_index, q_data in enumerate(questions):
+        user_answer_key = f"q{q_index+1}"
+        user_input = st.session_state.get(user_answer_key)
+        is_correct = False
 
-        is_correct = abs(user_input_float - correct_answer) <= tolerance
+        if user_input is None or user_input == "":
+            # Javob berilmagan
+            results[q_index] = {"correct": False, "user_answer": None, "correct_answer": q_data.get("javob") or q_data.get("to_g_ri_javob")}
+            continue
+
+        if q_data["type"] == "multiple_choice":
+            # Ko'p tanlovli savollar
+            if user_input == q_data["javob"]:
+                is_correct = True
+            
+            results[q_index] = {"correct": is_correct, "user_answer": user_input, "correct_answer": q_data["javob"]}
+
+        elif q_data["type"] == "calculation":
+            # Hisob-kitob savollari
+            correct_answer = q_data["to_g_ri_javob"]
+            tolerance = q_data["tolerance"]
+            
+            try:
+                user_input_float = float(user_input)
+                is_correct = abs(user_input_float - correct_answer) <= tolerance
+                user_answer_display = user_input_float
+            except (ValueError, TypeError):
+                # Noto'g'ri formatdagi kiritma
+                user_answer_display = user_input
+
+            results[q_index] = {"correct": is_correct, "user_answer": user_answer_display, "correct_answer": correct_answer}
         
         if is_correct:
             st.session_state.score += 1
-        
-        st.session_state.answered[q_index] = user_input_float
-        
-    st.rerun() 
+    
+    st.session_state.results = results
+    st.rerun()
 
 # --- UI Qismi ---
 
@@ -167,7 +191,12 @@ file_name = file_map[subject]
 all_questions = load_questions(file_name)
 
 # Sessiya holatini tekshirish va sozlash
-if "questions" not in st.session_state or st.session_state.get("current_subject") != subject or st.session_state.get("test_mode") != test_mode:
+if (
+    "questions" not in st.session_state 
+    or st.session_state.get("current_subject") != subject 
+    or st.session_state.get("test_mode") != test_mode
+    or st.session_state.get("test_duration") != test_duration # Vaqt o'zgarganda ham qayta yuklash
+):
     initialize_session_state(all_questions, subject, test_mode, test_duration)
 
 questions = st.session_state.questions
@@ -176,95 +205,117 @@ st.subheader(f"{subject} fanidan test")
 st.markdown(f"**Savollar soni:** {len(questions)}")
 st.markdown("---")
 
-# --- Test savollarini ko'rsatish ---
-for idx, q in enumerate(questions):
-    q_index = idx
+# --- Test Boshlanmagan Holat ---
+if not st.session_state.test_started and not st.session_state.test_finished:
+    st.info(f"Testni boshlash uchun quyidagi tugmani bosing. Sizda **{st.session_state.test_duration} daqiqa** vaqt bo‘ladi.")
+    if st.button("Testni Boshlash", type="primary", on_click=start_test):
+        pass # start_test() funksiyasi st.rerun() ni chaqiradi
+
+# --- Test Boshlangan Holat ---
+elif st.session_state.test_started and not st.session_state.test_finished:
     
-    st.markdown(f"### {q_index+1}-savol (ID: {q.get('id', '—')})")
-    st.markdown(f"**Savol:** {q['savol']}")
+    # --- Test savollarini ko'rsatish ---
+    for idx, q in enumerate(questions):
+        q_index = idx
+        
+        st.markdown(f"### {q_index+1}-savol (ID: {q.get('id', '—')})")
+        st.markdown(f"**Savol:** {q['savol']}")
 
-    is_answered = st.session_state.answered[q_index] is not None
-    
-    input_disabled = is_answered or st.session_state.test_finished
+        # Foydalanuvchi kiritgan javobni olish (agar mavjud bo'lsa)
+        user_input_key = f"q{q_index+1}"
+        current_value = st.session_state.get(user_input_key)
 
-    # --- Ko'p tanlovli savollar ---
-    if q["type"] == "multiple_choice":
-        options = st.session_state.shuffled_options[q_index]
-        
-        st.radio(
-            label="Variantni tanlang:",
-            options=options,
-            key=f"q{q_index+1}",
-            index=options.index(st.session_state.answered[q_index]) if st.session_state.answered[q_index] in options else None,
-            label_visibility="collapsed",
-            disabled=input_disabled,
-            on_change=check_answer,
-            args=(q_index, q)
-        )
-        
-        if is_answered or st.session_state.test_finished:
-            if st.session_state.answered[q_index] == q["javob"]:
-                st.success(f"✅ To‘g‘ri! Javob: {q['javob']}")
-            else:
-                st.error(f"❌ Noto‘g‘ri. To‘g‘ri javob: {q['javob']}")
-
-    # --- Hisob-kitob savollari ---
-    elif q["type"] == "calculation":
-        
-        st.text_input(
-            label="Javobingizni kiriting (son):",
-            key=f"q{q_index+1}",
-            value=str(st.session_state.answered[q_index]) if is_answered else "",
-            disabled=input_disabled,
-            on_change=check_answer,
-            args=(q_index, q)
-        )
-        
-        if is_answered or st.session_state.test_finished:
-            correct_answer = q["to_g_ri_javob"]
-            user_answer = st.session_state.answered[q_index]
+        # --- Ko'p tanlovli savollar ---
+        if q["type"] == "multiple_choice":
+            options = st.session_state.shuffled_options[q_index]
             
-            if user_answer is not None:
-                tolerance = q["tolerance"]
-                is_correct = abs(user_answer - correct_answer) <= tolerance
-                
-                if is_correct:
-                    st.success(f"✅ To‘g‘ri! Javob: {user_answer:.2f}. To‘g‘ri javob: {correct_answer:.2f}")
-                else:
-                    st.error(f"❌ Noto‘g‘ri. Sizning javobingiz: {user_answer:.2f}. To‘g‘ri javob: {correct_answer:.2f}")
-            else:
-                st.info(f"Javob berilmagan. To‘g‘ri javob: {correct_answer:.2f}")
-    
-    st.markdown("---")
+            # Agar oldin javob berilgan bo'lsa, indexni topish
+            try:
+                default_index = options.index(current_value) if current_value in options else None
+            except ValueError:
+                default_index = None
 
-# --- Testni Yakunlash Qismi ---
+            st.radio(
+                label="Variantni tanlang:",
+                options=options,
+                key=user_input_key,
+                index=default_index,
+                label_visibility="collapsed",
+                # on_change va args olib tashlandi
+            )
 
-if not st.session_state.test_finished:
-    if st.button("Testni Yakunlash va Natijani Ko'rish", type="primary"):
-        st.session_state.test_finished = True
-        st.rerun()
+        # --- Hisob-kitob savollari ---
+        elif q["type"] == "calculation":
+            
+            # Agar current_value son bo'lsa, uni matnga o'tkazish
+            display_value = str(current_value) if current_value is not None else ""
 
+            st.text_input(
+                label="Javobingizni kiriting (son):",
+                key=user_input_key,
+                value=display_value,
+                # on_change va args olib tashlandi
+            )
+        
+        st.markdown("---")
+
+    # --- Testni Yakunlash Qismi ---
+    if st.button("Testni Yakunlash va Natijani Tekshirish", type="primary", on_click=evaluate_test_results):
+        pass # evaluate_test_results() funksiyasi st.rerun() ni chaqiradi
+
+# --- Test Yakunlangan Holat ---
 if st.session_state.test_finished:
     st.balloons()
     st.header("Test Natijasi")
+    questions = st.session_state.questions
+    results = st.session_state.results
+    
     st.subheader(f"Siz {len(questions)} savoldan **{st.session_state.score}** tasiga to‘g‘ri javob berdingiz!")
     
     percentage = (st.session_state.score / len(questions)) * 100 if len(questions) > 0 else 0
     st.progress(percentage / 100, text=f"Muvaffaqiyat: {percentage:.1f}%")
     
+    st.markdown("---")
+    st.subheader("Batafsil Natijalar")
+
+    # Batafsil natijalarni ko'rsatish
+    for idx, q in enumerate(questions):
+        res = results[idx]
+        
+        st.markdown(f"### {idx+1}-savol (ID: {q.get('id', '—')})")
+        st.markdown(f"**Savol:** {q['savol']}")
+
+        if res["user_answer"] is None:
+            st.info(f"Javob berilmagan. To‘g‘ri javob: **{res['correct_answer']}**")
+        elif res["correct"]:
+            if q["type"] == "multiple_choice":
+                st.success(f"✅ To‘g‘ri! Sizning javobingiz: **{res['user_answer']}**")
+            elif q["type"] == "calculation":
+                st.success(f"✅ To‘g‘ri! Sizning javobingiz: **{res['user_answer']:.2f}**. To‘g‘ri javob: **{res['correct_answer']:.2f}**")
+        else:
+            if q["type"] == "multiple_choice":
+                st.error(f"❌ Noto‘g‘ri. Sizning javobingiz: **{res['user_answer']}**. To‘g‘ri javob: **{res['correct_answer']}**")
+            elif q["type"] == "calculation":
+                # Agar kiritilgan qiymat float bo'lmasa, uni matn sifatida ko'rsatish
+                user_ans_display = f"{res['user_answer']:.2f}" if isinstance(res['user_answer'], (int, float)) else res['user_answer']
+                st.error(f"❌ Noto‘g‘ri. Sizning javobingiz: **{user_ans_display}**. To‘g‘ri javob: **{res['correct_answer']:.2f}**")
+        
+        st.markdown("---")
+
     if st.button("Yangi test boshlash"):
         st.session_state.clear()
         st.rerun()
 
 # --- Taymerni Yangilash Qismi (Eng oxirida) ---
-if not st.session_state.test_finished:
+if st.session_state.test_started and not st.session_state.test_finished:
     
     time_left = st.session_state.end_time - datetime.now()
     
     if time_left.total_seconds() <= 0:
-        st.session_state.test_finished = True
-        st.warning("⏳ Vaqt tugadi! Test avtomatik yakunlandi.")
-        st.rerun()
+        # Vaqt tugasa, avtomatik tekshirish funksiyasini chaqirish
+        evaluate_test_results() 
+        st.warning("⏳ Vaqt tugadi! Test avtomatik yakunlandi va natijalar tekshirildi.")
+        # st.rerun() evaluate_test_results ichida chaqiriladi
     
     total_seconds = int(time_left.total_seconds())
     minutes = total_seconds // 60
