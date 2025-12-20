@@ -1,8 +1,8 @@
 [
     {
-        "id": "LA-1",
+        "id": 1,
         "type": "multiple_choice",
-        "savol": "Chiziqli algebra fanidan test savollari\n2 4 1\nQuyidagi mаtritsа uchun 𝑑𝑒𝑡𝐴 ni hisоblаng: 𝐴 = (−1 3 −2)\n3 2 3",
+        "savol": "Quyidagi matritsa uchun det(A) ni hisoblang:\nA = | -1  3  -2 |\n    |  2  4   1 |\n    |  3  2   3 |",
         "variantlar": [
             "3",
             "2",
@@ -12,9 +12,9 @@
         "javob": "3"
     },
     {
-        "id": "LA-2",
+        "id": 2,
         "type": "multiple_choice",
-        "savol": "2 4 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (−1 3 −2)\n11\n3 2 3",
+        "savol": "Quyidagi matritsa uchun A₁₁ algebraik toʻldiruvchini hisoblang:\nA = | -1  3  -2 |\n    |  2  4   1 |\n    |  3  2   3 |",
         "variantlar": [
             "13",
             "2",
@@ -24,9 +24,9 @@
         "javob": "13"
     },
     {
-        "id": "LA-3",
+        "id": 3,
         "type": "multiple_choice",
-        "savol": "2 4 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (−1 3 −2)\n12\n3 2 3",
+        "savol": "Quyidagi matritsa uchun A₁₂ algebraik toʻldiruvchini hisoblang:\nA = | -1  3  -2 |\n    |  2  4   1 |\n    |  3  2   3 |",
         "variantlar": [
             "-3",
             "-9",
@@ -36,9 +36,9 @@
         "javob": "-3"
     },
     {
-        "id": "LA-4",
+        "id": 4,
         "type": "multiple_choice",
-        "savol": "2 4 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (−1 3 −2)\n13\n3 2 3",
+        "savol": "Quyidagi matritsa uchun A₁₃ algebraik toʻldiruvchini hisoblang:\nA = | -1  3  -2 |\n    |  2  4   1 |\n    |  3  2   3 |",
         "variantlar": [
             "-11",
             "7",
@@ -48,9 +48,9 @@
         "javob": "-11"
     },
     {
-        "id": "LA-5",
+        "id": 5,
         "type": "multiple_choice",
-        "savol": "2 4 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (−1 3 −2)\n21\n3 2 3",
+        "savol": "Quyidagi matritsa uchun A₂₁ algebraik toʻldiruvchini hisoblang:\nA = | -1  3  -2 |\n    |  2  4   1 |\n    |  3  2   3 |",
         "variantlar": [
             "-10",
             "10",
@@ -60,9 +60,9 @@
         "javob": "-10"
     },
     {
-        "id": "LA-6",
+        "id": 6,
         "type": "multiple_choice",
-        "savol": "2 4 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (−1 3 −2)\n22\n3 2 3",
+        "savol": "Quyidagi matritsa uchun A₂₂ algebraik toʻldiruvchini hisoblang:\nA = | -1  3  -2 |\n    |  2  4   1 |\n    |  3  2   3 |",
         "variantlar": [
             "3",
             "4",
@@ -72,9 +72,9 @@
         "javob": "3"
     },
     {
-        "id": "LA-7",
+        "id": 7,
         "type": "multiple_choice",
-        "savol": "2 4 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (−1 3 −2)\n23\n3 2 3",
+        "savol": "Quyidagi matritsa uchun A₂₃ algebraik toʻldiruvchini hisoblang:\nA = | -1  3  -2 |\n    |  2  4   1 |\n    |  3  2   3 |",
         "variantlar": [
             "8",
             "16",
@@ -84,9 +84,9 @@
         "javob": "8"
     },
     {
-        "id": "LA-8",
+        "id": 8,
         "type": "multiple_choice",
-        "savol": "2 4 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (−1 3 −2)\n31\n3 2 3",
+        "savol": "Quyidagi matritsa uchun A₃₁ algebraik toʻldiruvchini hisoblang:\nA = | -1  3  -2 |\n    |  2  4   1 |\n    |  3  2   3 |",
         "variantlar": [
             "-11",
             "-5",
@@ -96,9 +96,9 @@
         "javob": "-11"
     },
     {
-        "id": "LA-9",
+        "id": 9,
         "type": "multiple_choice",
-        "savol": "2 4 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (−1 3 −2)\n32\n3 2 3",
+        "savol": "Quyidagi matritsa uchun A₃₂ algebraik toʻldiruvchini hisoblang:\nA = | -1  3  -2 |\n    |  2  4   1 |\n    |  3  2   3 |",
         "variantlar": [
             "3",
             "-5",
@@ -108,9 +108,9 @@
         "javob": "3"
     },
     {
-        "id": "LA-10",
+        "id": 10,
         "type": "multiple_choice",
-        "savol": "2 4 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (−1 3 −2)\n33\n3 2 3",
+        "savol": "Quyidagi matritsa uchun A₃₃ algebraik toʻldiruvchini hisoblang:\nA = | -1  3  -2 |\n    |  2  4   1 |\n    |  3  2   3 |",
         "variantlar": [
             "10",
             "-5",
@@ -120,9 +120,9 @@
         "javob": "10"
     },
     {
-        "id": "LA-11",
+        "id": 11,
         "type": "multiple_choice",
-        "savol": "Determinantni hisoblang:\n2\n1\n3\n2\n2\n4 6\n3\n5",
+        "savol": "Quyidagi determinantni hisoblang:\n| 2  1  3 |\n| 4  6  2 |\n| 3  2  5 |",
         "variantlar": [
             "0",
             "6",
@@ -132,105 +132,105 @@
         "javob": "0"
     },
     {
-        "id": "LA-12",
+        "id": 12,
         "type": "multiple_choice",
-        "savol": "Dete rminantning biror qator elementlarining umumiy ko‘paytuvchisini …",
+        "savol": "Determinantning biror qator elementlarining umumiy ko‘paytuvchisini qanday bajarish mumkin?",
         "variantlar": [
-            "determinant belgisidan chiqarib yozish mumkin.",
-            "birga boʻlib yozish mumkin.",
-            "minus birga koʻpaytirib yozish mumkin.",
-            "determinant belgisidan chiqarib yozish mumkin emas."
+            "determinant belgisidan chiqarib yozish mumkin",
+            "birga bo‘lib yozish mumkin",
+            "minus birga ko‘paytirib yozish mumkin",
+            "determinant belgisidan chiqarib yozish mumkin emas"
         ],
-        "javob": "determinant belgisidan chiqarib yozish mumkin."
+        "javob": "determinant belgisidan chiqarib yozish mumkin"
     },
     {
-        "id": "LA-13",
+        "id": 13,
         "type": "multiple_choice",
-        "savol": "Agar deteminantning biror qatori elementlari faqatgina nollardan iborat boʻlsa, u\nholda determinantning qiymati …",
+        "savol": "Agar determinantning biror qatori elementlari faqatgina nollardan iborat boʻlsa, u holda determinantning qiymati ...",
         "variantlar": [
-            "nolga teng.",
-            "birga teng.",
-            "aniqlanmagan.",
-            "-1 ga teng."
+            "nolga teng",
+            "birga teng",
+            "aniqlanmagan",
+            "-1 ga teng"
         ],
-        "javob": "nolga teng."
+        "javob": "nolga teng"
     },
     {
-        "id": "LA-14",
+        "id": 14,
         "type": "multiple_choice",
-        "savol": "Agar determinant ikkita bir xil ustun yoki satrga ega boʻlsa, u holda uning qiymati\n…",
+        "savol": "Agar determinant ikkita bir xil ustun yoki satrga ega boʻlsa, u holda uning qiymati ...",
         "variantlar": [
-            "nolga teng.",
-            "musbat boʻladi.",
-            "nolga teng emas.",
-            "manfiy boʻladi."
+            "nolga teng",
+            "musbat bo‘ladi",
+            "nolga teng emas",
+            "manfiy bo‘ladi"
         ],
-        "javob": "nolga teng."
+        "javob": "nolga teng"
     },
     {
-        "id": "LA-15",
+        "id": 15,
         "type": "multiple_choice",
-        "savol": "Agar determinantning mos satr va ustunlari oʻrinlari almashtirilsa, determinantning\nqiymati...",
+        "savol": "Agar determinantning mos satr va ustunlari oʻrinlari almashtirilsa, determinantning qiymati...",
         "variantlar": [
-            "oʻzgarmaydi.",
-            "oʻzgaradi.",
-            "nolga teng.",
-            "birga teng."
+            "oʻzgarmaydi",
+            "oʻzgaradi",
+            "nolga teng",
+            "birga teng"
         ],
-        "javob": "oʻzgarmaydi."
+        "javob": "oʻzgarmaydi"
     },
     {
-        "id": "LA-16",
+        "id": 16,
         "type": "multiple_choice",
-        "savol": "Agar determinantning ikkita parallel qatorining oʻrinlari almashtirilsa, u holda\ndeterminantning qiymati ...",
+        "savol": "Agar determinantning ikkita parallel qatorining oʻrinlari almashtirilsa, u holda determinantning qiymati ...",
         "variantlar": [
-            "ishorasi qarama qarshisiga oʻzgaradi.",
-            "ishorasi oʻzgarmaydi.",
-            "minus birga teng.",
-            "nolga teng."
+            "ishorasi qarama qarshisiga oʻzgaradi",
+            "ishorasi oʻzgarmaydi",
+            "minus birga teng",
+            "nolga teng"
         ],
-        "javob": "ishorasi qarama qarshisiga oʻzgaradi."
+        "javob": "ishorasi qarama qarshisiga oʻzgaradi"
     },
     {
-        "id": "LA-17",
+        "id": 17,
         "type": "multiple_choice",
-        "savol": "Determinantning a\ni j\nelementi uchun algebraik toʻldiruvchisining matematik ifodasini toping.",
+        "savol": "Determinantning aᵢⱼ elementi uchun algebraik toʻldiruvchisining matematik ifodasini toping.",
         "variantlar": [
-            "A i+j M\nij=(-1) ij",
-            "A i-j M\nij=(-1) ij",
-            "A i+j M\nij=(-1) ji",
-            "A i-j M\nij=(-1) ji"
+            "Aij = (-1)^(i+j) Mij",
+            "Aij = (-1)^(i-j) Mij",
+            "Aij = (-1)^(i+j) Mji",
+            "Aij = (-1)^(i-j) Mji"
         ],
-        "javob": "A i+j M\nij=(-1) ij"
+        "javob": "Aij = (-1)^(i+j) Mij"
     },
     {
-        "id": "LA-18",
+        "id": 18,
         "type": "multiple_choice",
-        "savol": "a a\nM = 12 13 minor berilgan. Ushbu minor 3-tartibli determinantning qaysi elementining\nij a a\n22 23\nminori?",
+        "savol": "Mij = | a12  a13 |\n          | a22  a23 | \nminor berilgan. Ushbu minor 3-tartibli determinantning qaysi elementining minori?",
         "variantlar": [
-            "a\n31",
-            "a\n21",
-            "a\n33",
-            "a\n11"
+            "a31",
+            "a21",
+            "a33",
+            "a11"
         ],
-        "javob": "a\n31"
+        "javob": "a31"
     },
     {
-        "id": "LA-19",
+        "id": 19,
         "type": "multiple_choice",
-        "savol": "−\nc o\ns i\ns\nn\nx\nx\n−\nc\ns\no\ni n\ns x\nx\ndeterminantni hisoblang.",
+        "savol": "Determinantni hisoblang:\n| cos x  -sin x |\n| -sin x  cos x |",
         "variantlar": [
-            "cos2x",
+            "cos²x",
             "-1",
             "1",
-            "sin2x"
+            "sin²x"
         ],
-        "javob": "cos2x"
+        "javob": "cos²x"
     },
     {
-        "id": "LA-20",
+        "id": 20,
         "type": "multiple_choice",
-        "savol": "Determinantning qaralayotgan elementi joylashgan satr va ustunni oʻchirishdan hosil boʻlgan\ndeterminantga shu elementning... deyiladi.",
+        "savol": "Determinantning qaralayotgan elementi joylashgan satr va ustunni oʻchirishdan hosil boʻlgan determinantga shu elementning ... deyiladi.",
         "variantlar": [
             "minori",
             "algebraik toʻldiruvchisi",
@@ -240,9 +240,9 @@
         "javob": "minori"
     },
     {
-        "id": "LA-21",
+        "id": 21,
         "type": "multiple_choice",
-        "savol": "1\n5\n2\n2\n6\n4\n3\n7\n5\nni hisoblang.",
+        "savol": "Quyidagi determinantni hisoblang:\n| 1  2  3 |\n| 5  6  7 |\n| 2  4  5 |",
         "variantlar": [
             "4",
             "5",
@@ -252,57 +252,57 @@
         "javob": "4"
     },
     {
-        "id": "LA-22",
+        "id": 22,
         "type": "multiple_choice",
-        "savol": "A\ni j\n= ( − 1 ) i + j M\ni j\nformula orqali nima aniqlanadi?",
+        "savol": "Aij = (-1)^(i+j) Mij formula orqali nima aniqlanadi?",
         "variantlar": [
-            "Determinant a elementining algebraik to`ldiruvchisi.\nij",
-            "Determinant a elementining minori.\nij",
-            "Determinant qiymati.",
-            "Determinant a elementi.\nij"
+            "Determinant aij elementining algebraik to`ldiruvchisi",
+            "Determinant aij elementining minori",
+            "Determinant qiymati",
+            "Determinant aij elementi"
         ],
-        "javob": "Determinant a elementining algebraik to`ldiruvchisi.\nij"
+        "javob": "Determinant aij elementining algebraik to`ldiruvchisi"
     },
     {
-        "id": "LA-23",
+        "id": 23,
         "type": "multiple_choice",
-        "savol": "Determinantning a elementining minori …\nij",
+        "savol": "Determinantning aij elementining minori ...",
         "variantlar": [
-            "determinantning a elementi joylashgan satr va ustunni oʻchirishdan hosil boʻlgan determinant.\nij",
-            "Determinantning a elementi joylashgan ustunni oʻchirishdan hosil boʻlgan determinant.\nij",
-            "Determinantning a elementi joylashgan satrni oʻchirishdan hosil boʻlgan determinant.\nij",
-            "Determinantning a elementi joylashgan satri.\nij"
+            "determinantning aij elementi joylashgan satr va ustunni oʻchirishdan hosil boʻlgan determinant",
+            "Determinantning aij elementi joylashgan ustunni oʻchirishdan hosil boʻlgan determinant",
+            "Determinantning aij elementi joylashgan satrni oʻchirishdan hosil boʻlgan determinant",
+            "Determinantning aij elementi joylashgan satri"
         ],
-        "javob": "determinantning a elementi joylashgan satr va ustunni oʻchirishdan hosil boʻlgan determinant.\nij"
+        "javob": "determinantning aij elementi joylashgan satr va ustunni oʻchirishdan hosil boʻlgan determinant"
     },
     {
-        "id": "LA-24",
+        "id": 24,
         "type": "multiple_choice",
-        "savol": "x +1 2\n= 0 tenglamani yeching\n2x 3",
+        "savol": "Quyidagi tenglamani yeching: \nx + 1 = 2x",
         "variantlar": [
-            "x=3",
-            "x=2",
-            "x=0",
-            "x=-2"
+            "x = 3",
+            "x = 2",
+            "x = 0",
+            "x = -2"
         ],
-        "javob": "x=3"
+        "javob": "x = 3"
     },
     {
-        "id": "LA-25",
+        "id": 25,
         "type": "multiple_choice",
-        "savol": "Agar A =\n −\n2\n1\n2 −\n1\n3\n1 \n, B =\n −\n1\n1\n−\n1\n2\n\nboʻlsa, A  B = ?",
+        "savol": "Agar A = | -2 -1 |\n          | -1  1 |\n          |  2  1 |\n    va B = | 1 -2 |\n            | 1  3 |,\nA · B = ?",
         "variantlar": [
-            "\n−\n1\n2\n1\n−\n0\n0\n5\n",
-            " 2\n2\n−\n3\n1 ",
-            "\n−\n1\n2\n1\n−\n−\n0\n2\n5\n",
-            "1 2 3\n \n2 1 3\n "
+            "| 1  0 |\n| -1 0 |\n| 2 -5 |",
+            "| 2 -1 |\n| 2  3 |",
+            "| 1 -2 |\n| -1 0 |\n| 2 -5 |",
+            "| 1 2 3 |\n| 2 1 3 |"
         ],
-        "javob": "\n−\n1\n2\n1\n−\n0\n0\n5\n"
+        "javob": "| 1  0 |\n| -1 0 |\n| 2 -5 |"
     },
     {
-        "id": "LA-26",
+        "id": 26,
         "type": "multiple_choice",
-        "savol": "Matritsaning mos satrlarini mos ustunlari bilan almashtirilsa … matritsa hosil boʻladi.",
+        "savol": "Matritsaning mos satrlarini mos ustunlari bilan almashtirilsa ... matritsa hosil boʻladi.",
         "variantlar": [
             "transponirlangan",
             "teskari",
@@ -312,9 +312,9 @@
         "javob": "transponirlangan"
     },
     {
-        "id": "LA-27",
+        "id": 27,
         "type": "multiple_choice",
-        "savol": "Agar berilgan matritsa oʻzining transponirlangan matritsasiga teng boʻlsa, bunday matritsa...\nmatritsa deyiladi.",
+        "savol": "Agar berilgan matritsa oʻzining transponirlangan matritsasiga teng boʻlsa, bunday matritsa ... matritsa deyiladi.",
         "variantlar": [
             "simmetrik",
             "teskari",
@@ -324,9 +324,9 @@
         "javob": "simmetrik"
     },
     {
-        "id": "LA-28",
+        "id": 28,
         "type": "multiple_choice",
-        "savol": "Matritsani shu matritsaning teskarisiga koʻpaytirilsa ... matritsa hosil boʻladi",
+        "savol": "Matritsani shu matritsaning teskarisiga koʻpaytirilsa ... matritsa hosil boʻladi.",
         "variantlar": [
             "birlik",
             "nol",
@@ -336,7 +336,7 @@
         "javob": "birlik"
     },
     {
-        "id": "LA-29",
+        "id": 29,
         "type": "multiple_choice",
         "savol": "Qanday matritsaning teskari matritsasi oʻziga teng boʻladi?",
         "variantlar": [
@@ -348,9 +348,9 @@
         "javob": "birlik"
     },
     {
-        "id": "LA-30",
+        "id": 30,
         "type": "multiple_choice",
-        "savol": "Quyidagi matritsalarning qaysilarining teskarisi mavjud emas: 1) ustun-matritsa, 2) birlik\nmatritsa, 3) nol matritsa, 4) xosmas matritsa, 5) satr-matritsa.",
+        "savol": "Quyidagi matritsalarning qaysilarining teskarisi mavjud emas: 1) ustun-matritsa, 2) birlik matritsa, 3) nol matritsa, 4) xosmas matritsa, 5) satr-matritsa.",
         "variantlar": [
             "1), 3) va 5)",
             "2) va 4)",
@@ -360,9 +360,9 @@
         "javob": "1), 3) va 5)"
     },
     {
-        "id": "LA-31",
+        "id": 31,
         "type": "multiple_choice",
-        "savol": "(2x3) oʻlchamli matritsani (3x2) oʻlchamli matritsaga koʻpaytirish natijasida hosil boʻladigan\nmatritsaning oʻlchamini aniqlang.",
+        "savol": "(2x3) oʻlchamli matritsani (3x2) oʻlchamli matritsaga koʻpaytirish natijasida hosil boʻladigan matritsaning oʻlchamini aniqlang.",
         "variantlar": [
             "(2x2)",
             "(3x3)",
@@ -372,9 +372,9 @@
         "javob": "(2x2)"
     },
     {
-        "id": "LA-32",
+        "id": 32,
         "type": "multiple_choice",
-        "savol": "(3x3) oʻlchamli matritsani (3x4) oʻlchamli matritsaga koʻpaytirish natijasida hosil boʻladigan\nmatritsaning oʻlchamini aniqlang.",
+        "savol": "(3x3) oʻlchamli matritsani (3x4) oʻlchamli matritsaga koʻpaytirish natijasida hosil boʻladigan matritsaning oʻlchamini aniqlang.",
         "variantlar": [
             "(3x4)",
             "(4x3)",
@@ -384,21 +384,21 @@
         "javob": "(3x4)"
     },
     {
-        "id": "LA-33",
+        "id": 33,
         "type": "multiple_choice",
-        "savol": "2 4 Agar ,\nA =  \n3 9\nB =\n −\n−\n3\n2\n−\n−\n9\n4\n boʻlsa, u holda 2 A + 3 B ni toping.",
+        "savol": "Agar A = | 2 4 |\n          | 3 9 |, B = | -3 -9 |\n                    | -2 -4 | bo‘lsa, u holda 2A + 3B ni toping.",
         "variantlar": [
-            " −\n0\n5 − 1\n6\n9 ",
-            "0 −1\n \n \n1 5 ",
-            " 5\n1\n−\n1\n6\n9\n",
-            "2 3 \n \n \n5 − 4"
+            "| -5 -19 |\n| 0  6 |",
+            "| 0 -1 |\n| 1  5 |",
+            "| 5 -6 |\n| 1 19 |",
+            "| 2 3 |\n| 5 -4 |"
         ],
-        "javob": " −\n0\n5 − 1\n6\n9 "
+        "javob": "| -5 -19 |\n| 0  6 |"
     },
     {
-        "id": "LA-34",
+        "id": 34,
         "type": "multiple_choice",
-        "savol": "Berilgan matritsaning noldan farqli minorlarining yuqori tartibiga uning...deyiladi.",
+        "savol": "Berilgan matritsaning noldan farqli minorlarining yuqori tartibiga uning ... deyiladi.",
         "variantlar": [
             "rangi",
             "tartibi",
@@ -408,9 +408,9 @@
         "javob": "rangi"
     },
     {
-        "id": "LA-35",
+        "id": 35,
         "type": "multiple_choice",
-        "savol": "Chiziqli tenglamalar sistemasining noma’lumlari oldidagi koeffitsientlaridan tuzilgan\nmatritsa...matritsa deb ataladi.",
+        "savol": "Chiziqli tenglamalar sistemasining noma’lumlari oldidagi koeffitsientlaridan matritsa ... matritsa deb ataladi.",
         "variantlar": [
             "asosiy",
             "kengaytirilgan",
@@ -420,9 +420,9 @@
         "javob": "asosiy"
     },
     {
-        "id": "LA-36",
+        "id": 36,
         "type": "multiple_choice",
-        "savol": "Chiziqli tenglamalar sistemasining ozod hadlari barchasi nolga teng boʻlsa, bunday chiziqli\ntenglamalar sistemasini...chiziqli tenglamalar sistemasi deb ataladi.",
+        "savol": "Chiziqli tenglamalar sistemasining ozod hadlari barchasi nolga teng boʻlsa, bunday chiziqli tenglamalar sistemasini ... chiziqli tenglamalar sistemasi deb ataladi.",
         "variantlar": [
             "bir jinsli",
             "bir jinsli boʻlmagan",
@@ -432,9 +432,9 @@
         "javob": "bir jinsli"
     },
     {
-        "id": "LA-37",
+        "id": 37,
         "type": "multiple_choice",
-        "savol": "Bir jinslichiziqli tenglamalar sistemasi har doim...",
+        "savol": "Bir jinsli chiziqli tenglamalar sistemasi har doim ...",
         "variantlar": [
             "kamida bitta yechimga ega",
             "yechimga ega emas",
@@ -444,9 +444,9 @@
         "javob": "kamida bitta yechimga ega"
     },
     {
-        "id": "LA-38",
+        "id": 38,
         "type": "multiple_choice",
-        "savol": "n toʻrtdan katta boʻlganda n noma’lumli n ta chiziqli tenglamalar sistemasini quyidagi\nusullardan qaysi birida yechish qulayroq?",
+        "savol": "n toʻrtdan katta boʻlganda n noma’lumli n ta chiziqli tenglamalar sistemasini quyidagi usullardan qaysi birida yechish qulayroq?",
         "variantlar": [
             "Gauss usuli",
             "Kramer usuli",
@@ -456,21 +456,21 @@
         "javob": "Gauss usuli"
     },
     {
-        "id": "LA-39",
+        "id": 39,
         "type": "multiple_choice",
         "savol": "AX = B chiziqli tenglamalar sistemasining matritsa koʻrinishdagi yechimini koʻrsating.",
         "variantlar": [
-            "X=A-1B",
-            "X=AB",
-            "X=A-1A",
-            "X=A/B"
+            "X = A⁻¹B",
+            "X = AB",
+            "X = A⁻¹A",
+            "X = A/B"
         ],
-        "javob": "X=A-1B"
+        "javob": "X = A⁻¹B"
     },
     {
-        "id": "LA-40",
+        "id": 40,
         "type": "multiple_choice",
-        "savol": "Agar a = 6 , b = 5 va bu vektorlar orasidagi burchak 300 boʻlsa, u holda a va b\nvektorlarning vektor koʻpaytmasining modulini toping.",
+        "savol": "Agar a = 6 , b = 5 va bu vektorlar orasidagi burchak 30° boʻlsa, u holda a va b vektorlarning vektor koʻpaytmasining modulini toping.",
         "variantlar": [
             "15",
             "5",
@@ -480,21 +480,21 @@
         "javob": "15"
     },
     {
-        "id": "LA-41",
+        "id": 41,
         "type": "multiple_choice",
-        "savol": "a(a ,a ) va\n1 2\nb ( b\n1\n, b\n2\n) vertorlarning skalyar koʻpaytmasini hisoblash formulasini koʻrsating.",
+        "savol": "a(a1 , a2) va b(b1 , b2) vektorlarning skalyar koʻpaytmasini hisoblash formulasini koʻrsating.",
         "variantlar": [
-            "a  b = a\n1\nb\n1\n+ a\n2\nb\n2",
-            "a  b = a\n1\nb\n1\n− a\n2\nb\n2",
-            "a  b = a\n1\nb\n2\n+ a\n2\nb\n1",
-            "a  b = a\n1\nb\n2\n− a\n2\nb\n1"
+            "a ⋅ b = a1b1 + a2b2",
+            "a ⋅ b = a1b1 − a2b2",
+            "a ⋅ b = a1b2 + a2b1",
+            "a ⋅ b = a1b2 − a2b1"
         ],
-        "javob": "a  b = a\n1\nb\n1\n+ a\n2\nb\n2"
+        "javob": "a ⋅ b = a1b1 + a2b2"
     },
     {
-        "id": "LA-42",
+        "id": 42,
         "type": "multiple_choice",
-        "savol": "Yoʻnalishga ega boʻlgan kesma … deb ataladi?",
+        "savol": "Yoʻnalishga ega boʻlgan kesma ... deb ataladi?",
         "variantlar": [
             "vektor",
             "yoʻl",
@@ -504,9 +504,9 @@
         "javob": "vektor"
     },
     {
-        "id": "LA-43",
+        "id": 43,
         "type": "multiple_choice",
-        "savol": "Ikki vektorning skalyar koʻpaytmasi nolga teng boʻlsa, u holda … boʻladi.",
+        "savol": "Ikki vektorning skalyar koʻpaytmasi nolga teng boʻlsa, u holda ... boʻladi.",
         "variantlar": [
             "ular oʻzaro perependikulyar",
             "ular kollinear",
@@ -516,21 +516,21 @@
         "javob": "ular oʻzaro perependikulyar"
     },
     {
-        "id": "LA-44",
+        "id": 44,
         "type": "multiple_choice",
-        "savol": "a = − i + j va b = i + j vektorlar orasidagi burchakni toping.",
+        "savol": "a = −i + j va b = i + j vektorlar orasidagi burchakni toping.",
         "variantlar": [
-            "900",
-            "450",
-            "300",
-            "1350"
+            "90°",
+            "45°",
+            "30°",
+            "135°"
         ],
-        "javob": "900"
+        "javob": "90°"
     },
     {
-        "id": "LA-45",
+        "id": 45,
         "type": "multiple_choice",
-        "savol": "Agara = (1,−4) va b = ( − 4 , 8 ) boʻlsa, u holda a + b vektorning modulini toping.",
+        "savol": "Agar a = (1, −4) va b = (−4, 8) boʻlsa, u holda a + b vektorning modulini toping.",
         "variantlar": [
             "5",
             "2",
@@ -540,9 +540,9 @@
         "javob": "5"
     },
     {
-        "id": "LA-46",
+        "id": 46,
         "type": "multiple_choice",
-        "savol": "m ning qayday qiymatida a = ( m , 1 , 2 ) va b = ( 2 , 4 m , − 3 ) vektorlar oʻzaro perpendikulyar\nboʻladi?",
+        "savol": "m ning qayday qiymatida a = (m,1,2) va b = (2,4m, −3) vektorlar oʻzaro perpendikulyar boʻladi?",
         "variantlar": [
             "1",
             "2",
@@ -552,9 +552,9 @@
         "javob": "1"
     },
     {
-        "id": "LA-47",
+        "id": 47,
         "type": "multiple_choice",
-        "savol": "Agar\nA = ( 1 , 2 , 0 ) B = (3,2,1)\nva , boʻlsa, u holda\nA B\nvektorning uzunligini toping.",
+        "savol": "Agar A = (1,2,0) va B = (3,2,1) boʻlsa, u holda AB vektorning uzunligini toping.",
         "variantlar": [
             "5",
             "3",
@@ -564,9 +564,9 @@
         "javob": "5"
     },
     {
-        "id": "LA-48",
+        "id": 48,
         "type": "multiple_choice",
-        "savol": "Agar a = 3 , b = 4 va vektorlar orasidagi burchak 600 boʻlsa, u holda skalyar koʻpaytmani\ntoping.",
+        "savol": "Agar a = 3, b = 4 va vektorlar orasidagi burchak 60° boʻlsa, u holda skalyar koʻpaytmani toping.",
         "variantlar": [
             "6",
             "3",
@@ -576,19 +576,19 @@
         "javob": "6"
     },
     {
-        "id": "LA-49",
+        "id": 49,
         "type": "multiple_choice",
-        "savol": "a = (−1,−3,2), b = ( − 2 , 1 , − 3 ) boʻlsa, c o s ( a b ) = ? .",
+        "savol": "a = (−1, −3, 2), b = (−2, 1, −3) boʻlsa, cos(a, b) = ?",
         "variantlar": [
-            "11\n#\n−\n14",
-            "17\n−\n14",
-            "11\n−\n17",
-            "11\n−\n16"
+            "-11/14",
+            "-17/14",
+            "-11/17",
+            "-11/16"
         ],
-        "javob": "11\n#\n−\n14"
+        "javob": "-11/14"
     },
     {
-        "id": "LA-50",
+        "id": 50,
         "type": "multiple_choice",
         "savol": "Agar uchta vektor komplanar boʻlsa, u holda ularning aralash koʻpaytmasi ... boʻladi.",
         "variantlar": [
@@ -600,21 +600,21 @@
         "javob": "0"
     },
     {
-        "id": "LA-51",
+        "id": 51,
         "type": "multiple_choice",
-        "savol": "a = − 4 i + 6 j va b = 3i + 7 j boʻlsa, c = a + b vektorni toping.",
+        "savol": "a = −4i + 6j va b = 3i + 7j boʻlsa, c = a + b vektorni toping.",
         "variantlar": [
-            "c = (−1,13)",
-            "c = (−1,14)",
-            "c = (−13,1)",
-            "c = (−5,13)"
+            "c = (−1, 13)",
+            "c = (−1, 14)",
+            "c = (−13, 1)",
+            "c = (−5, 13)"
         ],
-        "javob": "c = (−1,13)"
+        "javob": "c = (−1, 13)"
     },
     {
-        "id": "LA-52",
+        "id": 52,
         "type": "multiple_choice",
-        "savol": "a = (−4,7) va b = ( − 5 , − 5 ) boʻlsa, c = a − b vektorni toping.",
+        "savol": "a = (−4,7) va b = (−5, −5) boʻlsa, c = a − b vektorni toping.",
         "variantlar": [
             "c = (1,12)",
             "c = (1,14)",
@@ -624,19 +624,19 @@
         "javob": "c = (1,12)"
     },
     {
-        "id": "LA-53",
+        "id": 53,
         "type": "multiple_choice",
-        "savol": "a = ( − 9 , 3 ) boʻlsa, c =\n1\n3\na vektorni toping.",
+        "savol": "a = (−9,3) boʻlsa, c = a vektorni toping.",
         "variantlar": [
-            "c = ( − 3 , 1 )",
-            "c = ( − 1 , 3 )",
-            "c = ( − 1 , 1 )",
-            "c = ( − 2 7 , 9 )"
+            "c = (−3,1)",
+            "c = (−1,3)",
+            "c = (−1,1)",
+            "c = (−27,9)"
         ],
-        "javob": "c = ( − 3 , 1 )"
+        "javob": "c = (−3,1)"
     },
     {
-        "id": "LA-54",
+        "id": 54,
         "type": "multiple_choice",
         "savol": "Vektorlarni geometrik qoʻshishning nechta qoidasi bor?",
         "variantlar": [
@@ -648,7 +648,7 @@
         "javob": "2 ta"
     },
     {
-        "id": "LA-55",
+        "id": 55,
         "type": "multiple_choice",
         "savol": "Vektorlarni geometrik usulda qoʻshishning qanday qoidalari bor?",
         "variantlar": [
@@ -660,21 +660,21 @@
         "javob": "uchburchak va parallellogramm"
     },
     {
-        "id": "LA-56",
+        "id": 56,
         "type": "multiple_choice",
-        "savol": "Modullari teng, bir xil yoʻnalishdagi ikkita a va b vektorlar...",
+        "savol": "Modullari teng, bir xil yoʻnalishdagi ikkita a va b vektorlar ...",
         "variantlar": [
-            "oʻzaro teng vektorlar deyiladi.",
-            "birlik vektorlar deyiladi.",
-            "qarama-qarshi vektorlar deyiladi.",
-            "ortogonal vektorlar deyiladi."
+            "oʻzaro teng vektorlar deyiladi",
+            "birlik vektorlar deyiladi",
+            "qarama-qarshi vektorlar deyiladi",
+            "ortogonal vektorlar deyiladi"
         ],
-        "javob": "oʻzaro teng vektorlar deyiladi."
+        "javob": "oʻzaro teng vektorlar deyiladi"
     },
     {
-        "id": "LA-57",
+        "id": 57,
         "type": "multiple_choice",
-        "savol": "A(4,2)\nva\nB ( 2 , 4 )\nboʻlsa, AB kesma oʻrtasining koordinatalarini toping.",
+        "savol": "A(4,2) va B (2,4) boʻlsa, AB kesma oʻrtasining koordinatalarini toping.",
         "variantlar": [
             "(3;3)",
             "(-1;4)",
@@ -684,9 +684,9 @@
         "javob": "(3;3)"
     },
     {
-        "id": "LA-58",
+        "id": 58,
         "type": "multiple_choice",
-        "savol": "M(8;5) va N(11;9) nuqtalar orasidagi masofani toping",
+        "savol": "M(8;5) va N(11;9) nuqtalar orasidagi masofani toping.",
         "variantlar": [
             "5",
             "4",
@@ -696,9 +696,9 @@
         "javob": "5"
     },
     {
-        "id": "LA-59",
+        "id": 59,
         "type": "multiple_choice",
-        "savol": "A(4,2) C(3,3)\nva AB kesma oʻrtasining koordinatasi boʻlsa, B nuqtaning koordinatalarini\ntoping.",
+        "savol": "A(4,2) va AB kesma oʻrtasining koordinatasi C(3,3) boʻlsa, B nuqtaning koordinatalarini toping.",
         "variantlar": [
             "(2;4)",
             "(-1;4)",
@@ -708,9 +708,9 @@
         "javob": "(2;4)"
     },
     {
-        "id": "LA-60",
+        "id": 60,
         "type": "multiple_choice",
-        "savol": "(x;y;z) tenglamalar sistemasining ildizini toping:\n 5\n5\nx\nx\nx\n−\n−\n+\ny\n4\ny\n+\ny\n+\n4\n−\nz\nz\nz\n=\n=\n=\n1\n−\n3\n1\n4",
+        "savol": "5x − 4y − z = 3\n5x + y + z = 11\nx − y + 4z = −4\n(x;y;z) tenglamalar sistemasining ildizini toping.",
         "variantlar": [
             "(2;2;-1)",
             "(3;4;-1)",
@@ -720,9 +720,9 @@
         "javob": "(2;2;-1)"
     },
     {
-        "id": "LA-61",
+        "id": 61,
         "type": "multiple_choice",
-        "savol": "(x;y;z) tenglamalar sistemasining ildizini toping:\n x\n3\nx\n−\nx\n+\n+\ny\n4\n+\n2\ny\ny\n−\n2\n−\nz\n3\nz\nz\n=\n=\n=\n3\n1\n8\n2",
+        "savol": "x − y + 2z = 3\n3x + 2y − z = 12\nx + 4y − 3z = 8\n(x;y;z) tenglamalar sistemasining ildizini toping.",
         "variantlar": [
             "(3;2;1)",
             "(4;3;1)",
@@ -732,9 +732,9 @@
         "javob": "(3;2;1)"
     },
     {
-        "id": "LA-62",
+        "id": 62,
         "type": "multiple_choice",
-        "savol": "(x;y;z) tenglamalar sistemasining ildizini toping:\n x\n2\nx\n+\nx\n−\n−\ny\n2\n−\ny\ny\n+\n+\nz =\n3\nz\nz\n1\n=\n=\n5\n3",
+        "savol": "x + y − z = 1\n2x − y + 3z = 3\nx − 2y + z = 5\n(x;y;z) tenglamalar sistemasining ildizini toping.",
         "variantlar": [
             "(2;-2;-1)",
             "(3;2;3)",
@@ -744,9 +744,9 @@
         "javob": "(2;-2;-1)"
     },
     {
-        "id": "LA-63",
+        "id": 63,
         "type": "multiple_choice",
-        "savol": "(x;y;z) tenglamalar sistemasining ildizini toping:\n x\nx\n2\n−\n+\nx −\n2\n2\ny\ny\ny\n+\n−\n−\nz\n2\nz\n=\nz\n=\n=\n3\n0\n− 2",
+        "savol": "x − 2y + z = 3\nx + 2y − 2z = −2\n2x − y − z = 0\n(x;y;z) tenglamalar sistemasining ildizini toping.",
         "variantlar": [
             "(2;1;3)",
             "(4;1;5)",
@@ -756,9 +756,9 @@
         "javob": "(2;1;3)"
     },
     {
-        "id": "LA-64",
+        "id": 64,
         "type": "multiple_choice",
-        "savol": "(x;y;z) tenglamalar sistemasining ildizini toping:\n x\n−\n−\n+\nx\n2\ny\n−\nx +\n−\ny\n2\n+\ny\nz\n3\n−\n=\nz\nz\n−\n=\n=\n4\n7\n− 4",
+        "savol": "x + y − 2z = −4\n−x − y + 3z = 7\n−2x + y − z = −4\n(x;y;z) tenglamalar sistemasining ildizini toping.",
         "variantlar": [
             "(1;1;3)",
             "(2;2;3)",
@@ -768,9 +768,9 @@
         "javob": "(1;1;3)"
     },
     {
-        "id": "LA-65",
+        "id": 65,
         "type": "multiple_choice",
-        "savol": "(x;y;z) tenglamalar sistemasining ildizini toping:\n −\n−\nx\n2\nx\n−\nx\n+\n2\n+\n2\ny\ny\ny\n−\n−\n+\n2 z\nz\n3 z\n=\n=\n=\n−\n− 2\n9\n7",
+        "savol": "−2x + y − z = −2\n−x + 2y + 3z = 9\nx − 2y − 2z = −7\n(x;y;z) tenglamalar sistemasining ildizini toping.",
         "variantlar": [
             "(1;2;2)",
             "(2;2;3)",
@@ -780,21 +780,21 @@
         "javob": "(1;2;2)"
     },
     {
-        "id": "LA-66",
+        "id": 66,
         "type": "multiple_choice",
-        "savol": "x + 2y + 2z = 9\n\n(x;y;z) tenglamalar sistemasining ildizini toping: 2x − y − z = −2\n\nx − y − 2z = −5\n",
+        "savol": "x + 2y + 2z = 9\n2x − y − z = −2\nx − y − 2z = −5\n(x;y;z) tenglamalar sistemasining ildizini toping.",
         "variantlar": [
-            "(1, 2, 2)",
-            "(4, 2, 2)",
+            "(1,2,2)",
+            "(4,2,2)",
             "(4,2,3)",
             "(4,4,3)"
         ],
-        "javob": "(1, 2, 2)"
+        "javob": "(1,2,2)"
     },
     {
-        "id": "LA-67",
+        "id": 67,
         "type": "multiple_choice",
-        "savol": "(x;y;z) tenglamalar sistemasining ildizini toping:\n 3\nx\nx\nx\n+\n−\n−\n2\ny\n2\ny\n−\ny\n−\n2\n+\n3\nz\nz\nz\n=\n=\n=\n−\n6\n−\n3\n2",
+        "savol": "3x − 2y + z = 6\nx + 2y − 3z = −2\nx − y − 2z = −3\n(x;y;z) tenglamalar sistemasining ildizini toping.",
         "variantlar": [
             "(2;1;2)",
             "(3;4;2)",
@@ -804,9 +804,9 @@
         "javob": "(2;1;2)"
     },
     {
-        "id": "LA-68",
+        "id": 68,
         "type": "multiple_choice",
-        "savol": "(x;y;z) tenglamalar sistemasining ildizini toping:\n 3\nx\nx\nx\n+\n+\n−\n2\ny\n2\ny\n−\ny\n−\n2\n+\n3\nz\nz\nz\n=\n=\n=\n−\n6\n−\n1\n2",
+        "savol": "3x − 2y + z = 6\nx + 2y − 3z = −2\nx + y − 2z = −1\n(x;y;z) tenglamalar sistemasining ildizini toping.",
         "variantlar": [
             "(2;1;2)",
             "(4;3;5)",
@@ -816,21 +816,21 @@
         "javob": "(2;1;2)"
     },
     {
-        "id": "LA-69",
+        "id": 69,
         "type": "multiple_choice",
-        "savol": "(x;y;z) tenglamalar sistemasining ildizini toping:\n 4\nx\nx\nx\n+\n−\n−\ny\n2\ny\ny\n−\n+\n+\nz\nz\nz\n=\n=\n=\n0\n5\n0",
+        "savol": "4x − y + z = 5\nx + y − z = 0\nx − 2y + z = 0\n(x;y;z) tenglamalar sistemasining ildizini toping.",
         "variantlar": [
-            "(1; 2; 3)",
-            "(5, 6, 4)",
-            "(3, 2, 4)",
-            "(4, 3, 5)"
+            "(1;2;3)",
+            "(5;6;4)",
+            "(3;2;4)",
+            "(4;3;5)"
         ],
-        "javob": "(1; 2; 3)"
+        "javob": "(1;2;3)"
     },
     {
-        "id": "LA-70",
+        "id": 70,
         "type": "multiple_choice",
-        "savol": "(x;y;z) tenglamalar sistemasining ildizini toping:\n x\nx\n3 x\n+\n−\n−\ny\ny\ny\n−\n+\n+\n2\nz\nz\n4\n=\nz\n=\n1\n=\n0\n6",
+        "savol": "x + y − 2z = 0\nx − y + z = 1\n3x − y + 4z = 6\n(x;y;z) tenglamalar sistemasining ildizini toping.",
         "variantlar": [
             "(1;1;1)",
             "(2;2;2)",
@@ -840,9 +840,9 @@
         "javob": "(1;1;1)"
     },
     {
-        "id": "LA-71",
+        "id": 71,
         "type": "multiple_choice",
-        "savol": "x ning qanday qiymatlarida a ( 4 ; 2 ; 3 x ) va b ( 3 x ; 4 x ; 8 ) vektorlar oʻzaro perpendikulyar boʻladi?",
+        "savol": "x ning qanday qiymatlarida a = (4;2;3x) va b = (3x;4x;8) vektorlar oʻzaro perpendikulyar boʻladi?",
         "variantlar": [
             "0",
             "1",
@@ -852,33 +852,33 @@
         "javob": "0"
     },
     {
-        "id": "LA-72",
+        "id": 72,
         "type": "multiple_choice",
-        "savol": "a ( 3;−4;2 ) va b ( 4;3;0 ) vektorlar orasidagi burchakni toping.",
+        "savol": "a = (3;−4;2) va b = (4;3;0) vektorlar orasidagi burchakni toping.",
         "variantlar": [
-            "90˚",
-            "180˚",
-            "135˚",
-            "105˚"
+            "90°",
+            "180°",
+            "135°",
+            "105°"
         ],
-        "javob": "90˚"
+        "javob": "90°"
     },
     {
-        "id": "LA-73",
+        "id": 73,
         "type": "multiple_choice",
-        "savol": "m va n larning qanday qiymatlarida a ( 3 ; m ; − 4 ) ( ) va b 1;2;n vektorlar kollinear boʻladi?",
+        "savol": "m va n larning qanday qiymatlarida a = (3; m;−4) va b = (1;2; n) vektorlar kollinear boʻladi?",
         "variantlar": [
-            "4\n# 6;−\n3",
-            "7; -2",
-            "7; 2",
-            "8; 2"
+            "6;−4/3",
+            "7;−2",
+            "7;2",
+            "8;2"
         ],
-        "javob": "4\n# 6;−\n3"
+        "javob": "6;−4/3"
     },
     {
-        "id": "LA-74",
+        "id": 74,
         "type": "multiple_choice",
-        "savol": "a ( 4;2;1 ) va b ( − 4;1;−2 ) boʻlsa, c = 2 a − b vektorning uzunligini toping.",
+        "savol": "a = (4;2;1) va b = (−4;1;−2) boʻlsa, c = 2a − b vektorning uzunligini toping.",
         "variantlar": [
             "13",
             "14",
@@ -888,9 +888,9 @@
         "javob": "13"
     },
     {
-        "id": "LA-75",
+        "id": 75,
         "type": "multiple_choice",
-        "savol": "( ) a 3;n;9 va b ( 1 ; 2 ; 3 ) vektorlar 𝑛 ning qanday qiymatlarida parallel boʻladi?",
+        "savol": "a = (3; n; 9) va b = (1; 2; 3) vektorlar n ning qanday qiymatlarida parallel boʻladi?",
         "variantlar": [
             "6",
             "8",
@@ -900,9 +900,9 @@
         "javob": "6"
     },
     {
-        "id": "LA-76",
+        "id": 76,
         "type": "multiple_choice",
-        "savol": "  a = 3;1;2 , b =  2 ; 7 ; 4  , c =  1 ; 2 ; 1  vektorlar berilgan. a b c = ?",
+        "savol": "a = {3;1;2}, b = {2;7;4}, c = {1;2;1} vektorlar berilgan. a · (b × c) = ?",
         "variantlar": [
             "-7",
             "-4",
@@ -912,33 +912,33 @@
         "javob": "-7"
     },
     {
-        "id": "LA-77",
+        "id": 77,
         "type": "multiple_choice",
-        "savol": "( )\na 3;4;12 vektor boʻyicha yoʻnalgan birlik vektorni koordinatalarini toping.",
+        "savol": "a = (3;4;12) vektor boʻyicha yoʻnalgan birlik vektorni koordinatalarini toping.",
         "variantlar": [
-            "3 4 12\n# ; ;\n13 13 13",
-            "1\n3\n1\n;\n1\n4\n1\n;\n1\n1\n2\n1",
-            "14 14 14\n; ;\n13 7 12",
-            "3 4\n; ;1\n10 14"
+            "(3/13; 4/13; 12/13)",
+            "(3/11; 4/11; 12/11)",
+            "(14/13; 14/13; 14/13)",
+            "(3/10; 4/14; 1)"
         ],
-        "javob": "3 4 12\n# ; ;\n13 13 13"
+        "javob": "(3/13; 4/13; 12/13)"
     },
     {
-        "id": "LA-78",
+        "id": 78,
         "type": "multiple_choice",
-        "savol": "n ning qanday qiymatlarida a ( 2 n ; − n ; 1 ) va b ( n ; − 3 ; 2 ) vektorlar oʻzaro perpendikulyar boʻladi?",
+        "savol": "n ning qanday qiymatlarida a = (2n; −n; 1) va b = (n; −3; 2) vektorlar oʻzaro perpendikulyar boʻladi?",
         "variantlar": [
             "Bunday n mavjud emas.",
-            "−\n6\n1\n2\n;",
-            "− 2 ;\n1\n6",
+            "1; − 62",
+            "1; −2; 6",
             "Toʻgʻri javob yoʻq."
         ],
         "javob": "Bunday n mavjud emas."
     },
     {
-        "id": "LA-79",
+        "id": 79,
         "type": "multiple_choice",
-        "savol": "a = 8 , b = 5\n(\n,\n)\n= = 6 0 0  a b boʻlsa, a v a b vektorlarning skalyar koʻpaytmasini toping.",
+        "savol": "a = 8, b = 5, φ = 60° boʻlsa, a va b vektorlarning skalyar koʻpaytmasini toping.",
         "variantlar": [
             "20",
             "80",
@@ -948,21 +948,21 @@
         "javob": "20"
     },
     {
-        "id": "LA-80",
+        "id": 80,
         "type": "multiple_choice",
-        "savol": "  a = 2;4 b =  − 3 ; 1  , c =  5 ; − 2  vektorlar berilgan 2a + 3b − 5c vektorni toping.",
+        "savol": "a = {2;4}, b = {−3;1}, c = {5;−2} vektorlar berilgan. 2a + 3b − 5c vektorni toping.",
         "variantlar": [
-            " \n# −30;21",
-            " \n30 :18",
-            "\n2 1 : 2 7\n",
-            " 4 0 : − 2 3 "
+            "{−30;21}",
+            "{30;18}",
+            "{21;27}",
+            "{40;−23}"
         ],
-        "javob": " \n# −30;21"
+        "javob": "{−30;21}"
     },
     {
-        "id": "LA-81",
+        "id": 81,
         "type": "multiple_choice",
-        "savol": "a\n= 3 i + 4 j ,\nb\n= − 3 j + k ;\nc\n= 2 j + 5 k vektorlarga parallelepiped yasalgan, uning hajmi\naniqlansin.",
+        "savol": "a = 3i + 4j, b = −3j + k, c = 2 j + 5k vektorlarga parallelepiped yasalgan, uning hajmi",
         "variantlar": [
             "51",
             "52",
@@ -972,33 +972,33 @@
         "javob": "51"
     },
     {
-        "id": "LA-82",
+        "id": 82,
         "type": "multiple_choice",
-        "savol": "\na = 2 j + k va\nb\n= i + 2 k vektorlarga parallelogram yasalgan, uning yuzi aniqlansin.",
+        "savol": "a = 2j + k va b = i + 2k vektorlarga parallelogram yasalgan, uning yuzi aniqlansin.",
         "variantlar": [
             "21",
-            "2 4",
-            "2 2",
+            "24",
+            "22",
             "26"
         ],
         "javob": "21"
     },
     {
-        "id": "LA-83",
+        "id": 83,
         "type": "multiple_choice",
-        "savol": "  a = 8;4;1 va b =  2 ; − 2 ; 1  vektorlarga parallelogram yasalgan, uning yuzi aniqlansin.",
+        "savol": "a = {8;4;1} va b = {2;−2;1} vektorlarga parallelogram yasalgan, uning yuzi aniqlansin.",
         "variantlar": [
-            "S =18 2",
-            "S =18 3",
+            "S = 18√2",
+            "S = 18√3",
             "S = 25",
             "S = 24"
         ],
-        "javob": "S =18 2"
+        "javob": "S = 18√2"
     },
     {
-        "id": "LA-84",
+        "id": 84,
         "type": "multiple_choice",
-        "savol": "2 −3 1\nQuyidagi mаtritsа uchun 𝑑𝑒𝑡𝐴 ni hisоblаng: 𝐴 = (1 2 −4)\n5 −4 6",
+        "savol": "Quyidagi matritsa uchun det(A) ni hisоblang: A = | 1  2  −4 |\n                                     | 2 −3  1 |\n                                     | 5 −4  6 |",
         "variantlar": [
             "56",
             "20",
@@ -1008,9 +1008,9 @@
         "javob": "56"
     },
     {
-        "id": "LA-85",
+        "id": 85,
         "type": "multiple_choice",
-        "savol": "2 −3 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (1 2 −4)\n11\n5 −4 6",
+        "savol": "Quyidagi matritsa uchun A11 algebraik toʻldiruvchini hisоblang: A = | 1  2  −4 |\n                                                      | 2 −3  1 |\n                                                      | 5 −4  6 |",
         "variantlar": [
             "-4",
             "4",
@@ -1020,9 +1020,9 @@
         "javob": "-4"
     },
     {
-        "id": "LA-86",
+        "id": 86,
         "type": "multiple_choice",
-        "savol": "2 −3 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (1 2 −4)\n12\n5 −4 6",
+        "savol": "Quyidagi matritsa uchun A12 algebraik toʻldiruvchini hisоblang: A = | 1 ... |\n                                                      | 5 ... |",
         "variantlar": [
             "-26",
             "14",
@@ -1032,9 +1032,9 @@
         "javob": "-26"
     },
     {
-        "id": "LA-87",
+        "id": 87,
         "type": "multiple_choice",
-        "savol": "2 −3 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (1 2 −4)\n13\n5 −4 6",
+        "savol": "Quyidagi matritsa uchun A13 algebraik toʻldiruvchini hisоblang: A = | 1 ... |\n                                                      | 5 ... |",
         "variantlar": [
             "-14",
             "14",
@@ -1044,9 +1044,9 @@
         "javob": "-14"
     },
     {
-        "id": "LA-88",
+        "id": 88,
         "type": "multiple_choice",
-        "savol": "2 −3 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (1 2 −4)\n21\n5 −4 6",
+        "savol": "Quyidagi matritsa uchun A21 algebraik toʻldiruvchini hisоblang: A = | 1 ... |\n                                                      | 5 ... |",
         "variantlar": [
             "14",
             "-22",
@@ -1056,9 +1056,9 @@
         "javob": "14"
     },
     {
-        "id": "LA-89",
+        "id": 89,
         "type": "multiple_choice",
-        "savol": "2 −3 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (1 2 −4)\n22\n5 −4 6",
+        "savol": "Quyidagi matritsa uchun A22 algebraik toʻldiruvchini hisоblang: A = | 1 ... |\n                                                      | 5 ... |",
         "variantlar": [
             "7",
             "-17",
@@ -1068,9 +1068,9 @@
         "javob": "7"
     },
     {
-        "id": "LA-90",
+        "id": 90,
         "type": "multiple_choice",
-        "savol": "2 −3 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (1 2 −4)\n23\n5 −4 6",
+        "savol": "Quyidagi matritsa uchun A23 algebraik toʻldiruvchini hisоblang: A = | 1 ... |\n                                                      | 5 ... |",
         "variantlar": [
             "-7",
             "-23",
@@ -1080,9 +1080,9 @@
         "javob": "-7"
     },
     {
-        "id": "LA-91",
+        "id": 91,
         "type": "multiple_choice",
-        "savol": "2 −3 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (1 2 −4)\n31\n5 −4 6",
+        "savol": "Quyidagi matritsa uchun A31 algebraik toʻldiruvchini hisоblang: A = | 1 ... |\n                                                      | 5 ... |",
         "variantlar": [
             "10",
             "14",
@@ -1092,9 +1092,9 @@
         "javob": "10"
     },
     {
-        "id": "LA-92",
+        "id": 92,
         "type": "multiple_choice",
-        "savol": "2 −3 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (1 2 −4)\n32\n5 −4 6",
+        "savol": "Quyidagi matritsa uchun A32 algebraik toʻldiruvchini hisоblang: A = | 1 ... |\n                                                      | 5 ... |",
         "variantlar": [
             "9",
             "-7",
@@ -1104,9 +1104,9 @@
         "javob": "9"
     },
     {
-        "id": "LA-93",
+        "id": 93,
         "type": "multiple_choice",
-        "savol": "2 −3 1\nQuyidagi mаtritsа uchun 𝐴 algebraik toʻldiruvchini hisоblаng: 𝐴 = (1 2 −4)\n33\n5 −4 6",
+        "savol": "Quyidagi matritsa uchun A33 algebraik toʻldiruvchini hisоblang: A = | 1 ... |\n                                                      | 5 ... |",
         "variantlar": [
             "7",
             "-1",
@@ -1116,9 +1116,9 @@
         "javob": "7"
     },
     {
-        "id": "LA-94",
+        "id": 94,
         "type": "multiple_choice",
-        "savol": "Nol vektorning yoʻnalishi …. boʻladi.",
+        "savol": "Nol vektorning yoʻnalishi .... boʻladi.",
         "variantlar": [
             "aniqlanmagan",
             "oʻng tomonga yoʻnalgan",
@@ -1128,9 +1128,9 @@
         "javob": "aniqlanmagan"
     },
     {
-        "id": "LA-95",
+        "id": 95,
         "type": "multiple_choice",
-        "savol": "Noldan farqli vektorlar bir toʻg‘ri chiziqda yoki parallel toʻg‘ri chiziqlarda yotsa, bunday\nvektorlarga …. vektorlar deyiladi.",
+        "savol": "Noldan farqli vektorlar bir toʻg‘ri chiziqda yoki parallel toʻg‘ri chiziqlarda yotsa, bunday vektorlarga .... vektorlar deyiladi.",
         "variantlar": [
             "kollinear",
             "teng",
@@ -1140,9 +1140,9 @@
         "javob": "kollinear"
     },
     {
-        "id": "LA-96",
+        "id": 96,
         "type": "multiple_choice",
-        "savol": "Bir tekislikda yoki parallel tekisliklarda yotgan vektorlarga …. vektorlar deb ataladi.",
+        "savol": "Bir tekislikda yoki parallel tekisliklarda yotgan vektorlarga .... vektorlar deb ataladi.",
         "variantlar": [
             "komplanar",
             "teng",
@@ -1152,9 +1152,9 @@
         "javob": "komplanar"
     },
     {
-        "id": "LA-97",
+        "id": 97,
         "type": "multiple_choice",
-        "savol": "…. vektorlar modul jihatidan teng, yoʻnalish jihatidan esa qarama-qarshi boʻladi.",
+        "savol": ".... vektorlar modul jihatidan teng, yoʻnalish jihatidan esa qarama-qarshi boʻladi.",
         "variantlar": [
             "Qarama-qarshi",
             "Komplanar",
@@ -1164,9 +1164,9 @@
         "javob": "Qarama-qarshi"
     },
     {
-        "id": "LA-98",
+        "id": 98,
         "type": "multiple_choice",
-        "savol": "→\nB(4;2;0) nuqta a =  − 2; 3;−1  vektorning oxiri boʻlsa, bu vektor boshining koordinatalarini\ntoping.",
+        "savol": "B(4;2;0) nuqta a = {−2; 3; −1} vektorning oxiri boʻlsa, bu vektor boshining koordinatalarini toping.",
         "variantlar": [
             "(6;-1;1)",
             "(-6;-1;-1)",
@@ -1176,9 +1176,9 @@
         "javob": "(6;-1;1)"
     },
     {
-        "id": "LA-99",
+        "id": 99,
         "type": "multiple_choice",
-        "savol": "va vektorlarning skalyar koʻpaytmasini toping.",
+        "savol": "a = {2; 3; 4} va b = {−2; 5; −3} vektorlarning skalyar koʻpaytmasini toping.",
         "variantlar": [
             "-1",
             "1",
@@ -1188,9 +1188,9 @@
         "javob": "-1"
     },
     {
-        "id": "LA-100",
+        "id": 100,
         "type": "multiple_choice",
-        "savol": "B(0;4;2) nuqta vektorning oxiri boʻlsa, bu vektor boshining koordinatalarini toping.",
+        "savol": "B(0;4;2) nuqta a = {2;−3;1} vektorning oxiri boʻlsa, bu vektor boshining koordinatalarini toping.",
         "variantlar": [
             "(-2;7;1)",
             "(-2;-7;-1)",
