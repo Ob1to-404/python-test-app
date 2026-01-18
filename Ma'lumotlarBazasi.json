@@ -1,62 +1,1202 @@
 [
-    {
-        "id": 1,
-        "type": "multiple_choice",
-        "savol": "Ma'lumotlar bazasini boshqarish tizimi (DBMS) nima vazifani bajaradi?",
-        "variantlar": [
-            "Faqat ma'lumotlarni saqlash.",
-            "Ma'lumotlarni yaratish, tahrirlash, boshqarish va himoyalash.",
-            "Faqat dasturlash kodini yozish.",
-            "Kompyuter tarmog'ini sozlash."
-        ],
-        "javob": "Ma'lumotlarni yaratish, tahrirlash, boshqarish va himoyalash."
-    },
-    {
-        "id": 2,
-        "type": "multiple_choice",
-        "savol": "Relyatsion ma'lumotlar bazasida ma'lumotlar qanday shaklda saqlanadi?",
-        "variantlar": [
-            "Ierarxik daraxt shaklida.",
-            "Jadval (table) shaklida.",
-            "Grafik shaklida.",
-            "Faqat matn fayllari shaklida."
-        ],
-        "javob": "Jadval (table) shaklida."
-    },
-    {
-        "id": 3,
-        "type": "multiple_choice",
-        "savol": "SQL (Structured Query Language) ning asosiy vazifasi nima?",
-        "variantlar": [
-            "Veb-sayt dizaynini yaratish.",
-            "Ma'lumotlar bazasidan ma'lumotlarni so'rash va boshqarish.",
-            "Operatsion tizimni boshqarish.",
-            "Dasturlash tilini kompilyatsiya qilish."
-        ],
-        "javob": "Ma'lumotlar bazasidan ma'lumotlarni so'rash va boshqarish."
-    },
-    {
-        "id": 4,
-        "type": "multiple_choice",
-        "savol": "Jadvaldagi har bir qatorni (yozuvni) noyob tarzda aniqlaydigan maydon (ustun) qanday nomlanadi?",
-        "variantlar": [
-            "Tashqi kalit (Foreign Key)",
-            "Birlamchi kalit (Primary Key)",
-            "Indeks (Index)",
-            "Normalizatsiya"
-        ],
-        "javob": "Birlamchi kalit (Primary Key)"
-    },
-    {
-        "id": 5,
-        "type": "multiple_choice",
-        "savol": "Ma'lumotlar bazasini normalizatsiya qilishdan asosiy maqsad nima?",
-        "variantlar": [
-            "Ma'lumotlar bazasini tezroq ishlashini ta'minlash.",
-            "Ma'lumotlar takrorlanishini kamaytirish va ma'lumotlar yaxlitligini oshirish.",
-            "Ma'lumotlar bazasini himoyalash.",
-            "Ma'lumotlar bazasiga yangi ma'lumot qo'shishni qiyinlashtirish."
-        ],
-        "javob": "Ma'lumotlar takrorlanishini kamaytirish va ma'lumotlar yaxlitligini oshirish."
-    }
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlar bazasi (MB) nima?",
+    "variantlar": [
+      "Tashkillashtirilgan va o'zaro bog'langan ma’lumotlar to'plami",
+      "Faqat matnli fayllar to'plami",
+      "Operatsion tizim",
+      "Internet tarmog'i"
+    ],
+    "javob": "Tashkillashtirilgan va o'zaro bog'langan ma’lumotlar to'plami"
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "savol": "MBBT (Ma’lumotlar bazasini boshqarish tizimi) ning asosiy vazifasi nima?",
+    "variantlar": [
+      "Ma’lumotlar bazasini yaratish, boshqarish va unga kirishni ta’minlash",
+      "Faqat dasturlash kodini yozish",
+      "Grafik dizaynni yaratish",
+      "Kompyuter xotirasini optimallashtirish"
+    ],
+    "javob": "Ma’lumotlar bazasini yaratish, boshqarish va unga kirishni ta’minlash"
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "savol": "Ma’lumot (Data) va Axborot (Information) orasidagi farq nima?",
+    "variantlar": [
+      "Ma’lumot – xom faktlar, Axborot – qayta ishlangan ma’lumot",
+      "Ular butunlay bir xil tushunchalar",
+      "Axborot – faqat raqamlar, Ma’lumot – faqat matn",
+      "Ma’lumot – faqat chiqish natijasi"
+    ],
+    "javob": "Ma’lumot – xom faktlar, Axborot – qayta ishlangan ma’lumot"
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "savol": "Relatsion ma’lumotlar bazasida qator (row) nima deb ataladi?",
+    "variantlar": [
+      "Tuple (yoki yozuv/record)",
+      "Attribut",
+      "Schema",
+      "Domain"
+    ],
+    "javob": "Tuple (yoki yozuv/record)"
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "savol": "Relatsion ma’lumotlar bazasida ustun (column) nima deb ataladi?",
+    "variantlar": [
+      "Attribut",
+      "Tuple",
+      "Qator",
+      "Yozuv"
+    ],
+    "javob": "Attribut"
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlar bazasi sxemasi (Schema) nimani ifodalaydi?",
+    "variantlar": [
+      "Ma’lumotlar bazasining mantiqiy tuzilishi",
+      "Faqat ma’lumotlarning jismoniy joylashuvi",
+      "MBBT dasturining versiyasi",
+      "Foydalanuvchi interfeysi"
+    ],
+    "javob": "Ma’lumotlar bazasining mantiqiy tuzilishi"
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "savol": "MB ning uch darajali arxitekturasi qaysi darajalardan iborat?",
+    "variantlar": [
+      "Tashqi (External), Konseptual (Conceptual), Ichki (Internal)",
+      "Foydalanuvchi, Server, Tarmoq",
+      "Fayl, Katalog, Disk",
+      "Kirish, Qayta ishlash, Chiqish"
+    ],
+    "javob": "Tashqi (External), Konseptual (Conceptual), Ichki (Internal)"
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlar mustaqilligi (Data Independence) tushunchasi nimani anglatadi?",
+    "variantlar": [
+      "Bir darajadagi o'zgarishlar boshqa darajalarga ta’sir qilmasligi",
+      "Faqat bitta foydalanuvchining ma’lumotlarga egaligi",
+      "MBBT ning tarmoqqa ulanmasligi",
+      "Ma’lumotlarni faqat bitta kompyuterda saqlash"
+    ],
+    "javob": "Bir darajadagi o'zgarishlar boshqa darajalarga ta’sir qilmasligi"
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "savol": "DDL (Data Definition Language) ning asosiy vazifasi nima?",
+    "variantlar": [
+      "Ma’lumotlar bazasi tuzilishini yaratish va o'zgartirish",
+      "Ma’lumotlarni tanlash va kiritish",
+      "Tranzaksiyalarni boshqarish",
+      "Foydalanuvchi huquqlarini belgilash"
+    ],
+    "javob": "Ma’lumotlar bazasi tuzilishini yaratish va o'zgartirish"
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "savol": "DML (Data Manipulation Language) ning asosiy vazifasi nima?",
+    "variantlar": [
+      "Ma’lumotlar bazasidagi ma’lumotlarni o'zgartirish, kiritish va o'chirish",
+      "Jadvallarni yaratish",
+      "Serverni boshqarish",
+      "MBBT interfeysini loyihalash"
+    ],
+    "javob": "Ma’lumotlar bazasidagi ma’lumotlarni o'zgartirish, kiritish va o'chirish"
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "savol": "Hozirgi kunda eng keng tarqalgan ma’lumotlar bazasi modeli qaysi?",
+    "variantlar": [
+      "Relatsion model",
+      "Ierarxik model",
+      "Tarmoq modeli",
+      "Obyektga yo'naltirilgan model"
+    ],
+    "javob": "Relatsion model"
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "savol": "Relatsion modelda ma’lumotlar qanday shaklda saqlanadi?",
+    "variantlar": [
+      "Jadvallar (Tables)",
+      "Faqat daraxt tuzilishi",
+      "Faqat grafiklar",
+      "Faqat matnli fayllar"
+    ],
+    "javob": "Jadvallar (Tables)"
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "savol": "Ierarxik modelning asosiy cheklovi nima?",
+    "variantlar": [
+      "Bir bola (child) faqat bitta ota-onaga (parent) ega bo'lishi mumkin",
+      "Ma’lumotlar xotirada joylashmasligi",
+      "Faqat ikkita jadvaldan foydalanish mumkinligi",
+      "Ma’lumotlarga kirish juda tezligi"
+    ],
+    "javob": "Bir bola (child) faqat bitta ota-onaga (parent) ega bo'lishi mumkin"
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "savol": "Tarmoq modeli (Network Model) qanday munosabatlarni qo'llab-quvvatlaydi?",
+    "variantlar": [
+      "Ko'pga-ko'p (Many-to-Many)",
+      "Faqat birga-bir (One-to-One)",
+      "Faqat birga-ko'p (One-to-Many)",
+      "Hech qanday munosabatni qo'llab-quvvatlamaydi"
+    ],
+    "javob": "Ko'pga-ko'p (Many-to-Many)"
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "savol": "NoSQL ma’lumotlar bazalarining asosiy afzalligi nima?",
+    "variantlar": [
+      "Kengayish imkoniyati (Scalability) va moslashuvchan sxema",
+      "Qat’iy sxemaga ega bo'lishi",
+      "Faqat relatsion operatsiyalarni qo'llab-quvvatlashi",
+      "Tranzaksiyaning qat’iy ACID xususiyatlari"
+    ],
+    "javob": "Kengayish imkoniyati (Scalability) va moslashuvchan sxema"
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "savol": "Koddning 12 qoidasini kim taklif qilgan?",
+    "variantlar": [
+      "Edgar F. Codd",
+      "James Gosling",
+      "Bill Gates",
+      "Linus Torvalds"
+    ],
+    "javob": "Edgar F. Codd"
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "savol": "Relatsion jadvaldagi qatorni noyob tarzda aniqlash uchun ishlatiladigan kalit nima deb ataladi?",
+    "variantlar": [
+      "Birlamchi kalit (Primary Key)",
+      "Tashqi kalit (Foreign Key)",
+      "Nomzod kalit (Candidate Key)",
+      "Alternativ kalit"
+    ],
+    "javob": "Birlamchi kalit (Primary Key)"
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "savol": "Tashqi kalit (Foreign Key) ning asosiy vazifasi nima?",
+    "variantlar": [
+      "Ikki jadval o'rtasida bog'lanish (aloqa) o'rnatish",
+      "Ma’lumotlarni shifrlash",
+      "Jadvalni tezroq saralash",
+      "Birlamchi kalitni o'zgartirish"
+    ],
+    "javob": "Ikki jadval o'rtasida bog'lanish (aloqa) o'rnatish"
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "savol": "Nomzod kalit (Candidate Key) nima?",
+    "variantlar": [
+      "Jadvaldagi noyoblikni ta’minlaydigan minimal ustunlar to'plami",
+      "Faqat bitta ustundan iborat kalit",
+      "Barcha ustunlardan iborat kalit",
+      "Faqat boshqa jadvallarga havola qiluvchi kalit"
+    ],
+    "javob": "Jadvaldagi noyoblikni ta’minlaydigan minimal ustunlar to'plami"
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlar butunligi (Data Integrity) tushunchasi nimani anglatadi?",
+    "variantlar": [
+      "Ma’lumotlarning aniqligi, izchilligi va ishonchliligi",
+      "Ma’lumotlarni faqat bitta joyda saqlash",
+      "MBBT ning tez ishlashi",
+      "Faqat matnli ma’lumotlar"
+    ],
+    "javob": "Ma’lumotlarning aniqligi, izchilligi va ishonchliligi"
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "savol": "Entity Integrity (Obyekt butunligi) sharti nimani talab qiladi?",
+    "variantlar": [
+      "Birlamchi kalit NULL (bo'sh) bo'lishi mumkin emas",
+      "Tashqi kalit NULL bo'lishi shart",
+      "Barcha ustunlar NULL bo'lishi kerak",
+      "Faqat tashqi kalitlar noyob bo'lishi kerak"
+    ],
+    "javob": "Birlamchi kalit NULL (bo'sh) bo'lishi mumkin emas"
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "savol": "Referential Integrity (Havola butunligi) sharti nimani talab qiladi?",
+    "variantlar": [
+      "Tashqi kalit qiymati boshqa jadvaldagi birlamchi kalitga mos kelishi yoki NULL bo'lishi kerak",
+      "Tashqi kalit qiymati har doim yangi bo'lishi kerak",
+      "Birlamchi kalit NULL bo'lishi shart",
+      "Ikkala jadval ham 1NF da bo'lishi kerak"
+    ],
+    "javob": "Tashqi kalit qiymati boshqa jadvaldagi birlamchi kalitga mos kelishi yoki NULL bo'lishi kerak"
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "savol": "Birinchi normal shakl (1NF) ning asosiy talabi nima?",
+    "variantlar": [
+      "Barcha atribut qiymatlari atomik (bo'linmaydigan) bo'lishi va takrorlanuvchi guruhlar bo'lmasligi",
+      "Tranzitiv bog'liqlikni yo'qotish",
+      "To'liq funksional bog'liqlikni ta’minlash",
+      "Faqat ikkita ustun bo'lishi"
+    ],
+    "javob": "Barcha atribut qiymatlari atomik (bo'linmaydigan) bo'lishi va takrorlanuvchi guruhlar bo'lmasligi"
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "savol": "Ikkinchi normal shakl (2NF) ga erishish uchun qaysi shart bajarilishi kerak?",
+    "variantlar": [
+      "1NF da bo'lishi va birlamchi kalitning bir qismiga qisman bog'liqlik bo'lmasligi",
+      "Tranzitiv bog'liqlikni yo'qotish",
+      "Barcha ustunlar atomik bo'lishi",
+      "Barcha ma’lumotlar takrorlanishi"
+    ],
+    "javob": "1NF da bo'lishi va birlamchi kalitning bir qismiga qisman bog'liqlik bo'lmasligi"
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "savol": "Uchinchi normal shakl (3NF) ning asosiy maqsadi nima?",
+    "variantlar": [
+      "Tranzitiv bog'liqlikni bartaraf etish",
+      "Qisman bog'liqlikni yo'qotish",
+      "Atomik qiymatlarni ta’minlash",
+      "Boshqa jadvallarga havola yaratish"
+    ],
+    "javob": "Tranzitiv bog'liqlikni bartaraf etish"
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "savol": "BCNF (Boyce-Codd Normal Form) qachon 3NF dan farq qiladi?",
+    "variantlar": [
+      "Jadvalda bir nechta nomzod kalit mavjud bo'lib, ular ustunlari umumiy bo'lganda",
+      "Qachonki jadval 1NF da bo'lmasa",
+      "Har doim farq qiladi",
+      "Faqat birgina ustun mavjud bo'lganda"
+    ],
+    "javob": "Jadvalda bir nechta nomzod kalit mavjud bo'lib, ular ustunlari umumiy bo'lganda"
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "savol": "Qaysi normal shakl \"Ma’lumotlar yo'qotilmaydigan birikma\" (Lossless Join Decomposition) ni ta’minlaydi?",
+    "variantlar": [
+      "Barcha normal shakllar (odatda 3NF va BCNF)",
+      "Faqat 1NF",
+      "Faqat 2NF",
+      "Faqat 5NF"
+    ],
+    "javob": "Barcha normal shakllar (odatda 3NF va BCNF)"
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "savol": "Funksional bog'liqlik (Functional Dependency) nima?",
+    "variantlar": [
+      "Bir atribut (yoki atributlar to'plami) boshqa atribut qiymatini noyob aniqlashi",
+      "Ikkala ustunning ham NULL bo'lishi",
+      "Jadvalda faqat bitta qator bo'lishi",
+      "Ma’lumotlarni faqat yig'indisini hisoblash"
+    ],
+    "javob": "Bir atribut (yoki atributlar to'plami) boshqa atribut qiymatini noyob aniqlashi"
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "savol": "SQL nima?",
+    "variantlar": [
+      "Relatsion ma’lumotlar bazalarini boshqarish uchun strukturalangan so'rov tili",
+      "Obyektga yo'naltirilgan dasturlash tili",
+      "Operatsion tizim",
+      "Veb-sayt yaratish tili"
+    ],
+    "javob": "Relatsion ma’lumotlar bazalarini boshqarish uchun strukturalangan so'rov tili"
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "savol": "SQL da ma’lumotlar bazasini yaratish uchun qaysi DDL buyrug'i ishlatiladi?",
+    "variantlar": [
+      "CREATE DATABASE",
+      "INSERT INTO",
+      "SELECT * FROM",
+      "UPDATE"
+    ],
+    "javob": "CREATE DATABASE"
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "savol": "Jadval yaratish uchun qaysi DDL buyrug'i ishlatiladi?",
+    "variantlar": [
+      "CREATE TABLE",
+      "CREATE INDEX",
+      "CREATE VIEW",
+      "CREATE SCHEMA"
+    ],
+    "javob": "CREATE TABLE"
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "savol": "Jadvalga yangi ustun qo'shish uchun qaysi DDL buyrug'i ishlatiladi?",
+    "variantlar": [
+      "ALTER TABLE ... ADD COLUMN",
+      "INSERT INTO ... COLUMN",
+      "UPDATE TABLE ... ADD",
+      "CREATE COLUMN"
+    ],
+    "javob": "ALTER TABLE ... ADD COLUMN"
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "savol": "Jadvalning butun tuzilishini (sxemasini) o'chirish uchun qaysi DDL buyrug'i ishlatiladi?",
+    "variantlar": [
+      "DROP TABLE",
+      "DELETE TABLE",
+      "REMOVE TABLE",
+      "TRUNCATE TABLE"
+    ],
+    "javob": "DROP TABLE"
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "savol": "Jadvaldan barcha qatorlarni o'chirish, lekin jadval tuzilishini saqlab qolish uchun qaysi buyruq ishlatiladi?",
+    "variantlar": [
+      "TRUNCATE TABLE",
+      "DROP TABLE",
+      "DELETE FROM (shartsiz)",
+      "REMOVE ALL"
+    ],
+    "javob": "TRUNCATE TABLE"
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "savol": "Jadvalga ma’lumot kiritish uchun qaysi DML buyrug'i ishlatiladi?",
+    "variantlar": [
+      "INSERT INTO",
+      "CREATE TABLE",
+      "SELECT FROM",
+      "ADD ROW"
+    ],
+    "javob": "INSERT INTO"
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "savol": "Jadvaldagi mavjud ma’lumotlarni o'zgartirish uchun qaysi buyruq ishlatiladi?",
+    "variantlar": [
+      "UPDATE",
+      "ALTER",
+      "MODIFY",
+      "CHANGE"
+    ],
+    "javob": "UPDATE"
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "savol": "Jadvaldan ma’lumotlarni o'chirish uchun qaysi buyruq ishlatiladi?",
+    "variantlar": [
+      "DELETE FROM",
+      "DROP ROWS",
+      "REMOVE DATA",
+      "TRUNCATE TABLE"
+    ],
+    "javob": "DELETE FROM"
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlarni tanlab olish uchun qaysi SQL buyrug'i asosiy hisoblanadi?",
+    "variantlar": [
+      "SELECT",
+      "INSERT",
+      "UPDATE",
+      "CREATE"
+    ],
+    "javob": "SELECT"
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "savol": "SELECT so'rovida shartlarni belgilash uchun qaysi kalit so'z ishlatiladi?",
+    "variantlar": [
+      "WHERE",
+      "HAVING",
+      "GROUP BY",
+      "ORDER BY"
+    ],
+    "javob": "WHERE"
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "savol": "SQL so'rovida qatorlarni saralash uchun qaysi kalit so'z ishlatiladi?",
+    "variantlar": [
+      "ORDER BY",
+      "SORT BY",
+      "ARRANGE BY",
+      "GROUP BY"
+    ],
+    "javob": "ORDER BY"
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "savol": "SQL da o'sib borish tartibida saralash uchun qaysi kalit so'z ishlatiladi?",
+    "variantlar": [
+      "ASC (Ascending)",
+      "DESC (Descending)",
+      "UP",
+      "DOWN"
+    ],
+    "javob": "ASC (Ascending)"
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "savol": "SQL da kamayib borish tartibida saralash uchun qaysi kalit so'z ishlatiladi?",
+    "variantlar": [
+      "DESC (Descending)",
+      "ASC (Ascending)",
+      "LOW",
+      "HIGH"
+    ],
+    "javob": "DESC (Descending)"
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "savol": "Barcha ustunlarni tanlash uchun qaysi belgi ishlatiladi?",
+    "variantlar": [
+      "* (yulduzcha)",
+      "# (panjara)",
+      "$ (dollar)",
+      "@ (at)"
+    ],
+    "javob": "* (yulduzcha)"
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "savol": "SQL da qiymat ma’lum diapazonda ekanligini tekshirish uchun qaysi operator ishlatiladi?",
+    "variantlar": [
+      "BETWEEN",
+      "LIKE",
+      "IN",
+      "EXISTS"
+    ],
+    "javob": "BETWEEN"
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "savol": "SQL da matnli ma’lumotlarga naqsh bo'yicha qidirish (pattern matching) uchun qaysi operator ishlatiladi?",
+    "variantlar": [
+      "LIKE",
+      "EQUALS",
+      "MATCH",
+      "SEARCH"
+    ],
+    "javob": "LIKE"
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "savol": "LIKE operatorida bitta noma’lum belgini ifodalash uchun qaysi belgi ishlatiladi?",
+    "variantlar": [
+      "_ (pastki chiziq)",
+      "% (foiz)",
+      "* (yulduzcha)",
+      "? (so'roq)"
+    ],
+    "javob": "_ (pastki chiziq)"
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "savol": "LIKE operatorida nol yoki undan ko'p noma’lum belgilarni ifodalash uchun qaysi belgi ishlatiladi?",
+    "variantlar": [
+      "% (foiz)",
+      "_ (pastki chiziq)",
+      "# (panjara)",
+      "! (undov)"
+    ],
+    "javob": "% (foiz)"
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "savol": "SQL da ma’lumotlar to'plamini guruhlash uchun qaysi kalit so'z ishlatiladi?",
+    "variantlar": [
+      "GROUP BY",
+      "ORDER BY",
+      "CLUSTER BY",
+      "PARTITION BY"
+    ],
+    "javob": "GROUP BY"
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "savol": "SQL da guruhlash funksiyalari (masalan, COUNT, SUM) natijalariga shart qo'yish uchun qaysi kalit so'z ishlatiladi?",
+    "variantlar": [
+      "HAVING",
+      "WHERE",
+      "GROUP BY",
+      "IF"
+    ],
+    "javob": "HAVING"
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "savol": "SQL da qatorlar sonini hisoblash uchun qaysi agregat funksiya ishlatiladi?",
+    "variantlar": [
+      "COUNT()",
+      "SUM()",
+      "AVG()",
+      "MAX()"
+    ],
+    "javob": "COUNT()"
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "savol": "SQL da ustun qiymatlarining o'rtacha arifmetigini hisoblash uchun qaysi funksiya ishlatiladi?",
+    "variantlar": [
+      "AVG()",
+      "AVERAGE()",
+      "MEAN()",
+      "SUM()"
+    ],
+    "javob": "AVG()"
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "savol": "SQL da NULL qiymat nima?",
+    "variantlar": [
+      "Ma’lumotning mavjud emasligi yoki noma’lumligi",
+      "Nol (0) soni",
+      "Bo'sh satr (\"\")",
+      "Faqat xatolik holati"
+    ],
+    "javob": "Ma’lumotning mavjud emasligi yoki noma’lumligi"
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "savol": "Ikki jadvalning mos keladigan qatorlarini birlashtirish uchun qaysi JOIN turi ishlatiladi?",
+    "variantlar": [
+      "INNER JOIN",
+      "LEFT JOIN",
+      "FULL JOIN",
+      "CROSS JOIN"
+    ],
+    "javob": "INNER JOIN"
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "savol": "Chap jadvaldagi barcha qatorlarni va o'ng jadvaldagi mos keladigan qatorlarni qaytaradigan JOIN turi qaysi?",
+    "variantlar": [
+      "LEFT JOIN (yoki LEFT OUTER JOIN)",
+      "RIGHT JOIN",
+      "INNER JOIN",
+      "SELF JOIN"
+    ],
+    "javob": "LEFT JOIN (yoki LEFT OUTER JOIN)"
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "savol": "Ikkala jadvaldagi barcha qatorlarni qaytaradigan, mos kelmaydigan joylarda NULL qiymatlarni qo'yadigan JOIN turi qaysi?",
+    "variantlar": [
+      "FULL JOIN (yoki FULL OUTER JOIN)",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "CROSS JOIN"
+    ],
+    "javob": "FULL JOIN (yoki FULL OUTER JOIN)"
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "savol": "Bir so'rov ichida joylashgan boshqa so'rov nima deb ataladi?",
+    "variantlar": [
+      "Kichik so'rov (Subquery)",
+      "Katta so'rov",
+      "Joriy so'rov",
+      "JOIN so'rovi"
+    ],
+    "javob": "Kichik so'rov (Subquery)"
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "savol": "Kichik so'rov (Subquery) odatda qaysi SQL buyrug'i ichida ishlatilishi mumkin?",
+    "variantlar": [
+      "SELECT, WHERE, HAVING, FROM",
+      "Faqat CREATE TABLE",
+      "Faqat DROP DATABASE",
+      "Faqat ALTER"
+    ],
+    "javob": "SELECT, WHERE, HAVING, FROM"
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "savol": "SQL da bir xil ustun tuzilishiga ega bo'lgan ikki SELECT so'rovi natijalarini birlashtirish uchun qaysi operator ishlatiladi?",
+    "variantlar": [
+      "UNION",
+      "JOIN",
+      "MERGE",
+      "CONNECT"
+    ],
+    "javob": "UNION"
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "savol": "UNION va UNION ALL operatorlari orasidagi asosiy farq nima?",
+    "variantlar": [
+      "UNION takrorlanadigan qatorlarni olib tashlaydi, UNION ALL esa saqlab qoladi",
+      "UNION faqat ikkita jadvalni, UNION ALL ko'proq jadvalni birlashtiradi",
+      "UNION faqat raqamlarni, UNION ALL matnni birlashtiradi",
+      "Ular butunlay bir xil"
+    ],
+    "javob": "UNION takrorlanadigan qatorlarni olib tashlaydi, UNION ALL esa saqlab qoladi"
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "savol": "SQL da so'rov natijasini virtual jadval sifatida saqlash imkonini beruvchi obyekt nima?",
+    "variantlar": [
+      "VIEW (Ko'rinish)",
+      "INDEX",
+      "SCHEMA",
+      "CURSOR"
+    ],
+    "javob": "VIEW (Ko'rinish)"
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "savol": "VIEW ning asosiy afzalligi nima?",
+    "variantlar": [
+      "Ma’lumotlar xavfsizligini oshirish va murakkab so'rovlarni soddalashtirish",
+      "MB hajmini kamaytirish",
+      "Yangilanish tezligini oshirish",
+      "Faqat bir marta ishlatish uchun mo'ljallangan"
+    ],
+    "javob": "Ma’lumotlar xavfsizligini oshirish va murakkab so'rovlarni soddalashtirish"
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlarga tezroq kirish uchun ishlatiladigan, jadvaldagi ma’lumotlarning tartiblangan nusxasi nima?",
+    "variantlar": [
+      "INDEX (Indeks)",
+      "TRIGGER",
+      "VIEW",
+      "PROCEDURE"
+    ],
+    "javob": "INDEX (Indeks)"
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "savol": "Birlamchi kalitga avtomatik ravishda qanday indeks yaratiladi?",
+    "variantlar": [
+      "Cluster Indeks (yoki Primary Index)",
+      "Non-Cluster Indeks",
+      "Hash Indeks",
+      "Bitmap Indeks"
+    ],
+    "javob": "Cluster Indeks (yoki Primary Index)"
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "savol": "Bir nechta SQL buyruqlarini bitta mantiqiy blokda birlashtiradigan va qayta ishlatilishi mumkin bo'lgan obyekt nima?",
+    "variantlar": [
+      "Saqlangan protsedura (Stored Procedure)",
+      "VIEW",
+      "INDEX",
+      "TRIGGER"
+    ],
+    "javob": "Saqlangan protsedura (Stored Procedure)"
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "savol": "Ma’lum bir voqea (masalan, INSERT, UPDATE) sodir bo'lganda avtomatik ravishda ishga tushadigan obyekt nima?",
+    "variantlar": [
+      "TRIGGER (Tetiklagich)",
+      "CURSOR",
+      "VIEW",
+      "FUNCTION"
+    ],
+    "javob": "TRIGGER (Tetiklagich)"
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "savol": "SQL da foydalanuvchilarning huquqlarini berish uchun qaysi DCL buyrug'i ishlatiladi?",
+    "variantlar": [
+      "GRANT",
+      "REVOKE",
+      "COMMIT",
+      "CREATE USER"
+    ],
+    "javob": "GRANT"
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "savol": "SQL da foydalanuvchilarning huquqlarini bekor qilish (olib tashlash) uchun qaysi DCL buyrug'i ishlatiladi?",
+    "variantlar": [
+      "REVOKE",
+      "GRANT",
+      "DELETE USER",
+      "DROP RIGHTS"
+    ],
+    "javob": "REVOKE"
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlar bazasida tranzaksiya nima?",
+    "variantlar": [
+      "Bajarilishi kerak bo'lgan bir yoki bir nechta SQL operatsiyalarining mantiqiy birligi",
+      "Faqat bitta INSERT buyrug'i",
+      "MBBT ning ishga tushirilishi",
+      "MBBT ning o'chirilishi"
+    ],
+    "javob": "Bajarilishi kerak bo'lgan bir yoki bir nechta SQL operatsiyalarining mantiqiy birligi"
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "savol": "Tranzaksiya xususiyatlarining akronimi qaysi?",
+    "variantlar": [
+      "ACID",
+      "SQL",
+      "DBMS",
+      "HTTP"
+    ],
+    "javob": "ACID"
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "savol": "ACID ning \"A\" harfi nimani anglatadi?",
+    "variantlar": [
+      "Atomicity (Atomiklik)",
+      "Availability",
+      "Access",
+      "Authorization"
+    ],
+    "javob": "Atomicity (Atomiklik)"
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "savol": "Atomiklik (Atomicity) xususiyati nimani talab qiladi?",
+    "variantlar": [
+      "Tranzaksiya to'liq bajarilishi yoki umuman bajarilmasligi kerak",
+      "Tranzaksiya boshqa tranzaksiyalarga ta’sir qilmasligi kerak",
+      "Tranzaksiya doimiy saqlanishi kerak",
+      "Tranzaksiya tez ishlashi kerak"
+    ],
+    "javob": "Tranzaksiya to'liq bajarilishi yoki umuman bajarilmasligi kerak"
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "savol": "ACID ning \"C\" harfi nimani anglatadi?",
+    "variantlar": [
+      "Consistency (Izchillik)",
+      "Concurrency",
+      "Completeness",
+      "Control"
+    ],
+    "javob": "Consistency (Izchillik)"
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "savol": "Izchillik (Consistency) xususiyati nimani talab qiladi?",
+    "variantlar": [
+      "Tranzaksiya MB ni bir izchil holatdan boshqasiga olib o'tishi kerak",
+      "Tranzaksiya faqat bir marta bajarilishi kerak",
+      "Ma’lumotlar takrorlanishi kerak",
+      "Barcha foydalanuvchilar bir xil ma’lumotlarni ko'rishi"
+    ],
+    "javob": "Tranzaksiya MB ni bir izchil holatdan boshqasiga olib o'tishi kerak"
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "savol": "Tranzaksiya muvaffaqiyatli yakunlanganda o'zgarishlarni doimiy saqlash uchun qaysi buyruq ishlatiladi?",
+    "variantlar": [
+      "COMMIT",
+      "ROLLBACK",
+      "SAVEPOINT",
+      "END TRANSACTION"
+    ],
+    "javob": "COMMIT"
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "savol": "Tranzaksiya xatolik yuz berganda o'zgarishlarni bekor qilish uchun qaysi buyruq ishlatiladi?",
+    "variantlar": [
+      "ROLLBACK",
+      "COMMIT",
+      "UNDO",
+      "CANCEL"
+    ],
+    "javob": "ROLLBACK"
+  },
+  {
+    "id": 76,
+    "type": "multiple_choice",
+    "savol": "Bir vaqtning o'zida bir nechta foydalanuvchining MB ga kirishini boshqarish mexanizmi nima?",
+    "variantlar": [
+      "Konkurentlikni boshqarish (Concurrency Control)",
+      "Havola butunligi",
+      "Normalizatsiya",
+      "Tranzaksiyani bekor qilish"
+    ],
+    "javob": "Konkurentlikni boshqarish (Concurrency Control)"
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "savol": "Konkurentlikni boshqarishda eng ko'p ishlatiladigan mexanizm nima?",
+    "variantlar": [
+      "Qulflash (Locking)",
+      "Normalizatsiya",
+      "Indekslash",
+      "VIEW yaratish"
+    ],
+    "javob": "Qulflash (Locking)"
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "savol": "Agar bitta foydalanuvchi ma’lumotni o'qiyotgan bo'lsa, boshqa foydalanuvchilar ham uni o'qishiga ruxsat beruvchi qulf turi qaysi?",
+    "variantlar": [
+      "Shared Lock (Umumiy qulf)",
+      "Exclusive Lock (Eksklyuziv qulf)",
+      "Deadlock",
+      "Write Lock"
+    ],
+    "javob": "Shared Lock (Umumiy qulf)"
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "savol": "Agar bitta foydalanuvchi ma’lumotni o'zgartirayotgan bo'lsa, boshqa foydalanuvchilarga uni o'qish yoki o'zgartirishga ruxsat bermaydigan qulf turi qaysi?",
+    "variantlar": [
+      "Exclusive Lock (Eksklyuziv qulf)",
+      "Shared Lock",
+      "Read Lock",
+      "Optimistic Lock"
+    ],
+    "javob": "Exclusive Lock (Eksklyuziv qulf)"
+  },
+  {
+    "id": 80,
+    "type": "multiple_choice",
+    "savol": "Ikki yoki undan ortiq tranzaksiyaning bir-birini cheksiz kutish holati nima deb ataladi?",
+    "variantlar": [
+      "Deadlock (Tirishqoqlik)",
+      "Livelock",
+      "Starvation",
+      "Concurrency"
+    ],
+    "javob": "Deadlock (Tirishqoqlik)"
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "savol": "MBBT ning asosiy komponenti bo'lgan, ma’lumotlar bazasi tuzilishi haqida ma’lumot saqlovchi qism nima?",
+    "variantlar": [
+      "Ma’lumotlar lug'ati (Data Dictionary)",
+      "Tranzaksiya jurnali",
+      "Foydalanuvchi interfeysi",
+      "Tezkor xotira (Cache)"
+    ],
+    "javob": "Ma’lumotlar lug'ati (Data Dictionary)"
+  },
+  {
+    "id": 82,
+    "type": "multiple_choice",
+    "savol": "MBBT arxitekturasida \"server\" va \"mijoz\" o'zaro aloqada bo'ladigan model qaysi?",
+    "variantlar": [
+      "Client-Server (Mijoz-Server)",
+      "Markazlashtirilgan",
+      "Ierarxik",
+      "Fayl-server"
+    ],
+    "javob": "Client-Server (Mijoz-Server)"
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlar ombori (Data Warehouse) ning asosiy maqsadi nima?",
+    "variantlar": [
+      "Tahliliy hisobotlar va qaror qabul qilish uchun ma’lumotlarni saqlash",
+      "Kundalik operatsiyalarni bajarish",
+      "Veb-saytni joylashtirish",
+      "Faqat matnli ma’lumotlarni saqlash"
+    ],
+    "javob": "Tahliliy hisobotlar va qaror qabul qilish uchun ma’lumotlarni saqlash"
+  },
+  {
+    "id": 84,
+    "type": "multiple_choice",
+    "savol": "OLTP (Online Transaction Processing) tizimlari asosan nimaga mo'ljallangan?",
+    "variantlar": [
+      "Kundalik tranzaksiyalarni tez va samarali bajarish",
+      "Katta hajmli tahliliy so'rovlar",
+      "Tarixiy ma’lumotlarni saqlash",
+      "Ma’lumotlar bazasini loyihalash"
+    ],
+    "javob": "Kundalik tranzaksiyalarni tez va samarali bajarish"
+  },
+  {
+    "id": 85,
+    "type": "multiple_choice",
+    "savol": "OLAP (Online Analytical Processing) tizimlari asosan nimaga mo'ljallangan?",
+    "variantlar": [
+      "Ko'p o'lchovli tahlil va hisobotlar",
+      "Tranzaksiyalarni kiritish",
+      "Faqat ma’lumotlarni o'chirish",
+      "Foydalanuvchi huquqlarini boshqarish"
+    ],
+    "javob": "Ko'p o'lchovli tahlil va hisobotlar"
+  },
+  {
+    "id": 86,
+    "type": "multiple_choice",
+    "savol": "NoSQL ma’lumotlar bazasi qaysi turdagi ma’lumotlarga ko'proq mos keladi?",
+    "variantlar": [
+      "Strukturasi o'zgaruvchan yoki noaniq bo'lgan katta hajmli ma’lumotlar",
+      "Faqat qat’iy relatsion ma’lumotlar",
+      "Faqat moliyaviy tranzaksiyalar",
+      "Kichik va statik ma’lumotlar"
+    ],
+    "javob": "Strukturasi o'zgaruvchan yoki noaniq bo'lgan katta hajmli ma’lumotlar"
+  },
+  {
+    "id": 87,
+    "type": "multiple_choice",
+    "savol": "MongoDB qaysi turdagi NoSQL MB ga misol bo'la oladi?",
+    "variantlar": [
+      "Hujjatga asoslangan (Document-based)",
+      "Kalit-qiymat (Key-Value)",
+      "Grafik (Graph)",
+      "Ustunlar oilasi (Column-Family)"
+    ],
+    "javob": "Hujjatga asoslangan (Document-based)"
+  },
+  {
+    "id": 88,
+    "type": "multiple_choice",
+    "savol": "Redis qaysi turdagi NoSQL MB ga misol bo'la oladi?",
+    "variantlar": [
+      "Kalit-qiymat (Key-Value)",
+      "Hujjatga asoslangan",
+      "Grafik",
+      "Relatsion"
+    ],
+    "javob": "Kalit-qiymat (Key-Value)"
+  },
+  {
+    "id": 89,
+    "type": "multiple_choice",
+    "savol": "SQL da vaqtinchalik jadval (Temporary Table) yaratishning asosiy sababi nima?",
+    "variantlar": [
+      "Murakkab so'rovlarning oraliq natijalarini saqlash",
+      "Ma’lumotlar bazasining doimiy sxemasini o'zgartirish",
+      "Faqat bitta foydalanuvchi uchun ma’lumot saqlash",
+      "Serverni qayta ishga tushirish"
+    ],
+    "javob": "Murakkab so'rovlarning oraliq natijalarini saqlash"
+  },
+  {
+    "id": 90,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlarning takrorlanishi (Redundancy) normalizatsiyada nima uchun kamaytiriladi?",
+    "variantlar": [
+      "Anomaliyalarning (noizchillik) oldini olish va xotirani tejash",
+      "Ma’lumotlarga kirishni tezlashtirish",
+      "Jadvallar sonini ko'paytirish",
+      "MBBT ni murakkablashtirish"
+    ],
+    "javob": "Anomaliyalarning (noizchillik) oldini olish va xotirani tejash"
+  },
+  {
+    "id": 91,
+    "type": "multiple_choice",
+    "savol": "SQL da o'zgaruvchan hajmdagi ma’lumotlarni (masalan, uzun matnlar) saqlash uchun qaysi ma’lumot turi ishlatiladi?",
+    "variantlar": [
+      "VARCHAR (yoki TEXT)",
+      "INT",
+      "DATE",
+      "BOOLEAN"
+    ],
+    "javob": "VARCHAR (yoki TEXT)"
+  },
+  {
+    "id": 92,
+    "type": "multiple_choice",
+    "savol": "SQL da qatorlar ichida hisoblash funksiyalarini bajarish imkonini beruvchi funksiyalar turi qaysi?",
+    "variantlar": [
+      "Oyna funksiyalari (Window Functions)",
+      "Agregat funksiyalar",
+      "Scalar funksiyalar",
+      "Matematik funksiyalar"
+    ],
+    "javob": "Oyna funksiyalari (Window Functions)"
+  },
+  {
+    "id": 93,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlar bazasini himoya qilishning birinchi va eng muhim usuli qaysi?",
+    "variantlar": [
+      "Kirishni boshqarish (Access Control) va autentifikatsiya",
+      "Faqat indekslash",
+      "Faqat normalizatsiya",
+      "VIEW yaratish"
+    ],
+    "javob": "Kirishni boshqarish (Access Control) va autentifikatsiya"
+  },
+  {
+    "id": 94,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlar bazasining jismoniy joylashuvi va saqlanish usuli qaysi darajaga tegishli?",
+    "variantlar": [
+      "Ichki (Internal) daraja",
+      "Tashqi (External) daraja",
+      "Konseptual daraja",
+      "Mantiqiy daraja"
+    ],
+    "javob": "Ichki (Internal) daraja"
+  },
+  {
+    "id": 95,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlar bazasining mantiqiy tuzilishi (barcha obyektlar va munosabatlar) qaysi darajaga tegishli?",
+    "variantlar": [
+      "Konseptual (Conceptual) daraja",
+      "Ichki daraja",
+      "Jismoniy daraja",
+      "Tashqi daraja"
+    ],
+    "javob": "Konseptual (Conceptual) daraja"
+  },
+  {
+    "id": 96,
+    "type": "multiple_choice",
+    "savol": "Qaysi me’yor ma’lumotlar bazasini samarali loyihalash uchun qoidalarni belgilaydi?",
+    "variantlar": [
+      "Normalizatsiya",
+      "Indekslash",
+      "Tranzaktsiya",
+      "Qulflash"
+    ],
+    "javob": "Normalizatsiya"
+  },
+  {
+    "id": 97,
+    "type": "multiple_choice",
+    "savol": "SQL inyektsiyasi (SQL Injection) nima?",
+    "variantlar": [
+      "SQL so'roviga xavfli kod kiritish orqali MB ga ruxsatsiz kirish",
+      "MBBT ning yangilanishi",
+      "Ma’lumotlarni to'g'ri kiritish usuli",
+      "Jadval yaratishning tezkor usuli"
+    ],
+    "javob": "SQL so'roviga xavfli kod kiritish orqali MB ga ruxsatsiz kirish"
+  },
+  {
+    "id": 98,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlar bazasini zaxiralash (Backup) va tiklash (Recovery) operatsiyalari qaysi bo'limga kiradi?",
+    "variantlar": [
+      "Ma’lumotlar xavfsizligi va tiklanishi",
+      "Normalizatsiya",
+      "SQL DDL",
+      "Konkurentlikni boshqarish"
+    ],
+    "javob": "Ma’lumotlar xavfsizligi va tiklanishi"
+  },
+  {
+    "id": 99,
+    "type": "multiple_choice",
+    "savol": "Qaysi operator SELECT so'rovi natijasidan takrorlanuvchi (dublikat) qatorlarni o'chiradi?",
+    "variantlar": [
+      "DISTINCT",
+      "UNIQUE",
+      "ALL",
+      "GROUP"
+    ],
+    "javob": "DISTINCT"
+  },
+  {
+    "id": 100,
+    "type": "multiple_choice",
+    "savol": "Relatsion jadvalda \"domen\" (Domain) nimani ifodalaydi?",
+    "variantlar": [
+      "Attribut (ustun) qabul qilishi mumkin bo'lgan barcha ruxsat etilgan qiymatlar to'plami",
+      "Jadvalning nomi",
+      "Birlamchi kalitning qiymati",
+      "MBBT ning versiyasi"
+    ],
+    "javob": "Attribut (ustun) qabul qilishi mumkin bo'lgan barcha ruxsat etilgan qiymatlar to'plami"
+  }
 ]
