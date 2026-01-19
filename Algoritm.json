@@ -1,62 +1,1324 @@
 [
-    {
-        "id": 1,
-        "type": "multiple_choice",
-        "savol": "Algoritmning asosiy xususiyatlaridan biri bo'lgan 'diskretlik' nimani anglatadi?",
-        "variantlar": [
-            "Algoritm chekli qadamlardan iborat bo'lishi kerak.",
-            "Algoritm har doim bir xil natija berishi kerak.",
-            "Algoritm turli xil ma'lumotlar bilan ishlashi kerak.",
-            "Algoritm tez ishlashi kerak."
-        ],
-        "javob": "Algoritm chekli qadamlardan iborat bo'lishi kerak."
-    },
-    {
-        "id": 2,
-        "type": "multiple_choice",
-        "savol": "Qaysi algoritm turi ma'lumotlarni tartiblash (sortlash) uchun eng ko'p qo'llaniladi?",
-        "variantlar": [
-            "Qidiruv algoritmi",
-            "Tartiblash algoritmi",
-            "Rekursiv algoritm",
-            "Graf algoritmi"
-        ],
-        "javob": "Tartiblash algoritmi"
-    },
-    {
-        "id": 3,
-        "type": "multiple_choice",
-        "savol": "Algoritmning 'natijaviylik' (rezultativlik) xususiyati nimani talab qiladi?",
-        "variantlar": [
-            "Algoritm cheksiz vaqt ichida tugashi kerak.",
-            "Algoritm ma'lumotlarni o'zgartirmasligi kerak.",
-            "Algoritm ma'lumotlarni qabul qilib, natija berishi kerak.",
-            "Algoritm faqat bitta turdagi ma'lumot bilan ishlashi kerak."
-        ],
-        "javob": "Algoritm ma'lumotlarni qabul qilib, natija berishi kerak."
-    },
-    {
-        "id": 4,
-        "type": "multiple_choice",
-        "savol": "Katta hajmdagi ma'lumotlar ichidan kerakli elementni tez topish uchun qaysi qidiruv algoritmi samaraliroq?",
-        "variantlar": [
-            "Chiziqli qidiruv (Linear Search)",
-            "Ikkilik qidiruv (Binary Search)",
-            "Graf bo'ylab qidiruv",
-            "Tasodifiy qidiruv"
-        ],
-        "javob": "Ikkilik qidiruv (Binary Search)"
-    },
-    {
-        "id": 5,
-        "type": "multiple_choice",
-        "savol": "Algoritmning murakkabligi (complexity) deganda nimani tushunasiz?",
-        "variantlar": [
-            "Algoritmning kod uzunligi.",
-            "Algoritmning ishlash vaqti va xotira talabi.",
-            "Algoritmning dasturlash tili.",
-            "Algoritmning muallifi."
-        ],
-        "javob": "Algoritmning ishlash vaqti va xotira talabi."
-    }
-]
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "savol": "Arrayning asosiy xususiyati nima?",
+    "variantlar": [
+      "Elementlar tartibsiz joylashadi",
+      "Elementlar ketma-ket xotirada joylashadi",
+      "Faqat matn saqlaydi",
+      "Har doim o‘sib boradi"
+    ],
+    "javob": "Elementlar ketma-ket xotirada joylashadi"
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "savol": "Linked Listda elementga murojaat qilish vaqt murakkabligi qanday?",
+    "variantlar": [
+      "O(1)",
+      "O(n)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "javob": "O(n)"
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "savol": "Stack qaysi prinsip asosida ishlaydi?",
+    "variantlar": [
+      "FIFO",
+      "LIFO",
+      "LILO",
+      "FILO"
+    ],
+    "javob": "LIFO"
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "savol": "Queue qaysi prinsip asosida ishlaydi?",
+    "variantlar": [
+      "FIFO",
+      "LIFO",
+      "DFS",
+      "OOP"
+    ],
+    "javob": "FIFO"
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "savol": "Binary Search ishlashi uchun array qanday bo‘lishi kerak?",
+    "variantlar": [
+      "Har xil",
+      "Saralangan",
+      "Bo‘sh",
+      "Faqat juft sonlar"
+    ],
+    "javob": "Saralangan"
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "savol": "Time complexity degani nima?",
+    "variantlar": [
+      "Xotira turi",
+      "Algoritm ishlash tezligi bahosi",
+      "Kompyuter narxi",
+      "Tarmoq sifati"
+    ],
+    "javob": "Algoritm ishlash tezligi bahosi"
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "savol": "Big-O notation nimani ifodalaydi?",
+    "variantlar": [
+      "Eng yaxshi holat",
+      "O‘rtacha holat",
+      "Eng yomon holat",
+      "Xotira sarfi"
+    ],
+    "javob": "Eng yomon holat"
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "savol": "Hash Table nima?",
+    "variantlar": [
+      "Saralangan ro‘yxat",
+      "Kalit–qiymat juftligi saqlanadigan tuzilma",
+      "Grafik algoritm",
+      "Matriksa"
+    ],
+    "javob": "Kalit–qiymat juftligi saqlanadigan tuzilma"
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "savol": "Binary Tree nechta bolaga ega bo‘lishi mumkin?",
+    "variantlar": [
+      "1",
+      "3",
+      "2",
+      "Cheksiz"
+    ],
+    "javob": "2"
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "savol": "DFS ning to‘liq nomi?",
+    "variantlar": [
+      "Data Fast Search",
+      "Depth First Search",
+      "Direct File System",
+      "Double Fast Scan"
+    ],
+    "javob": "Depth First Search"
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "savol": "BFS ning to‘liq nomi?",
+    "variantlar": [
+      "Binary File System",
+      "Backward Fast Search",
+      "Breadth First Search",
+      "Boolean Fast Scan"
+    ],
+    "javob": "Breadth First Search"
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "savol": "Heap nima?",
+    "variantlar": [
+      "Hash jadvali",
+      "Max yoki Min qoidasi asosida tuzilgan daraxt",
+      "Fayl sistemasi",
+      "Graf turi"
+    ],
+    "javob": "Max yoki Min qoidasi asosida tuzilgan daraxt"
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "savol": "Selection Sortning vaqt murakkabligi?",
+    "variantlar": [
+      "O(n)",
+      "O(log n)",
+      "O(n²)",
+      "O(1)"
+    ],
+    "javob": "O(n²)"
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "savol": "Bubble Sortda nechta taqqoslash bo‘ladi?",
+    "variantlar": [
+      "n",
+      "n²",
+      "log n",
+      "1"
+    ],
+    "javob": "n²"
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "savol": "Quick Sortning average-case murakkabligi?",
+    "variantlar": [
+      "O(n²)",
+      "O(n log n)",
+      "O(log n)",
+      "O(1)"
+    ],
+    "javob": "O(n log n)"
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "savol": "Merge Sortda “divide and conquer” qanday ishlaydi?",
+    "variantlar": [
+      "Bo‘lib tashlamaydi",
+      "Bo‘lib, saralab, birlashtiradi",
+      "Faqat qo‘shadi",
+      "Faqat ayiradi"
+    ],
+    "javob": "Bo‘lib, saralab, birlashtiradi"
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "savol": "Graph nima?",
+    "variantlar": [
+      "Daraxt",
+      "Tugunlar va ular orasidagi bog‘lanishlar",
+      "Faqat matritsa",
+      "Faqat ro‘yxat"
+    ],
+    "javob": "Tugunlar va ular orasidagi bog‘lanishlar"
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "savol": "Directed Graphda bog‘lanishlar qanday bo‘ladi?",
+    "variantlar": [
+      "Har doim ikki tomonga",
+      "Yo‘nalishga ega",
+      "Yo‘nalishsiz",
+      "Faqat chapga"
+    ],
+    "javob": "Yo‘nalishga ega"
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "savol": "Linked Listda qo‘shish amali qanchada bajariladi?",
+    "variantlar": [
+      "O(1)",
+      "O(n)",
+      "O(n²)",
+      "O(log n)"
+    ],
+    "javob": "O(1)"
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "savol": "Arrayda element o‘chirish qanchada bajariladi?",
+    "variantlar": [
+      "O(1)",
+      "O(n)",
+      "O(n log n)",
+      "O(log n)"
+    ],
+    "javob": "O(n)"
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "savol": "Stack qayerda ko‘p qo‘llaniladi?",
+    "variantlar": [
+      "Graf chizishda",
+      "Funksiya chaqiruvlarida",
+      "Video o‘ynatishda",
+      "Internetda"
+    ],
+    "javob": "Funksiya chaqiruvlarida"
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "savol": "Queue qayerda ishlatiladi?",
+    "variantlar": [
+      "Kompilyatsiya",
+      "Navbat tizimlari",
+      "Hashlash",
+      "Saralash"
+    ],
+    "javob": "Navbat tizimlari"
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "savol": "Tree bilan Graph farqi nimada?",
+    "variantlar": [
+      "Hech qanday",
+      "Tree’da sikl bo‘lmaydi",
+      "Tree’da ko‘p sikl",
+      "Graphda ildiz bo‘ladi"
+    ],
+    "javob": "Tree’da sikl bo‘lmaydi"
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "savol": "AVL Tree qanday daraxt?",
+    "variantlar": [
+      "Zufar kiritgan daraxt",
+      "O‘z-o‘zini balanslaydigan",
+      "Saralanmagan",
+      "Faqat chap tomoni"
+    ],
+    "javob": "O‘z-o‘zini balanslaydigan"
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "savol": "Hash Collision nima?",
+    "variantlar": [
+      "Xotira tugashi",
+      "Ikki kalit bir xil indeksga tushishi",
+      "Tarmoq xatosi",
+      "RAM buzilishi"
+    ],
+    "javob": "Ikki kalit bir xil indeksga tushishi"
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "savol": "Trie nimaga ishlatiladi?",
+    "variantlar": [
+      "Graf saralash",
+      "So‘zlar bo‘yicha qidirish",
+      "Sonlarni saralash",
+      "Hashlash"
+    ],
+    "javob": "So‘zlar bo‘yicha qidirish"
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "savol": "Red–Black Tree xususiyati?",
+    "variantlar": [
+      "Qizil bo‘lmaydi",
+      "Balanslangan bo‘ladi",
+      "Faqat qora tugun",
+      "Heapga o‘xshaydi"
+    ],
+    "javob": "Balanslangan bo‘ladi"
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "savol": "Binary Search Tree xususiyati?",
+    "variantlar": [
+      "Chap > o‘ng",
+      "Chap < ildiz < o‘ng",
+      "Tartibsiz",
+      "Hammasi teng"
+    ],
+    "javob": "Chap < ildiz < o‘ng"
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "savol": "Two-pointer texnikasi nimaga ishlatiladi?",
+    "variantlar": [
+      "Sort yozish",
+      "Tez qidirish yoki juftlik topish",
+      "Xotira o‘lchash",
+      "Grafik chizish"
+    ],
+    "javob": "Tez qidirish yoki juftlik topish"
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "savol": "Recursion nima?",
+    "variantlar": [
+      "Random sonlar",
+      "Funksiyaning o‘zini chaqirishi",
+      "Massive hosil qilish",
+      "Xash yozish"
+    ],
+    "javob": "Funksiyaning o‘zini chaqirishi"
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "savol": "Recursionda “base case” nima uchun kerak?",
+    "variantlar": [
+      "Kodni chiroyli qilish uchun",
+      "Cheksiz chaqiruvni to‘xtatish uchun",
+      "Faqat stackni to‘ldirish uchun",
+      "Parametrlarni o‘zgartirish uchun"
+    ],
+    "javob": "Cheksiz chaqiruvni to‘xtatish uchun"
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "savol": "Time complexity O(1) nimani bildiradi?",
+    "variantlar": [
+      "Juda sekin",
+      "Doimiy vaqt",
+      "Kvadratik vaqt",
+      "Logaritmik vaqt"
+    ],
+    "javob": "Doimiy vaqt"
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "savol": "Graphda “cycle” degani nima?",
+    "variantlar": [
+      "Daraxtning ildizi",
+      "Boshlangan tugunga qaytish",
+      "Eng uzun yo‘l",
+      "Eng qisqa yo‘l"
+    ],
+    "javob": "Boshlangan tugunga qaytish"
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "savol": "Bubble Sort nimaga sekin ishlaydi?",
+    "variantlar": [
+      "Hash ishlatadi",
+      "Har safar qo‘shni elementlarni almashtiradi",
+      "Divide and Conquer",
+      "Max heap yaratadi"
+    ],
+    "javob": "Har safar qo‘shni elementlarni almashtiradi"
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "savol": "Merge Sort nechta qismga bo‘ladi?",
+    "variantlar": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "javob": "2"
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "savol": "Heapda eng katta element qayerda turadi?",
+    "variantlar": [
+      "Ixtiyoriy yerda",
+      "Kök (root)",
+      "Oxirgi list",
+      "Har doim o‘ngda"
+    ],
+    "javob": "Kök (root)"
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "savol": "Stack overflow qachon yuz beradi?",
+    "variantlar": [
+      "CPU to‘xtaganda",
+      "Stack to‘lib ketganda",
+      "Internet sekinlashganda",
+      "Queue ishlaganda"
+    ],
+    "javob": "Stack to‘lib ketganda"
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "savol": "Queue’da “dequeue” nima?",
+    "variantlar": [
+      "Yangi element qo‘shish",
+      "Oldingi elementni olish",
+      "O‘rtadan o‘chirish",
+      "Oxirgi element qo‘shish"
+    ],
+    "javob": "Oldingi elementni olish"
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "savol": "Hashingda “load factor” nima?",
+    "variantlar": [
+      "Kompyuter kuchi",
+      "To‘ldirilganlik darajasi",
+      "Array uzunligi",
+      "Xotira turi"
+    ],
+    "javob": "To‘ldirilganlik darajasi"
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "savol": "Graphdagi tugunlar qanday ataladi?",
+    "variantlar": [
+      "Edges",
+      "Vertices",
+      "Keys",
+      "Roots"
+    ],
+    "javob": "Vertices"
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "savol": "BFS qaysi ma’lumot tuzilmasidan foydalanadi?",
+    "variantlar": [
+      "Stack",
+      "Queue",
+      "Heap",
+      "Hash Table"
+    ],
+    "javob": "Queue"
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "savol": "DFS qaysi strukturaga tayanadi?",
+    "variantlar": [
+      "Stack",
+      "Queue",
+      "Heap",
+      "Array"
+    ],
+    "javob": "Stack"
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "savol": "Dynamic Arrayda joy yetmay qolsa nima bo‘ladi?",
+    "variantlar": [
+      "O‘chadi",
+      "O‘lcham ikki baravar kengayadi",
+      "Xatolik qaytaradi",
+      "Daraxtga aylanadi"
+    ],
+    "javob": "O‘lcham ikki baravar kengayadi"
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "savol": "BST’da qidirish murakkabligi?",
+    "variantlar": [
+      "O(n²)",
+      "O(n log n)",
+      "O(log n)",
+      "O(1)"
+    ],
+    "javob": "O(log n)"
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "savol": "BSTning eng yomon holat murakkabligi?",
+    "variantlar": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "javob": "O(n)"
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "savol": "Linked Listda random access bo‘ladimi?",
+    "variantlar": [
+      "Yo‘q",
+      "Ha",
+      "Faqat oxiriga",
+      "Faqat boshiga"
+    ],
+    "javob": "Yo‘q"
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "savol": "Double Linked Listning asosiy afzalligi?",
+    "variantlar": [
+      "Kam xotira oladi",
+      "Ikkala tomonga yurish mumkin",
+      "Faqat o‘chiradi",
+      "Hashlash imkonini beradi"
+    ],
+    "javob": "Ikkala tomonga yurish mumkin"
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "savol": "Graphdagi “edge” nima?",
+    "variantlar": [
+      "Tugun",
+      "Tugunlar orasidagi bog‘lanish",
+      "Root",
+      "Loop"
+    ],
+    "javob": "Tugunlar orasidagi bog‘lanish"
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "savol": "Min-Heapda eng kichik qiymat qayerda bo‘ladi?",
+    "variantlar": [
+      "Root’da",
+      "O‘ng bargda",
+      "Chap bargda",
+      "Ixtiyoriy joyda"
+    ],
+    "javob": "Root’da"
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "savol": "Hash tableda collisionni hal qilish usuli?",
+    "variantlar": [
+      "Sorting",
+      "Chaining",
+      "DFS",
+      "BST"
+    ],
+    "javob": "Chaining"
+  },
+    [
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "savol": "Insertion Sort qaysi holatda tez ishlaydi?",
+    "variantlar": [
+      "Tartibsiz array",
+      "Yaqinda tartiblangan array",
+      "Juda katta array",
+      "Graf ma’lumotlari"
+    ],
+    "javob": "Yaqinda tartiblangan array"
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "savol": "Queue’da “rear” nimani bildiradi?",
+    "variantlar": [
+      "Bosh",
+      "Oxir",
+      "Root",
+      "Bridge"
+    ],
+    "javob": "Oxir"
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "savol": "Depth First Search qaysi yo‘nalishda harakatlanadi?",
+    "variantlar": [
+      "Kenglik bo‘ylab",
+      "Chuqurlik bo‘ylab",
+      "Random",
+      "O‘ngdan chapga"
+    ],
+    "javob": "Chuqurlik bo‘ylab"
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "savol": "Greedy algorithmning mohiyati?",
+    "variantlar": [
+      "Eng yomon variantni tanlaydi",
+      "Har qadamda eng yaxshi lokal tanlov",
+      "Hammasini taqqoslaydi",
+      "Tasodif tanlov"
+    ],
+    "javob": "Har qadamda eng yaxshi lokal tanlov"
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "savol": "Floyd-Warshall algoritmi nima qiladi?",
+    "variantlar": [
+      "Sorting",
+      "Eng qisqa yo‘llarni topadi",
+      "Tree yaratadi",
+      "Hashing"
+    ],
+    "javob": "Eng qisqa yo‘llarni topadi"
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "savol": "Dijkstra algoritmi nimani topadi?",
+    "variantlar": [
+      "Eng uzoq yo‘l",
+      "Eng qisqa yo‘l",
+      "Max heap",
+      "Sorting"
+    ],
+    "javob": "Eng qisqa yo‘l"
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "savol": "Binary Tree’da “leaf node” nima?",
+    "variantlar": [
+      "Ildiz",
+      "Bolasi yo‘q tugun",
+      "O‘ng tomondagi tugun",
+      "Chap tugun"
+    ],
+    "javob": "Bolasi yo‘q tugun"
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "savol": "Tree’da level order traversal qaysi algoritmga o‘xshaydi?",
+    "variantlar": [
+      "DFS",
+      "BFS",
+      "Quick Sort",
+      "Hashing"
+    ],
+    "javob": "BFS"
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "savol": "Recursion ko‘p ishlatilsa qanday xato bo‘ladi?",
+    "variantlar": [
+      "Underflow",
+      "Stack overflow",
+      "Overclock",
+      "Memory leak"
+    ],
+    "javob": "Stack overflow"
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "savol": "Heapify nima?",
+    "variantlar": [
+      "Graph chizish",
+      "Sorting",
+      "Heap strukturaga moslashtirish",
+      "Reverse qilish"
+    ],
+    "javob": "Heap strukturaga moslashtirish"
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "savol": "Insertion Sort qaysi holatda tez ishlaydi?",
+    "variantlar": [
+      "Tartibsiz array",
+      "Yaqinda tartiblangan array",
+      "Juda katta array",
+      "Graf ma’lumotlari"
+    ],
+    "javob": "Yaqinda tartiblangan array"
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "savol": "Queue’da “rear” nimani bildiradi?",
+    "variantlar": [
+      "Bosh",
+      "Oxir",
+      "Root",
+      "Bridge"
+    ],
+    "javob": "Oxir"
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "savol": "Depth First Search qaysi yo‘nalishda harakatlanadi?",
+    "variantlar": [
+      "Kenglik bo‘ylab",
+      "Chuqurlik bo‘ylab",
+      "Random",
+      "O‘ngdan chapga"
+    ],
+    "javob": "Chuqurlik bo‘ylab"
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "savol": "Greedy algorithmning mohiyati?",
+    "variantlar": [
+      "Eng yomon variantni tanlaydi",
+      "Har qadamda eng yaxshi lokal tanlov",
+      "Hammasini taqqoslaydi",
+      "Tasodif tanlov"
+    ],
+    "javob": "Har qadamda eng yaxshi lokal tanlov"
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "savol": "Floyd-Warshall algoritmi nima qiladi?",
+    "variantlar": [
+      "Sorting",
+      "Eng qisqa yo‘llarni topadi",
+      "Tree yaratadi",
+      "Hashing"
+    ],
+    "javob": "Eng qisqa yo‘llarni topadi"
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "savol": "Dijkstra algoritmi nimani topadi?",
+    "variantlar": [
+      "Eng uzoq yo‘l",
+      "Eng qisqa yo‘l",
+      "Max heap",
+      "Sorting"
+    ],
+    "javob": "Eng qisqa yo‘l"
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "savol": "Binary Tree’da “leaf node” nima?",
+    "variantlar": [
+      "Ildiz",
+      "Bolasi yo‘q tugun",
+      "O‘ng tomondagi tugun",
+      "Chap tugun"
+    ],
+    "javob": "Bolasi yo‘q tugun"
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "savol": "Tree’da level order traversal qaysi algoritmga o‘xshaydi?",
+    "variantlar": [
+      "DFS",
+      "BFS",
+      "Quick Sort",
+      "Hashing"
+    ],
+    "javob": "BFS"
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "savol": "Recursion ko‘p ishlatilsa qanday xato bo‘ladi?",
+    "variantlar": [
+      "Underflow",
+      "Stack overflow",
+      "Overclock",
+      "Memory leak"
+    ],
+    "javob": "Stack overflow"
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "savol": "Heapify nima?",
+    "variantlar": [
+      "Graph chizish",
+      "Sorting",
+      "Heap strukturaga moslashtirish",
+      "Reverse qilish"
+    ],
+    "javob": "Heap strukturaga moslashtirish"
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "savol": "Priority Queue nima?",
+    "variantlar": [
+      "Oddiy navbat",
+      "Ustuvorlikka ko‘ra tartiblanadigan navbat",
+      "Random navbat",
+      "Har doim FIFO"
+    ],
+    "javob": "Ustuvorlikka ko‘ra tartiblanadigan navbat"
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "savol": "Hash funktsiya nima qiladi?",
+    "variantlar": [
+      "Ma’lumotni saralaydi",
+      "Kalitdan indeks hosil qiladi",
+      "Graf yaratadi",
+      "Tree yaratadi"
+    ],
+    "javob": "Kalitdan indeks hosil qiladi"
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "savol": "Divide and Conquer qanday ishlaydi?",
+    "variantlar": [
+      "Bitta bosqich",
+      "Bo‘l — Yech — Birlashtir",
+      "Faqat taqqosla",
+      "Hash qil"
+    ],
+    "javob": "Bo‘l — Yech — Birlashtir"
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "savol": "Tree’da path degani nima?",
+    "variantlar": [
+      "Root",
+      "Tugunlar orasidagi yo‘l",
+      "Barg",
+      "Layer"
+    ],
+    "javob": "Tugunlar orasidagi yo‘l"
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "savol": "Stackda pop nima qiladi?",
+    "variantlar": [
+      "Qo‘shadi",
+      "Oxirgi elementni oladi",
+      "Hammasini o‘chiradi",
+      "O‘rtaga qo‘shadi"
+    ],
+    "javob": "Oxirgi elementni oladi"
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "savol": "Linear Searchning murakkabligi?",
+    "variantlar": [
+      "O(1)",
+      "O(n)",
+      "O(n log n)",
+      "O(log n)"
+    ],
+    "javob": "O(n)"
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "savol": "Binary Searchning best case?",
+    "variantlar": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "javob": "O(1)"
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "savol": "Balanced Tree nima?",
+    "variantlar": [
+      "Tartibsiz",
+      "Balanslangan balandlikka ega daraxt",
+      "Har doim BST",
+      "Hashlangan"
+    ],
+    "javob": "Balanslangan balandlikka ega daraxt"
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "savol": "Graphda “adjacency list” nima?",
+    "variantlar": [
+      "Matritsa",
+      "Har tugunning qo‘shnilari ro‘yxati",
+      "Heap ro‘yxati",
+      "Hash kodlar"
+    ],
+    "javob": "Har tugunning qo‘shnilari ro‘yxati"
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "savol": "Adjacency matrix nima?",
+    "variantlar": [
+      "Stack",
+      "Graf bog‘lanishlariga asoslangan matritsa",
+      "Hash jadval",
+      "Heap"
+    ],
+    "javob": "Graf bog‘lanishlariga asoslangan matritsa"
+  },
+
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "savol": "Bloom Filter nima?",
+    "variantlar": [
+      "Graf algoritmi",
+      "Tree turi",
+      "Taxminiy mavjudlikni tekshiruvchi tuzilma",
+      "Sort turi"
+    ],
+    "javob": "Taxminiy mavjudlikni tekshiruvchi tuzilma"
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "savol": "Hash collisionni kamaytirish yo‘li?",
+    "variantlar": [
+      "Arrayni qisqartirish",
+      "Yaxshi hash funktsiya",
+      "Tree qo‘shish",
+      "BFS ishlatish"
+    ],
+    "javob": "Yaxshi hash funktsiya"
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "savol": "Skip List nima?",
+    "variantlar": [
+      "Queue turi",
+      "Tez qidirish uchun ko‘p darajali ro‘yxat",
+      "Graph",
+      "Max heap"
+    ],
+    "javob": "Tez qidirish uchun ko‘p darajali ro‘yxat"
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "savol": "Amortized analysis nimani o‘lchaydi?",
+    "variantlar": [
+      "Xotira",
+      "O‘rtacha operatsiya narxi",
+      "Internet",
+      "CPU"
+    ],
+    "javob": "O‘rtacha operatsiya narxi"
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "savol": "Two-stack bilan queue qura olamizmi?",
+    "variantlar": [
+      "Yo‘q",
+      "Ha",
+      "Faqat tree bilan",
+      "Faqat hash bilan"
+    ],
+    "javob": "Ha"
+  },
+  {
+    "id": 76,
+    "type": "multiple_choice",
+    "savol": "Linked Listda size() topish qanchalik samarali?",
+    "variantlar": [
+      "Har doim O(1)",
+      "O(n), agar alohida sanagich bo‘lmasa",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "javob": "O(n), agar alohida sanagich bo‘lmasa"
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "savol": "Topological Sort qaysi grafga ishlaydi?",
+    "variantlar": [
+      "Cycle mavjud graf",
+      "DAG (acyclic graph)",
+      "Har qanday graf",
+      "Binary tree"
+    ],
+    "javob": "DAG (acyclic graph)"
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "savol": "Quick Sortning worst case'i?",
+    "variantlar": [
+      "O(1)",
+      "O(n²)",
+      "O(n)",
+      "O(log n)"
+    ],
+    "javob": "O(n²)"
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "savol": "Floyd Cycle Detection nima uchun ishlatiladi?",
+    "variantlar": [
+      "Tree topish",
+      "Cycle borligini aniqlash",
+      "Sorting",
+      "Hashing"
+    ],
+    "javob": "Cycle borligini aniqlash"
+  },
+  {
+    "id": 80,
+    "type": "multiple_choice",
+    "savol": "Fenwick Tree (BIT) nima uchun ishlatiladi?",
+    "variantlar": [
+      "Hash",
+      "Prefix sumlarni tez hisoblash",
+      "DFS",
+      "Dijkstra"
+    ],
+    "javob": "Prefix sumlarni tez hisoblash"
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "savol": "Segment Tree qayerda qo‘llaniladi?",
+    "variantlar": [
+      "Quick Sort",
+      "Oralik (range) so‘rovlar uchun",
+      "BFS",
+      "Hashing"
+    ],
+    "javob": "Oralik (range) so‘rovlar uchun"
+  },
+  {
+    "id": 82,
+    "type": "multiple_choice",
+    "savol": "Stackda underflow nima?",
+    "variantlar": [
+      "Bo‘sh stackdan element olish",
+      "Stack to‘lishi",
+      "Heap overflow",
+      "Memory leak"
+    ],
+    "javob": "Bo‘sh stackdan element olish"
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "savol": "Priority Queue qaysi tuzilmaga asoslanadi?",
+    "variantlar": [
+      "Array",
+      "Heap",
+      "Linked List",
+      "Queue"
+    ],
+    "javob": "Heap"
+  },
+  {
+    "id": 84,
+    "type": "multiple_choice",
+    "savol": "Graphda degree nima?",
+    "variantlar": [
+      "Layer",
+      "Tugundagi bog‘lanishlar soni",
+      "Yo‘l uzunligi",
+      "Root"
+    ],
+    "javob": "Tugundagi bog‘lanishlar soni"
+  },
+  {
+    "id": 85,
+    "type": "multiple_choice",
+    "savol": "Binary Tree’da height nima?",
+    "variantlar": [
+      "Elementlar soni",
+      "Eng uzun yo‘l uzunligi",
+      "Daraja",
+      "Root soni"
+    ],
+    "javob": "Eng uzun yo‘l uzunligi"
+  },
+  {
+    "id": 86,
+    "type": "multiple_choice",
+    "savol": "Recursion va iteration farqi?",
+    "variantlar": [
+      "O‘xshash",
+      "Recursion stackdan foydalanadi",
+      "Iteration sekin",
+      "Recursion tez"
+    ],
+    "javob": "Recursion stackdan foydalanadi"
+  },
+  {
+    "id": 87,
+    "type": "multiple_choice",
+    "savol": "Hash jadvalning asosiy ustunligi?",
+    "variantlar": [
+      "Sezilarli sekin",
+      "O(1) yaqin qidirish",
+      "O(n²) qidirish",
+      "Hech nima"
+    ],
+    "javob": "O(1) yaqin qidirish"
+  },
+  {
+    "id": 88,
+    "type": "multiple_choice",
+    "savol": "LRU cache nima?",
+    "variantlar": [
+      "Eng yangi element",
+      "Eng kam ishlatilgan elementni o‘chiradi",
+      "Tasodifiy holat",
+      "Priority queue"
+    ],
+    "javob": "Eng kam ishlatilgan elementni o‘chiradi"
+  },
+  {
+    "id": 89,
+    "type": "multiple_choice",
+    "savol": "Radix Sort qaysi ma’lumotlarga ishlaydi?",
+    "variantlar": [
+      "Graf",
+      "Raqamlar",
+      "Matn",
+      "Queue"
+    ],
+    "javob": "Raqamlar"
+  },
+  {
+    "id": 90,
+    "type": "multiple_choice",
+    "savol": "Trie qaysi holatda samarali?",
+    "variantlar": [
+      "Sonlar",
+      "Prefiks bo‘yicha so‘z qidirish",
+      "Heap",
+      "Max-tree"
+    ],
+    "javob": "Prefiks bo‘yicha so‘z qidirish"
+  },
+  {
+    "id": 91,
+    "type": "multiple_choice",
+    "savol": "Balanced BST misoli?",
+    "variantlar": [
+      "Tree",
+      "AVL",
+      "Hash table",
+      "Bloom"
+    ],
+    "javob": "AVL"
+  },
+  {
+    "id": 92,
+    "type": "multiple_choice",
+    "savol": "BFS qaysi navbatdan foydalanadi?",
+    "variantlar": [
+      "Stack",
+      "Queue",
+      "Hash",
+      "Heap"
+    ],
+    "javob": "Queue"
+  },
+  {
+    "id": 93,
+    "type": "multiple_choice",
+    "savol": "Algorithm degani nima?",
+    "variantlar": [
+      "Qurilma",
+      "Masalani yechish ketma-ketligi",
+      "Fayl turi",
+      "Processor"
+    ],
+    "javob": "Masalani yechish ketma-ketligi"
+  },
+  {
+    "id": 94,
+    "type": "multiple_choice",
+    "savol": "O(n log n) qaysi sortlarga tegishli?",
+    "variantlar": [
+      "Bubble",
+      "Merge",
+      "Selection",
+      "Insertion"
+    ],
+    "javob": "Merge"
+  },
+  {
+    "id": 95,
+    "type": "multiple_choice",
+    "savol": "Hash table kamchiligi?",
+    "variantlar": [
+      "Juda sekin",
+      "Collision mumkin",
+      "Faqat sonlar",
+      "Tarmoq talab qiladi"
+    ],
+    "javob": "Collision mumkin"
+  },
+  {
+    "id": 96,
+    "type": "multiple_choice",
+    "savol": "Graph traversalning ikki turi?",
+    "variantlar": [
+      "LIFO/FIFO",
+      "BFS/DFS",
+      "Max/Min",
+      "Hash/Heap"
+    ],
+    "javob": "BFS/DFS"
+  },
+  {
+    "id": 97,
+    "type": "multiple_choice",
+    "savol": "Linked Listning kamchiligi?",
+    "variantlar": [
+      "Oson indexlash",
+      "Random access yo‘q",
+      "Tez sorting",
+      "Chapga yurmaydi"
+    ],
+    "javob": "Random access yo‘q"
+  },
+  {
+    "id": 98,
+    "type": "multiple_choice",
+    "savol": "Stackning asosiy amallari qaysilar?",
+    "variantlar": [
+      "add/remove",
+      "push/pop",
+      "set/get",
+      "hash/map"
+    ],
+    "javob": "push/pop"
+  },
+  {
+    "id": 99,
+    "type": "multiple_choice",
+    "savol": "Binary Search Tree nima?",
+    "variantlar": [
+      "Hash table",
+      "Chap kichik, o‘ng katta bo‘lgan daraxt",
+      "DFS daraxt",
+      "Max tree"
+    ],
+    "javob": "Chap kichik, o‘ng katta bo‘lgan daraxt"
+  },
+  {
+    "id": 100,
+    "type": "multiple_choice",
+    "savol": "Algorithm efficiency nimani bildiradi?",
+    "variantlar": [
+      "Kompyuter narxi",
+      "Vaqt va xotira samaradorligi",
+      "Ranglar soni",
+      "Internet tezligi"
+    ],
+    "javob": "Vaqt va xotira samaradorligi"
+  }
+]     
