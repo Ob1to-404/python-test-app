@@ -114,6 +114,7 @@ def start_test():
     st.session_state.test_started = True
     st.session_state.start_time = datetime.now()
     st.session_state.end_time = st.session_state.start_time + timedelta(minutes=st.session_state.test_duration)
+    st.rerun()
 
 def evaluate_test_results():
     if st.session_state.test_finished:
@@ -167,6 +168,7 @@ def evaluate_test_results():
             st.session_state.score += 1
 
     st.session_state.results = results
+    st.rerun()
 
 # --- UI Qismi ---
 
@@ -199,47 +201,44 @@ with st.sidebar:
     st.markdown("---")
     st.info("Hisob fanida dinamik, formula asosidagi savollar namoyish etilgan.")
 
-# Test boshlanmagan bo'lsa
-if not st.session_state.get("test_started") and not st.session_state.get("test_finished"):
-    st.subheader(f"Tanlangan fan: {subject}")
-    st.info(f"Testni boshlash uchun tugmani bosing. Sizda **{test_duration} daqiqa** vaqt bo‘ladi.")
-    
-    if st.button("🚀 Testni Boshlash", type="primary", use_container_width=True):
-        all_questions = load_questions(file_map[subject])
-        if all_questions:
-            initialize_session_state(all_questions, subject, test_mode, test_duration)
-            start_test()
-            st.rerun()
+# Sessiya holatini tekshirish va sozlash
+if (
+    "questions" not in st.session_state
+    or st.session_state.get("current_subject") != subject
+    or st.session_state.get("test_mode") != test_mode
+    or st.session_state.get("test_duration") != test_duration
+):
+    all_questions = load_questions(file_map[subject])
+    if all_questions:
+        initialize_session_state(all_questions, subject, test_mode, test_duration)
 
-# Test davom etayotgan bo'lsa
-elif st.session_state.get("test_started"):
-    questions = st.session_state.questions
-    is_finished = st.session_state.test_finished
+questions = st.session_state.questions
 
-    # Sidebar taymer va progress
-    if not is_finished:
-        time_left = st.session_state.end_time - datetime.now()
-        if time_left.total_seconds() <= 0:
-            evaluate_test_results()
-            st.warning("⏳ Vaqt tugadi!")
-            st.rerun()
-        
-        total_seconds = int(max(0, time_left.total_seconds()))
-        st.sidebar.markdown(f"## ⏳ Qolgan vaqt: **{format_seconds(total_seconds)}**")
-        
-        ans_cnt = answered_count()
-        st.sidebar.markdown(f"## ✅ Javoblar: **{ans_cnt}/{len(questions)}**")
-        st.sidebar.progress(ans_cnt / len(questions) if len(questions) else 0.0)
+# Progress panel
+total_q = len(questions)
+ans_cnt = answered_count()
+st.subheader(f"{subject} fanidan test")
+st.markdown(f"**Savollar soni:** {total_q}")
+st.markdown(f"**Progress:** `{ans_cnt}/{total_q}`")
+st.progress(ans_cnt / total_q if total_q else 0.0)
+st.markdown("---")
 
-    st.subheader(f"📝 {st.session_state.current_subject} testi")
-    
-    # Savollarni ko'rsatish
+# --- Test Boshlanmagan Holat ---
+if not st.session_state.test_started and not st.session_state.test_finished:
+    st.info(f"Testni boshlash uchun tugmani bosing. Sizda **{st.session_state.test_duration} daqiqa** vaqt bo‘ladi.")
+    if st.button("Testni Boshlash", type="primary", on_click=start_test):
+        pass
+
+# --- Test Boshlangan Holat ---
+elif st.session_state.test_started:
+    # Savollar
     for idx, q in enumerate(questions):
-        st.markdown(f"### {idx+1}-savol")
+        st.markdown(f"### {idx+1}-savol (ID: {q.get('id', '—')})")
         st.markdown(f"**Savol:** {q['savol']}")
-        
+
         user_input_key = f"q{idx+1}"
         current_value = st.session_state.get(user_input_key)
+        is_finished = st.session_state.test_finished
         res = st.session_state.results[idx] if is_finished else None
 
         if q["type"] == "multiple_choice":
@@ -248,16 +247,16 @@ elif st.session_state.get("test_started"):
                 default_index = options.index(current_value) if current_value in options else None
             except ValueError:
                 default_index = None
-            
+
             st.radio(
-                "Variantni tanlang:",
-                options,
+                label="Variantni tanlang:",
+                options=options,
                 key=user_input_key,
                 index=default_index,
                 label_visibility="collapsed",
                 disabled=is_finished
             )
-            
+
             if is_finished:
                 if res["user_answer"] is None:
                     st.info(f"Javob berilmagan. To‘g‘ri javob: **{res['correct_answer']}**")
@@ -268,11 +267,11 @@ elif st.session_state.get("test_started"):
 
         elif q["type"] == "calculation":
             st.text_input(
-                "Javobingizni kiriting (son):",
+                label="Javobingizni kiriting (son):",
                 key=user_input_key,
                 disabled=is_finished
             )
-            
+
             if is_finished:
                 if res["user_answer"] is None:
                     st.info(f"Javob berilmagan. To‘g‘ri javob: **{res['correct_answer']:.2f}**")
@@ -281,32 +280,41 @@ elif st.session_state.get("test_started"):
                 else:
                     user_ans_display = f"{res['user_answer']:.2f}" if isinstance(res["user_answer"], (int, float)) else res["user_answer"]
                     st.error(f"❌ Noto‘g‘ri. Sizning javobingiz: **{user_ans_display}**. To‘g‘ri javob: **{res['correct_answer']:.2f}**")
-        
+
         st.markdown("---")
 
-    if not is_finished:
-        if st.button("✅ Testni Yakunlash", type="primary", use_container_width=True):
-            evaluate_test_results()
-            st.rerun()
-        
-        # Avtomatik yangilanish
-        time.sleep(1)
-        st.rerun()
-    else:
-        # Natija sarlavhasi
-        st.header("📊 Test Natijasi")
-        total = len(questions)
-        score = st.session_state.score
-        percentage = (score / total) * 100 if total else 0.0
-        
-        st.subheader(f"Siz {total} savoldan **{score}** tasiga to‘g‘ri javob berdingiz!")
-        st.progress(percentage / 100, text=f"Muvaffaqiyat: {percentage:.1f}%")
-        
-        start_time = st.session_state.get("start_time")
-        if start_time:
-            spent_sec = (datetime.now() - start_time).total_seconds()
-            st.write(f"⏱ **Sarflangan vaqt:** {format_seconds(spent_sec)}")
+    if not st.session_state.test_finished:
+        if st.button("Testni Yakunlash va Natijani Tekshirish", type="primary", on_click=evaluate_test_results):
+            pass
 
-        if st.button("🔄 Yangi test boshlash", use_container_width=True):
-            st.session_state.clear()
-            st.rerun()
+# --- Test Yakunlangan Holat ---
+if st.session_state.test_finished:
+    st.header("Test Natijasi")
+    total = len(st.session_state.questions)
+    score = st.session_state.score
+    st.subheader(f"Siz {total} savoldan **{score}** tasiga to‘g‘ri javob berdingiz!")
+    percentage = (score / total) * 100 if total else 0.0
+    st.progress(percentage / 100, text=f"Muvaffaqiyat: {percentage:.1f}%")
+
+    start_time = st.session_state.get("start_time")
+    if start_time:
+        spent_sec = (datetime.now() - start_time).total_seconds()
+        st.write(f"⏱ **Sarflangan vaqt:** {format_seconds(spent_sec)}")
+
+    if st.button("Yangi test boshlash"):
+        st.session_state.clear()
+        st.rerun()
+
+# --- Taymer ---
+if st.session_state.test_started and not st.session_state.test_finished:
+    time_left = st.session_state.end_time - datetime.now()
+    if time_left.total_seconds() <= 0:
+        evaluate_test_results()
+    
+    total_seconds = int(max(0, time_left.total_seconds()))
+    st.sidebar.markdown(f"## ⏳ Qolgan vaqt: **{format_seconds(total_seconds)}**")
+    st.sidebar.markdown(f"## ✅ Javoblar: **{ans_cnt}/{len(questions)}**")
+    st.sidebar.progress(ans_cnt / len(questions) if len(questions) else 0.0)
+
+    time.sleep(1)
+    st.rerun()
