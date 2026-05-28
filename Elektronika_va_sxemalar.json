@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "savol": "Elektronika fanining asosiy vazifasi nimadan iborat?",
+    "variantlar": [
+      "axborotni uzatish, qabul qilish, qayta ishlash va saqlash uchun elektron qurilmalarni yaratish",
+      "faqat elektr energiyasini ishlab chiqarishni o‘rganish",
+      "mexanik tizimlarni boshqarish",
+      "issiqlik jarayonlarini tahlil qilish"
+    ],
+    "javob": "axborotni uzatish, qabul qilish, qayta ishlash va saqlash uchun elektron qurilmalarni yaratish"
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "savol": "Mikroelektronika asosan nimani o‘rganadi?",
+    "variantlar": [
+      "integral mikrosxemalar va ularning qo‘llanish prinsiplarini",
+      "elektromexanik relelar ishlashini",
+      "yuqori kuchlanishli elektr tarmoqlarini",
+      "gidravlik boshqaruv tizimlarini"
+    ],
+    "javob": "integral mikrosxemalar va ularning qo‘llanish prinsiplarini"
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "savol": "Yarimo‘tkazgichlar texnikasida eng keng qo‘llaniladigan material qaysi?",
+    "variantlar": [
+      "kremniy",
+      "mis",
+      "alyuminiy",
+      "temir"
+    ],
+    "javob": "kremniy"
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "savol": "Yarimo‘tkazgichlarning elektr o‘tkazuvchanligi qaysi omillarga bog‘liq bo‘lishi mumkin?",
+    "variantlar": [
+      "temperatura, yoritilganlik va kiritmalar konsentratsiyasiga",
+      "faqat mexanik bosimga",
+      "faqat tashqi shakliga",
+      "faqat rangiga"
+    ],
+    "javob": "temperatura, yoritilganlik va kiritmalar konsentratsiyasiga"
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "savol": "Qattiq jismda atomlar orasidagi asosiy bog‘lanish turi qanday ataladi?",
+    "variantlar": [
+      "kovalent bog‘lanish",
+      "ion bog‘lanish",
+      "magnit bog‘lanish",
+      "gravitatsion bog‘lanish"
+    ],
+    "javob": "kovalent bog‘lanish"
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "savol": "Valent zona va o‘tkazuvchanlik zonasi orasidagi soha nima deb ataladi?",
+    "variantlar": [
+      "taqiqlangan zona",
+      "faol zona",
+      "diffuziya zonasi",
+      "rezonans zonasi"
+    ],
+    "javob": "taqiqlangan zona"
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "savol": "O‘tkazuvchanlik zonasida joylashgan elektronlar qanday ataladi?",
+    "variantlar": [
+      "erkin zaryad tashuvchilar",
+      "bog‘langan elektronlar",
+      "ionlar",
+      "neytral atomlar"
+    ],
+    "javob": "erkin zaryad tashuvchilar"
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "savol": "Xususiy yarimo‘tkazgichda elektronlar va kovaklar konsentratsiyasi qanday bo‘ladi?",
+    "variantlar": [
+      "bir-biriga teng bo‘ladi",
+      "elektronlar ustun bo‘ladi",
+      "kovaklar ustun bo‘ladi",
+      "zaryad tashuvchilar bo‘lmaydi"
+    ],
+    "javob": "bir-biriga teng bo‘ladi"
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "savol": "Elektron–kovak juftligining hosil bo‘lish jarayoni nima deb ataladi?",
+    "variantlar": [
+      "generatsiya",
+      "rekombinatsiya",
+      "diffuziya",
+      "dreyf"
+    ],
+    "javob": "generatsiya"
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "savol": "Elektron va kovaklarning yo‘qolib, bog‘langan holatga qaytishi qanday jarayon?",
+    "variantlar": [
+      "rekombinatsiya",
+      "ionlashuv",
+      "injeksiya",
+      "emissiya"
+    ],
+    "javob": "rekombinatsiya"
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "savol": "Donor kiritmalar kiritilganda yarimo‘tkazgich qanday o‘tkazuvchanlikka ega bo‘ladi?",
+    "variantlar": [
+      "n-turdagi o‘tkazuvchanlik",
+      "p-turdagi o‘tkazuvchanlik",
+      "dielektrik holat",
+      "metall holat"
+    ],
+    "javob": "n-turdagi o‘tkazuvchanlik"
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "savol": "Akseptor kiritmalar kiritilgan yarimo‘tkazgich qanday ataladi?",
+    "variantlar": [
+      "p-turdagi yarimo‘tkazgich",
+      "n-turdagi yarimo‘tkazgich",
+      "xususiy yarimo‘tkazgich",
+      "supero‘tkazgich"
+    ],
+    "javob": "p-turdagi yarimo‘tkazgich"
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "savol": "n-turdagi yarimo‘tkazgichda asosiy zaryad tashuvchilar qaysilar?",
+    "variantlar": [
+      "elektronlar",
+      "kovaklar",
+      "ionlar",
+      "protonlar"
+    ],
+    "javob": "elektronlar"
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "savol": "p-turdagi yarimo‘tkazgichda noasosiy zaryad tashuvchilar nima hisoblanadi?",
+    "variantlar": [
+      "elektronlar",
+      "kovaklar",
+      "ionlar",
+      "atomlar"
+    ],
+    "javob": "elektronlar"
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "savol": "Nomuvozanat zaryad tashuvchilar qaysi holatda paydo bo‘ladi?",
+    "variantlar": [
+      "tashqi energetik ta’sir mavjud bo‘lganda",
+      "faqat absolut nol temperaturada",
+      "faqat vakuumda",
+      "faqat metallarda"
+    ],
+    "javob": "tashqi energetik ta’sir mavjud bo‘lganda"
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "savol": "Yorug‘lik ta’sirida yarimo‘tkazgichda hosil bo‘ladigan zaryad tashuvchilar nima deb ataladi?",
+    "variantlar": [
+      "fotoelektron–kovak juftliklari",
+      "donor ionlari",
+      "akseptor ionlari",
+      "neytral atomlar"
+    ],
+    "javob": "fotoelektron–kovak juftliklari"
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "savol": "Elektr maydon ta’sirida zaryad tashuvchilarning yo‘nalgan harakati nima deyiladi?",
+    "variantlar": [
+      "dreyf harakati",
+      "diffuziya harakati",
+      "xaotik harakat",
+      "termik harakat"
+    ],
+    "javob": "dreyf harakati"
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "savol": "Zaryad tashuvchilar konsentratsiyasi gradienti sababli yuzaga keladigan tok turi qaysi?",
+    "variantlar": [
+      "diffuziya toki",
+      "dreyf toki",
+      "impuls toki",
+      "rezonans toki"
+    ],
+    "javob": "diffuziya toki"
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "savol": "Zaryad tashuvchining yashash vaqti nimani anglatadi?",
+    "variantlar": [
+      "rekombinatsiyagacha bo‘lgan o‘rtacha vaqtni",
+      "kristall parchalanish vaqtini",
+      "elektr maydon davomiyligini",
+      "atom tebranish davrini"
+    ],
+    "javob": "rekombinatsiyagacha bo‘lgan o‘rtacha vaqtni"
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "savol": "Zaryad tashuvchilarning harakatchanligi nimani ifodalaydi?",
+    "variantlar": [
+      "ularning elektr maydonda harakatlanish qobiliyatini",
+      "material rangini",
+      "mexanik mustahkamlikni",
+      "issiqlik sig‘imini"
+    ],
+    "javob": "ularning elektr maydonda harakatlanish qobiliyatini"
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "savol": "Yarimo‘tkazgichda elektr o‘tkazuvchanlikning asosiy sababi bu ...",
+    "variantlar": [
+      "erkin elektronlar va kovaklarning yo‘nalgan harakati",
+      "atom yadrolarining tebranishi",
+      "kristall panjaraning geometrik shakli",
+      "dielektrik xossaning ortishi"
+    ],
+    "javob": "erkin elektronlar va kovaklarning yo‘nalgan harakati"
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "savol": "Xususiy yarimo‘tkazgichning asosiy belgisi bu ...",
+    "variantlar": [
+      "elektronlar va kovaklar sonining tengligi",
+      "faqat elektronlar ishtirok etishi",
+      "faqat kovaklar ishtirok etishi",
+      "kiritmalar mavjudligi"
+    ],
+    "javob": "elektronlar va kovaklar sonining tengligi"
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "savol": "Kovak tushunchasi nimani anglatadi?",
+    "variantlar": [
+      "valent zonadagi bo‘sh energetik holat",
+      "manfiy zaryadli erkin zarracha",
+      "atom yadrosining siljishi",
+      "donor atomining ionlashuvi"
+    ],
+    "javob": "valent zonadagi bo‘sh energetik holat"
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "savol": "Donor kiritma kiritilganda yarimo‘tkazgichda ustun bo‘ladigan zaryad tashuvchi bu ...",
+    "variantlar": [
+      "erkin elektronlar",
+      "kovaklar",
+      "neytral atomlar",
+      "ionlashmagan kiritmalar"
+    ],
+    "javob": "erkin elektronlar"
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "savol": "p-turdagi yarimo‘tkazgichning asosiy zaryad tashuvchisi bu ...",
+    "variantlar": [
+      "kovaklar",
+      "elektronlar",
+      "ionlar",
+      "atom yadrolari"
+    ],
+    "javob": "kovaklar"
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "savol": "Taqiqlangan zona kengligi nimani belgilaydi?",
+    "variantlar": [
+      "elektronning valent zonadan o‘tkazuvchanlik zonaga o‘tish qiyinligini",
+      "kristall panjara turini",
+      "yarimo‘tkazgich zichligini",
+      "mexanik mustahkamlikni"
+    ],
+    "javob": "elektronning valent zonadan o‘tkazuvchanlik zonaga o‘tish qiyinligini"
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "savol": "Harorat oshishi yarimo‘tkazgichda nimaga olib keladi?",
+    "variantlar": [
+      "zaryad tashuvchilar sonining ortishiga",
+      "elektr o‘tkazuvchanlikning kamayishiga",
+      "kovaklarning yo‘qolishiga",
+      "kristall panjaraning yemirilishiga"
+    ],
+    "javob": "zaryad tashuvchilar sonining ortishiga"
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "savol": "Rekombinatsiya jarayoni bu ...",
+    "variantlar": [
+      "elektron va kovakning bir-birini yo‘qotishi",
+      "yangi elektron hosil bo‘lishi",
+      "atom yadrosining parchalanishi",
+      "kiritmaning ionlashuvi"
+    ],
+    "javob": "elektron va kovakning bir-birini yo‘qotishi"
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "savol": "Muvozanat holatdagi yarimo‘tkazgichda qaysi holat saqlanadi?",
+    "variantlar": [
+      "generatsiya va rekombinatsiya tezliklarining tengligi",
+      "faqat generatsiya sodir bo‘lishi",
+      "faqat rekombinatsiya sodir bo‘lishi",
+      "zaryad tashuvchilar sonining nolga tengligi"
+    ],
+    "javob": "generatsiya va rekombinatsiya tezliklarining tengligi"
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "savol": "Nomuvozanat zaryad tashuvchilar qachon hosil bo‘ladi?",
+    "variantlar": [
+      "tashqi energiya ta’siri natijasida",
+      "absolyut nol haroratda",
+      "kiritmalar bo‘lmaganda",
+      "kristall mukammal bo‘lganda"
+    ],
+    "javob": "tashqi energiya ta’siri natijasida"
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "savol": "Yarimo‘tkazgich yoritilganda nima sodir bo‘ladi?",
+    "variantlar": [
+      "elektron–kovak juftliklari hosil bo‘ladi",
+      "faqat elektronlar harakati to‘xtaydi",
+      "fermi sathi yo‘qoladi",
+      "kristall panjara buziladi"
+    ],
+    "javob": "elektron–kovak juftliklari hosil bo‘ladi"
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "savol": "Diffuziya toki qanday sabab bilan yuzaga keladi?",
+    "variantlar": [
+      "zaryad tashuvchilar konsentratsiyasining notekisligi tufayli",
+      "kuchli magnit maydon ta’sirida",
+      "kristall panjara deformatsiyasi sababli",
+      "atom yadrolarining siljishi tufayli"
+    ],
+    "javob": "zaryad tashuvchilar konsentratsiyasining notekisligi tufayli"
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "savol": "Dreyf toki nimaga bog‘liq holda hosil bo‘ladi?",
+    "variantlar": [
+      "elektr maydon mavjudligiga",
+      "yorug‘lik intensivligiga",
+      "kristall shakliga",
+      "mexanik bosimga"
+    ],
+    "javob": "elektr maydon mavjudligiga"
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "savol": "Zaryad tashuvchilarning harakatchanligi nimani ifodalaydi?",
+    "variantlar": [
+      "elektr maydon ta’sirida harakatlanish qobiliyatini",
+      "zaryad miqdorini",
+      "energetik zonalar sonini",
+      "atom massasini"
+    ],
+    "javob": "elektr maydon ta’sirida harakatlanish qobiliyatini"
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "savol": "Fermi sathi nimani tavsiflaydi?",
+    "variantlar": [
+      "elektron bilan to‘ldirilish ehtimoli 50% bo‘lgan energiya darajasini",
+      "eng past energetik sathni",
+      "valent zonaning chegarasini",
+      "kristall panjaraning markazini"
+    ],
+    "javob": "elektron bilan to‘ldirilish ehtimoli 50% bo‘lgan energiya darajasini"
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "savol": "Bipolyar tranzistorning asosiy ulanish sxemalari nechta va ular nimaga qarab farqlanadi?",
+    "variantlar": [
+      "uchta bo‘lib, umumiy elektrod turiga qarab farqlanadi",
+      "ikkita bo‘lib, kuchlanish turiga qarab farqlanadi",
+      "to‘rtta bo‘lib, tok yo‘nalishiga qarab farqlanadi",
+      "bitta bo‘lib, yuklama turiga bog‘liq"
+    ],
+    "javob": "uchta bo‘lib, umumiy elektrod turiga qarab farqlanadi"
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "savol": "Umumiy baza (UB) ulanish sxemasining asosiy xususiyati nimada namoyon bo‘ladi?",
+    "variantlar": [
+      "katta chastotalarda barqaror ishlashi bilan",
+      "katta kuchaytirish koeffitsiyentiga egaligi bilan",
+      "katta kirish qarshiligi bilan",
+      "past chiqish qarshiligi bilan"
+    ],
+    "javob": "katta chastotalarda barqaror ishlashi bilan"
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "savol": "Umumiy emitter (UE) sxemasi nima sababli kuchaytirgichlarda keng qo‘llaniladi?",
+    "variantlar": [
+      "tok va kuchlanish bo‘yicha kuchaytirish beradi",
+      "faqat kuchlanishni kuchaytiradi",
+      "faqat tokni kuchaytiradi",
+      "kuchaytirish bermaydi"
+    ],
+    "javob": "tok va kuchlanish bo‘yicha kuchaytirish beradi"
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "savol": "Umumiy kollektor (UK) ulanish sxemasi yana qanday nom bilan ataladi?",
+    "variantlar": [
+      "emitter qaytargich",
+      "tok kuchaytirgich",
+      "kuchlanish qaytargich",
+      "baza kuchaytirgichi"
+    ],
+    "javob": "emitter qaytargich"
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "savol": "Bipolyar tranzistor energetik diagrammasi asosan nimani ifodalaydi?",
+    "variantlar": [
+      "energiya zonalari va sathlar joylashuvini",
+      "mexanik tuzilishini",
+      "korpus shaklini",
+      "issiqlik tarqalishini"
+    ],
+    "javob": "energiya zonalari va sathlar joylashuvini"
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "savol": "n–p–n tranzistorda asosiy zaryad tashuvchilar qaysilar?",
+    "variantlar": [
+      "elektronlar",
+      "kovaklar",
+      "ionlar",
+      "neytronlar"
+    ],
+    "javob": "elektronlar"
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "savol": "Bipolyar tranzistorda baza toki asosan nimaga bog‘liq?",
+    "variantlar": [
+      "emitter–baza o‘tishining holatiga",
+      "kollektor kuchlanishiga",
+      "tashqi yuklamaga",
+      "korpus materialiga"
+    ],
+    "javob": "emitter–baza o‘tishining holatiga"
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "savol": "Kollektor toki qanday omillar ta’sirida shakllanadi?",
+    "variantlar": [
+      "emitterdan kelayotgan zaryad tashuvchilar hisobiga",
+      "faqat baza kuchlanishi hisobiga",
+      "faqat tashqi qarshilik sabab",
+      "issiqlik kengayishi tufayli"
+    ],
+    "javob": "emitterdan kelayotgan zaryad tashuvchilar hisobiga"
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "savol": "Bipolyar tranzistorning aktiv ish rejimi qachon hosil bo‘ladi?",
+    "variantlar": [
+      "emitter–baza o‘tishi ochiq, baza–kollektor yopiq bo‘lganda",
+      "har ikkala o‘tish yopiq bo‘lganda",
+      "har ikkala o‘tish ochiq bo‘lganda",
+      "faqat kollektor–baza o‘tishi ochiq bo‘lganda"
+    ],
+    "javob": "emitter–baza o‘tishi ochiq, baza–kollektor yopiq bo‘lganda"
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "savol": "To‘yinish rejimi qanday holatda yuzaga keladi?",
+    "variantlar": [
+      "ikkala p–n o‘tish ochiq bo‘lganda",
+      "ikkala p–n o‘tish yopiq bo‘lganda",
+      "faqat emitter–baza o‘tishi yopiq bo‘lganda",
+      "faqat baza–kollektor o‘tishi yopiq bo‘lganda"
+    ],
+    "javob": "ikkala p–n o‘tish ochiq bo‘lganda"
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "savol": "Bipolyar tranzistorning elektr modeli nimani soddalashtirib ifodalaydi?",
+    "variantlar": [
+      "tranzistorning elektr xatti-harakatini",
+      "mexanik mustahkamligini",
+      "korpus o‘lchamlarini",
+      "ishlab chiqarish texnologiyasini"
+    ],
+    "javob": "tranzistorning elektr xatti-harakatini"
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "savol": "Kichik signal modeli asosan qaysi holat uchun ishlatiladi?",
+    "variantlar": [
+      "kichik o‘zgaruvchan signallarni tahlil qilishda",
+      "yuqori quvvatli rejimda",
+      "teshilish jarayonida",
+      "issiqlik sinovlarida"
+    ],
+    "javob": "kichik o‘zgaruvchan signallarni tahlil qilishda"
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "savol": "Statik xarakteristikalar nimani ko‘rsatadi?",
+    "variantlar": [
+      "doimiy rejimdagi tok–kuchlanish bog‘lanishini",
+      "faqat chastotaviy xususiyatlarni",
+      "faqat impulsli rejimni",
+      "mexanik tebranishlarni"
+    ],
+    "javob": "doimiy rejimdagi tok–kuchlanish bog‘lanishini"
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "savol": "Chiqish xarakteristikasi qaysi bog‘lanishni ifodalaydi?",
+    "variantlar": [
+      "kollektor toki va kollektor kuchlanishi orasidagi bog‘lanishni",
+      "baza toki va baza kuchlanishini",
+      "emitter toki va haroratni",
+      "quvvat va vaqtni"
+    ],
+    "javob": "kollektor toki va kollektor kuchlanishi orasidagi bog‘lanishni"
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "savol": "Tranzistor parametrlarining temperaturaga bog‘liqligi nimaga olib keladi?",
+    "variantlar": [
+      "ish rejimining siljishiga",
+      "mexanik sinishga",
+      "izolyatsiyaning yo‘qolishiga",
+      "elektrodlarning erishiga"
+    ],
+    "javob": "ish rejimining siljishiga"
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "savol": "Temperatura ortishi bilan kollektor toki odatda qanday o‘zgaradi?",
+    "variantlar": [
+      "ortadi",
+      "kamayadi",
+      "o‘zgarmaydi",
+      "nolga tenglashadi"
+    ],
+    "javob": "ortadi"
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "savol": "Tranzistorni chiziqli to‘rt qutblik sifatida qarash nimaga xizmat qiladi?",
+    "variantlar": [
+      "kuchaytirgichlarni tahlil qilishga",
+      "mexanik modellashtirishga",
+      "issiqlik tarqalishini hisoblashga",
+      "korpus dizayniga"
+    ],
+    "javob": "kuchaytirgichlarni tahlil qilishga"
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "savol": "Chastota xususiyatlari asosan nimani belgilaydi?",
+    "variantlar": [
+      "tranzistorning qaysi chastotagacha ishlashini",
+      "uning rangi va o‘lchamini",
+      "korpus turini",
+      "o‘rnatish usulini"
+    ],
+    "javob": "tranzistorning qaysi chastotagacha ishlashini"
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "savol": "Yuqori chastotada tranzistor kuchaytirishining kamayish sababi nimada?",
+    "variantlar": [
+      "ichki sig‘imlarning ta’siri",
+      "tashqi qarshilikning yo‘qligi",
+      "mexanik tebranishlar",
+      "korpusning qizishi"
+    ],
+    "javob": "ichki sig‘imlarning ta’siri"
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "savol": "O‘YUCH bipolar tranzistorlar nimasi bilan farqlanadi?",
+    "variantlar": [
+      "juda yuqori chastotalarda ishlay olishi bilan",
+      "juda katta o‘lchamga egaligi bilan",
+      "past ishonchliligi bilan",
+      "faqat impulsli rejimda ishlashi bilan"
+    ],
+    "javob": "juda yuqori chastotalarda ishlay olishi bilan"
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "savol": "Tranzistor teshilishi asosan qaysi holatda yuz beradi?",
+    "variantlar": [
+      "kollektor–baza kuchlanishi me’yordan oshganda",
+      "baza toki yo‘qolganda",
+      "emitter uzilganda",
+      "yuklama ulanmaganda"
+    ],
+    "javob": "kollektor–baza kuchlanishi me’yordan oshganda"
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "savol": "Teshilishning eng xavfli turi qaysi?",
+    "variantlar": [
+      "termik teshilish",
+      "mexanik teshilish",
+      "kimyoviy teshilish",
+      "optik teshilish"
+    ],
+    "javob": "termik teshilish"
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "savol": "Barqaror ishlash sohasini kengaytirishning asosiy usullaridan biri qaysi?",
+    "variantlar": [
+      "issiqlikni samarali chiqarish",
+      "korpusni kattalashtirish",
+      "rangini o‘zgartirish",
+      "elektrod nomini almashtirish"
+    ],
+    "javob": "issiqlikni samarali chiqarish"
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "savol": "Manfiy teskari aloqa tranzistorga qanday ta’sir ko‘rsatadi?",
+    "variantlar": [
+      "ish barqarorligini oshiradi",
+      "kuchaytirishni cheksiz qiladi",
+      "teshilishni tezlashtiradi",
+      "chastotani kamaytiradi"
+    ],
+    "javob": "ish barqarorligini oshiradi"
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "savol": "Bipolyar tranzistorning umumiy ishlash samaradorligi nimaga bog‘liq?",
+    "variantlar": [
+      "ish rejimi va tashqi sharoitlarning to‘g‘ri tanlanishiga",
+      "faqat korpus turiga",
+      "faqat rangiga",
+      "faqat ishlab chiqarilgan yiliga"
+    ],
+    "javob": "ish rejimi va tashqi sharoitlarning to‘g‘ri tanlanishiga"
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "savol": "Maydoniy tranzistorlarning asosiy ustunligi nimada namoyon bo‘ladi?",
+    "variantlar": [
+      "kirish qarshiligining juda katta bo‘lishida",
+      "kirish qarshiligining juda kichik bo‘lishida",
+      "faqat o‘zgaruvchan tokda ishlashida",
+      "faqat past chastotalarda qo‘llanilishida"
+    ],
+    "javob": "kirish qarshiligining juda katta bo‘lishida"
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "savol": "p-n o‘tish bilan boshqariluvchi maydoniy tranzistorda kanal holati nimaga bog‘liq?",
+    "variantlar": [
+      "zatvor va kanal orasidagi kuchlanishga",
+      "faqat stok toki qiymatiga",
+      "faqat manba qarshiligiga",
+      "tashqi yuklama qarshiligiga"
+    ],
+    "javob": "zatvor va kanal orasidagi kuchlanishga"
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "savol": "MDYA tranzistorda maydon effekti qanday hodisa orqali yuzaga keladi?",
+    "variantlar": [
+      "elektr maydon ta’sirida kanal o‘tkazuvchanligining o‘zgarishi",
+      "issiqlik ta’sirida zaryad tashuvchilar ko‘payishi",
+      "mexanik bosim ta’sirida kristall deformatsiyasi",
+      "yorug‘lik ta’sirida fotoeffekt hosil bo‘lishi"
+    ],
+    "javob": "elektr maydon ta’sirida kanal o‘tkazuvchanligining o‘zgarishi"
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "savol": "Kanali induksiyalangan mdya tranzistorning asosiy xususiyati qaysi?",
+    "variantlar": [
+      "kanal faqat boshqaruvchi kuchlanish berilganda hosil bo‘ladi",
+      "kanal doimo mavjud bo‘ladi",
+      "faqat p-turdagi kanalga ega bo‘ladi",
+      "faqat yuqori toklar bilan ishlaydi"
+    ],
+    "javob": "kanal faqat boshqaruvchi kuchlanish berilganda hosil bo‘ladi"
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "savol": "Kanali qurilgan mdya tranzistor qanday holatda tok o‘tkaza oladi?",
+    "variantlar": [
+      "boshqaruvchi kuchlanishsiz ham",
+      "faqat katta chastotalarda",
+      "faqat impuls rejimida",
+      "faqat teskari kuchlanishda"
+    ],
+    "javob": "boshqaruvchi kuchlanishsiz ham"
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "savol": "MDYA tranzistorlarda dielektrik qatlamning vazifasi nimadan iborat?",
+    "variantlar": [
+      "zatvorni kanal bilan elektr jihatdan ajratish",
+      "tokni kuchaytirish",
+      "issiqlikni chiqarish",
+      "kanal qarshiligini kamaytirish"
+    ],
+    "javob": "zatvorni kanal bilan elektr jihatdan ajratish"
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "savol": "Maydoniy tranzistorlarning matematik modellari asosan nimani tavsiflaydi?",
+    "variantlar": [
+      "tranzistorning statik va dinamik xatti-harakatini",
+      "faqat issiqlik rejimini",
+      "faqat mexanik mustahkamligini",
+      "faqat tashqi ko‘rinishini"
+    ],
+    "javob": "tranzistorning statik va dinamik xatti-harakatini"
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "savol": "Maydoniy tranzistor parametrlariga qaysi kattaliklar kiradi?",
+    "variantlar": [
+      "kirish qarshiligi va uzatish xususiyatlari",
+      "faqat o‘lchamlari",
+      "faqat ishlash harorati",
+      "faqat korpus materiali"
+    ],
+    "javob": "kirish qarshiligi va uzatish xususiyatlari"
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "savol": "Stok tokining temperaturaga bog‘liqligi nimaga olib keladi?",
+    "variantlar": [
+      "ish rejimining o‘zgarishiga",
+      "korpus rangining o‘zgarishiga",
+      "faqat mexanik kengayishga",
+      "faqat tashqi shovqinga"
+    ],
+    "javob": "ish rejimining o‘zgarishiga"
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "savol": "Temperatura oshganda maydoniy tranzistorlarda asosan nima kuzatiladi?",
+    "variantlar": [
+      "zaryad tashuvchilar harakatchanligining kamayishi",
+      "dielektrik qatlam yo‘qolishi",
+      "kanal uzunligining ortishi",
+      "zatvor materiali erishi"
+    ],
+    "javob": "zaryad tashuvchilar harakatchanligining kamayishi"
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "savol": "Maydoniy tranzistorlarning chastota xususiyatlari nimani belgilaydi?",
+    "variantlar": [
+      "qanday chastotagacha samarali ishlashini",
+      "faqat quvvat sarfini",
+      "faqat kuchlanish chegarasini",
+      "faqat korpus turini"
+    ],
+    "javob": "qanday chastotagacha samarali ishlashini"
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "savol": "Yuqori chastotali (O‘YUCH) maydoniy tranzistorlarning asosiy qo‘llanish sohasi qaysi?",
+    "variantlar": [
+      "radio va mikroto‘lqinli kuchaytirgichlar",
+      "quvvat transformatorlari",
+      "past chastotali filtrlar",
+      "mexanik datchiklar"
+    ],
+    "javob": "radio va mikroto‘lqinli kuchaytirgichlar"
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "savol": "O‘YUCH maydoniy tranzistorlarda kichik kanal uzunligi nimani ta’minlaydi?",
+    "variantlar": [
+      "tezkor ishlashni",
+      "katta issiqlik ajralishini",
+      "past izolyatsiyani",
+      "yuqori mexanik chidamlilikni"
+    ],
+    "javob": "tezkor ishlashni"
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "savol": "Maydoniy tranzistorlarda stok, manba va zatvor o‘rtasidagi bog‘lanish nimaga asoslanadi?",
+    "variantlar": [
+      "elektr maydon orqali boshqarilishga",
+      "to‘g‘ridan-to‘g‘ri tok uzatishga",
+      "mexanik kontaktga",
+      "magnit maydonga"
+    ],
+    "javob": "elektr maydon orqali boshqarilishga"
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "savol": "Maydoniy tranzistorlar analog sxemalarda ko‘proq nima sababli qo‘llaniladi?",
+    "variantlar": [
+      "kirish signali manbasini kam yuklagani uchun",
+      "faqat arzonligi sababli",
+      "faqat kichik o‘lchami uchun",
+      "faqat doimiy tokda ishlagani uchun"
+    ],
+    "javob": "kirish signali manbasini kam yuklagani uchun"
+  },
+  {
+    "id": 76,
+    "type": "multiple_choice",
+    "savol": "Integral mikrosxemalar ishlab chiqarishda texnologik jarayonlarning asosiy maqsadi nima?",
+    "variantlar": [
+      "elementlar zichligini oshirib, ishonchlilikni ta’minlash",
+      "texnologik operatsiyalar sonini ko‘paytirish",
+      "faqat qurilma narxini kamaytirish",
+      "energiya sarfini oshirish"
+    ],
+    "javob": "elementlar zichligini oshirib, ishonchlilikni ta’minlash"
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "savol": "Yarimo‘tkazgich imslarda fotolitografiya jarayoni asosan nimani ta’minlaydi?",
+    "variantlar": [
+      "elementlar geometrik shaklini aniqlik bilan hosil qilish",
+      "kristallni mexanik mustahkamlash",
+      "issiqlikni kamaytirish",
+      "tok kuchini oshirish"
+    ],
+    "javob": "elementlar geometrik shaklini aniqlik bilan hosil qilish"
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "savol": "Bipolyar tranzistor asosidagi ims tayyorlashda asosiy faol element qaysi?",
+    "variantlar": [
+      "emitter–baza–kollektor tuzilmasi",
+      "faqat rezistorlar majmuasi",
+      "kondensator qatlamlari",
+      "induktiv g‘altaklar"
+    ],
+    "javob": "emitter–baza–kollektor tuzilmasi"
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "savol": "MDYA-tranzistorli imslarning asosiy ustunligi nimada?",
+    "variantlar": [
+      "kam quvvat sarfi va yuqori integratsiya darajasi",
+      "yuqori issiqlik ajralishi",
+      "faqat analog signallar bilan ishlashi",
+      "katta geometrik o‘lchamlar"
+    ],
+    "javob": "kam quvvat sarfi va yuqori integratsiya darajasi"
+  },
+  {
+    "id": 80,
+    "type": "multiple_choice",
+    "savol": "Analog elektron qurilmalar asosan qanday signallar bilan ishlaydi?",
+    "variantlar": [
+      "uzluksiz (analog) signallar bilan",
+      "faqat raqamli impulslar bilan",
+      "faqat ikkilik signallar bilan",
+      "faqat shovqin signallari bilan"
+    ],
+    "javob": "uzluksiz (analog) signallar bilan"
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "savol": "Elektron qurilmalarni tasniflashda asosiy mezonlardan biri qaysi?",
+    "variantlar": [
+      "bajaradigan funksiyasi",
+      "rang dizayni",
+      "og‘irligi",
+      "ishlab chiqarilgan yili"
+    ],
+    "javob": "bajaradigan funksiyasi"
+  },
+  {
+    "id": 82,
+    "type": "multiple_choice",
+    "savol": "Analog sxemotexnikada kuchaytirgichlarning asosiy vazifasi nima?",
+    "variantlar": [
+      "signal amplitudasini o‘zgartirmasdan shaklini saqlab kuchaytirish",
+      "signal chastotasini nolga tushirish",
+      "faqat shovqinni kuchaytirish",
+      "signalni raqamlashtirish"
+    ],
+    "javob": "signal amplitudasini o‘zgartirmasdan shaklini saqlab kuchaytirish"
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "savol": "Kuchaytirgich qurilmalarining asosiy xususiyatlaridan biri qaysi?",
+    "variantlar": [
+      "kuchaytirish koeffitsienti",
+      "faqat tashqi ko‘rinishi",
+      "faqat narxi",
+      "faqat montaj turi"
+    ],
+    "javob": "kuchaytirish koeffitsienti"
+  },
+  {
+    "id": 84,
+    "type": "multiple_choice",
+    "savol": "Kuchaytirgich kaskadlarining sinflarga bo‘linishi nimaga asoslanadi?",
+    "variantlar": [
+      "ish rejimi va signal o‘tkazish xususiyatlariga",
+      "faqat tranzistor rangiga",
+      "faqat quvvat manbaiga",
+      "faqat sxema o‘lchamiga"
+    ],
+    "javob": "ish rejimi va signal o‘tkazish xususiyatlariga"
+  },
+  {
+    "id": 85,
+    "type": "multiple_choice",
+    "savol": "A sinf kuchaytirgichlarning asosiy xususiyati nimada?",
+    "variantlar": [
+      "signalning butun davri davomida faol ishlashi",
+      "faqat impulsli ishlashi",
+      "faqat manfiy signalni kuchaytirishi",
+      "faqat yuqori chastotada ishlashi"
+    ],
+    "javob": "signalning butun davri davomida faol ishlashi"
+  },
+  {
+    "id": 86,
+    "type": "multiple_choice",
+    "savol": "Kuchaytirgichlarda teskari aloqa nima uchun qo‘llaniladi?",
+    "variantlar": [
+      "barqarorlik va aniqlikni oshirish uchun",
+      "faqat kuchaytirishni oshirish uchun",
+      "faqat sxemani murakkablashtirish uchun",
+      "faqat shovqinni ko‘paytirish uchun"
+    ],
+    "javob": "barqarorlik va aniqlikni oshirish uchun"
+  },
+  {
+    "id": 87,
+    "type": "multiple_choice",
+    "savol": "Bipolyar tranzistor asosidagi kuchaytirgich kaskadlarida asosiy boshqaruvchi tok qayerdan olinadi?",
+    "variantlar": [
+      "baza zanjiridan",
+      "kollektor chiqishidan",
+      "faqat yuklamadan",
+      "faqat quvvat manbaidan"
+    ],
+    "javob": "baza zanjiridan"
+  },
+  {
+    "id": 88,
+    "type": "multiple_choice",
+    "savol": "Maydoniy tranzistorli kuchaytirgichlarda boshqaruv qaysi kattalik orqali amalga oshiriladi?",
+    "variantlar": [
+      "kirish kuchlanishi orqali",
+      "faqat chiqish toki orqali",
+      "faqat issiqlik orqali",
+      "faqat qarshilik orqali"
+    ],
+    "javob": "kirish kuchlanishi orqali"
+  },
+  {
+    "id": 89,
+    "type": "multiple_choice",
+    "savol": "Maydoniy tranzistorlarning bipolyar tranzistorlarga nisbatan asosiy farqi nimada?",
+    "variantlar": [
+      "kirish qarshiligining juda katta bo‘lishi",
+      "katta baza toki talabi",
+      "past integratsiya darajasi",
+      "faqat raqamli ishlash"
+    ],
+    "javob": "kirish qarshiligining juda katta bo‘lishi"
+  },
+  {
+    "id": 90,
+    "type": "multiple_choice",
+    "savol": "Analog kuchaytirgichlarda yuklama asosan nima vazifani bajaradi?",
+    "variantlar": [
+      "chiqish signalini tashqi zanjirga uzatish",
+      "signalni bloklash",
+      "faqat himoya qilish",
+      "faqat shovqin hosil qilish"
+    ],
+    "javob": "chiqish signalini tashqi zanjirga uzatish"
+  },
+  {
+    "id": 91,
+    "type": "multiple_choice",
+    "savol": "Operatsion kuchaytirgichlar analog integral mikrosxemalarga kirishining asosiy sababi nima?",
+    "variantlar": [
+      "kichik kirish signallarini barqaror va aniqlik bilan kuchaytirish imkoniyati",
+      "faqat raqamli signallarni qayta ishlashi",
+      "faqat yuqori chastotali impulslar hosil qilishi",
+      "faqat quvvat manbai sifatida ishlatilishi"
+    ],
+    "javob": "kichik kirish signallarini barqaror va aniqlik bilan kuchaytirish imkoniyati"
+  },
+  {
+    "id": 92,
+    "type": "multiple_choice",
+    "savol": "Analog integral mikrosxemalarning asosiy ustunligi qaysi javobda to‘g‘ri ko‘rsatilgan?",
+    "variantlar": [
+      "ixchamlik, ishonchlilik va parametrlarning barqarorligi",
+      "faqat katta o‘lchamli bo‘lishi",
+      "faqat alohida tranzistorlardan iborat bo‘lishi",
+      "faqat mexanik sozlash talab qilinishi"
+    ],
+    "javob": "ixchamlik, ishonchlilik va parametrlarning barqarorligi"
+  },
+  {
+    "id": 93,
+    "type": "multiple_choice",
+    "savol": "Operatsion kuchaytirgichlarning ichki tuzilishida qaysi qism asosiy rol o‘ynaydi?",
+    "variantlar": [
+      "differensial kuchaytirgich bosqichi",
+      "faqat chiqish transformatori",
+      "faqat stabilitron",
+      "faqat kuchlanish bo‘luvchi"
+    ],
+    "javob": "differensial kuchaytirgich bosqichi"
+  },
+  {
+    "id": 94,
+    "type": "multiple_choice",
+    "savol": "Operatsion kuchaytirgichlarning asosiy vazifasi nimadan iborat?",
+    "variantlar": [
+      "kirish signallari farqini kuchaytirish",
+      "faqat tokni cheklash",
+      "faqat kuchlanishni pasaytirish",
+      "faqat chastotani o‘zgartirish"
+    ],
+    "javob": "kirish signallari farqini kuchaytirish"
+  },
+  {
+    "id": 95,
+    "type": "multiple_choice",
+    "savol": "Operatsion kuchaytirgichning ideal modelida qaysi xossa qabul qilinadi?",
+    "variantlar": [
+      "kirish qarshiligi cheksiz katta deb olinadi",
+      "kirish qarshiligi nolga teng",
+      "chiqish qarshiligi cheksiz katta",
+      "kuchaytirish koeffitsiyenti nolga teng"
+    ],
+    "javob": "kirish qarshiligi cheksiz katta deb olinadi"
+  },
+  {
+    "id": 96,
+    "type": "multiple_choice",
+    "savol": "Operatsion kuchaytirgichlarning asosiy parametrlariga qaysi biri kiradi?",
+    "variantlar": [
+      "kuchaytirish koeffitsiyenti va kirish qarshiligi",
+      "faqat tashqi rezistor qiymati",
+      "faqat kondensator sig‘imi",
+      "faqat ta’minot simining uzunligi"
+    ],
+    "javob": "kuchaytirish koeffitsiyenti va kirish qarshiligi"
+  },
+  {
+    "id": 97,
+    "type": "multiple_choice",
+    "savol": "Operatsion kuchaytirgich xarakteristikalarining temperaturaga bog‘liqligi nimada namoyon bo‘ladi?",
+    "variantlar": [
+      "parametrlarning ma’lum darajada o‘zgarishida",
+      "to‘liq ishdan chiqishida",
+      "faqat mexanik deformatsiyada",
+      "faqat rang o‘zgarishida"
+    ],
+    "javob": "parametrlarning ma’lum darajada o‘zgarishida"
+  },
+  {
+    "id": 98,
+    "type": "multiple_choice",
+    "savol": "Operatsion kuchaytirgichlar asosida analog signallarni o‘zgartirishning asosiy maqsadi nima?",
+    "variantlar": [
+      "signal shakli va xususiyatlarini boshqarish",
+      "faqat signalni saqlash",
+      "faqat signalni yo‘q qilish",
+      "faqat signalni uzib qo‘yish"
+    ],
+    "javob": "signal shakli va xususiyatlarini boshqarish"
+  },
+  {
+    "id": 99,
+    "type": "multiple_choice",
+    "savol": "Inersiyasiz rezistiv teskari aloqa zanjiri qanday xususiyatga ega?",
+    "variantlar": [
+      "chastotaga bog‘liq bo‘lmagan ishlash",
+      "faqat yuqori chastotalarda ishlash",
+      "faqat impulsli rejimda ishlash",
+      "faqat kechikish hosil qilish"
+    ],
+    "javob": "chastotaga bog‘liq bo‘lmagan ishlash"
+  },
+  {
+    "id": 100,
+    "type": "multiple_choice",
+    "savol": "Rezistiv teskari aloqa operatsion kuchaytirgichda nimani ta’minlaydi?",
+    "variantlar": [
+      "kuchaytirishning barqarorligini",
+      "faqat shovqinni oshirishni",
+      "faqat signalni buzishni",
+      "faqat quvvat sarfini ko‘paytirishni"
+    ],
+    "javob": "kuchaytirishning barqarorligini"
+  },
+  {
+    "id": 101,
+    "type": "multiple_choice",
+    "savol": "Inersiyali teskari aloqa zanjirlarining asosiy farqi nimada?",
+    "variantlar": [
+      "vaqtga bog‘liq xususiyatlarga ega bo‘lishida",
+      "faqat rezistorlardan iborat bo‘lishida",
+      "faqat doimiy tok bilan ishlashida",
+      "faqat mexanik elementlarga ega bo‘lishida"
+    ],
+    "javob": "vaqtga bog‘liq xususiyatlarga ega bo‘lishida"
+  },
+  {
+    "id": 102,
+    "type": "multiple_choice",
+    "savol": "Inersiyali teskari aloqa qaysi elementlar ishtirokida amalga oshiriladi?",
+    "variantlar": [
+      "reaktiv elementlar orqali",
+      "faqat rezistorlar orqali",
+      "faqat manba orqali",
+      "faqat yuklama orqali"
+    ],
+    "javob": "reaktiv elementlar orqali"
+  },
+  {
+    "id": 103,
+    "type": "multiple_choice",
+    "savol": "Nochiziqli teskari aloqa zanjirlarining asosiy vazifasi nima?",
+    "variantlar": [
+      "signalni cheklash va shakllantirish",
+      "faqat kuchlanishni oshirish",
+      "faqat chastotani pasaytirish",
+      "faqat quvvatni kamaytirish"
+    ],
+    "javob": "signalni cheklash va shakllantirish"
+  },
+  {
+    "id": 104,
+    "type": "multiple_choice",
+    "savol": "Operatsion kuchaytirgichlarda nochiziqli zanjirlar qachon qo‘llaniladi?",
+    "variantlar": [
+      "maxsus funksional o‘zgartirish talab qilinganda",
+      "faqat ideal sharoitda",
+      "faqat o‘lchovsiz rejimda",
+      "faqat doimiy tokda"
+    ],
+    "javob": "maxsus funksional o‘zgartirish talab qilinganda"
+  },
+  {
+    "id": 105,
+    "type": "multiple_choice",
+    "savol": "Analog signallarni o‘zgartirishda operatsion kuchaytirgichlarning keng qo‘llanish sababi nimada?",
+    "variantlar": [
+      "moslashuvchanlik va universallikda",
+      "faqat arzonligida",
+      "faqat katta o‘lchamida",
+      "faqat mexanik mustahkamligida"
+    ],
+    "javob": "moslashuvchanlik va universallikda"
+  },
+  {
+    "id": 106,
+    "type": "multiple_choice",
+    "savol": "Signal deb nimaga aytiladi?",
+    "variantlar": [
+      "vaqt bo‘yicha o‘zgaruvchi fizik kattalik",
+      "doimiy kattalik",
+      "faqat elektr kuchlanishi",
+      "faqat tok"
+    ],
+    "javob": "vaqt bo‘yicha o‘zgaruvchi fizik kattalik"
+  },
+  {
+    "id": 107,
+    "type": "multiple_choice",
+    "savol": "Elektr signal nima?",
+    "variantlar": [
+      "vaqt bo‘yicha o‘zgaruvchi elektr kattalik",
+      "mexanik tebranish",
+      "issiqlik oqimi",
+      "kimyoviy reaksiya"
+    ],
+    "javob": "vaqt bo‘yicha o‘zgaruvchi elektr kattalik"
+  },
+  {
+    "id": 108,
+    "type": "multiple_choice",
+    "savol": "Qaysi qurilmalar faqat analog signallar bilan ishlaydi?",
+    "variantlar": [
+      "analog qurilmalar",
+      "raqamli qurilmalar",
+      "mantiqiy qurilmalar",
+      "mikroprotsessorlar"
+    ],
+    "javob": "analog qurilmalar"
+  },
+  {
+    "id": 109,
+    "type": "multiple_choice",
+    "savol": "Raqamli signalning asosiy xususiyati nimada?",
+    "variantlar": [
+      "faqat cheklangan qiymatlar oladi",
+      "uzluksiz o‘zgaradi",
+      "shovqinga sezgir",
+      "mexanik tabiatga ega"
+    ],
+    "javob": "faqat cheklangan qiymatlar oladi"
+  },
+  {
+    "id": 110,
+    "type": "multiple_choice",
+    "savol": "Chiziqli elektr zanjir nimasi bilan tavsiflanadi?",
+    "variantlar": [
+      "volt-amper xarakteristikasi to‘g‘ri chiziqli",
+      "faqat aktiv elementli",
+      "faqat passiv elementli",
+      "faqat raqamli"
+    ],
+    "javob": "volt-amper xarakteristikasi to‘g‘ri chiziqli"
+  },
+  {
+    "id": 111,
+    "type": "multiple_choice",
+    "savol": "Passiv elementlarga qaysilar kiradi?",
+    "variantlar": [
+      "rezistor, kondensator, induktivlik",
+      "diod va tranzistor",
+      "tiristor va simistor",
+      "operatsion kuchaytirgich"
+    ],
+    "javob": "rezistor, kondensator, induktivlik"
+  },
+  {
+    "id": 112,
+    "type": "multiple_choice",
+    "savol": "Aktiv elementlarga qaysi javob to‘g‘ri?",
+    "variantlar": [
+      "diod va tranzistor",
+      "rezistor",
+      "kondensator",
+      "induktivlik"
+    ],
+    "javob": "diod va tranzistor"
+  },
+  {
+    "id": 113,
+    "type": "multiple_choice",
+    "savol": "Analog signallarning asosiy kamchiligi nimada?",
+    "variantlar": [
+      "shovqin va halaqitlarga sezgir",
+      "saqlab bo‘lmaydi",
+      "kuchaytirilmaydi",
+      "raqamga o‘tkazilmaydi"
+    ],
+    "javob": "shovqin va halaqitlarga sezgir"
+  },
+  {
+    "id": 114,
+    "type": "multiple_choice",
+    "savol": "Raqamli qurilmalarning ustunligi nimada?",
+    "variantlar": [
+      "shovqinlarga barqaror",
+      "qarib boradi",
+      "aniq emas",
+      "faqat analog ishlaydi"
+    ],
+    "javob": "shovqinlarga barqaror"
+  },
+  {
+    "id": 115,
+    "type": "multiple_choice",
+    "savol": "Rezistorning asosiy vazifasi nima?",
+    "variantlar": [
+      "tok va kuchlanishni boshqarish",
+      "zaryad saqlash",
+      "magnit maydon hosil qilish",
+      "tok generatsiyalash"
+    ],
+    "javob": "tok va kuchlanishni boshqarish"
+  },
+  {
+    "id": 116,
+    "type": "multiple_choice",
+    "savol": "O‘zgaruvchan rezistor qayerda qo‘llaniladi?",
+    "variantlar": [
+      "sozlash va rostlashda",
+      "faqat IMSda",
+      "faqat yuqori kuchlanishda",
+      "faqat raqamli sxemada"
+    ],
+    "javob": "sozlash va rostlashda"
+  },
+  {
+    "id": 117,
+    "type": "multiple_choice",
+    "savol": "Rezistorning ruxsati nimani bildiradi?",
+    "variantlar": [
+      "nominaldan og‘ish chegarasi",
+      "quvvat qiymati",
+      "harorat chegarasi",
+      "chastota diapazoni"
+    ],
+    "javob": "nominaldan og‘ish chegarasi"
+  },
+  {
+    "id": 118,
+    "type": "multiple_choice",
+    "savol": "Kondensator nimani saqlaydi?",
+    "variantlar": [
+      "elektr zaryad",
+      "tok",
+      "magnit oqim",
+      "issiqlik"
+    ],
+    "javob": "elektr zaryad"
+  },
+  {
+    "id": 119,
+    "type": "multiple_choice",
+    "savol": "Qaysi kondensator qutbli hisoblanadi?",
+    "variantlar": [
+      "elektrolitik kondensator",
+      "keramik",
+      "slyudali",
+      "havo"
+    ],
+    "javob": "elektrolitik kondensator"
+  },
+  {
+    "id": 120,
+    "type": "multiple_choice",
+    "savol": "Kondensatorlar dielektrigiga ko‘ra qanday bo‘linadi?",
+    "variantlar": [
+      "gazsimon, suyuq va qattiq",
+      "aktiv va passiv",
+      "magnitli va nomagnit",
+      "raqamli va analog"
+    ],
+    "javob": "gazsimon, suyuq va qattiq"
+  },
+  {
+    "id": 121,
+    "type": "multiple_choice",
+    "savol": "Kondensatorlarni parallel ulashda qaysi kattalik bir xil bo‘ladi?",
+    "variantlar": [
+      "kuchlanish",
+      "tok",
+      "quvvat",
+      "sig‘im"
+    ],
+    "javob": "kuchlanish"
+  },
+  {
+    "id": 122,
+    "type": "multiple_choice",
+    "savol": "IMS ichida kondensatorlar qanday hosil qilinadi?",
+    "variantlar": [
+      "p-n o‘tish sig‘imi orqali",
+      "rezistor yordamida",
+      "g‘altak orqali",
+      "mexanik plastina bilan"
+    ],
+    "javob": "p-n o‘tish sig‘imi orqali"
+  },
+  {
+    "id": 123,
+    "type": "multiple_choice",
+    "savol": "Induktivlik g‘altagi nimadan iborat?",
+    "variantlar": [
+      "izolyasiyalangan simdan o‘ralgan g‘altak",
+      "ikki elektrod",
+      "dielektrik plastina",
+      "yassi metall"
+    ],
+    "javob": "izolyasiyalangan simdan o‘ralgan g‘altak"
+  },
+  {
+    "id": 124,
+    "type": "multiple_choice",
+    "savol": "G‘altakdan tok o‘tganda nima hosil bo‘ladi?",
+    "variantlar": [
+      "magnit maydon",
+      "faqat issiqlik",
+      "yorug‘lik",
+      "bosim"
+    ],
+    "javob": "magnit maydon"
+  },
+  {
+    "id": 125,
+    "type": "multiple_choice",
+    "savol": "Induktivlikni oshirish uchun nima qilinadi?",
+    "variantlar": [
+      "temir o‘zak qo‘llaniladi",
+      "sim qisqartiriladi",
+      "tok kamaytiriladi",
+      "sig‘im oshiriladi"
+    ],
+    "javob": "temir o‘zak qo‘llaniladi"
+  },
+  {
+    "id": 126,
+    "type": "multiple_choice",
+    "savol": "Transformator nima?",
+    "variantlar": [
+      "elektromagnit energiya o‘zgartirgich",
+      "tok manbai",
+      "rezistor turi",
+      "yarimo‘tkazgich"
+    ],
+    "javob": "elektromagnit energiya o‘zgartirgich"
+  },
+  {
+    "id": 127,
+    "type": "multiple_choice",
+    "savol": "Transformatorning asosiy vazifasi nima?",
+    "variantlar": [
+      "kuchlanishni o‘zgartirish",
+      "tokni to‘g‘rilash",
+      "zaryad saqlash",
+      "chastotani o‘chirish"
+    ],
+    "javob": "kuchlanishni o‘zgartirish"
+  },
+  {
+    "id": 128,
+    "type": "multiple_choice",
+    "savol": "Avtotransformator nimasi bilan farqlanadi?",
+    "variantlar": [
+      "bitta cho‘lg‘amdan foydalanadi",
+      "ikki alohida cho‘lg‘am",
+      "faqat doimiy tok",
+      "faqat yuqori chastota"
+    ],
+    "javob": "bitta cho‘lg‘amdan foydalanadi"
+  },
+  {
+    "id": 129,
+    "type": "multiple_choice",
+    "savol": "Tok transformatori qayerda ishlatiladi?",
+    "variantlar": [
+      "tokni o‘lchashda",
+      "kuchlanishni oshirishda",
+      "signal kuchaytirishda",
+      "filtrlashda"
+    ],
+    "javob": "tokni o‘lchashda"
+  },
+  {
+    "id": 130,
+    "type": "multiple_choice",
+    "savol": "Yarimo‘tkazgich diod nechta elektrodga ega?",
+    "variantlar": [
+      "ikki elektrod",
+      "bitta",
+      "uchta",
+      "to‘rtta"
+    ],
+    "javob": "ikki elektrod"
+  },
+  {
+    "id": 131,
+    "type": "multiple_choice",
+    "savol": "Diodning asosiy xossasi nimada?",
+    "variantlar": [
+      "tokni bir tomonga yaxshi o‘tkazadi",
+      "tokni kuchaytiradi",
+      "zaryad saqlaydi",
+      "kuchlanish hosil qiladi"
+    ],
+    "javob": "tokni bir tomonga yaxshi o‘tkazadi"
+  },
+  {
+    "id": 132,
+    "type": "multiple_choice",
+    "savol": "Bipolyar tranzistor nechta elektrodga ega?",
+    "variantlar": [
+      "uchta elektrod",
+      "ikkita",
+      "to‘rtta",
+      "beshhta"
+    ],
+    "javob": "uchta elektrod"
+  },
+  {
+    "id": 133,
+    "type": "multiple_choice",
+    "savol": "Tranzistorning emitter vazifasi nima?",
+    "variantlar": [
+      "zaryad tashuvchilarni chiqarish",
+      "tokni yig‘ish",
+      "boshqarish",
+      "izolyasiya"
+    ],
+    "javob": "zaryad tashuvchilarni chiqarish"
+  },
+  {
+    "id": 134,
+    "type": "multiple_choice",
+    "savol": "Tranzistor qachon ochiq bo‘ladi?",
+    "variantlar": [
+      "baza kuchlanishi yetarli bo‘lsa",
+      "har doim",
+      "hech qachon",
+      "faqat yuklamasiz"
+    ],
+    "javob": "baza kuchlanishi yetarli bo‘lsa"
+  },
+  {
+    "id": 135,
+    "type": "multiple_choice",
+    "savol": "Tranzistorlar asosan nima sifatida ishlatiladi?",
+    "variantlar": [
+      "kuchaytirgich va kalit",
+      "saqlagich",
+      "transformator",
+      "datchik"
+    ],
+    "javob": "kuchaytirgich va kalit"
+  },
+  {
+    "id": 136,
+    "type": "multiple_choice",
+    "savol": "Maydoniy tranzistor qanday boshqariladi?",
+    "variantlar": [
+      "kuchlanish bilan",
+      "tok bilan",
+      "issiq bilan",
+      "mexanik"
+    ],
+    "javob": "kuchlanish bilan"
+  },
+  {
+    "id": 137,
+    "type": "multiple_choice",
+    "savol": "Maydoniy tranzistorda nechta asosiy zaryad tashuvchi ishtirok etadi?",
+    "variantlar": [
+      "bitta",
+      "ikkita",
+      "uchta",
+      "to‘rtta"
+    ],
+    "javob": "bitta"
+  },
+  {
+    "id": 138,
+    "type": "multiple_choice",
+    "savol": "MDYA tranzistorning ustunligi nimada?",
+    "variantlar": [
+      "juda katta kirish qarshiligi",
+      "katta tok",
+      "katta issiqlik",
+      "past narx"
+    ],
+    "javob": "juda katta kirish qarshiligi"
+  },
+  {
+    "id": 139,
+    "type": "multiple_choice",
+    "savol": "IGBT tranzistor nimaning gibridi?",
+    "variantlar": [
+      "maydoniy va bipolyar tranzistor",
+      "diod va tiristor",
+      "ok va rezistor",
+      "kondensator va g‘altak"
+    ],
+    "javob": "maydoniy va bipolyar tranzistor"
+  },
+  {
+    "id": 140,
+    "type": "multiple_choice",
+    "savol": "IGBT qayerda qo‘llaniladi?",
+    "variantlar": [
+      "kuch elektronikasida",
+      "sensorlarda",
+      "radiopriyomnikda",
+      "o‘lchov asbobida"
+    ],
+    "javob": "kuch elektronikasida"
+  },
+  {
+    "id": 141,
+    "type": "multiple_choice",
+    "savol": "Tiristorning asosiy xususiyati nima?",
+    "variantlar": [
+      "keskin (sakrab) ochilishi",
+      "sekin ishlashi",
+      "tok kuchaytirishi",
+      "zaryad saqlashi"
+    ],
+    "javob": "keskin (sakrab) ochilishi"
+  },
+  {
+    "id": 142,
+    "type": "multiple_choice",
+    "savol": "Tiristorning chiqishlari qaysilar?",
+    "variantlar": [
+      "anod, katod va boshqaruvchi elektrod",
+      "emitter, baza, kollektor",
+      "istok, stok, zatvor",
+      "plus va minus"
+    ],
+    "javob": "anod, katod va boshqaruvchi elektrod"
+  },
+  {
+    "id": 143,
+    "type": "multiple_choice",
+    "savol": "Simistor nimasi bilan farqlanadi?",
+    "variantlar": [
+      "tokni ikki yo‘nalishda o‘tkazadi",
+      "faqat bir yo‘nalishda",
+      "faqat doimiy tok",
+      "faqat past kuchlanish"
+    ],
+    "javob": "tokni ikki yo‘nalishda o‘tkazadi"
+  },
+  {
+    "id": 144,
+    "type": "multiple_choice",
+    "savol": "Operatsion kuchaytirgich nima?",
+    "variantlar": [
+      "analog differensial kuchaytirgich",
+      "raqamli mikrosxema",
+      "tok manbai",
+      "datchik"
+    ],
+    "javob": "analog differensial kuchaytirgich"
+  },
+  {
+    "id": 145,
+    "type": "multiple_choice",
+    "savol": "OKlarda teskari aloqa nima uchun kerak?",
+    "variantlar": [
+      "turli amallarni bajarish uchun",
+      "tokni to‘g‘rilash uchun",
+      "zaryad saqlash uchun",
+      "quvvat oshirish uchun"
+    ],
+    "javob": "turli amallarni bajarish uchun"
+  },
+  {
+    "id": 146,
+    "type": "multiple_choice",
+    "savol": "Operatsion kuchaytirgichda nechta kirish mavjud?",
+    "variantlar": [
+      "ikki dona kirish",
+      "bitta kirish",
+      "uchta kirish",
+      "to‘rtta kirish"
+    ],
+    "javob": "ikki dona kirish"
+  },
+  {
+    "id": 147,
+    "type": "multiple_choice",
+    "savol": "Inverslaydigan kirishga berilgan signal chiqishda qanday bo‘ladi?",
+    "variantlar": [
+      "180 daraja fazasi siljigan bo‘ladi",
+      "o‘zgarmaydi",
+      "kuchaymaydi",
+      "faqat kamayadi"
+    ],
+    "javob": "180 daraja fazasi siljigan bo‘ladi"
+  },
+  {
+    "id": 148,
+    "type": "multiple_choice",
+    "savol": "Operatsion kuchaytirgichlarda kuchlanish manbai qanday bo‘ladi?",
+    "variantlar": [
+      "ikki qutbli (musbat va manfiy)",
+      "faqat musbat",
+      "faqat manfiy",
+      "impulsli"
+    ],
+    "javob": "ikki qutbli (musbat va manfiy)"
+  },
+  {
+    "id": 149,
+    "type": "multiple_choice",
+    "savol": "Ideal operatsion kuchaytirgichning kirish qarshiligi qanday?",
+    "variantlar": [
+      "juda katta (cheksizga yaqin)",
+      "juda kichik",
+      "o‘rtacha",
+      "nolga teng"
+    ],
+    "javob": "juda katta (cheksizga yaqin)"
+  },
+  {
+    "id": 150,
+    "type": "multiple_choice",
+    "savol": "Ideal operatsion kuchaytirgichning chiqish qarshiligi qanday?",
+    "variantlar": [
+      "nolga yaqin",
+      "juda katta",
+      "o‘zgarmas",
+      "cheksiz"
+    ],
+    "javob": "nolga yaqin"
+  }
+]
