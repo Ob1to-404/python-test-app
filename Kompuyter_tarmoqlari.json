@@ -1,0 +1,1286 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "savol": "Wi-Fi texnologiyasi qanday aloqa turiga kiradi?",
+    "variantlar": [
+      "Simsiz tarmoq",
+      "Optik aloqa",
+      "Kabel tarmog‘i",
+      "Analog uzatish"
+    ],
+    "javob": "Simsiz tarmoq"
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "savol": "Serverning asosiy vazifasi nima?",
+    "variantlar": [
+      "Xizmat ko‘rsatish",
+      "Faqat chop etish",
+      "Signal bo‘lish",
+      "Monitor boshqarish"
+    ],
+    "javob": "Xizmat ko‘rsatish"
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "savol": "MAC manzil nimani bildiradi?",
+    "variantlar": [
+      "Qurilma identifikatori",
+      "Foydalanuvchi paroli",
+      "Dastur versiyasi",
+      "Tarmoq tezligi"
+    ],
+    "javob": "Qurilma identifikatori"
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "savol": "Repeater qurilmasining vazifasi nima?",
+    "variantlar": [
+      "Signalni kuchaytirish",
+      "Tarmoqni boshqarish",
+      "Ma’lumotni saqlash",
+      "IP taqsimlash"
+    ],
+    "javob": "Signalni kuchaytirish"
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "savol": "FTP protokoli nima uchun ishlatiladi?",
+    "variantlar": [
+      "Fayl uzatish",
+      "Video qo‘ng‘iroq",
+      "Elektron pochta",
+      "Tarmoq himoyasi"
+    ],
+    "javob": "Fayl uzatish"
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "savol": "Tarmoq xavfsizligini ta’minlovchi asosiy vosita qaysi?",
+    "variantlar": [
+      "Firewall qurilmasi",
+      "Matn protsessori",
+      "Grafik adapter",
+      "Audio karta"
+    ],
+    "javob": "Firewall qurilmasi"
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "savol": "LAN qanday tarmoq hisoblanadi?",
+    "variantlar": [
+      "Lokal tarmoq",
+      "Global tarmoq",
+      "Sun’iy tarmoq",
+      "Mobil tarmoq"
+    ],
+    "javob": "Lokal tarmoq"
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "savol": "WAN tarmog‘ining qamrovi qanday bo‘ladi?",
+    "variantlar": [
+      "Keng hududli",
+      "Bitta xona",
+      "Bitta bino",
+      "Faqat laboratoriya"
+    ],
+    "javob": "Keng hududli"
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "savol": "Hub qurilmasining vazifasi nima?",
+    "variantlar": [
+      "Signal tarqatish",
+      "Ma’lumot shifrlash",
+      "Dastur yozish",
+      "Printer sozlash"
+    ],
+    "javob": "Signal tarqatish"
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "savol": "VPN texnologiyasi nimani ta’minlaydi?",
+    "variantlar": [
+      "Xavfsiz ulanish",
+      "Grafik tezlik",
+      "Fayl siqish",
+      "Audio uzatish"
+    ],
+    "javob": "Xavfsiz ulanish"
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "savol": "Kompyuterlarni lokal tarmoqqa ulash uchun asosan qaysi kabeldan foydalaniladi?",
+    "variantlar": [
+      "o‘ralgan juftlik (UTP)",
+      "koaksial kabel",
+      "optik tola",
+      "krossover kabel"
+    ],
+    "javob": "o‘ralgan juftlik (UTP)"
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "savol": "WWW xizmatlaridan foydalanishning asosiy protokoli ...",
+    "variantlar": [
+      "HTTP",
+      "TELNET",
+      "FTP",
+      "SMTP"
+    ],
+    "javob": "HTTP"
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "savol": "Ochiq tizimlarning o‘zaro ta’sirining 7 darajali modeli nomini ko‘rsating",
+    "variantlar": [
+      "OSI",
+      "TCP",
+      "IP",
+      "MAC"
+    ],
+    "javob": "OSI"
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "savol": "Fayl uzatish protokoli ko‘rsatilgan variantni tanlang",
+    "variantlar": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "Telnet"
+    ],
+    "javob": "FTP"
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "savol": "192.168.10.51 manzilining qaysi qismi standart tarmoq maskasi qo‘llangan bo‘lsa, tarmoq identifikatori (manzili) hisoblanadi?",
+    "variantlar": [
+      "192.168.10",
+      "192.168",
+      "192",
+      "192.168.10.51"
+    ],
+    "javob": "192.168.10"
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "savol": "192.168.1.16 ning qaysi qismi standart tarmoq niqobi ishlatilgan deb hisoblasak, tarmoq identifikatori (manzili) hisoblanadi?",
+    "variantlar": [
+      "192.168.1",
+      "192",
+      "192.168",
+      "192.168.1.16"
+    ],
+    "javob": "192.168.1"
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "savol": "192.168.3.36 ning qaysi qismi standart tarmoq niqobi ishlatilgan deb hisoblasak, tarmoq identifikatori (manzili) hisoblanadi?",
+    "variantlar": [
+      "192.168.3",
+      "192.168",
+      "192.168.3.36",
+      "192"
+    ],
+    "javob": "192.168.3"
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "savol": "192.168.10.60 manzilining qaysi qismi standart tarmoq maskasi qo‘llangan bo‘lsa, tarmoq identifikatori (manzili) hisoblanadi?",
+    "variantlar": [
+      "192.168.10",
+      "192.168",
+      "192",
+      "192.168.10.60"
+    ],
+    "javob": "192.168.10"
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "savol": "Fayl arxivlarini o‘z ichiga olgan internet-serverlar ...",
+    "variantlar": [
+      "kerakli fayllarni yuklab olish uchun ishlatiladi",
+      "elektron pochta xabarini olish uchun ishlatiladi",
+      "telekonferensiyalarda ishtirok etish ishlatiladi",
+      "video konferensiyalarni o‘tkazish ishlatiladi"
+    ],
+    "javob": "kerakli fayllarni yuklab olish uchun ishlatiladi"
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "savol": "Kompyuter tarmog‘ining umumlashtirilgan geometrik tavsifi ...",
+    "variantlar": [
+      "tarmoq topologiyasi",
+      "tarmoq qurilmalari",
+      "tarmoq serveri",
+      "tarmoq foydalanuvchilari"
+    ],
+    "javob": "tarmoq topologiyasi"
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "savol": "Kompyuter tarmog‘i protokoli - bu...",
+    "variantlar": [
+      "tarmoqdagi ma’lumotlarni qabul qilish va uzatish, faollashtirishni tartibga soluvchi qoidalar",
+      "tarmoq trafigining xususiyatlari",
+      "tarmoq foydalanuvchilari harakatlarini qayd qilish uchun elektron jurnallar",
+      "audit jurnallari"
+    ],
+    "javob": "tarmoqdagi ma’lumotlarni qabul qilish va uzatish, faollashtirishni tartibga soluvchi qoidalar"
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "savol": "Tarmoq sathida axborot almashinuvining asosiy birligi nima?",
+    "variantlar": [
+      "paket",
+      "bit",
+      "kanal",
+      "So‘z"
+    ],
+    "javob": "paket"
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "savol": "Mijozlarning fayllarga kirishini boshqaruvchi server qanday nomlanadi?",
+    "variantlar": [
+      "Fayl serveri",
+      "pochta serveri",
+      "Proksi-server",
+      "Mediatsiya serveri"
+    ],
+    "javob": "Fayl serveri"
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "savol": "MAC manzilining uzunligi necha baytga teng?",
+    "variantlar": [
+      "6",
+      "3",
+      "8",
+      "4"
+    ],
+    "javob": "6"
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "savol": "IPv4 manzilining uzunligi necha bit?",
+    "variantlar": [
+      "32",
+      "16",
+      "28",
+      "128"
+    ],
+    "javob": "32"
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "savol": "IPv6 manzili uzunligida necha bit?",
+    "variantlar": [
+      "128",
+      "64",
+      "32",
+      "sakkiz"
+    ],
+    "javob": "128"
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "savol": "IPv4 manzilining uzunligi necha baytga teng?",
+    "variantlar": [
+      "4",
+      "32",
+      "16",
+      "3"
+    ],
+    "javob": "4"
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "savol": "TCP/IP protokoli stekining birinchi sathi ko‘rsatadigan variantni tanlang",
+    "variantlar": [
+      "fizik",
+      "tarmoq",
+      "transport",
+      "qo‘llaniladi"
+    ],
+    "javob": "fizik"
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "savol": "OSI modelining qaysi sathida ma’lumotlar freymlar sifatida ifodalanadi?",
+    "variantlar": [
+      "kanal",
+      "transport",
+      "tarmoq",
+      "ilova"
+    ],
+    "javob": "kanal"
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "savol": "Protokol nima?",
+    "variantlar": [
+      "kompyuter tarmog‘i aloqa standarti yoki qoidalar to‘plami",
+      "LAN qurilmasi",
+      "kompyuterning aloqa kanallari orqali fayllarni yuborish qobiliyati",
+      "elektron pochta orqali xabarlarni yuborish uchun standart"
+    ],
+    "javob": "kompyuter tarmog‘i aloqa standarti yoki qoidalar to‘plami"
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "savol": "DHCP ning asosiy maqsadi nima?",
+    "variantlar": [
+      "avtomatik ravishda IP manzillarni ajratish",
+      "mijoz-server balansini saqlaydi",
+      "internetga kirish",
+      "IPv4 ni IPv6 ga aylantiradi"
+    ],
+    "javob": "avtomatik ravishda IP manzillarni ajratish"
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "savol": "Optik kabelda ma’lumot qanday ko‘rinadi?",
+    "variantlar": [
+      "nur",
+      "puls",
+      "chastota",
+      "harorat"
+    ],
+    "javob": "nur"
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "savol": "WAN tarmog‘ini yaratish uchun marshrutizatorlarning minimal soni qancha?",
+    "variantlar": [
+      "2",
+      "4",
+      "1",
+      "3"
+    ],
+    "javob": "2"
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "savol": "OSI modelida 7-sathini belgilang?",
+    "variantlar": [
+      "ilova",
+      "taqdimot",
+      "seans",
+      "kanal"
+    ],
+    "javob": "ilova"
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "savol": "OSI modelida 6-sathini belgilang?",
+    "variantlar": [
+      "taqdimot",
+      "ilova",
+      "seans",
+      "kanal"
+    ],
+    "javob": "taqdimot"
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "savol": "OSI modelidagi 5-sathini belgilang?",
+    "variantlar": [
+      "seans",
+      "taqdimot",
+      "ilova",
+      "Kanal"
+    ],
+    "javob": "seans"
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "savol": "OSI modelidagi 4- sathini belgilang?",
+    "variantlar": [
+      "transport",
+      "taqdimot",
+      "ilova",
+      "tarmoq"
+    ],
+    "javob": "transport"
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "savol": "OSI modelida 3- sathini belgilang?",
+    "variantlar": [
+      "tarmoq",
+      "taqdimot",
+      "transport",
+      "sessiya"
+    ],
+    "javob": "tarmoq"
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "savol": "OSI modelida 2- sathini belgilang?",
+    "variantlar": [
+      "kanal",
+      "taqdimot",
+      "sessiya",
+      "dastur"
+    ],
+    "javob": "kanal"
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "savol": "OSI modelidagi 1- sathini belgilang?",
+    "variantlar": [
+      "fizik",
+      "taqdimot",
+      "ilova",
+      "seans"
+    ],
+    "javob": "fizik"
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "savol": "OSI modelida nechta sath mavjud?",
+    "variantlar": [
+      "7",
+      "6",
+      "5",
+      "4"
+    ],
+    "javob": "7"
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "savol": "Windows buyruq satri orqali kompyuterning IP manzilini bilish uchun qanday buyruq ishlatiladi?",
+    "variantlar": [
+      "ipconfig",
+      "ifconfig",
+      "ifconfig/all",
+      "show ip address"
+    ],
+    "javob": "ipconfig"
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "savol": "Kafolatlangan ma’lumotlarni yetkazib berishni ta’minlovchi protokol qanday nomlanadi?",
+    "variantlar": [
+      "TCP",
+      "POP3",
+      "FTP",
+      "TFTP"
+    ],
+    "javob": "TCP"
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "savol": "Tarmoq ichidagi tarmoq taqsimoti nomini ko‘rsatilgan variantni tanlang?",
+    "variantlar": [
+      "qism tarmoq (subnet)",
+      "yuklama taqsimoti",
+      "resurslarni taqsimlash",
+      "to‘liq tarmoq (Fullnet)"
+    ],
+    "javob": "qism tarmoq (subnet)"
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "savol": "Ilova sath protokollaridan ma’lumotlarni qabul qiluvchi va uni OSI modelidan foydalangan holda barcha kompyuterlar tushunadigan formatga aylantiruvchi sath qanday nomlanadi?",
+    "variantlar": [
+      "taqdimot",
+      "tarmoq",
+      "ilova",
+      "seans"
+    ],
+    "javob": "taqdimot"
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "savol": "Qaysi tashkilot OSI modelini ishlab chiqqan?",
+    "variantlar": [
+      "Xalqaro standartlashtirish tashkiloti",
+      "Xalqaro elektraloqa ittifoqi",
+      "Telefoniya va telegrafiya boʻyicha xalqaro maslahat qoʻmitasi",
+      "Yevropa kompyuter ishlab chiqaruvchilar uyushmasi"
+    ],
+    "javob": "Xalqaro standartlashtirish tashkiloti"
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "savol": "Mijoz so‘ralgan serverga so‘rov yuboradi va so‘rovga javoban mijoz tomonidan olingan faylni yuboradigan ma’lumotni so‘raydi. Ushbu jarayon uchun qaysi arxitektura xosdir?",
+    "variantlar": [
+      "mijoz-server",
+      "nuqta - nuqta (peer-to-peer)",
+      "Bir pog‘onali",
+      "terminal"
+    ],
+    "javob": "mijoz-server"
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "savol": "Har bir oxirgi qurilma server yoki mijoz vazifasini bajarishi mumkin. Kompyuter bir ulanish uchun server va boshqa ulanish uchun mijoz vazifasini bajarishi mumkin. Bu qanday model?",
+    "variantlar": [
+      "nuqta – nuqta (peer-to-peer)",
+      "mijoz-server",
+      "MVC",
+      "MITM"
+    ],
+    "javob": "nuqta – nuqta (peer-to-peer)"
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "savol": "Asosiy maqsadi fayllarni bir kompyuterdan ikkinchisiga o‘tkazish yoki fayllarni serverlardan mijozlarga va mijozlardan serverlarga o‘tkazish bo‘lgan protokol nima?",
+    "variantlar": [
+      "FTP",
+      "TFTP",
+      "HTTP",
+      "SMTP"
+    ],
+    "javob": "FTP"
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "savol": "Tarmoq sathidagi ma’lumotlar birligining nomi nima?",
+    "variantlar": [
+      "paket",
+      "trafik",
+      "protokol",
+      "stack"
+    ],
+    "javob": "paket"
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "savol": "TCP/IP protokoli stekida nechta sath mavjud?",
+    "variantlar": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "javob": "4"
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "savol": "192.168.1.0 manziliga qaysi standart tarmoq niqobi mos keladi?",
+    "variantlar": [
+      "/24",
+      "/32",
+      "/16",
+      "/8"
+    ],
+    "javob": "/24"
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "savol": "OSI modelidagi qaysi sath IP manzillar bilan shug‘ullanadi?",
+    "variantlar": [
+      "tarmoq",
+      "ilova",
+      "taqdimot",
+      "fizik"
+    ],
+    "javob": "tarmoq"
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "savol": "OSI modelidagi qaysi sath MAC manzillari bilan shug‘ullanadi?",
+    "variantlar": [
+      "kanal",
+      "transport",
+      "ilova",
+      "taqdimot"
+    ],
+    "javob": "kanal"
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "savol": "192.168.1.243 /24 uchun broadcast manzilini aniqlang.",
+    "variantlar": [
+      "192.168.1.255",
+      "192.168.1.128",
+      "192.168.1.252",
+      "192.168.1.257"
+    ],
+    "javob": "192.168.1.255"
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "savol": "192.168.1.243 /24 IP manzilining tarmoq manzilini aniqlang",
+    "variantlar": [
+      "192.168.1.0",
+      "192.168.1.128",
+      "192.168.1.255",
+      "192.168.1.252"
+    ],
+    "javob": "192.168.1.0"
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "savol": "Qaysi sinf manzillari faqat tadqiqot maqsadlarida (faqat laboratoriyalarda) qo‘llaniladi?",
+    "variantlar": [
+      "E",
+      "D",
+      "A",
+      "B"
+    ],
+    "javob": "E"
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "savol": "Qaysi texnologiya mahalliy IP manzilni global manzilga o‘zgartiradi?",
+    "variantlar": [
+      "NAT",
+      "OSI",
+      "HMAC",
+      "IDS"
+    ],
+    "javob": "NAT"
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "savol": "Switch OSI modelining qaysi qatlamida ishlaydi?",
+    "variantlar": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "javob": "2"
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "savol": "Hub OSI modelining qaysi qatlamida ishlaydi?",
+    "variantlar": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "javob": "1"
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "savol": "255.0.0.0 standart tarmoq maskasi qaysi sinfga tegishli?",
+    "variantlar": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "javob": "A"
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "savol": "255.255.0.0 standart tarmoq maskasi qaysi sinfga tegishli?",
+    "variantlar": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ],
+    "javob": "B"
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "savol": "255.255.255.0 standart tarmoq maskasi qaysi sinfga tegishli?",
+    "variantlar": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "javob": "C"
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "savol": "SSH protokolining funksiyasini belgilang.",
+    "variantlar": [
+      "masofaviy aloqani o‘rnatadi",
+      "tashqi tahdidlardan himoya qilish uchun xizmat qiladi",
+      "IP manzili uchun domen nomi sifatida ishlaydi",
+      "DHCP kabi ishlaydi"
+    ],
+    "javob": "masofaviy aloqani o‘rnatadi"
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "savol": "Bir bino yoki idora ichidagi tarmoq qanday nomlanadi?",
+    "variantlar": [
+      "LAN (Local Area Network)",
+      "PAN (Personal Area Network)",
+      "GAN (Global Area Network)",
+      "CAN (Campus Area Network)"
+    ],
+    "javob": "LAN (Local Area Network)"
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "savol": "OSI modelining 1-sathida ishlaydigan aloqa uchun tarmoqdagi qurilmalarni birlashtiruvchi tarmoq qurilmasini ko‘rsating?",
+    "variantlar": [
+      "hub",
+      "komutator",
+      "marshrutizator",
+      "repiter"
+    ],
+    "javob": "hub"
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "savol": "Kompyuter yordamida komutatorni sozlash imkonini beruvchi kabel turini belgilang",
+    "variantlar": [
+      "Konsol kabeli",
+      "Krossover kabel",
+      "Optik kabel",
+      "Ketma-ket kabel"
+    ],
+    "javob": "Konsol kabeli"
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "savol": "Firewall butun tarmoq trafigini bloklab qo‘yishi xavfi qanday tahdid turi?",
+    "variantlar": [
+      "Apparat vositalarining buzilishi yoki ishlashidagi xatoliklar",
+      "Dasturiy ta’minot hujumlari",
+      "Texnik talablar jihatdan eskirish",
+      "Josuslik"
+    ],
+    "javob": "Apparat vositalarining buzilishi yoki ishlashidagi xatoliklar"
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "savol": "Tarmoqqa kirish usullarini ko‘rsating?",
+    "variantlar": [
+      "Ethernet, PPP, ADSL",
+      "IP, ICMP, ARP, DHCP",
+      "TCP, UDP",
+      "Telnet, SMTP, FTP, NNTP, HTTP, SNMP, DNS, SSH"
+    ],
+    "javob": "Ethernet, PPP, ADSL"
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "savol": "Qaysi sath o‘zaro aloqa qiluvchi ikkita xost o‘rtasidagi aloqani o‘rnatish, boshqarish va tugatish uchun javobgardir?",
+    "variantlar": [
+      "seans",
+      "taqdimot",
+      "tarmoq",
+      "ilova"
+    ],
+    "javob": "seans"
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "savol": "Ma’lumotlar oqimidagi ma’lumotlarni segmentlash va qayta yig‘ish funksiyasini qaysi sath bajaradi?",
+    "variantlar": [
+      "transport",
+      "ilova",
+      "tarmoq",
+      "seans"
+    ],
+    "javob": "transport"
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "savol": "Mantiqiy manzil asosida paketni marshrutlash uchun qaysi sath javobgar?",
+    "variantlar": [
+      "tarmoq",
+      "transport",
+      "ilova",
+      "seans"
+    ],
+    "javob": "tarmoq"
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "savol": "Raqamli manzillash keltirilmagan javobni toping",
+    "variantlar": [
+      "AX.25",
+      "IP",
+      "IPX",
+      "X.25"
+    ],
+    "javob": "AX.25"
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "savol": "Nomga asoslangan manzillash keltirilgan javobni toping",
+    "variantlar": [
+      "AX.25",
+      "IP",
+      "IPX",
+      "X.25"
+    ],
+    "javob": "AX.25"
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "savol": "Quyida keltirilgan kompyuter tarmoqlarining qaysi biri avval paydo bo‘lgan?",
+    "variantlar": [
+      "Global kompyuter tarmoqlari",
+      "Lokal kompyuter tarmoqlari",
+      "Kampus tarmog‘i",
+      "Korporativ tarmoq"
+    ],
+    "javob": "Global kompyuter tarmoqlari"
+  },
+  {
+    "id": 76,
+    "type": "multiple_choice",
+    "savol": "Xalqa topologiya qanday tuzilishda bo‘ladi?",
+    "variantlar": [
+      "Xalqasimon",
+      "Yulduzsimon",
+      "To‘liq bog‘lanishli",
+      "Yacheykali"
+    ],
+    "javob": "Xalqasimon"
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "savol": "Fizik joylashuvidan qat’iy nazar foydalanuvchi bulutli texnologiyalardan foydalanishi mumkinmi?",
+    "variantlar": [
+      "Ha",
+      "Mumkin emas",
+      "Yoq",
+      "Hozircha imkoniyat mavjud emas."
+    ],
+    "javob": "Ha"
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "savol": "Kompyuter tarmoqlarda ma’lumot uzatishning asosiy muhiti qaysi?",
+    "variantlar": [
+      "Aloqa kanallari",
+      "Operatsion tizimlar",
+      "Grafik interfeyslar",
+      "Dasturiy paketlar"
+    ],
+    "javob": "Aloqa kanallari"
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "savol": "Yulduzsimon topologiyada barcha qurilmalar nimaga ulanadi?",
+    "variantlar": [
+      "Markaziy tugunga",
+      "Qo‘shni tugunga",
+      "Global serverga",
+      "Halqa bo‘ylab"
+    ],
+    "javob": "Markaziy tugunga"
+  },
+  {
+    "id": 80,
+    "type": "multiple_choice",
+    "savol": "OSI modelining nechta asosiy qatlami mavjud?",
+    "variantlar": [
+      "Yetti qatlam",
+      "Besh qatlam",
+      "Olti qatlam",
+      "To‘rt qatlam"
+    ],
+    "javob": "Yetti qatlam"
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "savol": "Router qurilmasining asosiy vazifasi nima?",
+    "variantlar": [
+      "Tarmoqlarni bog‘lash",
+      "Signal kuchaytirish",
+      "Ma’lumot saqlash",
+      "Fayllarni tahrirlash"
+    ],
+    "javob": "Tarmoqlarni bog‘lash"
+  },
+  {
+    "id": 82,
+    "type": "multiple_choice",
+    "savol": "Switch qurilmasi asosan qaysi qatlamda ishlaydi?",
+    "variantlar": [
+      "Kanal qatlamida",
+      "Transport qatlamida",
+      "Seans qatlamida",
+      "Taqdimot qatlamida"
+    ],
+    "javob": "Kanal qatlamida"
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "savol": "IP manzilning asosiy vazifasi nima?",
+    "variantlar": [
+      "Qurilmani aniqlash",
+      "Parolni himoyalash",
+      "Faylni siqish",
+      "Dastur o‘rnatish"
+    ],
+    "javob": "Qurilmani aniqlash"
+  },
+  {
+    "id": 84,
+    "type": "multiple_choice",
+    "savol": "Lokal tarmoqning asosiy afzalligi nimada?",
+    "variantlar": [
+      "Tezkor aloqa",
+      "Cheksiz masofa",
+      "Sun’iy yo‘ldosh ulanishi",
+      "Faqat internetga bog‘liqlik"
+    ],
+    "javob": "Tezkor aloqa"
+  },
+  {
+    "id": 85,
+    "type": "multiple_choice",
+    "savol": "Modem qanday vazifani bajaradi?",
+    "variantlar": [
+      "Signalni o‘zgartiradi",
+      "Ma’lumotni chop etadi",
+      "Faylni himoyalaydi",
+      "Tarmoqni loyihalaydi"
+    ],
+    "javob": "Signalni o‘zgartiradi"
+  },
+  {
+    "id": 86,
+    "type": "multiple_choice",
+    "savol": "TCP protokoli nimani ta’minlaydi?",
+    "variantlar": [
+      "Ishonchli uzatish",
+      "Grafik ko‘rsatish",
+      "Video tahrirlash",
+      "Printer boshqarish"
+    ],
+    "javob": "Ishonchli uzatish"
+  },
+  {
+    "id": 87,
+    "type": "multiple_choice",
+    "savol": "DNS serverning vazifasi nima?",
+    "variantlar": [
+      "Nomni IPga o‘giradi",
+      "Parol yaratadi",
+      "Signal uzaytiradi",
+      "Tarmoqni uzadi"
+    ],
+    "javob": "Nomni IPga o‘giradi"
+  },
+  {
+    "id": 88,
+    "type": "multiple_choice",
+    "savol": "Simsiz lokal tarmoqning asosiy standarti qaysi?",
+    "variantlar": [
+      "IEEE 802.11",
+      "IEEE 802.3",
+      "IEEE 802.15",
+      "IEEE 802.16"
+    ],
+    "javob": "IEEE 802.11"
+  },
+  {
+    "id": 89,
+    "type": "multiple_choice",
+    "savol": "Wi-Fi tarmog‘ida ma’lumot uzatish qaysi muhit orqali amalga oshiriladi?",
+    "variantlar": [
+      "Radioto‘lqinlar",
+      "Optik tolalar",
+      "Koaksial kabel",
+      "Telefon liniyasi"
+    ],
+    "javob": "Radioto‘lqinlar"
+  },
+  {
+    "id": 90,
+    "type": "multiple_choice",
+    "savol": "Access Point qurilmasining vazifasi nima?",
+    "variantlar": [
+      "Simsiz ulanish tarqatish",
+      "Signalni saqlash",
+      "IP manzil yaratish",
+      "Fayl uzatishni bloklash"
+    ],
+    "javob": "Simsiz ulanish tarqatish"
+  },
+  {
+    "id": 91,
+    "type": "multiple_choice",
+    "savol": "Simsiz lokal tarmoqning asosiy afzalligi nimada?",
+    "variantlar": [
+      "Harakatchan ulanish",
+      "Faqat kabel ishlatish",
+      "Cheklangan aloqa",
+      "Past signal darajasi"
+    ],
+    "javob": "Harakatchan ulanish"
+  },
+  {
+    "id": 92,
+    "type": "multiple_choice",
+    "savol": "Wi-Fi router qanday vazifani bajaradi?",
+    "variantlar": [
+      "Tarmoqni boshqaradi",
+      "Faqat printer ulaydi",
+      "Monitorni sozlaydi",
+      "Dasturiy kod yozadi"
+    ],
+    "javob": "Tarmoqni boshqaradi"
+  },
+  {
+    "id": 93,
+    "type": "multiple_choice",
+    "savol": "SSID nimani anglatadi?",
+    "variantlar": [
+      "Tarmoq nomi",
+      "Parol turi",
+      "Signal kuchi",
+      "IP protokoli"
+    ],
+    "javob": "Tarmoq nomi"
+  },
+  {
+    "id": 94,
+    "type": "multiple_choice",
+    "savol": "WPA2 texnologiyasi nima uchun qo‘llaniladi?",
+    "variantlar": [
+      "Tarmoqni himoyalash",
+      "Signalni kuchaytirish",
+      "Tezlikni pasaytirish",
+      "Kabelni ulash"
+    ],
+    "javob": "Tarmoqni himoyalash"
+  },
+  {
+    "id": 95,
+    "type": "multiple_choice",
+    "savol": "Simsiz lokal tarmoqda roaming nima?",
+    "variantlar": [
+      "Hududlararo ulanish",
+      "Parol almashtirish",
+      "Kabel o‘rnatish",
+      "Serverni yangilash"
+    ],
+    "javob": "Hududlararo ulanish"
+  },
+  {
+    "id": 96,
+    "type": "multiple_choice",
+    "savol": "Wi-Fi signalining qamroviga nima ta’sir qiladi?",
+    "variantlar": [
+      "Masofa va to‘siqlar",
+      "Klaviatura turi",
+      "Monitor hajmi",
+      "Dastur nomi"
+    ],
+    "javob": "Masofa va to‘siqlar"
+  },
+  {
+    "id": 97,
+    "type": "multiple_choice",
+    "savol": "Simsiz adapter qurilmasining vazifasi nima?",
+    "variantlar": [
+      "Wi-Fi ga ulash",
+      "Ma’lumot chop etish",
+      "Signalni uzish",
+      "Operatsion tizim o‘rnatish"
+    ],
+    "javob": "Wi-Fi ga ulash"
+  },
+  {
+    "id": 98,
+    "type": "multiple_choice",
+    "savol": "1G mobil aloqa texnologiyasining asosiy xususiyati nima?",
+    "variantlar": [
+      "Analog signal uzatish",
+      "Raqamli ma’lumot uzatish",
+      "Yuqori tezlikdagi internet",
+      "Video oqim qo‘llab-quvvatlash"
+    ],
+    "javob": "Analog signal uzatish"
+  },
+  {
+    "id": 99,
+    "type": "multiple_choice",
+    "savol": "2G tarmog‘ining asosiy afzalligi nimada?",
+    "variantlar": [
+      "Raqamli ovozli aloqa",
+      "Sun’iy intellekt boshqaruvi",
+      "Optik tezlik uzatish",
+      "Bulutli hisoblash"
+    ],
+    "javob": "Raqamli ovozli aloqa"
+  },
+  {
+    "id": 100,
+    "type": "multiple_choice",
+    "savol": "3G texnologiyasi foydalanuvchilarga qanday imkoniyat yaratdi?",
+    "variantlar": [
+      "Mobil internet xizmatlari",
+      "Faqat analog qo‘ng‘iroq",
+      "Kabelsiz televizor",
+      "Faqat SMS uzatish"
+    ],
+    "javob": "Mobil internet xizmatlari"
+  },
+  {
+    "id": 101,
+    "type": "multiple_choice",
+    "savol": "4G tarmog‘ining asosiy ustunligi nima?",
+    "variantlar": [
+      "Yuqori tezlikdagi internet",
+      "Faqat ovozli aloqa",
+      "Past signal sifati",
+      "Cheklangan qamrov hududi"
+    ],
+    "javob": "Yuqori tezlikdagi internet"
+  },
+  {
+    "id": 102,
+    "type": "multiple_choice",
+    "savol": "5G texnologiyasining asosiy afzalligi nimada?",
+    "variantlar": [
+      "Juda tezkor ulanish",
+      "Faqat qo‘ng‘iroq uzatish",
+      "Analog tarmoq",
+      "Past chastotali aloqa"
+    ],
+    "javob": "Juda tezkor ulanish"
+  },
+  {
+    "id": 103,
+    "type": "multiple_choice",
+    "savol": "1G tarmoqlari qaysi xizmat uchun yaratilgan?",
+    "variantlar": [
+      "Mobil ovozli aloqa",
+      "Video konferensiya",
+      "Bulutli server",
+      "Onlayn o‘yinlar"
+    ],
+    "javob": "Mobil ovozli aloqa"
+  },
+  {
+    "id": 104,
+    "type": "multiple_choice",
+    "savol": "2G texnologiyasida qaysi xizmat ommalashgan?",
+    "variantlar": [
+      "SMS xabarlari",
+      "Virtual reallik",
+      "HD video",
+      "Sun’iy yo‘ldosh boshqaruvi"
+    ],
+    "javob": "SMS xabarlari"
+  },
+  {
+    "id": 105,
+    "type": "multiple_choice",
+    "savol": "3G tarmog‘ida qanday xizmat rivojlandi?",
+    "variantlar": [
+      "Video qo‘ng‘iroqlar",
+      "Faqat radio aloqa",
+      "Kabel televideniyesi",
+      "Printer tarmog‘i"
+    ],
+    "javob": "Video qo‘ng‘iroqlar"
+  },
+  {
+    "id": 106,
+    "type": "multiple_choice",
+    "savol": "4G LTE texnologiyasi nimani anglatadi?",
+    "variantlar": [
+      "Tezkor mobil internet",
+      "Analog tarmoq tizimi",
+      "Mahalliy kabel aloqa",
+      "Sun’iy signal uzatish"
+    ],
+    "javob": "Tezkor mobil internet"
+  },
+  {
+    "id": 107,
+    "type": "multiple_choice",
+    "savol": "5G texnologiyasi qaysi sohada keng qo‘llaniladi?",
+    "variantlar": [
+      "IoT qurilmalari",
+      "Faqat telefon kabellari",
+      "Disket uzatish",
+      "Mexanik aloqa"
+    ],
+    "javob": "IoT qurilmalari"
+  }
+]
