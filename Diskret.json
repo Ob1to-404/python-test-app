@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "savol": "Diskret matematika qanday ilmlarning matematik asosini tashkil etadi?",
+    "variantlar": [
+      "kompyuterga oid ilmlarning",
+      "matematikaga oid ilmlarning",
+      "fizika va kimyoga oid ilmlarning",
+      "tarixga oid ilmlarning"
+    ],
+    "javob": "kompyuterga oid ilmlarning"
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "savol": "Matematikaning asosiy tushunchalaridan biri qaysi?",
+    "variantlar": [
+      "to’plam",
+      "formula",
+      "tenglama",
+      "amallar"
+    ],
+    "javob": "to’plam"
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "savol": "To’plam nimalardan tashkil topadi?",
+    "variantlar": [
+      "elementlardan",
+      "sonlardan",
+      "formulalardan",
+      "funktsiyalardan"
+    ],
+    "javob": "elementlardan"
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "savol": "Diskret so’zining ma’nosi nima?",
+    "variantlar": [
+      "ajratilgan, uzilgan, yakka-yakka, alohida",
+      "uzluksiz, barqaror, tadrijiy",
+      "katta, murakkab, cheksiz",
+      "ajratib bo’lmaydigan, yopishgan"
+    ],
+    "javob": "ajratilgan, uzilgan, yakka-yakka, alohida"
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "savol": "Diskret to’plamni ko’rsating.",
+    "variantlar": [
+      "O’zbekistondagi shaharlar to’plami",
+      "Ikkita turli haqiqiy sonlar orasidagi barcha haqiqiy sonlar to’plami",
+      "Aylanadagi nuqtalar to’plami",
+      "Kompleks sonlar to’plami"
+    ],
+    "javob": "O’zbekistondagi shaharlar to’plami"
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "savol": "Uzluksiz to’plamni ko’rsating.",
+    "variantlar": [
+      "Haqiqiy sonlar to’plami",
+      "Natural sonlar to’plami",
+      "ADU talabalari to’plami",
+      "Yer yuzidagi binolar to’plami"
+    ],
+    "javob": "Haqiqiy sonlar to’plami"
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "savol": "Diskret tuzilmani ko’rsating.",
+    "variantlar": [
+      "Bino: qavatlar, qavatdagi yo’laklar, xonalar",
+      "Piramidaning qirralaridagi nuqtalar to’plami",
+      "Sferadagi nuqtalar va bu sferaga ichki chizilgan kub",
+      "Moddiy nuqta trayektoriyasidagi nuqtalar to’plami"
+    ],
+    "javob": "Bino: qavatlar, qavatdagi yo’laklar, xonalar"
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "savol": "To’plam – …",
+    "variantlar": [
+      "matematikaning asosiy tushunchalaridan biri.",
+      "“Diskret tuzilmalar” fanining asosiy tushunchasi.",
+      "har bir fanning asosiy tushunchasi.",
+      "qat’iy ta’rif beriladigan tushuncha."
+    ],
+    "javob": "matematikaning asosiy tushunchalaridan biri."
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "savol": "To’plamning elementlari nima?",
+    "variantlar": [
+      "to’plamning tarkibiga kiruvchi ob’yektlar (narsalar).",
+      "shu to’plamning quvvatidir.",
+      "sonlar yoki geometrik figuralar.",
+      "diskret funktsiyalar."
+    ],
+    "javob": "to’plamning tarkibiga kiruvchi ob’yektlar (narsalar)."
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "savol": "To’plamlarning umumiy xossalarini o’rganish bilan matematikaning qaysi bo’limi shug’ullanadi?",
+    "variantlar": [
+      "To’plamlar nazariyasi",
+      "Diskret tuzilmalar",
+      "Geometriya",
+      "Algebra"
+    ],
+    "javob": "To’plamlar nazariyasi"
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "savol": "To’plam …",
+    "variantlar": [
+      "bo’sh bo’lishi ham, bo’sh bo’lmasligi ham mumkin",
+      "bo’sh bo’lishi mumkin emas",
+      "doim geometrik figuraning nuqtalaridan iborat bo’ladi",
+      "hosila va integral vositasida beriladi"
+    ],
+    "javob": "bo’sh bo’lishi ham, bo’sh bo’lmasligi ham mumkin"
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "savol": "To’plamlar odatda …",
+    "variantlar": [
+      "katta ingliz harflari bilan belgilanadi.",
+      "kichik iharflari bilan belgilanadi.",
+      "boshqa to’plamlarning yig’indisidan iborat bo’ladi.",
+      "faqat diskret bo’ladi."
+    ],
+    "javob": "katta ingliz harflari bilan belgilanadi."
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "savol": "To’plam elementlari odatda …",
+    "variantlar": [
+      "kichik iharflari bilan belgilanadi.",
+      "katta ingliz harflari bilan belgilanadi.",
+      "boshqa to’plamlardan tashkil topadi.",
+      "sonlarning darajalaridan iborat bo’ladi."
+    ],
+    "javob": "kichik iharflari bilan belgilanadi."
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "savol": "To’plamni qanday berish mumkin?",
+    "variantlar": [
+      "to’plamga tegishli elementlarni figurali qavslar ichida ko’rsatish orqali.",
+      "biror funktsiyaning integralini hisoblash orqali.",
+      "to’plamga tegishli elementlarni kvadrat qavslar ichida ko’rsatish orqali.",
+      "to’plamga tegishli elementlarni oddiy (yumaloq) qavslar ichida ko’rsatish orqali."
+    ],
+    "javob": "to’plamga tegishli elementlarni figurali qavslar ichida ko’rsatish orqali."
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "savol": "To’plamni qanday berish mumkin?",
+    "variantlar": [
+      "To’plamga kiradigan elementlarning xossalarini ko’rsatish orqali.",
+      "To’plamga tegishli elementlarni kvadrat qavslar ichida ko’rsatish orqali.",
+      "To’plamga tegishli elementlarni oddiy (yumaloq) qavslar ichida ko’rsatish orqali.",
+      "biror funktsiyaning hosilasini hisoblash orqali."
+    ],
+    "javob": "To’plamga kiradigan elementlarning xossalarini ko’rsatish orqali."
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "savol": "Chekli to’plam deb qanday to’plamga aytiladi?",
+    "variantlar": [
+      "Elementlari soni biror natural songa teng bo’lgan to’plamga",
+      "Elementlari soni katta bo’lgan to’plamga",
+      "Natural sonlar bilan teng bo’lgan to’plamga",
+      "Elementlari soni biror kompleks songa teng bo’lgan to’plamga"
+    ],
+    "javob": "Elementlari soni biror natural songa teng bo’lgan to’plamga"
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "savol": "Quyidagi to’plamlarning qaysi biri chekli to’plam?",
+    "variantlar": [
+      "Yer yuzidagi shaharlar to’plami",
+      "Natural sonlar to’plami",
+      "Barcha o’nli kasrlar to’plami",
+      "Butun sonlar kvadratlarining to’plami"
+    ],
+    "javob": "Yer yuzidagi shaharlar to’plami"
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "savol": "Quyidagi to’plamlarning qaysi biri chekli to’plam?",
+    "variantlar": [
+      "Kvadrati 100 dan kichik natural sonlar to’plami",
+      "Kvadrati 100 dan katta natural sonlar to’plami",
+      "Kvadrati 100 dan kichik kasr sonlar to’plami",
+      "Kvadrati 100 dan katta butun sonlar to’plami"
+    ],
+    "javob": "Kvadrati 100 dan kichik natural sonlar to’plami"
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "savol": "Qanday to’plam cheksiz to’plam deb ataladi?",
+    "variantlar": [
+      "Elementlari miqdori cheksiz bo’lgan to’plam",
+      "Elementlari miqdori chekli bo’lgan to’plam",
+      "Elementlari sonlardan iborat bo’lgan to’plam",
+      "Elementlari sanoqli bo’lgan to’plam"
+    ],
+    "javob": "Elementlari miqdori cheksiz bo’lgan to’plam"
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "savol": "Natural sonlar to’plami qanday to’plam?",
+    "variantlar": [
+      "Diskret va cheksiz",
+      "Uzluksiz va cheksiz",
+      "Diskret va sanoqsiz",
+      "Uzluksiz va diskret"
+    ],
+    "javob": "Diskret va cheksiz"
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "savol": "Haqiqiy sonlar to’plami qanday to’plam?",
+    "variantlar": [
+      "Uzluksiz va cheksiz",
+      "Duskret va cheksiz",
+      "Uzluksiz va sanoqli",
+      "Diskret va sanoqsiz"
+    ],
+    "javob": "Uzluksiz va cheksiz"
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "savol": "Aylanadagi nuqtalar to’plami qanday to’plam?",
+    "variantlar": [
+      "Cheksiz va sanoqsiz",
+      "Cheksiz va diskret",
+      "Sanoqli va cheksiz",
+      "Sanoqli va uzluksiz"
+    ],
+    "javob": "Cheksiz va sanoqsiz"
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "savol": "Chekli to’plamning quvvati nima?",
+    "variantlar": [
+      "to’plam elementlari miqdori",
+      "to’plam elementlarining tabiati",
+      "to’plamdagi natural sonlar miqdori",
+      "to’plamdagi kasr sonlar miqdori"
+    ],
+    "javob": "to’plam elementlari miqdori"
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "savol": "Haqiqiy sonlar to’plamining quvvati qanday songa teng?",
+    "variantlar": [
+      "hech qanday songa teng emas",
+      "natural songa teng",
+      "natural sonning kvadratiga teng",
+      "kasr sonlarning darajalariga teng"
+    ],
+    "javob": "hech qanday songa teng emas"
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "savol": "Ushbu B = { a, b, c, d, e } to’plamning quvvati nechaga teng?",
+    "variantlar": [
+      "5 ga teng",
+      "0 ga teng",
+      "abcde ga teng",
+      "1/5 ga teng"
+    ],
+    "javob": "5 ga teng"
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "savol": "Ikkita ixtiyoriy to’plamning quvvati teng deb ataladi, agarda …",
+    "variantlar": [
+      "bu to’plamlar o’rtasida o’zaro bir qiymatli moslik o’rnatish mumkin bo’lsa.",
+      "bu to’plamlar diskret to’plamlar bo’lsa.",
+      "bu to’plamlar uzluksiz to’plamlar bo’lsa.",
+      "bu to’plamlar o’rtasida suryektiv moslik o’rnatish mumkin bo’lsa."
+    ],
+    "javob": "bu to’plamlar o’rtasida o’zaro bir qiymatli moslik o’rnatish mumkin bo’lsa."
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "savol": "Agar A va B to’plamlar orasida o’zaro bir qiymatli moslik o’rnatilgan bo’lsa, A to’plamning ikkita turli elementiga B to’plamning nechta elementi mos qo’yilgan bo’ladi?",
+    "variantlar": [
+      "ikkita turli elementi",
+      "faqat bitta elementi",
+      "uchta bir xil elementi",
+      "hamma elementlari"
+    ],
+    "javob": "ikkita turli elementi"
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "savol": "Quvvati teng bo’lgan to’plamlar qaysi javobda berilgan?",
+    "variantlar": [
+      "Natural sonlar to’plami, juft natural sonlar to’plami",
+      "Haqqiqiy sonlar to’plami, natural sonlar to’plami",
+      "Kasr sonlar to’plami, 0 dan katta va 1 dan kichik haqiqiy sonlar to’plami",
+      "Butun sonlar to’plami, to’g’ri chiziqdagi nuqtalar to’plami"
+    ],
+    "javob": "Natural sonlar to’plami, juft natural sonlar to’plami"
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "savol": "Qanday to’plamlar sanoqli to’plamlar deyiladi?",
+    "variantlar": [
+      "Quvvati natural sonlar to’plami quvvatiga teng bo’lgan to’plamlar",
+      "Quvvati haqiqiy sonlar to’plami quvvatiga teng bo’lgan to’plamlar",
+      "Quvvati kompleks sonlar to’plami quvvatiga teng bo’lgan to’plamlar",
+      "Quvvati biror chekli to’plam quvvatiga teng bo’lgan to’plamlar"
+    ],
+    "javob": "Quvvati natural sonlar to’plami quvvatiga teng bo’lgan to’plamlar"
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "savol": "Quvvati 4 ga teng bo’lgan to’plamning qism to’plamlari nechta?",
+    "variantlar": [
+      "16 ta",
+      "15 ta",
+      "4 ta",
+      "8 ta"
+    ],
+    "javob": "16 ta"
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "savol": "A to’plam B to’plamning qism to’plami ekanligi qaysi javobda ko’rsatilgan?",
+    "variantlar": [
+      "A ⊂ B",
+      "A ∈ B",
+      "A ⊃ B",
+      "A ⋂ B"
+    ],
+    "javob": "A ⊂ B"
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "savol": "Bo’sh to’plam nima?",
+    "variantlar": [
+      "bitta ham elementi bo’lmagan to’plam",
+      "har bir elementi bo’sh bo’lgan to’plam",
+      "elementlari yumshoq bo’lgan to’plam",
+      "hech narsa chizilmagan tekislik"
+    ],
+    "javob": "bitta ham elementi bo’lmagan to’plam"
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "savol": "Quvvati 3 ga teng bo’lgan to’plamning qism to’plamlari nechta?",
+    "variantlar": [
+      "8 ta",
+      "15 ta",
+      "14 ta",
+      "16 ta"
+    ],
+    "javob": "8 ta"
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "savol": "Quvvati n ga teng bo’lgan to’plamning barcha qism to’plamlari nechta?",
+    "variantlar": [
+      "2 ning darajasida n ta",
+      "2 ning darajasida n – 1 ta",
+      "2 ko’paytirilgan n ta",
+      "n ta"
+    ],
+    "javob": "2 ning darajasida n ta"
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "savol": "To’plamni tashkil etgan ob’yektlar uning …",
+    "variantlar": [
+      "elementlari deyiladi.",
+      "quvvati deyiladi",
+      "sifatini belgilaydi",
+      "miqdorlari deb ataladi"
+    ],
+    "javob": "elementlari deyiladi."
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "savol": "To’plamlarning yig’indisi deb nimaga aytiladi?",
+    "variantlar": [
+      "shu to’plamlarning kamida bittasiga tegishli bo’lgan barcha elementlardan tashkil topgan to’plamga",
+      "to’plamlar quvvatlarining yig’indisiga",
+      "shu to’plamlarning kamida ikkitasiga tegishli bo’lgan barcha elementlardan tashkil topgan to’plamga",
+      "shu to’plamlarning har biriga tegishli bo’lgan barcha elementlardan tashkil topgan to’plamga"
+    ],
+    "javob": "shu to’plamlarning kamida bittasiga tegishli bo’lgan barcha elementlardan tashkil topgan to’plamga"
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "savol": "A = { a, q, 1, 7 } va B = { a, s, 1, 2, 7, f } to’plamlarning yig’indisini toping.",
+    "variantlar": [
+      "A U B = { a, q, 1, 7, s, 2, f }",
+      "A U B = { a, q, 1, 7, s, 2, d }",
+      "A U B = { a, q, 1, 7, s, f }",
+      "A U B = { a, 3, 1, 7, s, 2, f }"
+    ],
+    "javob": "A U B = { a, q, 1, 7, s, 2, f }"
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "savol": "Agar A = { a, q, 1, 7 }, B = { a, s, 1, 2, 7, f } va C = { q, 4, 5, s } bo’lsa, quyidagi tengliklarning qaysi biri to’g’ri?",
+    "variantlar": [
+      "A U B U C = { a, q, 1, 7, s, 2, f, 4, 5 }",
+      "A U B U C = { a, q, s, 7, s, 2, f, 4, 5 }",
+      "A U B U C = { a, b, 1, 7, s, 2, f, 4, 5 }",
+      "A U B U C = { a, t, 1, 7, s, 2, f, 4, 5 }"
+    ],
+    "javob": "A U B U C = { a, q, 1, 7, s, 2, f, 4, 5 }"
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "savol": "To’plamlarning ko’paytmasi (kesishmasi) deb nimaga aytiladi?",
+    "variantlar": [
+      "shu to’plamlarning har biriga tegishli bo’lgan barcha elementlardan tashkil topgan to’plamga",
+      "shu to’plamlarning kamida bittasiga tegishli bo’lgan barcha elementlardan tashkil topgan to’plamga",
+      "shu to’plamlarning quvvatmari ko’paytmasiga",
+      "shu to’plamlarning kamida ikkitasiga bo’lgan barcha elementlardan tashkil topgan to’plamga"
+    ],
+    "javob": "shu to’plamlarning har biriga tegishli bo’lgan barcha elementlardan tashkil topgan to’plamga"
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "savol": "Agar A = { a, q, 1, 7 }, B = { a, s, 1, 2, 7, f } bo’lsa, quyidagi tengliklarning qaysi biri to’g’ri?",
+    "variantlar": [
+      "A ∩ B = { a, 1, 7 }",
+      "A ∩ B = ∅",
+      "A ∩ B = { s, 2, f }",
+      "A ∩ B = { a, 1, 7, s }"
+    ],
+    "javob": "A ∩ B = { a, 1, 7 }"
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "savol": "Agar A = { a, q, 1, 7 }, B = { a, s, 1, 2, 7, f } va C = { q, 4, 5, s } bo’lsa, quyidagi tengliklarning qaysi biri to’g’ri?",
+    "variantlar": [
+      "A ∩ B ∩ C = Ø",
+      "A ∩ B ∩ C = { a, 1, 7 }",
+      "A ∩ B ∩ C = { s }",
+      "A ∩ B ∩ C = { a, 1, 2 }"
+    ],
+    "javob": "A ∩ B ∩ C = Ø"
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "savol": "Quyidagi tengliklarning qaysi biri noto’g’ri?",
+    "variantlar": [
+      "(A ∪ B) ∪ C = A ∪ (B ∩ C)",
+      "(A ∪ B) ∩ C = (A ∩ C) ∪ (B ∩ C)",
+      "(A ∩ B) ∪ C = (A ∪ C) ∩ (B ∪ C)",
+      "A ∩ B = B ∩ A"
+    ],
+    "javob": "(A ∪ B) ∪ C = A ∪ (B ∩ C)"
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "savol": "A va B to’plamlarning ayirmasi deb nimaga aytiladi?",
+    "variantlar": [
+      "A to’plamning B to’plamga tegishli bo’lmagan barcha elementlaridan iborat to’plamga",
+      "B to’plamning A to’plamga tegishli bo’lmagan barcha elementlaridan iborat to’plamga",
+      "A to’plamdagi elementlar miqdoridan B to’plam elementlari soni ayirmasiga",
+      "B to’plamdagi elementlar miqdoridan A to’plam elementlari soni ayirmasiga"
+    ],
+    "javob": "A to’plamning B to’plamga tegishli bo’lmagan barcha elementlaridan iborat to’plamga"
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "savol": "Agar A = { a, q, 1, 7 }, B = { a, s, 1, 2, 7, f } bo’lsa, quyidagi tengliklarning qaysi biri to’gri?",
+    "variantlar": [
+      "B – A = { s, 2, f }",
+      "A ∩ B = { a, 1, 7, s }",
+      "B – A = { s, 2, f, 7 }",
+      "A – B = { s, 2, f }"
+    ],
+    "javob": "B – A = { s, 2, f }"
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "savol": "Ushbu uchta: A \\ B, B \\ A va A ∩ B to’plamlardan ixtiyoriy 2 tasining kesishmasi nimaga teng?",
+    "variantlar": [
+      "bo’sh to’plamga",
+      "qolgan uchinchisiga",
+      "hammasining yig’indisiga",
+      "A ∪ B ga"
+    ],
+    "javob": "bo’sh to’plamga"
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "savol": "Agar qaralayotgan to'plamlar ayni bir U to'plamning qism-to'plamlari bo'lsa, u holda …",
+    "variantlar": [
+      "U to’plam universal to’plam deyiladi",
+      "U to’plam hosil qiluvchi to’plam deyiladi",
+      "U to’plam qamrab oluvchi to’plam deyiladi",
+      "U to’plam eng katta to’plam deyiladi"
+    ],
+    "javob": "U to’plam universal to’plam deyiladi"
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "savol": "Universal U to’plamning qism-to’plami bo’lgan A to’plamning to’ldiruvchisi deb ….",
+    "variantlar": [
+      "U \\ A to’plamga aytiladi",
+      "U + A to’plamga aytiladi",
+      "A \\ U to’plamga aytiladi",
+      "A + U to’plamga aytiladi"
+    ],
+    "javob": "U \\ A to’plamga aytiladi"
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "savol": "{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 } \\ { 3, 1, 7 } = ?",
+    "variantlar": [
+      "{ 0, 2, 4, 5, 6, 8, 9 }",
+      "{ 0, 1, 4, 5, 6, 8, 9 }",
+      "{ 0, 2, 3, 5, 6, 8, 9 }",
+      "{ 0, 2, 4, 5, 7, 8, 9 }"
+    ],
+    "javob": "{ 0, 2, 4, 5, 6, 8, 9 }"
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "savol": "O’zaro kesishmaydigan to’plamlar deb nimaga aytiladi?",
+    "variantlar": [
+      "kesishmasi bo’sh to’plam bo’lgan to’plamlarga",
+      "ayirmasi bo’sh to’plam bo’lgan to’plamlarga",
+      "yig’indisi bo’sh to’plam bo’lgan to’plamlarga",
+      "to’ldiruvchisi bo’sh to’plam bo’lgan to’plamlarga"
+    ],
+    "javob": "kesishmasi bo’sh to’plam bo’lgan to’plamlarga"
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "savol": "Ushbu n(A ∪ B) = n(A) + n(B) tenglik qanday A va B to’plamlar uchun o’rinli bo’ladi?",
+    "variantlar": [
+      "chekli va o’zaro kesishmaydigan A va B to’plamlar uchun",
+      "chekli va diskret A va B to’plamlar uchun",
+      "cheksiz va uzluksiz A va B to’plamlar uchun",
+      "ixtiyoriy A va B to’plamlar uchun"
+    ],
+    "javob": "chekli va o’zaro kesishmaydigan A va B to’plamlar uchun"
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "savol": "Ihtiyoriy chekli A va B to’plamlar uchun ushbu formulalarning qaysi biri o’rinli?",
+    "variantlar": [
+      "n(A ∪ B) = n(A) + n(B) – n(A ∩ B)",
+      "n(A ∪ B) = n(A) + n(B)",
+      "n(A ∩ B) = n(A) + n(B)",
+      "n(A \\ B) = n(A) – n(B)"
+    ],
+    "javob": "n(A ∪ B) = n(A) + n(B) – n(A ∩ B)"
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "savol": "100 kishidan iborat sayyohlar guruhida 70 kishi ingliz tilini, 45 kishi fransuz tilini, 23 kishi esa ikkala tilni ham biladi. Sayyohlar guruhidagi necha kishi ingliz tilini ham, fransuz tilini ham bilmaydi?",
+    "variantlar": [
+      "8 kishi",
+      "18 kishi",
+      "28 kishi",
+      "11 kishi"
+    ],
+    "javob": "8 kishi"
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "savol": "Agar 150 kishidan iborat sayyohlar guruhida: 1) ingliz tilini biladiganlar 70 ta; 2) fransuz tilini biladiganlar 45 ta; 3) yapon tilini biladiganlar 37 ta; 4) ingliz va fransuz tilini biladiganlar 23 ta; 5) ingliz va yapon tilini biladiganlar 20 ta; 6) fransuz va yapon tilini biladiganlar 25 ta; 7) ingliz, fransuz va yapon tilini biladiganlar 15 ta bo’lsa, shu uchta tildan birortasini ham bilmaydiganlar nechta?",
+    "variantlar": [
+      "51 ta",
+      "52 ta",
+      "50 ta",
+      "49 ta"
+    ],
+    "javob": "51 ta"
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "savol": "Eyler-Venn diagrammalari nimadir?",
+    "variantlar": [
+      "to’plamlarning geometik ifodasidir",
+      "to’plamlarning biometrik ifodasidir",
+      "to’plamlarning diskret ifodasidir",
+      "to’plamlarning nomuayyan ifodasidir"
+    ],
+    "javob": "to’plamlarning geometik ifodasidir"
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "savol": "To’plamlarning kesishmasi (ko’paytmasi), birlashmasi (yig’indisi), ayrirmasi kabi to’plamlar ustida bajariladigan amallarni Eyler-Venn diagrammalari shaklida ifodalash …",
+    "variantlar": [
+      "to’plamlarning quvvatini hisoblashga oid masalalarni yechishda ham qo’l keladi.",
+      "faqat maktablar, kollejlar va akademik litseylarda ishlatiladi.",
+      "to’plamlar kvadratlarining yig’indisini hisoblashda qo’l keladi.",
+      "to’plamlarni ko’pchilik bo’lib, birga o’rganishda juda qo’l keladi"
+    ],
+    "javob": "to’plamlarning quvvatini hisoblashga oid masalalarni yechishda ham qo’l keladi."
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "savol": "Eyler-Venn diagrammalarida nechta to’plamlar ifoda etilishi mumkin?",
+    "variantlar": [
+      "istalgancha to’plamlar ifoda etilishi mumkin",
+      "2 ta to’plamlar ifoda etilishi mumkin",
+      "sanoqli to’plamlar ifoda etilishi mumkin",
+      "uzluksiz to’plamlar ifoda etilishi mumkin"
+    ],
+    "javob": "istalgancha to’plamlar ifoda etilishi mumkin"
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "savol": "Ihtiyoriy A va B to’plamlarning Dekart ko’paytmasi AxB deb nimaga aytiladi?",
+    "variantlar": [
+      "barcha (a, b) ko’rinishidagi juftliklar to’plamiga, bu yerda a ∈ A, b ∈ B.",
+      "ba’zi (a, b) ko’rinishidagi juftliklar to’plamiga, bu yerda a ∈ A, b ∈ B.",
+      "A va B to’plamlarning kesishmasi(ko’paytmasi)ga",
+      "A va B to’plamlardagi elementlar ko’paytmasiga"
+    ],
+    "javob": "barcha (a, b) ko’rinishidagi juftliklar to’plamiga, bu yerda a ∈ A, b ∈ B."
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "savol": "Agar A = { 1, 2, 3 }, B = { 4, 5, 6 } bo’lsa, u holda quyidagi tengliklarning qaysi biri to’g’ri?",
+    "variantlar": [
+      "AxB = { (1, 4), (1, 5), (1, 6), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6) }",
+      "A ⋂ B = { (1, 4), (1, 5), (1, 6), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6) }",
+      "A \\ B = { (1, 4), (1, 5), (1, 6), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6) }",
+      "A ∪ B = { (1, 4), (1, 5), (1, 6), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6) }"
+    ],
+    "javob": "AxB = { (1, 4), (1, 5), (1, 6), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6) }"
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "savol": "Agar A va B to’plamlar chekli to’plamlar bo’lib, ulardagi elementlar soni mos ravishda m va n ga teng bo’lsa, u holda ularning Dekart ko’paytmasi AxB dagi elementlar soni nimaga teng bo’ladi?",
+    "variantlar": [
+      "mn ga teng bo’ladi",
+      "m + n ga teng bo’ladi",
+      "m – n ga teng bo’ladi",
+      "2mn ga teng bo’ladi"
+    ],
+    "javob": "mn ga teng bo’ladi"
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "savol": "AxB to’plamning ihtiyoriy R qism-to’plami (ya’ni R ⊆ AxB) nima deb ataladi?",
+    "variantlar": [
+      "binar munosabat deb ataladi",
+      "unar munosabat deb ataladi",
+      "ternar munosabat deb ataladi",
+      "tartib munosabati deb ataladi"
+    ],
+    "javob": "binar munosabat deb ataladi"
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "savol": "Agar biror R ⊆ AxB munosabat berilgan bo’lsa va (a, b) juftlik R ga tegishli bo’lsa, ya’ni (a, b) ∈ R bo’lsa, u holda …",
+    "variantlar": [
+      "a va b elementlar R munosabatda deb aytiladi, hamda aRb deb yoki R(a, b) deb yoziladi",
+      "a va b elementlar ARB munosabatda deb aytiladi, hamda aARBb deb yoki ARB(a, b) deb yoziladi",
+      "a va b elementlar ekvivalent deb ataladi",
+      "a va b elementlar R qism to’plamning elementlari deb ataladi"
+    ],
+    "javob": "a va b elementlar R munosabatda deb aytiladi, hamda aRb deb yoki R(a, b) deb yoziladi"
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "savol": "Agar biror to’plamda berilgan binar munosabat refleksiv, antisimmetrik va tranzitiv bo’lsa, u holda bu munosabat qanday munosabat deyiladi?",
+    "variantlar": [
+      "qismiy tartib munosabati",
+      "ekvivalentlik munosabati",
+      "taqqoslash munosabati",
+      "taqqoslanmaslik munosabati"
+    ],
+    "javob": "qismiy tartib munosabati"
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "savol": "R munosabat A dagi qismiy tartib munosabati bo’lsin. Agar a, b ∈ A elementlar uchun yo R(a, b), yo R(b, a) to’g’ri bo’lsa, a va b elementlar …",
+    "variantlar": [
+      "taqqoslanuvchi elementlar deyiladi",
+      "taqqoslanmaydigan elementlar deyiladi",
+      "teng bo’lmagan elementlar deyiladi",
+      "tartiblangan elementlar deyiladi"
+    ],
+    "javob": "taqqoslanuvchi elementlar deyiladi"
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "savol": "Agar R munosabatga nisbatan A to’plam elementlarining barcha juftliklari taqqoslanuvchi bo’lsa, u holda R tartib …",
+    "variantlar": [
+      "chiziqli deyiladi",
+      "kvadratik deyiladi",
+      "to’liq deyiladi",
+      "taqqoslanuvchi tartib deyiladi"
+    ],
+    "javob": "chiziqli deyiladi"
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "savol": "Bir qancha to’plamlar elementlari orasidagi munosabat deganda odatda ularning …",
+    "variantlar": [
+      "Dekart ko’paytmasining biror qism to’plamiga aytiladi",
+      "Dekart yig’indisining biror qism to’plamiga aytiladi",
+      "birlashmasining biror qism to’plamiga aytiladi",
+      "ayirmasining biror qism to’plamiga aytiladi"
+    ],
+    "javob": "Dekart ko’paytmasining biror qism to’plamiga aytiladi"
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "savol": "Natural sonlar to’plamida berilgan quyidagi munosabatlarning qaysi biri qismiy tartib munosabati bo’ladi?",
+    "variantlar": [
+      "≤",
+      "<",
+      ">",
+      "≠"
+    ],
+    "javob": "≤"
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "savol": "Agar T = { 1, 2, 3, 4, 5 } bo’lsa, u holda T dagi x + y + z = 8 tenglikni qanoatlantiruvchi barcha (x, y, z) uchliklar to’plami Tdagi qanday munosabatni ifoda etadi?",
+    "variantlar": [
+      "ternar",
+      "binar",
+      "unar",
+      "bo’sh"
+    ],
+    "javob": "ternar"
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "savol": "Agar T = { 1, 2, 3, 4 }, M = {(x, y) | x + y > 2} bo’lsa, u holda M munosabat uchun quyidagi ifodalarning qaysi biri noto’g’ri?",
+    "variantlar": [
+      "1M1",
+      "2M2",
+      "3M3",
+      "4M4"
+    ],
+    "javob": "1M1"
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "savol": "Biror T to’plamdagi binar M munosabatning matritsasi qanday elementlardan iborat bo’ladi?",
+    "variantlar": [
+      "0, 1",
+      "–1, 0, 1",
+      "0, 1, 2",
+      "1, 2, 3"
+    ],
+    "javob": "0, 1"
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "savol": "Ixtiyoriy T to’plamda berilgan M munosabat ekvivalentlik munosabati deb ataladi, agar u …",
+    "variantlar": [
+      "refleksiv, simmetrik va tranzitiv bo’lsa",
+      "antirefleksiv, simmetrik va tranzitiv bo’lsa",
+      "refleksiv, antisimmetrik va tranzitiv bo’lsa",
+      "refleksiv, simmetrik va antitranzitiv bo’lsa"
+    ],
+    "javob": "refleksiv, simmetrik va tranzitiv bo’lsa"
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "savol": "Ekvivalentlik munosabati hammamizga matematikadan ma’lum bo’lgan …",
+    "variantlar": [
+      "tenglik munosabatining umumlashgan shaklidir",
+      "tengsizlik munosabatining umumlashgan shaklidir",
+      "≤ munosabatining umumlashgan shaklidir",
+      "≥ munosabatining umumlashgan shaklidir"
+    ],
+    "javob": "tenglik munosabatining umumlashgan shaklidir"
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "savol": "Odamlar orasidagi “millatdoshlik” munosabati qanday munosabat?",
+    "variantlar": [
+      "ekvivalentlik munosabati",
+      "qismiy tartib munosabati",
+      "chiziqli tartib munosabati",
+      "qismiy bog’liqlik munosabati"
+    ],
+    "javob": "ekvivalentlik munosabati"
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "savol": "Yer yuzidagi odamlar to’plami T da “tengdoshlik munosabati” M ni qaraydigan bo’lsak, bu munosabat …",
+    "variantlar": [
+      "ekvivalentlik munosabati bo’ladi",
+      "qismiy tartib munosabati bo’ladi",
+      "chiziqli tartib munosabati bo’ladi",
+      "qismiy bog’liqlik munosabati bo’ladi"
+    ],
+    "javob": "ekvivalentlik munosabati bo’ladi"
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "savol": "T to’plam sifatida O’zbekistonning shaharlarida yashovchi odamlar to’plamini, M munosabat sifatida esa “bir shaharda yashashlik” degan munosabatni ko’rib chiqaylik. Bu munosabat …",
+    "variantlar": [
+      "ekvivalentlik munosabati bo’ladi",
+      "qismiy tartib munosabati bo’ladi",
+      "chiziqli tartib munosabati bo’ladi",
+      "qismiy bog’liqlik munosabati bo’ladi"
+    ],
+    "javob": "ekvivalentlik munosabati bo’ladi"
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "savol": "T to’plam sifatida natural sonlar to’plami N ni olaylik va biror t tub son berilgan bo’lsin. M munosabat esa x ∈ N va y ∈ N natural sonlarni t ga bo’lganda bir xil qoldiqqa ega bo’lishligi bo’lsin. U holda bu M munosabat …",
+    "variantlar": [
+      "ekvivalentlik munosabati bo’ladi",
+      "qismiy tartib munosabati bo’ladi",
+      "chiziqli tartib munosabati bo’ladi",
+      "qismiy bog’liqlik munosabati bo’ladi"
+    ],
+    "javob": "ekvivalentlik munosabati bo’ladi"
+  },
+  {
+    "id": 76,
+    "type": "multiple_choice",
+    "savol": "Bo’sh bo’lmagan T to’plamdagi M ekvivalentlik munosabati mazkur T to’plamni …",
+    "variantlar": [
+      "ekvivalentlik sinflariga bo’linishini hosil qiladi",
+      "quvvati bir xil qism to’plamlarga ajratib yuboradi",
+      "quvvati |T| bo’lgan sinflariga bo’linishini hosil qiladi",
+      "qarama-qarshi sinflariga bo’linishini hosil qiladi"
+    ],
+    "javob": "ekvivalentlik sinflariga bo’linishini hosil qiladi"
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "savol": "T to’plamning bo’linishi deb …",
+    "variantlar": [
+      "yig’indisi T ga teng bo’lgan va ixtiyoriy 2 tasi kesishmaydigan qism to’plamlarga aytiladi",
+      "ko’paytmasi T ga teng bo’lgan va ixtiyoriy 2 tasi kesishmaydigan qism to’plamlarga aytiladi",
+      "Dekart ko’paytmasi T ga teng bo’lgan va ixtiyoriy 2 tasi kesishmaydigan qism to’plamlarga aytiladi",
+      "to’ldiruvchilari T ga teng bo’lgan va ixtiyoriy 2 tasi kesishmaydigan qism to’plamlarga aytiladi"
+    ],
+    "javob": "yig’indisi T ga teng bo’lgan va ixtiyoriy 2 tasi kesishmaydigan qism to’plamlarga aytiladi"
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "savol": "Biror A va B to’plamlar o’rtasidagi binar M munosabatning AxB Dekart ko’paytmaning qism-to’plami ekanligini yaxshi bilamiz. Bu binar munosabat …",
+    "variantlar": [
+      "A va B to’plamlarning ba’zi elementlari orasida moslik o’rnatadi",
+      "A va B to’plamlarning barcha elementlari orasida moslik o’rnatadi",
+      "A va B to’plamlarni diskret to’plamlarga aylantirib qo’yadi",
+      "A va B to’plamlarni uzluksiz to’plamlarga aylantirib qo’yadi"
+    ],
+    "javob": "A va B to’plamlarning ba’zi elementlari orasida moslik o’rnatadi"
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "savol": "Biror ikkita A va B to’plamlar o’rtasidagi akslantirish deganda nima tushiniladi?",
+    "variantlar": [
+      "bu to’plamlardan birining elementlarini ikkinchisining elementlariga mos qo’yish",
+      "A to’plam elementlarini B to’plamga qo’shib yuborish",
+      "B to’plam elementlarini A to’plamga qo’shib yuborish",
+      "bu to’plamlardan birining quvvatini ikkinchisining quvvatiga mos qo’yish"
+    ],
+    "javob": "bu to’plamlardan birining elementlarini ikkinchisining elementlariga mos qo’yish"
+  },
+  {
+    "id": 80,
+    "type": "multiple_choice",
+    "savol": "Funktsiyaning ta’rifi, uning aniqlanish sohasi va qiymatlari sohasi qaysi javobda to’g’ri va to’liq berilgan?",
+    "variantlar": [
+      "Agar biror f akslantirish biror X to’plamning har bir elementini biror Y to’plamning faqat bitta elementiga akslantirsa, mazkur f akslantirish funktsiya deb ataladi; bunda X to’plam f funktsiyaning aniqlanish sohasi, Y to’plam esa funktsiyaning qiymatlari sohasi deb ataladi.",
+      "Agar biror f akslantirish biror X to’plamning har bir elementini biror Y to’plamning faqat bitta elementiga akslantirsa, mazkur f akslantirish funktsiya deb ataladi; bunda Y to’plam f funktsiyaning aniqlanish sohasi, X to’plam esa funktsiyaning qiymatlari sohasi deb ataladi.",
+      "Agar biror f akslantirish biror X to’plamning har bir elementini biror Y to’plamning bir nechta elementiga akslantirsa, mazkur f akslantirish funktsiya deb ataladi; bunda X to’plam f funktsiyaning aniqlanish sohasi, Y to’plam esa funktsiyaning qiymatlari sohasi deb ataladi.",
+      "Agar biror f akslantirish biror X to’plamning har bir elementini biror Y to’plamning bir nechta elementiga akslantirsa, mazkur f akslantirish funktsiya deb ataladi; bunda Y to’plam f funktsiyaning aniqlanish sohasi, X to’plam esa funktsiyaning qiymatlari sohasi deb ataladi."
+    ],
+    "javob": "Agar biror f akslantirish biror X to’plamning har bir elementini biror Y to’plamning faqat bitta elementiga akslantirsa, mazkur f akslantirish funktsiya deb ataladi; bunda X to’plam f funktsiyaning aniqlanish sohasi, Y to’plam esa funktsiyaning qiymatlari sohasi deb ataladi."
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "savol": "Grafigi to’g’ri chiziq bo’lgan funktsiya qaysi?",
+    "variantlar": [
+      "y = kx + b",
+      "y = ln x",
+      "y = sin x",
+      "y = x + sin x"
+    ],
+    "javob": "y = kx + b"
+  },
+  {
+    "id": 82,
+    "type": "multiple_choice",
+    "savol": "Funktsiyani berish usullaridan biri qaysi javobda to’g’ri ko’rsatilgan?",
+    "variantlar": [
+      "So’z bilan",
+      "Diskret to’plamlar orqali",
+      "Uzluksiz to’plamlar orqali",
+      "Planar graf bilan"
+    ],
+    "javob": "So’z bilan"
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "savol": "Funktsiyani berish usullaridan biri qaysi javobda to’g’ri ko’rsatilgan?",
+    "variantlar": [
+      "Formula orqali",
+      "Diskret to’plamlar orqali",
+      "Uzluksiz to’plamlar orqali",
+      "Planar graf bilan"
+    ],
+    "javob": "Formula orqali"
+  },
+  {
+    "id": 84,
+    "type": "multiple_choice",
+    "savol": "Funktsiyani berish usullaridan biri qaysi javobda to’g’ri ko’rsatilgan?",
+    "variantlar": [
+      "Grafik orqali",
+      "Diskret to’plamlar orqali",
+      "Uzluksiz to’plamlar orqali",
+      "Planar graf bilan"
+    ],
+    "javob": "Grafik orqali"
+  },
+  {
+    "id": 85,
+    "type": "multiple_choice",
+    "savol": "Funktsiyani berish usullaridan biri qaysi javobda to’g’ri ko’rsatilgan?",
+    "variantlar": [
+      "Jadval orqali",
+      "Diskret to’plamlar orqali",
+      "Uzluksiz to’plamlar orqali",
+      "Planar graf bilan"
+    ],
+    "javob": "Jadval orqali"
+  },
+  {
+    "id": 86,
+    "type": "multiple_choice",
+    "savol": "Agar f funktsiya uchun ∀ a₁, a₂ ∈ A: a₁ ≠ a₂ ⇒ f(a₁) ≠ f(a₂) bo’lsa, u holda f funktsiya qanday funktsiya?",
+    "variantlar": [
+      "in’yektiv",
+      "sur’yektiv",
+      "biyektiv",
+      "diskret"
+    ],
+    "javob": "in’yektiv"
+  },
+  {
+    "id": 87,
+    "type": "multiple_choice",
+    "savol": "Agar f funktsiya uchun ∀ b ∈ B: ∃ a: b = f(a) bo’lsa, u holda f funktsiya qanday funktsiya?",
+    "variantlar": [
+      "sur’yektiv",
+      "in’yektiv",
+      "biyektiv",
+      "diskret"
+    ],
+    "javob": "sur’yektiv"
+  },
+  {
+    "id": 88,
+    "type": "multiple_choice",
+    "savol": "Agar f funktsiya ham sur’yektiv, ham in’yektiv bo’lsa, u holda f funktsiya qanday funktsiya?",
+    "variantlar": [
+      "biyektiv",
+      "super in’yektiv",
+      "super sur’yektiv",
+      "diskret"
+    ],
+    "javob": "biyektiv"
+  },
+  {
+    "id": 89,
+    "type": "multiple_choice",
+    "savol": "Kombinatorika degan fanning yana qanday boshqa nomlari bor?",
+    "variantlar": [
+      "kombinator tahlil, kombinator nazariya",
+      "matematik tahlil, geometrik tahlil",
+      "diskret tahlil, diskret nazariya",
+      "tanlash nazariyasi, tanlov tahlili"
+    ],
+    "javob": "kombinator tahlil, kombinator nazariya"
+  },
+  {
+    "id": 90,
+    "type": "multiple_choice",
+    "savol": "Kombinatorikaning markaziy masalasi deb nimalarni aytish mumkin?",
+    "variantlar": [
+      "maxsus qoidalarga yoki talablarga muvofiq ravishda narsalarni (ob’yektlarni) joylashtirish va buni amalga oshirish usullarining sonini (miqdorini) aniqlash masalasini",
+      "uzluksiz va tekis uzluksiz funktsiyalarning hosilasi qanday hollarda mavjudligini aniqlash masalasini",
+      "fizika va kimyo kabi fanlar shug’ulanadigan jarayonlardagi miqdoriy xossalarni tadqiq qilish masalasini",
+      "qaysi hollarda algebraik tenglamalarning yechimi mavjud bo’lishi va bunday tenglamalarning ildizlarini topish masalasini"
+    ],
+    "javob": "maxsus qoidalarga yoki talablarga muvofiq ravishda narsalarni (ob’yektlarni) joylashtirish va buni amalga oshirish usullarining sonini (miqdorini) aniqlash masalasini"
+  },
+  {
+    "id": 91,
+    "type": "multiple_choice",
+    "savol": "Kombinatorika masalalariga shuningdek …",
+    "variantlar": [
+      "magik (sirli, sehrli) kvadratlarni qurish (topish, yaratish), tilsimlarni (shifrlarni) ochish va kodlash masalalari ham kiradi.",
+      "algebraik sonlar nazariyasining hosila va integral bilan bog’liq masalalari ham kiradi",
+      "biologik jarayonlarni matematik modellashtirish masalalari ham kiradi",
+      "yulduzlar turkumlarining diskret tuzilmalarini o’rganish masalalari ham kiradi"
+    ],
+    "javob": "magik (sirli, sehrli) kvadratlarni qurish (topish, yaratish), tilsimlarni (shifrlarni) ochish va kodlash masalalari ham kiradi."
+  },
+  {
+    "id": 92,
+    "type": "multiple_choice",
+    "savol": "Kombinatorikaning nechta asosiy qoidalari bor?",
+    "variantlar": [
+      "2 ta",
+      "3 ta",
+      "4 ta",
+      "sanoqsiz"
+    ],
+    "javob": "2 ta"
+  },
+  {
+    "id": 93,
+    "type": "multiple_choice",
+    "savol": "Kombinatorikaning asosiy qoidalari qanday ataladi?",
+    "variantlar": [
+      "qo’shish qoidasi, ko’paytirish qoidasi",
+      "ayirish qoidasi, bo’lish qoidasi",
+      "darajaga ko’tarish qoidasi, ildiz qoidasi",
+      "uzluksizlik qoidasi, diskretlash qoidasi"
+    ],
+    "javob": "qo’shish qoidasi, ko’paytirish qoidasi"
+  },
+  {
+    "id": 94,
+    "type": "multiple_choice",
+    "savol": "Kombinatorikaning yig’indi qoidasini ko’rsating.",
+    "variantlar": [
+      "Agar biror A ob’yektni n ta usul bilan, boshqa biror B ob’yektni esa m ta usul bilan tanlash mumkin bo’lsa, u holda “yo A, yo B” ob’yektni n + m ta usul bilan tanlash mumkin",
+      "Agar biror A ob’yektni n ta usul bilan, boshqa biror B ob’yektni esa m ta usul bilan tanlash mumkin bo’lsa, u holda “yo A, yo B” ob’yektni nm ta usul bilan tanlash mumkin",
+      "Agar biror A ob’yektni n ta usul bilan, boshqa biror B ob’yektni esa m ta usul bilan tanlash mumkin bo’lsa, u holda A va B ob’yektlar juftligini nm ta usul bilan tanlash mumkin",
+      "Agar biror A ob’yektni n ta usul bilan, boshqa biror B ob’yektni esa m ta usul bilan tanlash mumkin bo’lsa, u holda A va B ob’yektlar juftligini n + m ta usul bilan tanlash mumkin"
+    ],
+    "javob": "Agar biror A ob’yektni n ta usul bilan, boshqa biror B ob’yektni esa m ta usul bilan tanlash mumkin bo’lsa, u holda “yo A, yo B” ob’yektni n + m ta usul bilan tanlash mumkin"
+  },
+  {
+    "id": 95,
+    "type": "multiple_choice",
+    "savol": "Kombinatorikaning ko’paytirish qoidasini ko’rsating.",
+    "variantlar": [
+      "Agar biror A ob’yektni n ta usul bilan, boshqa biror B ob’yektni esa m ta usul bilan tanlash mumkin bo’lsa, u holda “yo A, yo B” ob’yektni n + m ta usul bilan tanlash mumkin",
+      "Agar biror A ob’yektni n ta usul bilan, boshqa biror B ob’yektni esa m ta usul bilan tanlash mumkin bo’lsa, u holda “yo A, yo B” ob’yektni nm ta usul bilan tanlash mumkin",
+      "Agar biror A ob’yektni n ta usul bilan, boshqa biror B ob’yektni esa m ta usul bilan tanlash mumkin bo’lsa, u holda A va B ob’yektlar juftligini nm ta usul bilan tanlash mumkin",
+      "Agar biror A ob’yektni n ta usul bilan, boshqa biror B ob’yektni esa m ta usul bilan tanlash mumkin bo’lsa, u holda A va B ob’yektlar juftligini n + m ta usul bilan tanlash mumkin"
+    ],
+    "javob": "Agar biror A ob’yektni n ta usul bilan, boshqa biror B ob’yektni esa m ta usul bilan tanlash mumkin bo’lsa, u holda A va B ob’yektlar juftligini nm ta usul bilan tanlash mumkin"
+  },
+  {
+    "id": 96,
+    "type": "multiple_choice",
+    "savol": "Bir guruhda 6 ta, ikkinchisida 2 ta va uchinchisida 5 ta talaba bor. Shu uchta guruhdagi talabalardan biriga yangi mavzu bo’yicha tayyorlanib kelishni topshirmoqchimiz. Talabani necha xil usulda tanlash mumkin?",
+    "variantlar": [
+      "13",
+      "60",
+      "8",
+      "11"
+    ],
+    "javob": "13"
+  },
+  {
+    "id": 97,
+    "type": "multiple_choice",
+    "savol": "Idishda 8 ta olma, 5 ta nok bor. Bitta mevani tanlash usuli nechta?",
+    "variantlar": [
+      "13 ta",
+      "40 ta",
+      "3 ta",
+      "aniqlab bo’lmaydi"
+    ],
+    "javob": "13 ta"
+  },
+  {
+    "id": 98,
+    "type": "multiple_choice",
+    "savol": "A shahardan B shaharga 6 ta yo’l olib boradi, B shahardan C shaharga esa 4 ta yo’l olib boradi. A shahardan C shaharga B shahri orqali necha xil usulda borish mumkin?",
+    "variantlar": [
+      "24",
+      "10",
+      "6",
+      "4"
+    ],
+    "javob": "24"
+  },
+  {
+    "id": 99,
+    "type": "multiple_choice",
+    "savol": "Oshxonada tushlikka 3 xil suyuq ovqat va 7 xil quyuq ovqat tayyorlanadi. Bitta suyuq va bitta quyuq ovqatdan iborat tushlikni necha xil usulda qilish mumkin?",
+    "variantlar": [
+      "21",
+      "10",
+      "22",
+      "shu oddiy masalani yechishga hozircha ilmu fan ojizlik qilmoqda"
+    ],
+    "javob": "21"
+  },
+  {
+    "id": 100,
+    "type": "multiple_choice",
+    "savol": "Bizga T = { a, b, c } to’plam berilgan bo’lsin, demak T bu 3 ta elementdan iborat bo’lgan to’plamdir. Shu T to’plam elementlarini 3 ta joyga necha xil usulda o’rinlashtirish mumkin?",
+    "variantlar": [
+      "6 xil",
+      "5 xil",
+      "4 xil",
+      "3 xil"
+    ],
+    "javob": "6 xil"
+  },
+  {
+    "id": 101,
+    "type": "multiple_choice",
+    "savol": "Ushbu n! son, ya’ni “en factorial” deb o’qiladigan son nimaning miqdorini (sonini) ifoda etadi?",
+    "variantlar": [
+      "n ta elementning o’rin almashtirishlar soni",
+      "n ta elementni n ta joyga takroriy o’rinlashtirishlar sonini",
+      "n ta elementli to’plamning qism to’plamlari sonini",
+      "n ta elementli chekli to’plamning quvvatini"
+    ],
+    "javob": "n ta elementning o’rin almashtirishlar soni"
+  },
+  {
+    "id": 102,
+    "type": "multiple_choice",
+    "savol": "n ta elementlarni n ta joyga takroriy bo’lmagan o’rinlashtirishlar soni nimaga teng?",
+    "variantlar": [
+      "n! ga",
+      "n ning n-chi darajasiga",
+      "n ning kvadratiga",
+      "2n ga"
+    ],
+    "javob": "n! ga"
+  },
+  {
+    "id": 103,
+    "type": "multiple_choice",
+    "savol": "n ta elementdan k ta takroriy bo’lmagan o’rinlashtirishlar soni nimaga teng?",
+    "variantlar": [
+      "n!/(n – k)! ga",
+      "n! + (n – k)! ga",
+      "n!/k! ga",
+      "n! – k! ga"
+    ],
+    "javob": "n!/(n – k)! ga"
+  },
+  {
+    "id": 104,
+    "type": "multiple_choice",
+    "savol": "10 odamdan 4 tasini tanlab 4 ta stulga o’tqazish kerak. Buni necha xil usulda amalga oshirish mumkin?",
+    "variantlar": [
+      "5040",
+      "210",
+      "1716",
+      "504"
+    ],
+    "javob": "5040"
+  },
+  {
+    "id": 105,
+    "type": "multiple_choice",
+    "savol": "13 fandan 3 tasini dushanba kungi dars jadvalining 1-, 2-, 3- darslariga necha xil usulda qo’yish mumkin?",
+    "variantlar": [
+      "5040",
+      "210",
+      "1716",
+      "504"
+    ],
+    "javob": "1716"
+  },
+  {
+    "id": 106,
+    "type": "multiple_choice",
+    "savol": "Shaxmat musobaqasida 15 o’yinchi ishtirok etmoqda. Har bir o’yinchi boshqasi bilan bir gal oq, bir gal qora donalarda o’ynashi lozim. Musobaqada jami nechta shaxmat o’yini bo’ladi?",
+    "variantlar": [
+      "5040",
+      "210",
+      "1716",
+      "504"
+    ],
+    "javob": "210"
+  },
+  {
+    "id": 107,
+    "type": "multiple_choice",
+    "savol": "0 raqami ishtirok etmagan 3 xonali nechta natural son bor?",
+    "variantlar": [
+      "5040",
+      "210",
+      "1716",
+      "504"
+    ],
+    "javob": "504"
+  },
+  {
+    "id": 108,
+    "type": "multiple_choice",
+    "savol": "Beshta askarni bir safga necha xil usulda joylashtirish mumkin?",
+    "variantlar": [
+      "120",
+      "555",
+      "12345",
+      "160"
+    ],
+    "javob": "120"
+  },
+  {
+    "id": 109,
+    "type": "multiple_choice",
+    "savol": "Barcha raqamlari turlicha bo’lgan va 3, 5, 7 raqamlaridan tuzilgan 3 xonali natural sonlar nechta?",
+    "variantlar": [
+      "6 ta",
+      "12 ta",
+      "4 ta",
+      "7 ta"
+    ],
+    "javob": "6 ta"
+  },
+  {
+    "id": 110,
+    "type": "multiple_choice",
+    "savol": "n ta elementdan iborat T to’plamning k ta elementli guruhlar deganda nima tushuniladi?",
+    "variantlar": [
+      "T to’plamning barcha k ta elementli qism to’plamlari",
+      "T to’plamdan olingan k ta elementlarning o’rin almashtirishlari",
+      "T to’plamning quvvati k ga teng elementlari",
+      "T to’plamdan k ta elementni chiqarib tashlash usullari"
+    ],
+    "javob": "T to’plamning barcha k ta elementli qism to’plamlari"
+  },
+  {
+    "id": 111,
+    "type": "multiple_choice",
+    "savol": "Chekli va n ta elementdan iborat biror to’plamning barcha k ta elementli qism to’plamlari soni (miqdori) nima deb ataladi?",
+    "variantlar": [
+      "n tadan k ta guruhlashlar soni",
+      "n tadan k ta o’rinlashtirishlar soni",
+      "n tadan k ta o’rin almashtirishlar soni",
+      "n tadan k ta takroriy o’rinlashtirishlar soni"
+    ],
+    "javob": "n tadan k ta guruhlashlar soni"
+  },
+  {
+    "id": 112,
+    "type": "multiple_choice",
+    "savol": "n tadan k ta guruhlashlar soni qanday hisoblanadi?",
+    "variantlar": [
+      "n! ni k! ga bo’lishdan hosil bo’lgan sonni (n – k)! ga bo’lish orqali",
+      "n! ni k! ga bo’lish orqali",
+      "k! ni n! ga bo’lish orqali",
+      "n! ni (k – 1)! ga bo’lishdan hosil bo’lgan sonni (n – k)! ga bo’lish orqali"
+    ],
+    "javob": "n! ni k! ga bo’lishdan hosil bo’lgan sonni (n – k)! ga bo’lish orqali"
+  },
+  {
+    "id": 113,
+    "type": "multiple_choice",
+    "savol": "T = { a, b, c, d, e, f } to’plamning 3 ta elementli barcha qism-to’plamlari nechta?",
+    "variantlar": [
+      "20 ta",
+      "15 ta",
+      "10 ta",
+      "6 ta"
+    ],
+    "javob": "20 ta"
+  },
+  {
+    "id": 114,
+    "type": "multiple_choice",
+    "savol": "T = { a, b, c, d, e, f, g } to’plamning 3 ta elementli barcha qism-to’plamlari nechta?",
+    "variantlar": [
+      "35 ta",
+      "15 ta",
+      "45 ta",
+      "25 ta"
+    ],
+    "javob": "35 ta"
+  },
+  {
+    "id": 115,
+    "type": "multiple_choice",
+    "savol": "T = { a, b, c, d, e, f, g, h } to’plamning 3 ta elementli barcha qism-to’plamlari nechta?",
+    "variantlar": [
+      "56 ta",
+      "76 ta",
+      "66 ta",
+      "83 ta"
+    ],
+    "javob": "56 ta"
+  },
+  {
+    "id": 116,
+    "type": "multiple_choice",
+    "savol": "Barcha raqamlari 0 dan farqli va raqamlari o’sib boruvchi tartibda joylashgan 3 xonali natural sonlar nechta?",
+    "variantlar": [
+      "84",
+      "74",
+      "104",
+      "1024"
+    ],
+    "javob": "84"
+  },
+  {
+    "id": 117,
+    "type": "multiple_choice",
+    "savol": "1 dan 20 gacha bo’lgan natural sonlar ichida 2 ga ham, 3 ga ham, 5 ga ham qoldiqsiz bo’linmaydigan sonlar nechta?",
+    "variantlar": [
+      "6 ta",
+      "5 ta",
+      "10 ta",
+      "9 ta"
+    ],
+    "javob": "6 ta"
+  },
+  {
+    "id": 118,
+    "type": "multiple_choice",
+    "savol": "50 ta qizdan 10 tasiga qizil, 12 tasiga oq, 14 tasiga sariq gul berildi. Shuningdek, ularning 6 tasi qizil va oq, 8 tasi qizil va sariq, 7 tasi oq va sariq gul, 3 tasi esa har uch gulni oldi. Birorta ham gul olmagan qizlar nechta? Gul olgan qizlar jami nechta?",
+    "variantlar": [
+      "32 ta va 18 ta",
+      "32 ta va 16 ta",
+      "30 ta va 18 ta",
+      "48 ta va 20 ta"
+    ],
+    "javob": "32 ta va 18 ta"
+  },
+  {
+    "id": 119,
+    "type": "multiple_choice",
+    "savol": "Takroriy o’rinlashtirishlar deganda …",
+    "variantlar": [
+      "elementlarning o’rinlarda takror kelishi mumkin bo’lgan o’rinlashtirishlarga aytiladi",
+      "elementlarning o’rinlarda kamida 2 marta keladigan o’rinlashtirishlarga aytiladi",
+      "elementlarning o’rinlarda kamida 3 marta keladigan o’rinlashtirishlarga aytiladi",
+      "to’plamlarni berishda ba’zi elementlarning takror kelishi nazarda tutiladi"
+    ],
+    "javob": "elementlarning o’rinlarda takror kelishi mumkin bo’lgan o’rinlashtirishlarga aytiladi"
+  },
+  {
+    "id": 120,
+    "type": "multiple_choice",
+    "savol": "n ta elementdan k ta takroriy o’rinlashtirishlar soni qanday hisoblanadi?",
+    "variantlar": [
+      "n darajasida k ga teng",
+      "n! darajasida k ga teng",
+      "n darajasida k! ga teng",
+      "n! darajasida k! ga teng"
+    ],
+    "javob": "n darajasida k ga teng"
+  },
+  {
+    "id": 121,
+    "type": "multiple_choice",
+    "savol": "Takroriy guruhlashlar deganda …",
+    "variantlar": [
+      "elementlarning takror kelishi mumkin bo’lgan guruhlashlarga aytiladi",
+      "elementlarning takror kelishi mumkin bo’lgan o’rinlashtirishlarga aytiladi",
+      "elementlarning takror kelishi mumkin bo’lgan o’rin almashtirishlarga aytiladi",
+      "elementlarning betakror kelishi mumkin bo’lgan guruhlashlarga aytiladi"
+    ],
+    "javob": "elementlarning takror kelishi mumkin bo’lgan guruhlashlarga aytiladi"
+  },
+  {
+    "id": 122,
+    "type": "multiple_choice",
+    "savol": "n ta elementdan k ta takroriy guruhlashlar soni nimaga teng?",
+    "variantlar": [
+      "(n + k – 1) ta elementdan k ta takroriy bo’lmagan guruhlashlar soniga",
+      "(n + k – 1) ta elementdan k ta takroriy guruhlashlar soniga",
+      "(n + k) ta elementdan k ta takroriy bo’lmagan guruhlashlar soniga",
+      "(n + k + 1) ta elementdan k ta takroriy bo’lmagan guruhlashlar soniga"
+    ],
+    "javob": "(n + k – 1) ta elementdan k ta takroriy bo’lmagan guruhlashlar soniga"
+  },
+  {
+    "id": 123,
+    "type": "multiple_choice",
+    "savol": "n ta elementdan iborat takroriy o’rin almashtirishda k ta turli elementlar ishtirok etsin: 1-tur elementdan n1 ta, 2-tur elementdan n2 ta, …, k-tur elementdan nk ta, bunda n = n1 + n2 + … + nk. U holda takroriy o’rin almashtirishlar soni qanday hisoblanadi?",
+    "variantlar": [
+      "n! ni (n1)!(n2)! … (nk)! ga bo’lish orqali",
+      "n! ni (n1 + n2 + … + nk)! ga bo’lish orqali",
+      "n! ni (n1 + n2 + … + nk) ga bo’lish orqali",
+      "n! ni (n1)(n2) … (nk) ko’paytmaga bo’lish orqali"
+    ],
+    "javob": "n! ni (n1)!(n2)! … (nk)! ga bo’lish orqali"
+  },
+  {
+    "id": 124,
+    "type": "multiple_choice",
+    "savol": "n ta elementdan iborat bo’lgan to’plamning barcha qism to’plamlari soni nimaga teng?",
+    "variantlar": [
+      "2 ning darajasi n ga",
+      "n ning darajasi 2 ga",
+      "2n ga",
+      "2 ning darajasi n! ga"
+    ],
+    "javob": "2 ning darajasi n ga"
+  },
+  {
+    "id": 125,
+    "type": "multiple_choice",
+    "savol": "Mulohaza deb …",
+    "variantlar": [
+      "o’z mohiyatiga ko’ra rost yoki yolg’on bo’lishi mumkin bo’lgan darak gapga aytiladi",
+      "o’z mohiyatiga ko’ra rost yoki yolg’on bo’lishi mumkin bo’lgan undov gapga aytiladi",
+      "o’z mohiyatiga ko’ra rost yoki yolg’on bo’lishi mumkin bo’lgan so’roq gapga aytiladi",
+      "biror narsa yoki hodisa haqida erkin yuritilgan fikrlar to’plamiga aytiladi"
+    ],
+    "javob": "o’z mohiyatiga ko’ra rost yoki yolg’on bo’lishi mumkin bo’lgan darak gapga aytiladi"
+  },
+  {
+    "id": 126,
+    "type": "multiple_choice",
+    "savol": "“Men doim yolg’on gapiraman” degan gap mulohaza bo’la oladimi? Nega?",
+    "variantlar": [
+      "yo’q, chunki bu gapning rost yoki yolg’onligini aniqlab bo’lmaydi",
+      "ha, chunki bu gapning rost yoki yolg’onligini aniqlash mumkin",
+      "bo’lishi ham, bo’lmasligi ham mumkin, bu gapni kim gapirganiga bog’liq",
+      "ha, chunki bu gap darak gap"
+    ],
+    "javob": "yo’q, chunki bu gapning rost yoki yolg’onligini aniqlab bo’lmaydi"
+  },
+  {
+    "id": 127,
+    "type": "multiple_choice",
+    "savol": "Agar biror mulohazaning qiymati “1” (rost) bo’lsa, bu mulohaza inkorining qiymati …",
+    "variantlar": [
+      "“0” (yolg’on) bo’ladi",
+      "“1” (rost) bo’ladi",
+      "noma’lum bo’lib qoladi",
+      "mulohazani aytgan odamning qarori bilan aniqlanadi"
+    ],
+    "javob": "“0” (yolg’on) bo’ladi"
+  },
+  {
+    "id": 128,
+    "type": "multiple_choice",
+    "savol": "Agar biror mulohazaning qiymati “0” (yolg’on) bo’lsa, bu mulohaza inkorining qiymati …",
+    "variantlar": [
+      "“0” (yolg’on) bo’ladi",
+      "“1” (rost) bo’ladi",
+      "noma’lum bo’lib qoladi",
+      "mulohazani aytgan odamning qarori bilan aniqlanadi"
+    ],
+    "javob": "“1” (rost) bo’ladi"
+  },
+  {
+    "id": 129,
+    "type": "multiple_choice",
+    "savol": "Biror A mulohaza biror B mulohaza bilan VA bog’lovchisi orqali bog’lanib, C = A VA B degan murakkab C mulohaza hosil qilingan bo’lsa, C mulohaza haqida quyidagi fikrlarning qaysi biri to’g’ri?",
+    "variantlar": [
+      "C mulohaza A mulohaza rost qiymatga, B mulohaza rost qiymatga teng bo’lganidagina rost qiymatga ega bo’ladi",
+      "C mulohaza A mulohaza rost qiymatga, B mulohaza yolg’on qiymatga teng bo’lganidagina rost qiymatga ega bo’ladi",
+      "C mulohaza A mulohaza yolg’on qiymatga, B mulohaza rost qiymatga teng bo’lganidagina rost qiymatga ega bo’ladi",
+      "C mulohaza A mulohaza yolg’on qiymatga, B mulohaza yolg’on qiymatga teng bo’lganidagina rost qiymatga ega bo’ladi"
+    ],
+    "javob": "C mulohaza A mulohaza rost qiymatga, B mulohaza rost qiymatga teng bo’lganidagina rost qiymatga ega bo’ladi"
+  },
+  {
+    "id": 130,
+    "type": "multiple_choice",
+    "savol": "Biror A mulohaza biror B mulohaza bilan YOKI bog’lovchisi orqali bog’lanib, C = A YOKI B degan murakkab C mulohaza hosil qilingan bo’lsa, C mulohaza haqida quyidagi fikrlarning qaysi biri to’g’ri?",
+    "variantlar": [
+      "C mulohaza A mulohaza rost qiymatga, B mulohaza rost qiymatga teng bo’lganidagina yolg’on qiymatga ega bo’ladi",
+      "C mulohaza A mulohaza rost qiymatga, B mulohaza yolg’on qiymatga teng bo’lganidagina yolg’on qiymatga ega bo’ladi",
+      "C mulohaza A mulohaza yolg’on qiymatga, B mulohaza rost qiymatga teng bo’lganidagina yolg’on qiymatga ega bo’ladi",
+      "C mulohaza A mulohaza yolg’on qiymatga, B mulohaza yolg’on qiymatga teng bo’lganidagina yolg’on qiymatga ega bo’ladi"
+    ],
+    "javob": "C mulohaza A mulohaza yolg’on qiymatga, B mulohaza yolg’on qiymatga teng bo’lganidagina yolg’on qiymatga ega bo’ladi"
+  },
+  {
+    "id": 131,
+    "type": "multiple_choice",
+    "savol": "Bul funktsiyasi deb …",
+    "variantlar": [
+      "o’zgaruvchilari (argumentlari) ning qiymatlari ham, funktsiyaning qiymatlari ham { 0, 1 } to’plamga tegishli bo’lgan funktsiyalarga aytiladi",
+      "o’zgaruvchilari (argumentlari) ning qiymatlari ham, funktsiyaning qiymatlari ham { 0, 1, 3 } to’plamga tegishli bo’lgan funktsiyalarga aytiladi",
+      "o’zgaruvchilari (argumentlari) ning qiymatlari ham, funktsiyaning qiymatlari ham { 0, 1, 4 } to’plamga tegishli bo’lgan funktsiyalarga aytiladi",
+      "o’zgaruvchilari (argumentlari) ning qiymatlari ham, funktsiyaning qiymatlari ham { 1, 2, 3 } to’plamga tegishli bo’lgan funktsiyalarga aytiladi"
+    ],
+    "javob": "o’zgaruvchilari (argumentlari) ning qiymatlari ham, funktsiyaning qiymatlari ham { 0, 1 } to’plamga tegishli bo’lgan funktsiyalarga aytiladi"
+  },
+  {
+    "id": 132,
+    "type": "multiple_choice",
+    "savol": "O’zgaruvchilari n ta bo’lgan Bul funktsiyalari soni nechaga teng?",
+    "variantlar": [
+      "2 ning darajasida 2 ning darajasi n ga",
+      "2 ning darajasi n ga",
+      "2 + 2 + n ga",
+      "n ga"
+    ],
+    "javob": "2 ning darajasida 2 ning darajasi n ga"
+  },
+  {
+    "id": 133,
+    "type": "multiple_choice",
+    "savol": "X & X nimaga teng?",
+    "variantlar": [
+      "X ga",
+      "0 ga",
+      "1 ga",
+      "10 ga"
+    ],
+    "javob": "X ga"
+  },
+  {
+    "id": 134,
+    "type": "multiple_choice",
+    "savol": "X ⋁ X nimaga teng?",
+    "variantlar": [
+      "X ga",
+      "0 ga",
+      "1 ga",
+      "10 ga"
+    ],
+    "javob": "X ga"
+  },
+  {
+    "id": 135,
+    "type": "multiple_choice",
+    "savol": "Biror B funktsiyalar to’plamida berilgan F1 va F2 formulalar teng kuchli deb ataladi, agarda …",
+    "variantlar": [
+      "ularga mos qo’yilgan f1 va f2 funktsiyalar teng bo’lsa, ya’ni: f1 = f2 bo’lsa",
+      "ularga mos qo’yilgan f1 va f2 funktsiyalar teng bo’lmasa, ya’ni: f1 ≠ f2 bo’lsa",
+      "ularga mos qo’yilgan f1 va f2 funktsiyalar uchun f1 ≥ f2 bo’lsa",
+      "ularga mos qo’yilgan f1 va f2 funktsiyalar uchun f1 ≤ f2 bo’lsa"
+    ],
+    "javob": "ularga mos qo’yilgan f1 va f2 funktsiyalar teng bo’lsa, ya’ni: f1 = f2 bo’lsa"
+  },
+  {
+    "id": 136,
+    "type": "multiple_choice",
+    "savol": "Formula tushunchasining ta’rifi necha bosqichdan iborat?",
+    "variantlar": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "javob": "2"
+  },
+  {
+    "id": 137,
+    "type": "multiple_choice",
+    "savol": "Formula tushunchasining ta’rifi qanday bosqichlardan iborat?",
+    "variantlar": [
+      "Induktsiya bazisi, Induktiv o’tish",
+      "Induktsiya bazisi, Xulosa",
+      "Induktiv o’tish, Xulosa",
+      "Induktsiya bazisi, Induktiv o’tish, Xulosa"
+    ],
+    "javob": "Induktsiya bazisi, Induktiv o’tish"
+  },
+  {
+    "id": 138,
+    "type": "multiple_choice",
+    "savol": "Formula tushunchasi ta’rifining induktiv o’tish bosqichida nima amalga oshiriladi?",
+    "variantlar": [
+      "qaralayotgan funktsiyalar to’plamidan olingan biror funktsiyaning argumentlari o’rniga formulalarni va/yoki o’zgaruvchilarni qo’yish orqali hosil qilingan ifoda formula deb ataladi",
+      "qaralayotgan funktsiyalar to’plamidan olingan biror funktsiyaning o’zi formula deb ataladi",
+      "induktsiya bazisi bosqichida formula deb atalgan funktsiyalardan boshqa funktsiyalar ham formula deb ataladi",
+      "hech narsa amalga oshirilmaydi"
+    ],
+    "javob": "qaralayotgan funktsiyalar to’plamidan olingan biror funktsiyaning argumentlari o’rniga formulalarni va/yoki o’zgaruvchilarni qo’yish orqali hosil qilingan ifoda formula deb ataladi"
+  },
+  {
+    "id": 139,
+    "type": "multiple_choice",
+    "savol": "Predikat deganda …",
+    "variantlar": [
+      "sub’yekt haqida aytilgan tasdiqqa (gapga, da’voga) aytiladi",
+      "biror uzluksiz funktsiyaning formulasi nazarda tutiladi",
+      "biror diskret funktsiyaning formulasi nazarda tutiladi",
+      "sub’yektlarni haqiqiy sonlar to’plamiga aks ettirishga aytiladi"
+    ],
+    "javob": "sub’yekt haqida aytilgan tasdiqqa (gapga, da’voga) aytiladi"
+  },
+  {
+    "id": 140,
+    "type": "multiple_choice",
+    "savol": "n-o’lchovli predikat deb nimaga aytiladi?",
+    "variantlar": [
+      "n ta to’plamlar Dekart ko’paytmasi bo’lgan to’plamni { 0, 1 } to’plamga aks ettiruvchi funktsiyaga aytiladi",
+      "ixtiyoriy n ta argumentli funktsiyaga aytiladi",
+      "n ta to’plamlar yig’indisi bo’lgan to’plamni { 0, 1 } to’plamga aks ettiruvchi funktsiyaga aytiladi",
+      "n ta to’plamlar kesishmasi bo’lgan to’plamni { 0, 1 } to’plamga aks ettiruvchi funktsiyaga aytiladi"
+    ],
+    "javob": "n ta to’plamlar Dekart ko’paytmasi bo’lgan to’plamni { 0, 1 } to’plamga aks ettiruvchi funktsiyaga aytiladi"
+  },
+  {
+    "id": 141,
+    "type": "multiple_choice",
+    "savol": "Agar o’zgaruvchilarning barcha qiymatlarida qaralayotgan predikat 0 ga teng bo’lsa, bunday predikat qanday predikat deyiladi?",
+    "variantlar": [
+      "aynan yo’lg’on",
+      "aynan rost",
+      "bajariluvchi yoki ijro etiluvchi",
+      "aynan doimiy"
+    ],
+    "javob": "aynan yo’lg’on"
+  },
+  {
+    "id": 142,
+    "type": "multiple_choice",
+    "savol": "Agar o’zgaruvchilarning barcha qiymatlarida qaralayotgan predikat 1 ga teng bo’lsa, bunday predikat qanday predikat deyiladi?",
+    "variantlar": [
+      "aynan yo’lg’on",
+      "aynan rost",
+      "bajariluvchi yoki ijro etiluvchi",
+      "aynan doimiy"
+    ],
+    "javob": "aynan rost"
+  },
+  {
+    "id": 143,
+    "type": "multiple_choice",
+    "savol": "Agar o’zgaruvchilarning biror kamida bitta qiymatlarida qaralayotgan predikat 1 ga teng bo’lsa, bunday predikat qanday predikat deyiladi?",
+    "variantlar": [
+      "aynan yo’lg’on",
+      "aynan rost",
+      "bajariluvchi yoki ijro etiluvchi",
+      "aynan doimiy"
+    ],
+    "javob": "bajariluvchi yoki ijro etiluvchi"
+  },
+  {
+    "id": 144,
+    "type": "multiple_choice",
+    "savol": "Umumiylik kvantori qanday belgilanadi va qanday shartni bildiradi?",
+    "variantlar": [
+      "∀ deb belgilanadi va barcha elementlar uchun to’g’ri bo’lgan shartni bildiradi",
+      "∀ deb belgilanadi va ba’zi elementlar uchun to’g’ri bo’lgan shartni bildiradi",
+      "⋀ deb belgilanadi va barcha elementlar uchun to’g’ri bo’lgan shartni bildiradi",
+      "∃ deb belgilanadi va barcha elementlar uchun to’g’ri bo’lgan shartni bildiradi"
+    ],
+    "javob": "∀ deb belgilanadi va barcha elementlar uchun to’g’ri bo’lgan shartni bildiradi"
+  },
+  {
+    "id": 145,
+    "type": "multiple_choice",
+    "savol": "Ushbu ∃x P(x) ifoda nimani anglatadi?",
+    "variantlar": [
+      "P(x) predikat rost, ya’ni 1 qiymatga teng bo’ladigan kamida bitta x ning mavjudligini",
+      "P(x) predikat yolg’on, ya’ni 0 qiymatga teng bo’ladigan kamida bitta x ning mavjudligini",
+      "P(x) predikat x ning barcha qiymatlarida bajarilishini",
+      "P(x) predikat x ning barcha qiymatlarida bajarilmasligini"
+    ],
+    "javob": "P(x) predikat rost, ya’ni 1 qiymatga teng bo’ladigan kamida bitta x ning mavjudligini"
+  },
+  {
+    "id": 146,
+    "type": "multiple_choice",
+    "savol": "Bul funktsiyasining mukammal dizyunktiv normal formasi (MDNF) mazkur funktsiyaning qanday qiymatlariga asosan quriladi?",
+    "variantlar": [
+      "1 ga teng qiymatlariga asosan",
+      "0 ga teng qiymatlariga asosan",
+      "diskret qiymatlariga asosan",
+      "uzluksiz qiymatlariga asosan"
+    ],
+    "javob": "1 ga teng qiymatlariga asosan"
+  },
+  {
+    "id": 147,
+    "type": "multiple_choice",
+    "savol": "Bul funktsiyasining mukammal konyunktiv normal formasi (MKNF) mazkur funktsiyaning qanday qiymatlariga asosan quriladi?",
+    "variantlar": [
+      "1 ga teng qiymatlariga asosan",
+      "0 ga teng qiymatlariga asosan",
+      "diskret qiymatlariga asosan",
+      "uzluksiz qiymatlariga asosan"
+    ],
+    "javob": "0 ga teng qiymatlariga asosan"
+  },
+  {
+    "id": 148,
+    "type": "multiple_choice",
+    "savol": "Mantiq qonunlaridan biri bo’lgan ayniylik qonunining mohiyati va umumiy formulasi qaysi javobda berilgan?",
+    "variantlar": [
+      "Bu qonunning mohiyati quyidagicha: ayni bir fikr o’zi va yana boshqasi bo’la olmaydi. Boshqa so’zlar bilan aytganda, fikr aniq, bir qiymatli va o’ziga aynan teng bo’lmasligi mumkin emas. Bu qonunning umumiy formulasi: A ≡ A",
+      "Bu qonunning mohiyati quyidagicha: ayni bir fikr o’zi va yana boshqasi bo’la oladi. Umumiy formulasi: A ≡ B",
+      "Bu qonunning mohiyati quyidagicha: ayni bir fikr o’zi va yana boshqasi bo’la oladi. Umumiy formulasi: A ≡ ¬A",
+      "Mantiqda ayniylik qonuni mavjud emas"
+    ],
+    "javob": "Bu qonunning mohiyati quyidagicha: ayni bir fikr o’zi va yana boshqasi bo’la olmaydi. Boshqa so’zlar bilan aytganda, fikr aniq, bir qiymatli va o’ziga aynan teng bo’lmasligi mumkin emas. Bu qonunning umumiy formulasi: A ≡ A"
+  },
+  {
+    "id": 149,
+    "type": "multiple_choice",
+    "savol": "Mantiqiy ziddiyat – …",
+    "variantlar": [
+      "bir paytda va bir xil yondashuvda qaralayotgan bitta narsa haqidagi bir-birini istisno etuvchi, bir-biriga muvofiq bo’lmagan ikkita fikrdir",
+      "bir paytda va bir xil yondashuvda qaralayotgan bitta narsa haqidagi bir-birini taqozo etuvchi, bir-biriga muvofiq ikkita fikrdir",
+      "bir paytda va bir xil yondashuvda qaralayotgan bitta narsa haqidagi bir-birini to’ldiruvchi, bir-biriga muvofiq ikkita fikrdir",
+      "bir paytda va bir xil yondashuvda qaralayotgan bitta narsa haqidagi turli odamlar tomonidan tartibsiz talqin etilishidir"
+    ],
+    "javob": "bir paytda va bir xil yondashuvda qaralayotgan bitta narsa haqidagi bir-birini istisno etuvchi, bir-biriga muvofiq bo’lmagan ikkita fikrdir"
+  },
+  {
+    "id": 150,
+    "type": "multiple_choice",
+    "savol": "Mantiq qonunlaridan biri bo’lgan ziddiyat qonuni nimani ifoda etadi?",
+    "variantlar": [
+      "mulohazaning qiymati rost bo’lgani holda uning inkori bo’lgan mulohazaning ham rost bo’lishi mumkin emasligini",
+      "mulohazaning qiymati rost bo’lgani holda uning inkori bo’lgan mulohazaning ham rost bo’lishi mumkinligini",
+      "yolg’onchi paradoksi faqat sirtdan qaragandagina paradoks ekanligini",
+      "sartarosh paradoksi faqat sirtdan qaragandagina paradoks ekanligini"
+    ],
+    "javob": "mulohazaning qiymati rost bo’lgani holda uning inkori bo’lgan mulohazaning ham rost bo’lishi mumkin emasligini"
+  },
+  {
+    "id": 151,
+    "type": "multiple_choice",
+    "savol": "Mantiq qonunlaridan biri bo’lgan yetarlicha asoslash qonuni nimani ifodalaydi?",
+    "variantlar": [
+      "to’g’ri fikrlashning asoslanganlik, isbotlanganlik jihatlarini ifodalaydi: fikrning rostligini yoki yo’lg’onligini aniqlash tegishli asoslashlarsiz mumkin emas",
+      "to’g’ri fikrlashning davom etishlik jihatlarini ifodalaydi: fikrning rostligini yoki yo’lg’onligini aniqlash uchun tinimsiz gapirish kerak",
+      "to’g’ri fikrlashning odamlarga ta’sir etish jihatlarini ifodalaydi: fikrning rostligini yoki yo’lg’onligini aniqlash ovoz berish orqali hal etilishi kerak",
+      "to’g’ri fikrlashning jamiyat rivojini belgilash jihatlarini ifodalaydi: fikrning rostligini yoki yo’lg’onligini aniqlash uning qanday foyda keltirayotganiga qarab aniqlanadi"
+    ],
+    "javob": "to’g’ri fikrlashning asoslanganlik, isbotlanganlik jihatlarini ifodalaydi: fikrning rostligini yoki yo’lg’onligini aniqlash tegishli asoslashlarsiz mumkin emas"
+  },
+  {
+    "id": 152,
+    "type": "multiple_choice",
+    "savol": "Elementar konyunktsiya deb nimaga aytiladi?",
+    "variantlar": [
+      "o’zgaruvchilarning va/yoki o’zgaruvchilar inkorlarining mantiqiy ko’paytmasiga (konyunktsiyasiga) aytiladi",
+      "o’zgaruvchilarning va/yoki o’zgaruvchilar inkorlarining mantiqiy yig’indisiga (dizyunktsiyasiga) aytiladi",
+      "Bul funktsiyasini o’zgaruvchilar bo’yicha yoyishga aytiladi",
+      "Mantiq algebrasi funktsiyasining mukammal konyunktiv normal formasiga aytiladi"
+    ],
+    "javob": "o’zgaruvchilarning va/yoki o’zgaruvchilar inkorlarining mantiqiy ko’paytmasiga (konyunktsiyasiga) aytiladi"
+  },
+  {
+    "id": 153,
+    "type": "multiple_choice",
+    "savol": "Dizyunktiv normal forma deb nimaga aytiladi?",
+    "variantlar": [
+      "elementar konyunktsiyalarning dizyunktsiyasiga",
+      "elementar dizyunktsiyalarning konyunktsiyasiga",
+      "Bul funktsiyasining jadval orqali berilishiga",
+      "Bul funktsiyasining formula orqali berilishiga"
+    ],
+    "javob": "elementar konyunktsiyalarning dizyunktsiyasiga"
+  },
+  {
+    "id": 154,
+    "type": "multiple_choice",
+    "savol": "Dizyunktiv normal formani toping.",
+    "variantlar": [
+      "(x & y & z) ⋁ (y & z) ⋁ (x & y)",
+      "(x ⋁ y ⋁ z) & (y ⋁ z) & (x ⋁ y)",
+      "(x + y + z) ⋁ (y + z) ⋁ (x + y)",
+      "(x / y / z) & (y / z) & (x / y)"
+    ],
+    "javob": "(x & y & z) ⋁ (y & z) ⋁ (x & y)"
+  },
+  {
+    "id": 155,
+    "type": "multiple_choice",
+    "savol": "Mantiq algebrasining istalgan funktsiyasini quyida berilgan funktsiyalar to’plamlaridan qaysi biridagi formula orqali ifoda etish mumkin?",
+    "variantlar": [
+      "dizyunktsiya, konyunktsiya, inkor",
+      "dizyunktsiya, konyunktsiya, konstanta 0",
+      "konyunktsiya, konstanta 0",
+      "dizyunktsiya, konstanta 1"
+    ],
+    "javob": "dizyunktsiya, konyunktsiya, inkor"
+  },
+  {
+    "id": 156,
+    "type": "multiple_choice",
+    "savol": "Mantiq algebrasining har qanday funktsiyasini ixtiyoriy o’zgaruvchisi bo’yicha yoyish mumkinmi, faqat dizyunktsiya, konyunktsiya, inkor funktsiyalaridan foydalanib?",
+    "variantlar": [
+      "mumkin",
+      "mumkin emas",
+      "mumkin, agarda m ≤ 5 bo’lsa",
+      "mumkin, agarda m ≥ 5 bo’lsa"
+    ],
+    "javob": "mumkin"
+  },
+  {
+    "id": 157,
+    "type": "multiple_choice",
+    "savol": "Mantiq algebrasining har bir funktsiyasi inkor, konyunktsiya va dizyunktsiya orqali formula bilan ifodalanishi mumkinmi?",
+    "variantlar": [
+      "mumkin",
+      "mumkin emas",
+      "faqat ba'zi funktsiyalargina ifodalanishi mumkin",
+      "faqat ba'zi funktsiyalargina ifodalanishi mumkin emas"
+    ],
+    "javob": "mumkin"
+  },
+  {
+    "id": 158,
+    "type": "multiple_choice",
+    "savol": "Ushbu f(x, y) = x → y Bul funktsiyasining qiymati x va y ning qanday qiymatlarida 0 ga teng?",
+    "variantlar": [
+      "x = 1 va y = 0 da",
+      "x = 0 va y = 0 da",
+      "x = 1 va y = 1 da",
+      "x = 0 va y = 1 da"
+    ],
+    "javob": "x = 1 va y = 0 da"
+  },
+  {
+    "id": 159,
+    "type": "multiple_choice",
+    "savol": "Ushbu f(x, y) = x ⋁ y Bul funktsiyasining qiymati x va y ning qanday qiymatlarida 0 ga teng?",
+    "variantlar": [
+      "x = 1 va y = 0 da",
+      "x = 0 va y = 0 da",
+      "x = 1 va y = 1 da",
+      "x = 0 va y = 1 da"
+    ],
+    "javob": "x = 0 va y = 0 da"
+  },
+  {
+    "id": 160,
+    "type": "multiple_choice",
+    "savol": "Ushbu f(x, y) = x & y Bul funktsiyasining qiymati x va y ning qanday qiymatlarida 1 ga teng?",
+    "variantlar": [
+      "x = 1 va y = 0 da",
+      "x = 0 va y = 0 da",
+      "x = 1 va y = 1 da",
+      "x = 0 va y = 1 da"
+    ],
+    "javob": "x = 1 va y = 1 da"
+  },
+  {
+    "id": 161,
+    "type": "multiple_choice",
+    "savol": "Agar f(x, y, z) = x&y ⋁ x&z ⋁ y&z Bul funktsiyasi jadval shaklida berilsa, bu jadvalning f(x, y, z) ustunida nechta 1 bo’ladi?",
+    "variantlar": [
+      "4 ta",
+      "3 ta",
+      "2 ta",
+      "5 ta"
+    ],
+    "javob": "4 ta"
+  },
+  {
+    "id": 162,
+    "type": "multiple_choice",
+    "savol": "Mantiqiy element – …",
+    "variantlar": [
+      "bir nechta (bitta yoki undan ko’p) kirish qismidan va bitta chiqish qismidan iborat bo’lgan sxemadir. Kirishdagi signallarning har bir holatiga chiqishda muayyan signal mos keladi.",
+      "bir nechta (bitta yoki undan ko’p) kirish qismidan va ikkita chiqish qismidan iborat bo’lgan sxemadir. Kirishdagi signallarning har bir holatiga chiqishda ikkita signal mos keladi.",
+      "bir nechta (bitta yoki undan ko’p) kirish qismidan va uchta chiqish qismidan iborat bo’lgan sxemadir. Kirishdagi signallarning har bir holatiga chiqishda uchta signal mos keladi.",
+      "bir nechta (bitta yoki undan ko’p) kirish qismidan va beshta chiqish qismidan iborat bo’lgan sxemadir. Kirishdagi signallarning har bir holatiga chiqishda beshta signal mos keladi."
+    ],
+    "javob": "bir nechta (bitta yoki undan ko’p) kirish qismidan va bitta chiqish qismidan iborat bo’lgan sxemadir. Kirishdagi signallarning har bir holatiga chiqishda muayyan signal mos keladi."
+  },
+  {
+    "id": 163,
+    "type": "multiple_choice",
+    "savol": "Qanday mantiqiy elementlar ikkilik mantqiy elementlar deb ataladi?",
+    "variantlar": [
+      "Kirish va chiqish qismlaridagi signallarning qiymatlari 0 va 1 lardan tashkil topgan mantiqiy elementlar",
+      "Kirish va chiqish qismlaridagi signallarning qiymatlari uzluksiz bo’lgan mantiqiy elementlar",
+      "Kirish va chiqish qismlaridagi signallarning qiymatlari haqiqiy sonlardan iborat bo’lgan mantiqiy elementlar",
+      "Kirish va chiqish qismlaridagi signallarning qiymatlari 2 ning darajalaridan tashkil topgan mantiqiy elementlar"
+    ],
+    "javob": "Kirish va chiqish qismlaridagi signallarning qiymatlari 0 va 1 lardan tashkil topgan mantiqiy elementlar"
+  },
+  {
+    "id": 164,
+    "type": "multiple_choice",
+    "savol": "Mantiqiy elementlarning belgilanishi turli mamlakatlarda …",
+    "variantlar": [
+      "turlicha",
+      "bir xil",
+      "72 xil",
+      "100 xil"
+    ],
+    "javob": "turlicha"
+  },
+  {
+    "id": 165,
+    "type": "multiple_choice",
+    "savol": "Qanday mantiqiy element konyunktor deb ataladi?",
+    "variantlar": [
+      "mantiqiy VA amaliga mos mantiqiy element",
+      "mantiqiy YOKI amaliga mos mantiqiy element",
+      "mantiqiy INKOR amaliga mos mantiqiy element",
+      "bunday deb ataladigan mantiqiy element yo’q"
+    ],
+    "javob": "mantiqiy VA amaliga mos mantiqiy element"
+  },
+  {
+    "id": 166,
+    "type": "multiple_choice",
+    "savol": "Qanday mantiqiy element dizyunktor deb ataladi?",
+    "variantlar": [
+      "mantiqiy VA amaliga mos mantiqiy element",
+      "mantiqiy YOKI amaliga mos mantiqiy element",
+      "mantiqiy INKOR amaliga mos mantiqiy element",
+      "bunday deb ataladigan mantiqiy element yo’q"
+    ],
+    "javob": "mantiqiy YOKI amaliga mos mantiqiy element"
+  },
+  {
+    "id": 167,
+    "type": "multiple_choice",
+    "savol": "Qanday mantiqiy element invertor deb ataladi?",
+    "variantlar": [
+      "mantiqiy VA amaliga mos mantiqiy element",
+      "mantiqiy YOKI amaliga mos mantiqiy element",
+      "mantiqiy INKOR amaliga mos mantiqiy element",
+      "bunday deb ataladigan mantiqiy element yo’q"
+    ],
+    "javob": "mantiqiy INKOR amaliga mos mantiqiy element"
+  },
+  {
+    "id": 168,
+    "type": "multiple_choice",
+    "savol": "Mantiqiy sxema deganda …",
+    "variantlar": [
+      "mantiqiy elementlar asosida biror vazifani bajaruvchi, aniqrog’i – biror Bul funktsiyasini hisoblovchi sxemaga aytiladi",
+      "mantiqiy elementlar asosida kompyuterning arifmetik-mantiqiy qurilmasini ishlab chiqarish usullariga aytiladi",
+      "mantiqiy elementlar asosida kompyuterning xotira qurilmalarini ishlab chiqarish usullariga aytiladi",
+      "mantiqiy elementlar asosida kompyuterning tashqi qurilmalarini ishlab chiqarish usullariga aytiladi"
+    ],
+    "javob": "mantiqiy elementlar asosida biror vazifani bajaruvchi, aniqrog’i – biror Bul funktsiyasini hisoblovchi sxemaga aytiladi"
+  },
+  {
+    "id": 169,
+    "type": "multiple_choice",
+    "savol": "Mantiqiy sxemalarda analiz deb nimaga aytiladi?",
+    "variantlar": [
+      "Berilgan mantiqiy sxema asosida amalga oshirilayotgan (ifodalanayotgan) Bul funktsiyasini topish analiz deb ataladi",
+      "Berilgan mantiqiy elementlardan foydalanib Bul funktsiyasini amalga oshiruvchi (ya’ni ifodalovchi) mantiqiy sxema qurish analiz deb ataladi",
+      "Berilgan Bul funktsiyasining mukammal dizyunktiv formasiga mos mantiqiy sxemani yaratish analiz deb ataladi",
+      "Berilgan mantiqiy sxemaga asosan Bul funktsiyasining mukammal dizyunktiv formasini yaratish analiz deb ataladi"
+    ],
+    "javob": "Berilgan mantiqiy sxema asosida amalga oshirilayotgan (ifodalanayotgan) Bul funktsiyasini topish analiz deb ataladi"
+  },
+  {
+    "id": 170,
+    "type": "multiple_choice",
+    "savol": "Mantiqiy sxemalarda sintez deb nimaga aytiladi?",
+    "variantlar": [
+      "Berilgan mantiqiy sxema asosida amalga oshirilayotgan (ifodalanayotgan) Bul funktsiyasini topish sintez deb ataladi",
+      "Berilgan mantiqiy elementlardan foydalanib Bul funktsiyasini amalga oshiruvchi (ya’ni ifodalovchi) mantiqiy sxema qurish sintez deb ataladi",
+      "Berilgan Bul funktsiyasining mukammal dizyunktiv formasiga mos mantiqiy sxemani yaratish sintez deb ataladi",
+      "Berilgan mantiqiy sxemaga asosan Bul funktsiyasining mukammal dizyunktiv formasini yaratish sintez deb ataladi"
+    ],
+    "javob": "Berilgan mantiqiy elementlardan foydalanib Bul funktsiyasini amalga oshiruvchi (ya’ni ifodalovchi) mantiqiy sxema qurish sintez deb ataladi"
+  },
+  {
+    "id": 171,
+    "type": "multiple_choice",
+    "savol": "n-o’lchovli birlik kubda berilgan Bul funktsiyasining qiymatlari 1 ga teng bo’lgan uchlarini alohida belgilab, bu kubning qolgan uchlarini belgisiz qoldirish mumkin. Mana shunday tarzda belgilangan n-o’lchovli birlik kub …",
+    "variantlar": [
+      "mantiqiy to’r deb ataladi",
+      "mantiqiy sxema deb ataladi",
+      "mantiqiy element deb ataladi",
+      "Karno kartasi deb ataladi"
+    ],
+    "javob": "mantiqiy to’r deb ataladi"
+  },
+  {
+    "id": 172,
+    "type": "multiple_choice",
+    "savol": "Karno kartalari raqamli sistemalarni loyihalashtirishni …",
+    "variantlar": [
+      "soddalashtirish uchun 1952 yilda Edvard V. Veych tomonidan taklif qilingan va 1953 yilda “Bell Labs” dagi fizik Moris Karno tomonidan takomillashtirilgan.",
+      "murakkablashtirish uchun 1952 yilda Edvard V. Veych tomonidan taklif qilingan va 1953 yilda “Bell Labs” dagi fizik Moris Karno tomonidan takomillashtirilgan.",
+      "mo’tadil holatga keltirish uchun 1952 yilda Edvard V. Veych tomonidan taklif qilingan va 1953 yilda “Bell Labs” dagi fizik Moris Karno tomonidan takomillashtirilgan.",
+      "kompyuter xotirasiga o’tkazish uchun 1952 yilda Edvard V. Veych tomonidan taklif qilingan va 1953 yilda “Bell Labs” dagi fizik Moris Karno tomonidan takomillashtirilgan."
+    ],
+    "javob": "soddalashtirish uchun 1952 yilda Edvard V. Veych tomonidan taklif qilingan va 1953 yilda “Bell Labs” dagi fizik Moris Karno tomonidan takomillashtirilgan."
+  },
+  {
+    "id": 173,
+    "type": "multiple_choice",
+    "savol": "Moris Karno …",
+    "variantlar": [
+      "amerikalik fizik olim bo’lib, 1924 yilda tug’ilgan, hozir (2021 y.) o’z hayotining davomini yashamoqda",
+      "Qirg’izistonlik fizik olim bo’lib, 1900 yilda tug’ilgan va 1999 yilda vafot etgan.",
+      "O’zbekistonlik matematik bo’lib, 1900 yilda tug’ilgan va 1999 yilda vafot etgan.",
+      "O’zbekistonlik kibernetik olim bo’lib, 1924 yilda tug’ilgan, hozir (2021 y.) o’z hayotining davomini yashamoqda"
+    ],
+    "javob": "amerikalik fizik olim bo’lib, 1924 yilda tug’ilgan, hozir (2021 y.) o’z hayotining davomini yashamoqda"
+  },
+  {
+    "id": 174,
+    "type": "multiple_choice",
+    "savol": "Grafning ta’rifi qaysi javobda to’g’ri berilgan?",
+    "variantlar": [
+      "Bo’sh bo’lmagan biror V to’plam berilgan bo’lsin, V² esa uning barcha ikki elementli qism to’plamlari to’plami bo’lsin. (V, E) juftlik graf deb ataladi, bu yerda E – V² to’plamning ixtiyoriy qism to’plamidir.",
+      "Bo’sh bo’lmagan biror V to’plam berilgan bo’lsin, V² esa uning barcha ikki elementli qism to’plamlari to’plami bo’lsin. (V, E) juftlik graf deb ataladi, bu yerda E – E×E to’plamning ixtiyoriy qism to’plamidir.",
+      "Bo’sh bo’lmagan biror V to’plam berilgan bo’lsin, V² esa uning barcha ikki elementli qism to’plamlari to’plami bo’lsin. (V, V²) juftlik graf deb ataladi, bu yerda V² – grafning qirralari to’plamidir.",
+      "Bo’sh bo’lmagan biror V to’plam berilgan bo’lsin, V² esa uning barcha ikki elementli qism to’plamlari to’plami bo’lsin. (V, E) juftlik graf deb ataladi, bu yerda E – E×E×E to’plamning ixtiyoriy qism to’plamidir."
+    ],
+    "javob": "Bo’sh bo’lmagan biror V to’plam berilgan bo’lsin, V² esa uning barcha ikki elementli qism to’plamlari to’plami bo’lsin. (V, E) juftlik graf deb ataladi, bu yerda E – V² to’plamning ixtiyoriy qism to’plamidir."
+  },
+  {
+    "id": 175,
+    "type": "multiple_choice",
+    "savol": "(n, m)-graf deb nimaga aytiladi?",
+    "variantlar": [
+      "uchlari n ta, qirralari m ta bo’lgan grafga",
+      "uchlari m ta, qirralari n ta bo’lgan grafga",
+      "uchlari n+1 ta, qirralari m+1 ta bo’lgan grafga",
+      "uchlari n ta, qirralari 2m ta bo’lgan grafga"
+    ],
+    "javob": "uchlari n ta, qirralari m ta bo’lgan grafga"
+  },
+  {
+    "id": 176,
+    "type": "multiple_choice",
+    "savol": "VG = { a, b, 3 }, EG = { { a, 3 }, { b, 3 } } tengliklar bilan berilgan graf uchun quyidagi javoblarning qaysi biri to’g’ri?",
+    "variantlar": [
+      "|G|=3, |EG|=2.",
+      "|G|=3, |EG|=4.",
+      "|G|=4, |EG|=3.",
+      "|G|=2, |EG|=3."
+    ],
+    "javob": "|G|=3, |EG|=2."
+  },
+  {
+    "id": 177,
+    "type": "multiple_choice",
+    "savol": "VG = { a, b, 3 }, EG = { { a, 3 }, { b, 3 } } tengliklar bilan berilgan grafning uchlari to’plamini ko’rsating.",
+    "variantlar": [
+      "VG",
+      "EG",
+      "VG x EG",
+      "VG + EG"
+    ],
+    "javob": "VG"
+  },
+  {
+    "id": 178,
+    "type": "multiple_choice",
+    "savol": "VG = { a, b, 3 }, EG = { { a, 3 }, { b, 3 } } tengliklar bilan berilgan grafning qirralari to’plamini ko’rsating.",
+    "variantlar": [
+      "VG",
+      "EG",
+      "VG x EG",
+      "VG + EG"
+    ],
+    "javob": "EG"
+  },
+  {
+    "id": 179,
+    "type": "multiple_choice",
+    "savol": "Uchlar to’plami VG, qirralari to’plami EG bo’lgan grafning ikki u va v uchlari qanday holda qo’shni deb ataladi?",
+    "variantlar": [
+      "{ u, v } ∈ EG bo’lsa",
+      "{ u, v } ∉ EG bo’lsa",
+      "u ∈ VG va v ∉ VG bo’lsa",
+      "u ∉ VG va v ∈ VG bo’lsa"
+    ],
+    "javob": "{ u, v } ∈ EG bo’lsa"
+  },
+  {
+    "id": 180,
+    "type": "multiple_choice",
+    "savol": "Tasarrufimizda 12 turdagi o’yinchoqlardan yetarlicha mavjud. Shu o’yinchoqlarning turli 4 tasini bitta paketga solib, bolalar uchun sovg’alar tayyorlanmoqda. Har bir sovg’a betakror bo’lishi lozim bo’lsa, jami nechta sovg’a tayyorlanadi?",
+    "variantlar": [
+      "495",
+      "485",
+      "395",
+      "256"
+    ],
+    "javob": "495"
+  },
+  {
+    "id": 181,
+    "type": "multiple_choice",
+    "savol": "8 xil guldan 3 donadan tanlab necha xil usulda guldasta qilish mumkin?",
+    "variantlar": [
+      "52",
+      "56",
+      "46",
+      "38"
+    ],
+    "javob": "56"
+  },
+  {
+    "id": 182,
+    "type": "multiple_choice",
+    "savol": "Mehmonxonada 4 ta toifadagi xonalar bor. 11 ta mehmondan 4 tasini turli toifadagi xonalarga necha xil usulda joylashtirish mumkin?",
+    "variantlar": [
+      "7920",
+      "9820",
+      "1820",
+      "1920"
+    ],
+    "javob": "7920"
+  },
+  {
+    "id": 183,
+    "type": "multiple_choice",
+    "savol": "10 ta har xil gulning 3 tasi 10 ta ayolning 3 tasiga taqdim etildi. Qolgan gullarni gul olmagan ayollarga necha xil usulda taqdim etish mumkin?",
+    "variantlar": [
+      "7!",
+      "7",
+      "14",
+      "14!"
+    ],
+    "javob": "7!"
+  },
+  {
+    "id": 184,
+    "type": "multiple_choice",
+    "savol": "Quyudagi funksiyaga ikki taraflama funksiyani toping",
+    "variantlar": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "javob": ""
+  },
+  {
+    "id": 185,
+    "type": "multiple_choice",
+    "savol": "Quyudagi funksiyaga ikki taraflama funksiyani toping",
+    "variantlar": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "javob": ""
+  },
+  {
+    "id": 186,
+    "type": "multiple_choice",
+    "savol": "Quyudagi funksiyaga ikki taraflama funksiyani toping",
+    "variantlar": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "javob": ""
+  },
+  {
+    "id": 187,
+    "type": "multiple_choice",
+    "savol": "Quyudagi funksiyaga ikki taraflama funksiyani toping",
+    "variantlar": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "javob": ""
+  },
+  {
+    "id": 188,
+    "type": "multiple_choice",
+    "savol": "Quyudagi funksiyaga ikki taraflama funksiyani toping",
+    "variantlar": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "javob": ""
+  },
+  {
+    "id": 189,
+    "type": "multiple_choice",
+    "savol": "Qanday munosabat bajarilganda funksiya o’z-o‘ziga ikki taraflama funksiya bo’ladi?",
+    "variantlar": [
+      "",
+      "",
+      "",
+      "To’g’ri javob yo’q"
+    ],
+    "javob": ""
+  },
+  {
+    "id": 190,
+    "type": "multiple_choice",
+    "savol": "Agar berilgan ikkita formula tarkibida ishtirok etuvchi elementar mulohazalarning har bir qiymatlar satri uchun bu formulalarning qiymatlari bir xil bo‘lsa, u holda ular ____ deb ataladi",
+    "variantlar": [
+      "teng kuchli formulalar",
+      "teng kuchlimas formulalar",
+      "Formulalar",
+      "To’g’ri javob yo’q"
+    ],
+    "javob": "teng kuchli formulalar"
+  },
+  {
+    "id": 191,
+    "type": "multiple_choice",
+    "savol": "Agar berilgan ikkita formula tarkibida ishtirok etuvchi elementar mulohazalarning qiymatlari satridan hech bo’lmaganda bittasi uchun bu formulalarning qiymatlari har xil bo‘lsa, u holda ular ____ deb ataladi",
+    "variantlar": [
+      "teng kuchlimas formulalar",
+      "teng kuchli formulalar",
+      "Formulalar",
+      "Ekvivalent formulalar"
+    ],
+    "javob": "teng kuchlimas formulalar"
+  },
+  {
+    "id": 192,
+    "type": "multiple_choice",
+    "savol": "Tarkibidagi elementar mulohazalarning mumkin bo‘lgan barcha qiymatlar satrlarida faqat chin qiymat qabul qiluvchi formula ___ deb ataladi",
+    "variantlar": [
+      "tavtologiya",
+      "Aynan yolg’on formula",
+      "Bajarilmaydigan formulalar",
+      "Ekvivalent formulalar"
+    ],
+    "javob": "tavtologiya"
+  },
+  {
+    "id": 193,
+    "type": "multiple_choice",
+    "savol": "Tarkibidagi elementar mulohazalarning mumkin bo‘lgan barcha qiymatlar satrlarida faqat yolg’on qiymat qabul qiluvchi formula ____ deb ataladi",
+    "variantlar": [
+      "Aynan yolg’on formula",
+      "tavtologiya",
+      "Bajariladigan formulalar",
+      "Mantiqiy ekvivalent formulalar"
+    ],
+    "javob": "Aynan yolg’on formula"
+  },
+  {
+    "id": 194,
+    "type": "multiple_choice",
+    "savol": "Agar A va B formulalar uchun A ↔ B formula tavtologiya bo‘lsa, u holda berilgan formulalar ____ deb ataladi",
+    "variantlar": [
+      "mantiqiy ekvivalent formulalar",
+      "tavtologiya",
+      "Bajariladigan formulalar",
+      "Aynan yolg’on formula"
+    ],
+    "javob": "mantiqiy ekvivalent formulalar"
+  },
+  {
+    "id": 195,
+    "type": "multiple_choice",
+    "savol": "Tarkibidagi elementar mulohazalarning kamida bitta qiymatlar satrida chin qiymat qabul qiluvchi aynan chin bo‘lmagan formula ____ deb ataladi",
+    "variantlar": [
+      "bajariluvchi formula",
+      "tavtologiya",
+      "mantiqiy ekvivalent formulalar",
+      "Aynan yolg’on formula"
+    ],
+    "javob": "bajariluvchi formula"
+  },
+  {
+    "id": 196,
+    "type": "multiple_choice",
+    "savol": "De Morgan qonunini ko’rsating.",
+    "variantlar": [
+      "¬(A ∧ B) ≡ ¬A ∨ ¬B",
+      "¬(A ∨ B) ≡ ¬A ∧ ¬B",
+      "(A ∧ B) ≡ A ∧ B",
+      "(A ∨ B) ≡ A ∨ B"
+    ],
+    "javob": "¬(A ∨ B) ≡ ¬A ∧ ¬B"
+  },
+  {
+    "id": 197,
+    "type": "multiple_choice",
+    "savol": "De Morgan qonunini ko’rsating.",
+    "variantlar": [
+      "¬(A ∧ B) ≡ ¬A ∨ ¬B",
+      "¬(A ∨ B) ≡ ¬A ∧ ¬B",
+      "(A ∧ B) ≡ A ∧ B",
+      "(A ∨ B) ≡ A ∨ B"
+    ],
+    "javob": "¬(A ∧ B) ≡ ¬A ∨ ¬B"
+  },
+  {
+    "id": 198,
+    "type": "multiple_choice",
+    "savol": "Yutulish qonunini ko’rsating.",
+    "variantlar": [
+      "A ∨ (A ∧ B) ≡ A",
+      "A ∧ (A ∨ B) ≡ A",
+      "A ∨ A ≡ A",
+      "A ∧ A ≡ A"
+    ],
+    "javob": "A ∧ (A ∨ B) ≡ A"
+  },
+  {
+    "id": 199,
+    "type": "multiple_choice",
+    "savol": "Yutulish qonunini ko’rsating.",
+    "variantlar": [
+      "A ∨ (A ∧ B) ≡ A",
+      "A ∧ (A ∨ B) ≡ A",
+      "A ∨ A ≡ A",
+      "A ∧ A ≡ A"
+    ],
+    "javob": "A ∨ (A ∧ B) ≡ A"
+  },
+  {
+    "id": 200,
+    "type": "multiple_choice",
+    "savol": "Agar elementar kon’yunksiya ifodasida ishtirok etuvchi har bir elementar mulohaza shu ifodada faqat bir marta uchrasa, u holda bu ifoda _____ deb ataladi",
+    "variantlar": [
+      "to‘g‘ri elementar kon’yunksiya",
+      "to‘g‘ri elementar dizyunksiya",
+      "Noto’g’ri elementar kon’yunksiya",
+      "Ekvivalent formulalar"
+    ],
+    "javob": "to‘g‘ri elementar kon’yunksiya"
+  }
+]
