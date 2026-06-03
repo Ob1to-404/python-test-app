@@ -1,0 +1,806 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "savol": "Kiberxavfsizlikning \"Oltin Uchburchagi\" (CIA) qaysi tamoyillardan iborat?",
+    "variantlar": [
+      "Maxfiylik, Butunlik, Foydalanish imkoniyati",
+      "Autentifikatsiya, Avtorizatsiya, Hisobga olish (AAA)",
+      "Shifrlash, Xeshlash, Imzolash",
+      "Zaiflik, Tahdid, Xavf"
+    ],
+    "javob": "Maxfiylik, Butunlik, Foydalanish imkoniyati"
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "savol": "Tahdid, zaiflik va oqibat ko'paytmasi ($Tahdid \\times Zaiflik \\times Oqibat$) nimanining formulasidir?",
+    "variantlar": [
+      "Xavf (Risk)",
+      "Hujum (Attack)",
+      "Zarar (Damage)",
+      "Himoya (Defense)"
+    ],
+    "javob": "Xavf (Risk)"
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "savol": "Tizim resurslaridan qonuniy foydalanuvchilarning doimiy va to'siqsiz foydalanish imkoniyati CIA ning qaysi tamoyiliga kiradi?",
+    "variantlar": [
+      "Availability (Foydalanish imkoniyati)",
+      "Confidentiality (Maxfiylik)",
+      "Integrity (Butunlik)",
+      "Authorization (Avtorizatsiya)"
+    ],
+    "javob": "Availability (Foydalanish imkoniyati)"
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "savol": "Axborotning ruxsatsiz o'zgartirilmasligi va asl holatida saqlanishini kafolatlovchi tamoyil nima?",
+    "variantlar": [
+      "Integrity (Butunlik)",
+      "Confidentiality (Maxfiylik)",
+      "Availability (Foydalanish imkoniyati)",
+      "Accounting (Hisobga olish)"
+    ],
+    "javob": "Integrity (Butunlik)"
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "savol": "Faqatgina ruxsat etilgan shaxslar ma'lumotlarni o'qiy olishi nima deb ataladi?",
+    "variantlar": [
+      "Confidentiality (Maxfiylik)",
+      "Integrity (Butunlik)",
+      "Availability (Foydalanish imkoniyati)",
+      "Non-repudiation (Inkor etolmaslik)"
+    ],
+    "javob": "Confidentiality (Maxfiylik)"
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "savol": "Kiberxavfsizlikda \"Zaiflik\" (Vulnerability) nima?",
+    "variantlar": [
+      "Tizim arxitekturasi, kodi yoki xavfsizlik siyosatidagi zaifliklar",
+      "Tizimga chetdan qilinadigan faol hujum turi va kiber taxdid turlari",
+      "Kiberjinoyatchilarning yashirin guruhi",
+      "Faqatgina tarmoqning sekin ishlashi"
+    ],
+    "javob": "Tizim arxitekturasi, kodi yoki xavfsizlik siyosatidagi zaifliklar"
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "savol": "Tizimga yoki ma'lumotlarga zarar yetkazishi mumkin bo'lgan potentsial xavf manbai nima deb ataladi?",
+    "variantlar": [
+      "Tahdid (Threat)",
+      "Zaiflik (Vulnerability)",
+      "Oqibat (Impact)",
+      "Himoya devori (Firewall)"
+    ],
+    "javob": "Tahdid (Threat)"
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "savol": "AAA modelining bosqichlari to'g'ri ko'rsatilgan qatorni toping.",
+    "variantlar": [
+      "Authentication, Authorization, Accounting",
+      "Access, Availability, Accounting",
+      "Application, Authorization, Auditing",
+      "Authentication, Application, Access"
+    ],
+    "javob": "Authentication, Authorization, Accounting"
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "savol": "Tizimda foydalanuvchining kimligini aniqlash jarayoni (AAA modelida) qanday ataladi?",
+    "variantlar": [
+      "Authentication (Autentifikatsiya)",
+      "Authorization (Avtorizatsiya)",
+      "Accounting (Hisobga olish)",
+      "Availability (Foydalanish imkoniyati)"
+    ],
+    "javob": "Authentication (Autentifikatsiya)"
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "savol": "Foydalanuvchining tizimda nimalar qila olishi (huquqlari) qaysi bosqichda belgilanadi?",
+    "variantlar": [
+      "Authorization (Avtorizatsiya)",
+      "Authentication (Autentifikatsiya)",
+      "Accounting (Hisobga olish)",
+      "Auditing (Audit o'tkazish)"
+    ],
+    "javob": "Authorization (Avtorizatsiya)"
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "savol": "Simmetrik shifrlashda qancha kalitdan foydalaniladi?",
+    "variantlar": [
+      "1 ta  (bitta umumiy kalit)",
+      "2 ta (Ochiq va maxfiy kalit)",
+      "3 ta (Gibrid kalitlar)",
+      "Umuman kalit ishlatilmaydi"
+    ],
+    "javob": "1 ta  (bitta umumiy kalit)"
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "savol": "Asimmetrik shifrlashda qanday kalitlar ishlatiladi?",
+    "variantlar": [
+      "Ochiq va Maxfiy kalitlar",
+      "Faqat bitta maxfiy kalit",
+      "Faqat ochiq kalitlar",
+      "Sessiya kalitlari va xeshlar"
+    ],
+    "javob": "Ochiq va Maxfiy kalitlar"
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "savol": "Simmetrik va asimmetrik shifrlashning ishlash tezligidagi asosiy farqi nimada?",
+    "variantlar": [
+      "Simmetrik shifrlash asimmetrik shifrlashga nisbatan ancha tez ishlaydi",
+      "Asimmetrik shifrlash simmetrik shifrlashga nisbatan ancha tez ishlaydi",
+      "Ikkalasining ishlash tezligi bir xil",
+      "Faqat internet tezligiga bog'liq"
+    ],
+    "javob": "Simmetrik shifrlash asimmetrik shifrlashga nisbatan ancha tez ishlaydi"
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "savol": "MD5 algoritmi nima uchun eskirgan hisoblanadi?",
+    "variantlar": [
+      "Kolliziyalar oson topilgani uchun xavfsiz emas",
+      "Juda sekin ishlagani uchun",
+      "Faqat matnlarni shifrlagani uchun",
+      "Kalit uzunligi 256 bit bo'lgani uchun"
+    ],
+    "javob": "Kolliziyalar oson topilgani uchun xavfsiz emas"
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "savol": "Xesh funksiyaning \"Bir tomonlamalik\" xususiyati nimani anglatadi?",
+    "variantlar": [
+      "Xesh qilingan matndan asl matnni qayta tiklab bo'lmasligini",
+      "Faqat bir xil uzunlikdagi matnlarni xeshlashini",
+      "Bir xil matndan har xil xesh chiqishini",
+      "Xesh funksiya faqat simmetrik kalit bilan ishlashini"
+    ],
+    "javob": "Xesh qilingan matndan asl matnni qayta tiklab bo'lmasligini"
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "savol": "Xeshga \"Salt\" (tuz) qo'shish nima maqsadda amalga oshiriladi?",
+    "variantlar": [
+      "Parollar xavfsizligini oshirish",
+      "Matnni qisqartirish uchun",
+      "Xeshning ishlash tezligini oshirish uchun",
+      "Simmetrik kalitni uzatish uchun"
+    ],
+    "javob": "Parollar xavfsizligini oshirish"
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "savol": "Hozirgi kunda eng ishonchli va keng tarqalgan simmetrik shifrlash standarti qaysi?",
+    "variantlar": [
+      "AES (Advanced Encryption Standard)",
+      "DES (Data Encryption Standard)",
+      "MD5 (Message Digest 5)",
+      "RSA (Rivest-Shamir-Adleman)"
+    ],
+    "javob": "AES (Advanced Encryption Standard)"
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "savol": "Nima uchun RSA o'rniga mobil qurilmalar va IoT tizimlarida ECC (Elliptik egri chiziq) algoritmi ko'p ishlatiladi?",
+    "variantlar": [
+      "ECC qisqaroq kalit bilan yuqori xavfsizlik ta'minlaydi",
+      "ECC asimmetrik emas, simmetrik algoritm bo'lgani uchun",
+      "RSA mobil qurilmalarda umuman ishlamasligi uchun",
+      "ECC ochiq kalit talab qilmasligi uchun"
+    ],
+    "javob": "ECC qisqaroq kalit bilan yuqori xavfsizlik ta'minlaydi"
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "savol": "Raqamli imzo qaysi jarayonni kafolatlaydi?",
+    "variantlar": [
+      "Hujjatning o'zgarmaganligini va yuboruvchining haqiqiyligini",
+      "Hujjatning viruslardan tozalanganligini xamda tezligini",
+      "Tarmoq tezligining barqarorligini",
+      "SQL inyeksiyadan himoyani"
+    ],
+    "javob": "Hujjatning o'zgarmaganligini va yuboruvchining haqiqiyligini"
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "savol": "Xeshlash algoritmlaridagi \"Avalanche effect\" (Qor ko'chkisi effekti) nimani anglatadi?",
+    "variantlar": [
+      "Asl matndagi birgina bitning o'zgarishi xesh natijasining butunlay o'zgarib ketishiga olib kelishi",
+      "Tarmoqda DDoS hujumi paytida so'rovlar sonining keskin ortishi , hamda Viruslarning o'z-o'zidan ko'payib ketishi",
+      "Viruslarning o'z-o'zidan ko'payib ketishi",
+      "Foydalanuvchilar parollarining ommaviy tarqalib ketishi"
+    ],
+    "javob": "Asl matndagi birgina bitning o'zgarishi xesh natijasining butunlay o'zgarib ketishiga olib kelishi"
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "savol": "Sezar shifri qanday turdagi kriptografiyaga misol bo'la oladi?",
+    "variantlar": [
+      "siljitishga asoslangan simmetrik shifr",
+      "Zamonaviy asimmetrik shifr",
+      "Gibrid kriptografik algoritm",
+      "Kvant kriptografiyasi"
+    ],
+    "javob": "siljitishga asoslangan simmetrik shifr"
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "savol": "Ochiq kalitli kriptografiyada (Asimmetrik) Ochiq kalit (Public key) qanday tarqatiladi?",
+    "variantlar": [
+      "Istagan odamga erkin va ochiq tarzda tarqatilishi mumkin",
+      "Faqat tashkilot rahbariga beriladi",
+      "Hech kimga berilmaydi, qattiq himoyalanadi",
+      "Faqat pullik obuna orqali tarqatiladi"
+    ],
+    "javob": "Istagan odamga erkin va ochiq tarzda tarqatilishi mumkin"
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "savol": "Maxfiy kalit (Private key) kimda saqlanishi kerak?",
+    "variantlar": [
+      "Faqat egasida mutlaq maxfiy saqlanishi kerak",
+      "Tashkilot veb-saytida ochiq e'lon qilinadi",
+      "Foydalanuvchilar o'rtasida ochiq kanallar orqali almashinadi",
+      "Hech kimda saqlanmaydi, u har gal yangidan yaratiladi"
+    ],
+    "javob": "Faqat egasida mutlaq maxfiy saqlanishi kerak"
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "savol": "DES algoritmi hozirda eskirgan deb hisoblanishiga asosiy sabab nima?",
+    "variantlar": [
+      "Kalit uzunligi atigi 56 bit va zamonaviy kompyuterlar yordamida tezda buzilishi mumkin",
+      "Juda murakkab tuzilishga ega bo'lgani uchun",
+      "Internetga ulanmagan kompyuterlarda ishlamagani uchun",
+      "Faqat raqamlarni shifrlay olgani uchun"
+    ],
+    "javob": "Kalit uzunligi atigi 56 bit va zamonaviy kompyuterlar yordamida tezda buzilishi mumkin"
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "savol": "SQL inyeksiya hujumi asosan tizimning qaysi qismiga qaratiladi?",
+    "variantlar": [
+      "Ma'lumotlar bazasiga (Backend/Database)",
+      "Foydalanuvchi interfeysiga (Frontend)",
+      "Tarmoq qurilmalariga (Router, Switch)",
+      "Foydalanuvchining operatsion tizimiga"
+    ],
+    "javob": "Ma'lumotlar bazasiga (Backend/Database)"
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "savol": "SQL inyeksiyaning oldini olish uchun dasturlashda eng samarali usul qaysi?",
+    "variantlar": [
+      "Prepared Statements (Tayyorlangan so'rovlar) ishlatish",
+      "Faqat HTTPS ishlatish",
+      "Ma'lumotlar bazasini o'chirib qo'yish",
+      "Foydalanuvchi parolini tez-tez almashtirish"
+    ],
+    "javob": "Prepared Statements (Tayyorlangan so'rovlar) ishlatish"
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "savol": "XSS (Cross-Site Scripting) hujumining asosiy nishoni kim bo'ladi?",
+    "variantlar": [
+      "Veb-saytdagi foydalanuvchilar",
+      "Veb-saytning ma'lumotlar bazasi",
+      "Internet provayderi",
+      "Veb-serverning operatsion tizimi"
+    ],
+    "javob": "Veb-saytdagi foydalanuvchilar"
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "savol": "Veb-ilovalarda formalarni filtrlash (Input Sanitization) nima uchun kerak?",
+    "variantlar": [
+      "Foydalanuvchi kiritgan zararli kodlarni zararsizlantirish uchun",
+      "Kiritilgan matnlarni boshqa tilga tarjima qilish uchun , hamda saqlash uchun",
+      "Saytning ishlash tezligini oshirish uchun",
+      "Ma'lumotlarni arxivlash uchun"
+    ],
+    "javob": "Foydalanuvchi kiritgan zararli kodlarni zararsizlantirish uchun"
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "savol": "Man-in-the-Middle (MITM) hujumi qanday tarmoqlarda ko'proq uchrashi ehtimoli yuqori?",
+    "variantlar": [
+      "Ochiq va himoyalanmagan jamoat Wi-Fi tarmoqlarida",
+      "Yopiq lokal tarmoqlarda (Intranet)",
+      "VPN orqali ulangan shaxsiy tarmoqlarda",
+      "Faqat kabel orqali ulangan kompyuterlarda"
+    ],
+    "javob": "Ochiq va himoyalanmagan jamoat Wi-Fi tarmoqlarida"
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "savol": "DDoS hujumining asosiy maqsadi nima?",
+    "variantlar": [
+      "Tizimga juda ko'p so'rovlar yuborib, uning resurslarini",
+      "Ma'lumotlar bazasidan maxfiy parollarni o'g'irlash",
+      "Foydalanuvchilarning pullarini o'zlashtirish",
+      "Tarmoq tezligini oshirish"
+    ],
+    "javob": "Tizimga juda ko'p so'rovlar yuborib, uning resurslarini"
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "savol": "WAF (Web Application Firewall) oddiy tarmoq Firewall'idan nimasi bilan farq qiladi?",
+    "variantlar": [
+      "WAF 7-qatlamda (Application) ishlaydi",
+      "WAF faqat 3-qatlamda IP manzillarni bloklaydi",
+      "WAF faqat Windows operatsion tizimida ishlaydi",
+      "Ikkalasining hech qanday farqi yo'q"
+    ],
+    "javob": "WAF 7-qatlamda (Application) ishlaydi"
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "savol": "HTTPS aloqasini o'rnatishda (SSL/TLS Handshake) gibrid shifrlash qanday amalga oshiriladi?",
+    "variantlar": [
+      "Asimmetrik shifrlash orqali sessiya kaliti almashiladi, so'ngra barcha ma'lumotlar shu kalit yordamida simmetrik usulda shifrlanadi",
+      "Barcha jarayonlar faqat simmetrik shifrlash yordamida bajariladi,  bitta kalit bilan  barcha ma'lumotlar shu kalit yordamida simmetrik usulda shifrlanadi",
+      "Barcha jarayonlar faqat asimmetrik shifrlash yordamida bajariladi",
+      "Hech qanday shifrlash ishlatilmaydi, faqat xeshlash qo'llaniladi"
+    ],
+    "javob": "Asimmetrik shifrlash orqali sessiya kaliti almashiladi, so'ngra barcha ma'lumotlar shu kalit yordamida simmetrik usulda shifrlanadi"
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "savol": "Jamoat Wi-Fi tarmog'ida internetga kirganda ma'lumotlarni xavfsizligini ta'minlash uchun nima ishlatish tavsiya etiladi?",
+    "variantlar": [
+      "VPN",
+      "Antivirus dasturi",
+      "Boshqa brauzer",
+      "Inkognito rejimi"
+    ],
+    "javob": "VPN"
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "savol": "Tarmoq trafigini real vaqtda tutish va tahlil qilish uchun qaysi dasturdan foydalaniladi?",
+    "variantlar": [
+      "Wireshark",
+      "Photoshop",
+      "Microsoft Word",
+      "Metasploit"
+    ],
+    "javob": "Wireshark"
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "savol": "Kibergigiyenada \"Kuchli parol\" deganda qanday parol tushuniladi?",
+    "variantlar": [
+      "Uzunligi kamida 8-12 belgi, katta-kichik harflar, raqamlar va maxsus belgilardan iborat bo'lgan parol",
+      "Faqat tug'ilgan yil va ismdan iborat parol , kamida , katta-kichik harflar, faqat sonlar",
+      "12345678 ketma-ketligidagi paroldan tashqari xar qanday parollar xavfsiz sanaladi",
+      "Faqat katta harflar bilan yozilgan parol"
+    ],
+    "javob": "Uzunligi kamida 8-12 belgi, katta-kichik harflar, raqamlar va maxsus belgilardan iborat bo'lgan parol"
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "savol": "Ijtimoiy muhandislik nima?",
+    "variantlar": [
+      "Inson psixologiyasini aldash orqali maxfiy ma'lumotlarni undirish yoki zararli harakatlarni qildirish usuli",
+      "Dasturchilar tomonidan yozilgan zararli kod orqali maxfiy ma'lumotlarni undirish yoki zararli harakatlarni qildirish usuli",
+      "Ijtimoiy tarmoqlardagi reklama turi",
+      "Serverlarni buzib kirish texnologiyasi"
+    ],
+    "javob": "Inson psixologiyasini aldash orqali maxfiy ma'lumotlarni undirish yoki zararli harakatlarni qildirish usuli"
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "savol": "Phishing (Fishing) qanday hujum turi?",
+    "variantlar": [
+      "O'zini ishonchli shaxs qilib ko'rsatib, asosan elektron pochta orqali foydalanuvchini aldash va parolini o'g'irlash",
+      "DDoS hujumining bir turi bo’lib bank kartalarini o’g’rilash uchun ishlatiladi",
+      "Operatsion tizimni yangilash jarayoni",
+      "Tarmoq kabellarini jismoniy kesish"
+    ],
+    "javob": "O'zini ishonchli shaxs qilib ko'rsatib, asosan elektron pochta orqali foydalanuvchini aldash va parolini o'g'irlash"
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "savol": "Telefon orqali amalga oshiriladigan ijtimoiy muhandislik hujumi nima deb ataladi?",
+    "variantlar": [
+      "Vishing",
+      "Phishing",
+      "Smishing",
+      "Spam"
+    ],
+    "javob": "Vishing"
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "savol": "Pretexting hujumi qanday amalga oshiriladi?",
+    "variantlar": [
+      "Yolg'on ssenariy yaratish orqali qurbonning ishonchiga kirish va undan kerakli ma'lumotni so'rash",
+      "Faqat virusli dasturlarni yuborish orqali undan kerakli ma'lumotni yi’g’ib olish",
+      "Parollarni to'liq terish (Brute-force) yordamida",
+      "Tarmoq trafigini kuzatish orqali"
+    ],
+    "javob": "Yolg'on ssenariy yaratish orqali qurbonning ishonchiga kirish va undan kerakli ma'lumotni so'rash"
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "savol": "Zararli dastur (Malware) turlaridan qaysi biri tizim fayllarini shifrlab qo'yib, ochish uchun pul talab qiladi?",
+    "variantlar": [
+      "Ransomware (Tovlamachi dastur)",
+      "Spyware (Josus dastur)",
+      "Adware (Reklama dasturi)",
+      "Keylogger"
+    ],
+    "javob": "Ransomware (Tovlamachi dastur)"
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "savol": "Trojan (Troyalik ot) dasturi qanday ishlash mexanizmiga ega?",
+    "variantlar": [
+      "O'zini foydali va zararsiz dastur qilib ko'rsatib, tizimga tushgach yashirincha zararli harakatlarni amalga oshiradi",
+      "O'z-o'zidan tarmoq orqali boshqa kompyuterlarga nusxalanib tarqaladi",
+      "Foydalanuvchiga faqat reklamalar ko'rsatadi , hamda tizimga ishga tushgach yashirincha zararli harakatlarni amalga oshiradi",
+      "Kompyuterning ekranini o'chirib qo'yadi"
+    ],
+    "javob": "O'zini foydali va zararsiz dastur qilib ko'rsatib, tizimga tushgach yashirincha zararli harakatlarni amalga oshiradi"
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "savol": "Spyware (josus dastur) ning asosiy maqsadi nima?",
+    "variantlar": [
+      "Foydalanuvchi faoliyatini yashirincha kuzatish, parollar va shaxsiy ma'lumotlarni to'plab xakerga jo'natish",
+      "Fayllarni shifrlab qo'yish",
+      "Tarmoq uskunalarini o'chirib tashlash",
+      "Dasturlarni tez ishlashini ta'minlash"
+    ],
+    "javob": "Foydalanuvchi faoliyatini yashirincha kuzatish, parollar va shaxsiy ma'lumotlarni to'plab xakerga jo'natish"
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "savol": "MFA (Ko'p faktorli autentifikatsiya) nima uchun muhim hisoblanadi?",
+    "variantlar": [
+      "Parol o'g'irlangan taqdirda ham, qo'shimcha tasdiqlash bosqichi  orqali hisob xavfsizligini ta'minlaydi",
+      "Parolni yodda saqlash shart bo'lmaydi",
+      "Internet tezligini oshiradi va Antivirusning o'rnini to'liq bosadi",
+      "Antivirusning o'rnini to'liq bosadi"
+    ],
+    "javob": "Parol o'g'irlangan taqdirda ham, qo'shimcha tasdiqlash bosqichi  orqali hisob xavfsizligini ta'minlaydi"
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "savol": "Nima uchun xodim axborot xavfsizligidagi \"eng zaif xalqa\" hisoblanadi?",
+    "variantlar": [
+      "Texnik himoya qanchalik kuchli bo'lmasin, insonni psixologik aldash orqali xavfsizlik choralarini chetlab o'tish osonroq",
+      "Xodimlar hech qachon parol qo'ymaydi",
+      "Xodimlar har doim o'z xohishi bilan ma'lumotlarni sotadi",
+      "Xodimlarda kompyuter bo'lmagani uchun"
+    ],
+    "javob": "Texnik himoya qanchalik kuchli bo'lmasin, insonni psixologik aldash orqali xavfsizlik choralarini chetlab o'tish osonroq"
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "savol": "\"Defense in Depth\" (Qatlamli himoya) strategiyasi nima?",
+    "variantlar": [
+      "Bitta himoya tizimiga ishonib qolmasdan, bir nechta xavfsizlik qatlamlarini birgalikda qo'llash",
+      "Faqatgina eng qimmat antivirusni sotib olish",
+      "Hech qanday himoya ishlatmasdan, faqat backup qilish",
+      "Tarmoqni internetdan butunlay uzib qo'yish"
+    ],
+    "javob": "Bitta himoya tizimiga ishonib qolmasdan, bir nechta xavfsizlik qatlamlarini birgalikda qo'llash"
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "savol": "Kiberurushning (Cyberwarfare) kiberjinoyatchilikdan asosiy farqi va maqsadi nima?",
+    "variantlar": [
+      "Davlatlar darajasida moliyalashtiriladi va raqib davlatning infratuzilmasiga, iqtisodiyoti va xavfsizligiga zarar yetkazishni ko'zlaydi",
+      "Faqat bitta oddiy insonning bank kartasidan pul o'g'irlash maqsad qilinadi",
+      "Hech qanday farqi yo'q, ikkalasi bir xil narsa",
+      "Faqat o'yin serverlariga hujum qilinadi"
+    ],
+    "javob": "Davlatlar darajasida moliyalashtiriladi va raqib davlatning infratuzilmasiga, iqtisodiyoti va xavfsizligiga zarar yetkazishni ko'zlaydi"
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "savol": "Insayder tahdidi (Insider threat) nima?",
+    "variantlar": [
+      "Tashkilot ichidagi xodimlar yoki ruxsat etilgan shaxslar tomonidan ongli yoxud ehtiyotsizlik oqibatida tizimga zarar yetkazilishi",
+      "Tashqaridan qilingan noma'lum xakerlik hujumi",
+      "Faqatgina elektr tokining o'chib qolishi",
+      "Raqobatdosh kompaniyaning ochiq bozordagi harakati"
+    ],
+    "javob": "Tashkilot ichidagi xodimlar yoki ruxsat etilgan shaxslar tomonidan ongli yoxud ehtiyotsizlik oqibatida tizimga zarar yetkazilishi"
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "savol": "Shubhali havolalar (linklar) elektron pochta orqali kelganda o'z xavfsizligini ta'minlash uchun xodim nima qilishi kerak?",
+    "variantlar": [
+      "Havolaga umuman bosmasdan, uni darhol IT/Xavfsizlik bo'limiga xabar qilishi kerak",
+      "Havolani ochib, barcha so'ralgan ma'lumotlarni kiritishi kerak",
+      "Havolani do'stlariga yuborishi kerak",
+      "Antivirusni o'chirib qo'yib, keyin havolani ochishi kerak"
+    ],
+    "javob": "Havolaga umuman bosmasdan, uni darhol IT/Xavfsizlik bo'limiga xabar qilishi kerak"
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "savol": "Tizimni ruxsatsiz buzib kirib, ma'lumotlarni o'g'irlaydigan yoki zarar yetkazadigan yovuz niyatli xakerlar qanday ataladi?",
+    "variantlar": [
+      "Black Hat (Qora qalpog'li xakerlar)",
+      "White Hat (Oq qalpog'li xakerlar)",
+      "Grey Hat (Kulrang qalpog'li xakerlar)",
+      "Blue Team (Ko'k jamoa)"
+    ],
+    "javob": "Black Hat (Qora qalpog'li xakerlar)"
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "savol": "Ethical Hacking doirasida faoliyat yurituvchi, tizim ruxsati bilan zaifliklarni topuvchi mutaxassislar kimlar?",
+    "variantlar": [
+      "White Hat (Oq qalpog'li xakerlar / Pentesterlar)",
+      "Black Hat (Qora qalpog'li xakerlar)",
+      "Script Kiddies",
+      "Cyber Terrorists"
+    ],
+    "javob": "White Hat (Oq qalpog'li xakerlar / Pentesterlar)"
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "savol": "\"Grey Hat\" (Kulrang qalpog'li) xakerlarning faoliyati qanday xarakterlanadi?",
+    "variantlar": [
+      "Ruxsatsiz tizim zaifliklarini izlaydilar, lekin zarar yetkazish o'rniga egalariga xabar beradilar (ko'pincha mukofot evaziga)",
+      "Faqat davlat idoralarida qonuniy ishlaydilar",
+      "Faqat banklardan pul o'g'irlaydilar",
+      "Hech qanday xakerlik texnikasini bilmaydilar"
+    ],
+    "javob": "Ruxsatsiz tizim zaifliklarini izlaydilar, lekin zarar yetkazish o'rniga egalariga xabar beradilar (ko'pincha mukofot evaziga)"
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "savol": "\"Script Kiddies\" guruhiga qanday xakerlar kiradi?",
+    "variantlar": [
+      "O'zlarining bilim va tajribasi yo'q, boshqalar yaratgan tayyor dastur va exploitlardan foydalanib hujum qiladigan yoshlar yoki havaskorlar",
+      "Yuqori darajadagi dasturlash bilimiga ega professional xakerlar",
+      "Davlat tomonidan moliyalashtiriladigan guruhlar",
+      "Xavfsizlik tizimlarini himoya qiluvchi adminlar"
+    ],
+    "javob": "O'zlarining bilim va tajribasi yo'q, boshqalar yaratgan tayyor dastur va exploitlardan foydalanib hujum qiladigan yoshlar yoki havaskorlar"
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "savol": "Pentestingning (Penetration Testing) birinchi bosqichi nima?",
+    "variantlar": [
+      "Razvedka (Reconnaissance) - ma'lumot yig'ish",
+      "Ekspluatatsiya (Exploitation) - buzib kirish",
+      "Hisobot berish (Reporting)",
+      "Tizimga kirishni saqlab qolish (Maintaining Access)"
+    ],
+    "javob": "Razvedka (Reconnaissance) - ma'lumot yig'ish"
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "savol": "Pentestingdagi \"Skanerlash\" (Scanning) bosqichida tizimda asosan nimalar izlanadi?",
+    "variantlar": [
+      "Ochiq portlar, xizmatlar versiyalari va mavjud zaifliklar",
+      "Xodimlarning ism-shariflari va lavozimlari",
+      "Faqatgina ma'lumotlar bazasidagi matnlar",
+      "Kompaniyaning moliyaviy hisobotlari"
+    ],
+    "javob": "Ochiq portlar, xizmatlar versiyalari va mavjud zaifliklar"
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "savol": "\"Black Box\" (Qora quti) pentestingi usulining asosiy xususiyati nima?",
+    "variantlar": [
+      "Test o'tkazuvchi mutaxassisga tizimning kodi yoki arxitekturasi haqida oldindan hech qanday ma'lumot berilmaydi",
+      "Test o'tkazuvchiga barcha manba kodlari (source code) ochiq taqdim etiladi",
+      "Test faqat kechasi o'tkaziladi",
+      "Hech qanday test qilinmaydi, faqat hisobot yoziladi"
+    ],
+    "javob": "Test o'tkazuvchi mutaxassisga tizimning kodi yoki arxitekturasi haqida oldindan hech qanday ma'lumot berilmaydi"
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "savol": "\"White Box\" (Oq quti) testlashda pentester qanday ma'lumotlarga ega bo'ladi?",
+    "variantlar": [
+      "Tizimning to'liq arxitekturasi, manba kodlari (source code) va administrator huquqlari haqidagi ma'lumotlarga ega bo'ladi",
+      "Hech qanday ma'lumotga ega bo'lmaydi",
+      "Faqat tashkilot xodimlarining telefon raqamlariga",
+      "Faqat ochiq manbalardan topilgan ma'lumotlargagina"
+    ],
+    "javob": "Tizimning to'liq arxitekturasi, manba kodlari (source code) va administrator huquqlari haqidagi ma'lumotlarga ega bo'ladi"
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "savol": "Pentestingning \"Maintaining Access\" (Kirishni saqlash) bosqichida xaker/pentester nima qiladi?",
+    "variantlar": [
+      "Kelajakda tizimga oson qayta kirish uchun Backdoor o'rnatadi yoki foydalanuvchi yaratadi",
+      "Mijozga hisobot tayyorlaydi",
+      "Faqat tashqi IP manzillarni skanerlaydi",
+      "Ijtimoiy muhandislik hujumini boshlaydi"
+    ],
+    "javob": "Kelajakda tizimga oson qayta kirish uchun Backdoor o'rnatadi yoki foydalanuvchi yaratadi"
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "savol": "Kiberxavfsizlikda \"Red Team\" (Qizil jamoa) nima vazifani bajaradi?",
+    "variantlar": [
+      "Tashkilot himoyasini haqiqiy xakerlar kabi buzishga harakat qilib, xavfsizlikni amaliy sinovdan o'tkazadi",
+      "Faqat tarmoq kabellarini tortadi",
+      "Hujumlardan himoyalanish va monitoring bilan shug'ullanadi",
+      "Faqat huquqiy shartnomalar tuzadi"
+    ],
+    "javob": "Tashkilot himoyasini haqiqiy xakerlar kabi buzishga harakat qilib, xavfsizlikni amaliy sinovdan o'tkazadi"
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "savol": "\"Blue Team\" (Ko'k jamoa) ning maqsadi nima?",
+    "variantlar": [
+      "Tashkilot tizimlarini doimiy monitoring qilish, loglarni tahlil qilish va haqiqiy xakerlar hujumidan himoya qilish",
+      "Tizimni buzib kirish va Hujumlardan himoyalanish va monitoring bilan shug'ullanadi",
+      "Faqat ochiq manbalardan axborot yig'ish (OSINT)",
+      "Ijtimoiy muhandislik orqali xodimlarni aldash"
+    ],
+    "javob": "Tashkilot tizimlarini doimiy monitoring qilish, loglarni tahlil qilish va haqiqiy xakerlar hujumidan himoya qilish"
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "savol": "Nmap vositasi asosan nima uchun ishlatiladi?",
+    "variantlar": [
+      "Tarmoqni skanerlash",
+      "Matnlarni AES algoritmi bilan shifrlash uchun",
+      "Antivirus vazifasini bajarish uchun",
+      "Veb-saytlarni yaratish uchun"
+    ],
+    "javob": "Tarmoqni skanerlash"
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "savol": "Metasploit vositasi etnik xakerlarga asosan qaysi maqsadda kerak?",
+    "variantlar": [
+      "Tizimdagi topilgan zaifliklardan foydalanib kirishni amalga oshirish va tekshirish uchun",
+      "Tarmoq tezligini o'lchash uchun",
+      "Ma'lumotlar bazasini arxivlash (Backup) uchun",
+      "Xodimlarni o'qitish uchun"
+    ],
+    "javob": "Tizimdagi topilgan zaifliklardan foydalanib kirishni amalga oshirish va tekshirish uchun"
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "savol": "Pentesting bo'yicha hisobot (Reporting) bosqichida mijozga taqdim etiladigan hujjat nimalarni o'z ichiga olishi kerak?",
+    "variantlar": [
+      "Topilgan barcha zaifliklar, ularning xavflilik darajasi, qanday buzib kirilgani va ularni bartaraf etish bo'yicha tavsiyalar",
+      "Faqat skanerlash dasturlarining narxlari ro'yxati",
+      "Xakerlarning tarjimai holi",
+      "Ochiq kalitlarning nusxalari"
+    ],
+    "javob": "Topilgan barcha zaifliklar, ularning xavflilik darajasi, qanday buzib kirilgani va ularni bartaraf etish bo'yicha tavsiyalar"
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "savol": "AAA modelida \"Accounting\" (Hisobga olish) jarayoni nima uchun muhim?",
+    "variantlar": [
+      "Foydalanuvchining tizimda nimalar qilganini, qancha resurs ishlatganini loglar orqali yozib borish va kelgusida insidentlarni taftish qilish uchun",
+      "Foydalanuvchiga parol berish uchun",
+      "Foydalanuvchini tizimdan chiqarib yuborish uchun",
+      "Faqat tashkilotning moliyaviy buxgalteriyasi uchun"
+    ],
+    "javob": "Foydalanuvchining tizimda nimalar qilganini, qancha resurs ishlatganini loglar orqali yozib borish va kelgusida insidentlarni taftish qilish uchun"
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "savol": "Kriptografiyada Ochiq matn (Plaintext) tushunchasi nimani anglatadi?",
+    "variantlar": [
+      "Hech qanday o'zgartirishsiz, hamma o'qiy oladigan asl holatdagi oddiy matn",
+      "Shifrlangan va tushunarsiz belgilar to'plami",
+      "Xesh funksiya natijasi",
+      "Ma'lumotlar bazasidagi ustun nomi"
+    ],
+    "javob": "Hech qanday o'zgartirishsiz, hamma o'qiy oladigan asl holatdagi oddiy matn"
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "savol": "Kriptografiyaning \"Kalit taqsimoti muammosi\" asosan qaysi shifrlash turida uchraydi?",
+    "variantlar": [
+      "Simmetrik shifrlashda",
+      "Asimmetrik shifrlashda",
+      "Xeshlashda",
+      "Raqamli imzoda"
+    ],
+    "javob": "Simmetrik shifrlashda"
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "savol": "Kriptoanalizda qo'llaniladigan \"Brute-Force\" (To'liq terish) hujumi nima?",
+    "variantlar": [
+      "Barcha mumkin bo'lgan parol kombinatsiyalarini birin-ketin terib chiqish orqali to'g'ri parolni topishga urinish",
+      "Tizimni jismoniy buzib kirish",
+      "Faqat bitta parolni bir marta kiritish va SQL so'rovlarini tahlil qilish",
+      "SQL so'rovlarini tahlil qilish"
+    ],
+    "javob": "Barcha mumkin bo'lgan parol kombinatsiyalarini birin-ketin terib chiqish orqali to'g'ri parolni topishga urinish"
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "savol": "Dasturiy ilovalar yaratishda kiberxavfsizlikni ta'minlash uchun qaysi amaliyotga eng ko'p e'tibor qaratish kerak?",
+    "variantlar": [
+      "Secure Coding (Xavfsiz dasturlash amaliyotlari va kodlarni tekshirish)",
+      "Faqat dizaynni chiroyli qilish",
+      "Dasturni iloji boricha tez yozib tugatish",
+      "Kodni arxivlab qo'yish"
+    ],
+    "javob": "Secure Coding (Xavfsiz dasturlash amaliyotlari va kodlarni tekshirish)"
+  }
+]
