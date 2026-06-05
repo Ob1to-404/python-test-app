@@ -316,28 +316,28 @@ for name, fname in FILE_MAP.items():
         QUESTION_COUNTS[name] = 0
 
 # ═════════════════════════════════════════════
-# LOGIN SCREEN  (localStorage orqali auto-login)
+# LOGIN  (query_params orqali — sahifa yangilansa ham saqlanadi)
 # ═════════════════════════════════════════════
 state = st.session_state
 
-# --- localStorage dan username o'qish ---
-# Foydalanuvchi bir marta username yozsa, brauzer saqlab qoladi.
-# Sahifa yangilansa — avtomatik tiklanadi.
-if "username" not in state:
-    # 1) localStorage dan o'qishga urinib ko'ramiz
-    ls_read = st.components.v1.html("""
-        <script>
-            const u = localStorage.getItem('test_app_username');
-            // Streamlit bilan muloqot: hidden input orqali
-            const inp = window.parent.document.querySelector('input[data-testid="stTextInput"]');
-            if (u && inp) {
-                inp.value = u;
-                inp.dispatchEvent(new Event('input', { bubbles: true }));
-            }
-        </script>
-    """, height=0)
+# URL da ?u=username bo'lsa — avtomatik login
+_qp = st.query_params
+_qp_user = _qp.get("u", "")
 
-    # 2) Foydalanuvchi kirish formasini ko'radi
+if "username" not in state:
+    if _qp_user and _qp_user != ADMIN_USERNAME:
+        # URL dan avtomatik kirish
+        ip = get_client_ip()
+        ok, msg, _ = register_or_login(_qp_user, ip)
+        if ok:
+            state.username = _qp_user
+            state.is_admin = False
+            st.rerun()
+        else:
+            # URL dagi username yaroqsiz — tozalaymiz
+            st.query_params.clear()
+
+if "username" not in state:
     st.markdown("<br>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
@@ -346,11 +346,10 @@ if "username" not in state:
         st.markdown("### Kirish")
         st.markdown(
             "<p style='color:#888;font-size:14px;'>"
-            "Username kiriting — bir marta yozing, brauzer eslab qoladi.</p>",
+            "Username kiriting — bir marta yozing, keyingi safar avtomatik kirasiz.</p>",
             unsafe_allow_html=True
         )
         username_input = st.text_input("Username:", placeholder="masalan: ali_2024", key="login_input")
-
         admin_mode = (username_input == ADMIN_USERNAME)
         if admin_mode:
             password_input = st.text_input("Parol:", type="password", key="login_pass")
@@ -364,7 +363,7 @@ if "username" not in state:
                 if hashlib.sha256((password_input or "").encode()).hexdigest() == ADMIN_PASSWORD_HASH:
                     state.username = ADMIN_USERNAME
                     state.is_admin = True
-                    # Admin uchun localStorage ga yozmaymiz (xavfsizlik)
+                    # Admin uchun URL ga yozmaymiz
                     st.rerun()
                 else:
                     st.error("Noto'g'ri parol.")
@@ -374,44 +373,13 @@ if "username" not in state:
                 if ok:
                     state.username = username_input
                     state.is_admin = False
-                    # localStorage ga saqlaymiz — keyingi kirishda avtomatik
-                    st.components.v1.html(f"""
-                        <script>
-                            localStorage.setItem('test_app_username', '{username_input}');
-                        </script>
-                    """, height=0)
+                    # URL ga yozamiz — keyingi yangilashda avtomatik kiradi
+                    st.query_params["u"] = username_input
                     st.success(msg)
-                    time.sleep(0.4)
+                    time.sleep(0.3)
                     st.rerun()
                 else:
                     st.error(msg)
-
-        # --- localStorage dan avtomatik o'qish (komponent orqali) ---
-        # Agar localStorage da username bo'lsa va forma bo'sh bo'lsa — avtologin
-        st.components.v1.html("""
-            <script>
-            (function() {
-                const saved = localStorage.getItem('test_app_username');
-                if (!saved) return;
-                // Streamlit input elementini topamiz va to'ldiramiz
-                function tryFill() {
-                    const inputs = window.parent.document.querySelectorAll('input[type="text"]');
-                    for (let inp of inputs) {
-                        if (inp.value === '' || inp.value === saved) {
-                            inp.value = saved;
-                            inp.dispatchEvent(new Event('input', { bubbles: true }));
-                            inp.dispatchEvent(new Event('change', { bubbles: true }));
-                        }
-                    }
-                }
-                // Bir necha marta urinib ko'ramiz (Streamlit sekin yuklanadi)
-                tryFill();
-                setTimeout(tryFill, 300);
-                setTimeout(tryFill, 800);
-            })();
-            </script>
-        """, height=0)
-
     st.stop()
 
 # ─────────────────────────────────────────────
@@ -490,6 +458,7 @@ if state.get("is_admin"):
 
     st.markdown("---")
     if st.button("🚪 Chiqish"):
+        st.query_params.clear()
         for k in list(state.keys()):
             del state[k]
         st.rerun()
@@ -528,6 +497,7 @@ with st.sidebar:
 
     st.markdown("---")
     if st.button("🚪 Chiqish"):
+        st.query_params.clear()
         for k in list(state.keys()):
             del state[k]
         st.rerun()
