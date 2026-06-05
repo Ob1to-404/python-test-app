@@ -127,30 +127,25 @@ def save_users(users):
     save_json(USERS_FILE, users)
 
 def register_or_login(username, ip):
-    """Returns: (success, message, is_admin)"""
+    """IP faqat yozib qoyiladi - bloklash yoq. Yangi IP dan kirsa yangilanadi."""
     if not username or len(username) < 2:
-        return False, "Username kamida 2 ta harf bo'lishi kerak.", False
+        return False, "Username kamida 2 ta harf bolishi kerak.", False
+    if username == ADMIN_USERNAME:
+        return False, "Bu username band.", False
     users = load_users()
-    is_admin = (username == ADMIN_USERNAME)
     if username in users:
-        stored_ip = users[username].get("ip")
-        if stored_ip == ip or stored_ip == "unknown":
-            users[username]["ip"] = ip
-            users[username]["last_seen"] = datetime.now().isoformat()
-            save_users(users)
-            return True, f"Xush kelibsiz, {username}!", is_admin
-        else:
-            return False, "Bu username boshqa qurilmada ro'yxatdan o'tgan. Boshqa username tanlang.", False
+        users[username]["ip"] = ip
+        users[username]["last_seen"] = datetime.now().isoformat()
+        save_users(users)
+        return True, f"Xush kelibsiz, {username}!", False
     else:
-        if is_admin:
-            return False, "Bu username band.", False
         users[username] = {
             "ip": ip,
             "created_at": datetime.now().isoformat(),
             "last_seen": datetime.now().isoformat()
         }
         save_users(users)
-        return True, f"Xush kelibsiz, {username}! Ro'yxatdan o'tdingiz.", False
+        return True, f"Xush kelibsiz, {username}! Royxatdan otdingiz.", False
 
 # ─────────────────────────────────────────────
 # RESULTS
@@ -321,18 +316,39 @@ for name, fname in FILE_MAP.items():
         QUESTION_COUNTS[name] = 0
 
 # ═════════════════════════════════════════════
-# LOGIN SCREEN
+# LOGIN SCREEN  (localStorage orqali auto-login)
 # ═════════════════════════════════════════════
 state = st.session_state
 
+# --- localStorage dan username o'qish ---
+# Foydalanuvchi bir marta username yozsa, brauzer saqlab qoladi.
+# Sahifa yangilansa — avtomatik tiklanadi.
 if "username" not in state:
+    # 1) localStorage dan o'qishga urinib ko'ramiz
+    ls_read = st.components.v1.html("""
+        <script>
+            const u = localStorage.getItem('test_app_username');
+            // Streamlit bilan muloqot: hidden input orqali
+            const inp = window.parent.document.querySelector('input[data-testid="stTextInput"]');
+            if (u && inp) {
+                inp.value = u;
+                inp.dispatchEvent(new Event('input', { bubbles: true }));
+            }
+        </script>
+    """, height=0)
+
+    # 2) Foydalanuvchi kirish formasini ko'radi
     st.markdown("<br>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         st.markdown("# 🧠 Test Ilovasi")
         st.markdown("---")
         st.markdown("### Kirish")
-        st.markdown("<p style='color:#888;font-size:14px;'>Username kiriting. Avval ro'yxatdan o'tmagan bo'lsangiz — avtomatik yaratiladi.</p>", unsafe_allow_html=True)
+        st.markdown(
+            "<p style='color:#888;font-size:14px;'>"
+            "Username kiriting — bir marta yozing, brauzer eslab qoladi.</p>",
+            unsafe_allow_html=True
+        )
         username_input = st.text_input("Username:", placeholder="masalan: ali_2024", key="login_input")
 
         admin_mode = (username_input == ADMIN_USERNAME)
@@ -345,23 +361,57 @@ if "username" not in state:
             if not username_input:
                 st.error("Username bo'sh bo'lishi mumkin emas.")
             elif admin_mode:
-                if hashlib.sha256(password_input.encode()).hexdigest() == ADMIN_PASSWORD_HASH:
+                if hashlib.sha256((password_input or "").encode()).hexdigest() == ADMIN_PASSWORD_HASH:
                     state.username = ADMIN_USERNAME
                     state.is_admin = True
+                    # Admin uchun localStorage ga yozmaymiz (xavfsizlik)
                     st.rerun()
                 else:
                     st.error("Noto'g'ri parol.")
             else:
                 ip = get_client_ip()
-                ok, msg, is_admin = register_or_login(username_input, ip)
+                ok, msg, _ = register_or_login(username_input, ip)
                 if ok:
                     state.username = username_input
-                    state.is_admin = is_admin
+                    state.is_admin = False
+                    # localStorage ga saqlaymiz — keyingi kirishda avtomatik
+                    st.components.v1.html(f"""
+                        <script>
+                            localStorage.setItem('test_app_username', '{username_input}');
+                        </script>
+                    """, height=0)
                     st.success(msg)
-                    time.sleep(0.5)
+                    time.sleep(0.4)
                     st.rerun()
                 else:
                     st.error(msg)
+
+        # --- localStorage dan avtomatik o'qish (komponent orqali) ---
+        # Agar localStorage da username bo'lsa va forma bo'sh bo'lsa — avtologin
+        st.components.v1.html("""
+            <script>
+            (function() {
+                const saved = localStorage.getItem('test_app_username');
+                if (!saved) return;
+                // Streamlit input elementini topamiz va to'ldiramiz
+                function tryFill() {
+                    const inputs = window.parent.document.querySelectorAll('input[type="text"]');
+                    for (let inp of inputs) {
+                        if (inp.value === '' || inp.value === saved) {
+                            inp.value = saved;
+                            inp.dispatchEvent(new Event('input', { bubbles: true }));
+                            inp.dispatchEvent(new Event('change', { bubbles: true }));
+                        }
+                    }
+                }
+                // Bir necha marta urinib ko'ramiz (Streamlit sekin yuklanadi)
+                tryFill();
+                setTimeout(tryFill, 300);
+                setTimeout(tryFill, 800);
+            })();
+            </script>
+        """, height=0)
+
     st.stop()
 
 # ─────────────────────────────────────────────
