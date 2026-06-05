@@ -321,11 +321,7 @@ for name, fname in FILE_MAP.items():
 # ═════════════════════════════════════════════
 state = st.session_state
 
-@st.cache_resource
-def get_cookie_manager():
-    return stx.CookieManager(key="cm_main")
-
-cookie_manager = get_cookie_manager()
+cookie_manager = stx.CookieManager(key="cm_main")
 
 # Cookie dan username o'qish
 if "username" not in state:
