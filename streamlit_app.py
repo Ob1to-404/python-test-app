@@ -1,4 +1,5 @@
 import streamlit as st
+import extra_streamlit_components as stx
 import json
 import random
 import os
@@ -316,26 +317,28 @@ for name, fname in FILE_MAP.items():
         QUESTION_COUNTS[name] = 0
 
 # ═════════════════════════════════════════════
-# LOGIN  (query_params orqali — sahifa yangilansa ham saqlanadi)
+# LOGIN  (Cookie orqali — umrbod saqlanadi)
 # ═════════════════════════════════════════════
 state = st.session_state
 
-# URL da ?u=username bo'lsa — avtomatik login
-_qp = st.query_params
-_qp_user = _qp.get("u", "")
+@st.cache_resource
+def get_cookie_manager():
+    return stx.CookieManager(key="cm_main")
 
+cookie_manager = get_cookie_manager()
+
+# Cookie dan username o'qish
 if "username" not in state:
-    if _qp_user and _qp_user != ADMIN_USERNAME:
-        # URL dan avtomatik kirish
+    cookie_user = cookie_manager.get("test_app_user")
+    if cookie_user and cookie_user != ADMIN_USERNAME:
         ip = get_client_ip()
-        ok, msg, _ = register_or_login(_qp_user, ip)
+        ok, msg, _ = register_or_login(cookie_user, ip)
         if ok:
-            state.username = _qp_user
+            state.username = cookie_user
             state.is_admin = False
             st.rerun()
         else:
-            # URL dagi username yaroqsiz — tozalaymiz
-            st.query_params.clear()
+            cookie_manager.delete("test_app_user")
 
 if "username" not in state:
     st.markdown("<br>", unsafe_allow_html=True)
@@ -346,7 +349,7 @@ if "username" not in state:
         st.markdown("### Kirish")
         st.markdown(
             "<p style='color:#888;font-size:14px;'>"
-            "Username kiriting — bir marta yozing, keyingi safar avtomatik kirasiz.</p>",
+            "Username kiriting — bir marta yozing, qurilma eslab qoladi.</p>",
             unsafe_allow_html=True
         )
         username_input = st.text_input("Username:", placeholder="masalan: ali_2024", key="login_input")
@@ -363,7 +366,6 @@ if "username" not in state:
                 if hashlib.sha256((password_input or "").encode()).hexdigest() == ADMIN_PASSWORD_HASH:
                     state.username = ADMIN_USERNAME
                     state.is_admin = True
-                    # Admin uchun URL ga yozmaymiz
                     st.rerun()
                 else:
                     st.error("Noto'g'ri parol.")
@@ -373,10 +375,14 @@ if "username" not in state:
                 if ok:
                     state.username = username_input
                     state.is_admin = False
-                    # URL ga yozamiz — keyingi yangilashda avtomatik kiradi
-                    st.query_params["u"] = username_input
+                    # Cookie ga yozamiz — 365 kun saqlanadi
+                    from datetime import timedelta
+                    cookie_manager.set(
+                        "test_app_user", username_input,
+                        expires_at=datetime.now() + timedelta(days=365)
+                    )
                     st.success(msg)
-                    time.sleep(0.3)
+                    time.sleep(0.4)
                     st.rerun()
                 else:
                     st.error(msg)
@@ -458,7 +464,10 @@ if state.get("is_admin"):
 
     st.markdown("---")
     if st.button("🚪 Chiqish"):
-        st.query_params.clear()
+        try:
+            cookie_manager.delete("test_app_user")
+        except Exception:
+            pass
         for k in list(state.keys()):
             del state[k]
         st.rerun()
@@ -497,7 +506,10 @@ with st.sidebar:
 
     st.markdown("---")
     if st.button("🚪 Chiqish"):
-        st.query_params.clear()
+        try:
+            cookie_manager.delete("test_app_user")
+        except Exception:
+            pass
         for k in list(state.keys()):
             del state[k]
         st.rerun()
