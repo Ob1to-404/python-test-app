@@ -514,8 +514,15 @@ if state.get("started"):
         inst_r = state.instant.get(i) if not is_done else None
         q_type = q.get("type", "multiple_choice")
 
+        q_id  = q.get("id", q.get("_orig_idx", "—"))
         st.markdown(f"<div class='q-card'>"
-                    f"<div class='q-num'>SAVOL {i+1:02d} / {n_q:02d}</div>"
+                    f"<div class='q-num'>"
+                    f"SAVOL {i+1:02d}&nbsp;/&nbsp;{n_q:02d}"
+                    f"<span style='margin-left:18px;color:#3a4a5a;font-size:10px;letter-spacing:1px;'>"
+                    f"JSON&nbsp;ID:&nbsp;<span style='color:#58a6ff88'>{q_id}</span>"
+                    f"&nbsp;·&nbsp;INDEKS:&nbsp;<span style='color:#58a6ff88'>{q.get('_orig_idx','—')}</span>"
+                    f"</span>"
+                    f"</div>"
                     f"<div class='q-text'>{q['savol']}</div>"
                     f"</div>", unsafe_allow_html=True)
 
