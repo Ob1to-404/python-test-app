@@ -254,10 +254,10 @@ div[data-testid="stNumberInput"] input {
 # CONSTANTS & CONFIG
 # ══════════════════════════════════════════════
 FILE_MAP = {
+    "Kompyuter Tarmoqlari":    "Kompuyter_tarmoqlari.json",
     "Elektronika va Sxemalar": "Elektronika_va_sxemalar.json",
     "Kiberxavfsizlik":         "Kiberxavfsizlik.json",
-    "Diskret Matematika":      "Diskret.json",
-    "Kompyuter Tarmoqlari":    "Kompuyter_tarmoqlari.json",
+    "Diskret Matematika":      "Diskret.json"
 }
 DEFAULT_DURATION = 30   # daqiqa
 TEST_SIZE = 25          # bir testdagi savollar soni
